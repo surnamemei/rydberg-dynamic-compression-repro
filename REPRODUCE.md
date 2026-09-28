@@ -3,7 +3,7 @@
 ## 1. Set up (no GPU needed)
 
 ```bash
-git clone <REPOSITORY_URL> rydberg-dynamic-compression-repro
+git clone https://github.com/surnamemei/rydberg-dynamic-compression-repro rydberg-dynamic-compression-repro
 cd rydberg-dynamic-compression-repro
 python3 fetch_upstream.py            # adds RydbergComms @ 4095724 next to these files; never overwrites a file here
 python3 -m pip install -r requirements.txt

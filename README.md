@@ -6,7 +6,7 @@ This repository holds the code, configurations, random seeds, time-stamped decis
 
 > J. Mei, "Large-Signal Memory and Model Limits in a Simulated Rydberg Atomic Receiver," manuscript, 2026.
 
-**Archive:** https://doi.org/<DOI>. **Repository:** <REPOSITORY_URL>. **License:** MIT (see `LICENSE`); the licence covers the study-specific files, not the upstream simulator.
+**Archive:** https://doi.org/10.5281/zenodo.23007369. **Repository:** https://github.com/surnamemei/rydberg-dynamic-compression-repro. **License:** MIT (see `LICENSE`); the licence covers the study-specific files, not the upstream simulator.
 
 **Quick check:** `python3 fetch_upstream.py && python3 verify_reproduction.py` (see `REPRODUCE.md`). **Provenance:** see `PROVENANCE.md`.
 
@@ -53,7 +53,7 @@ The receiver noise level in `artifacts/stage1_5_frozen.npz` was fixed in an earl
 ## Setup
 
 ```bash
-git clone <REPOSITORY_URL> repro && cd repro
+git clone https://github.com/surnamemei/rydberg-dynamic-compression-repro repro && cd repro
 python3 fetch_upstream.py        # adds RydbergComms @ 4095724 (git archive); never overwrites a file of this repository
 python3 -m pip install -r requirements.txt
 ```
@@ -182,4 +182,4 @@ The decision rules were written to time-stamped project records before the corre
 
 ## Citation
 
-Please cite this archive (https://doi.org/<DOI>), the article, and the simulator: J. Zhu and L. Dai (2026), and the RydbergComms repository. See `CITATION.cff`.
+Please cite this archive (https://doi.org/10.5281/zenodo.23007369), the article, and the simulator: J. Zhu and L. Dai (2026), and the RydbergComms repository. See `CITATION.cff`.

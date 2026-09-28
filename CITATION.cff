@@ -9,8 +9,8 @@ authors:
     given-names: Jinghang
     orcid: "https://orcid.org/0009-0007-2901-3285"
     affiliation: "School of Electrical and Computer Engineering, The University of Sydney"
-doi: "<DOI>"
-repository-code: "<REPOSITORY_URL>"
+doi: "10.5281/zenodo.23007369"
+repository-code: "https://github.com/surnamemei/rydberg-dynamic-compression-repro"
 keywords:
   - Rydberg atomic receiver
   - dynamic compression
