@@ -1,12 +1,14 @@
 # Reproducibility Package: Large-Signal Memory and Model Limits in a Simulated Rydberg Atomic Receiver
 
 **Version 1.0.0**
-
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23007369.svg)](https://doi.org/10.5281/zenodo.23007369)
 This repository holds the code, configurations, random seeds, time-stamped decision-rule records and processed results behind the article
 
 > J. Mei, "Large-Signal Memory and Model Limits in a Simulated Rydberg Atomic Receiver," manuscript, 2026.
 
-**Archive:** https://doi.org/10.5281/zenodo.23007369. **Repository:** https://github.com/surnamemei/rydberg-dynamic-compression-repro. **License:** MIT (see `LICENSE`); the licence covers the study-specific files, not the upstream simulator.
+**Archive:** https://doi.org/10.5281/zenodo.23007369. 
+**Repository:** https://github.com/surnamemei/rydberg-dynamic-compression-repro. 
+**License:** MIT (see `LICENSE`); the licence covers the study-specific files, not the upstream simulator.
 
 **Quick check:** `python3 fetch_upstream.py && python3 verify_reproduction.py` (see `REPRODUCE.md`). **Provenance:** see `PROVENANCE.md`.
 
