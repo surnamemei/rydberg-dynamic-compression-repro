@@ -95,12 +95,13 @@ def table_s15():
     out = ["| Check | Result |", "|---|---|"]
     for case, g in va.groupby("case"):
         sci = lambda x: f"{x:.1e}".replace("-", "−", 1) if x < 0 else f"{x:.1e}"  # noqa: E731
-        out.append(f"| V-A {case} case, {g.T_us.min():.0f}–{g.T_us.max():.0f} µs: largest per-class trace deviation; smallest eigenvalue | "
+        case_label = {"dwell": "standard dwell-family case", "phase": "phase case"}[case]
+        out.append(f"| Trace and positivity, {case_label}, {g.T_us.min():.0f}–{g.T_us.max():.0f} µs: largest per-class trace deviation; smallest eigenvalue | "
                    f"{sci(g.trace_dev_max.max())}; {sci(g.min_eig_min.min())} |")
     names = {"C1": "reference", "C2": "10 MHz", "C3": "15 MHz", "C4": "weaker probe", "C5": "A_LO 0.425", "C6": "A_LO 0.35"}
     for c, g in vb.groupby("config"):
         g = g.set_index("variant")
-        out.append(f"| V-B E1dB, {names[c]} (V/m): 2 / 3 / 4 smallest amplitudes / local fit | "
+        out.append(f"| E1dB rule, {names[c]} (V/m): 2 / 3 / 4 smallest amplitudes / local fit | "
                    f"{g.loc['slope_2_smallest', 'E1dB_Vpm']:.4f} / {g.loc['slope_3_smallest', 'E1dB_Vpm']:.4f} / {g.loc['slope_4_smallest', 'E1dB_Vpm']:.4f} / "
                    f"{g.loc['local_fit_4_smallest', 'E1dB_Vpm']:.4f} |")
     label = {"C2 reference phase case at 2.4468 E1dB": "10 MHz, reference phase case at 2.45 E1dB (archived)",
@@ -113,8 +114,8 @@ def table_s15():
     for _, r in vc[vc.OUTSIDE_INTENDED_REGIME].iterrows():
         frac = "" if pd.isna(r.fraction_of_samples_signal_gt_LO) else f"; {100 * r.fraction_of_samples_signal_gt_LO:.2f}% of samples above the LO"
         lab = label.get(r.state, r.state.replace("shuffle r0-r7, max over variants,", "shuffle family (8 realizations, all variants),"))
-        out.append(f"| V-C above the LO: {lab} | peak signal/LO {r.peak_signal_to_LO:.2f}{frac} |")
-    out.append(f"| V-C largest peak RF Rabi frequency / carrier, all tabulated states | {vc.Rabi_to_carrier.max():.4f} |")
+        out.append(f"| Above the LO: {lab} | peak signal/LO {r.peak_signal_to_LO:.2f}{frac} |")
+    out.append(f"| Rotating-wave check: largest peak RF Rabi frequency / carrier, all tabulated states | {vc.Rabi_to_carrier.max():.4f} |")
     return "\n".join(out)
 
 

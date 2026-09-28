@@ -65,7 +65,9 @@ ax.set_ylabel("$R = g(\\delta f)/g_\\mathrm{CW}$")
 ax.legend(loc="upper left", fontsize=fs(5.8), borderaxespad=0.2)
 
 ax = axs[2]
-panel(ax, "c", "LO field, 5 MHz IF")
+panel(ax, "c")
+# descriptor right-aligned: centred, it collided with the narrow panel's "(c)" label (layout only)
+ax.set_title("LO field, 5 MHz IF", loc="right", fontsize=8, pad=3.5, color=INK)
 for op in ("OP2", "OP3", "OP1"):
     r = OPS.loc[op]
     m, lo, hi = r.X_REF_mean_3seeds, r.X_REF_ci_lo, r.X_REF_ci_hi

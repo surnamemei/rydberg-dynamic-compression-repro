@@ -573,25 +573,25 @@ TV_tabS14,Supplementary Table S14 (full rendering; campaign_tables.py),table,"| 
 | 4× | 21.0 | 0.07 / 0.28 / 0.60 / 0.08 | −0.60 / 3.34 | yes | no |",results/tqe_viability_final
 TV_tabS15,Supplementary Table S15 (full rendering; campaign_tables.py),table,"| Check | Result |
 |---|---|
-| V-A dwell case, 105–840 µs: largest per-class trace deviation; smallest eigenvalue | 5.3e-06; 1.1e-10 |
-| V-A phase case, 55–220 µs: largest per-class trace deviation; smallest eigenvalue | 2.4e-05; −7.6e-10 |
-| V-B E1dB, reference (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0732 / 0.0740 / 0.0753 / 0.0728 |
-| V-B E1dB, 10 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.5808 / 0.5839 / 0.5863 / 0.5807 |
-| V-B E1dB, 15 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.2175 / 0.2181 / 0.2191 / 0.2172 |
-| V-B E1dB, weaker probe (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.7131 / 0.7128 / 0.7123 / 0.7133 |
-| V-B E1dB, A_LO 0.425 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0591 / 0.0602 / 0.0619 / 0.0584 |
-| V-B E1dB, A_LO 0.35 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0403 / 0.0419 / 0.0444 / 0.0394 |
-| V-C above the LO: 10 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 2.84 |
-| V-C above the LO: 15 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 1.06 |
-| V-C above the LO: weaker probe, reference phase case at 2.45 E1dB (archived) | peak signal/LO 3.49 |
-| V-C above the LO: 10 MHz, dwell high level at +3 dB (archived) | peak signal/LO 2.85 |
-| V-C above the LO: 15 MHz, dwell high level at +3 dB (archived) | peak signal/LO 1.07 |
-| V-C above the LO: weaker probe, dwell high level at +3 dB (archived) | peak signal/LO 3.50 |
-| V-C above the LO: weaker probe, step to 1.05 E1dB (archived) | peak signal/LO 1.50 |
-| V-C above the LO: shuffle family (8 realizations, all variants), +0 dB | peak signal/LO 1.60; 0.15% of samples above the LO |
-| V-C above the LO: shuffle family (8 realizations, all variants), +3 dB | peak signal/LO 2.25; 0.50% of samples above the LO |
-| V-C above the LO: shuffle family (8 realizations, all variants), +6 dB | peak signal/LO 3.18; 1.45% of samples above the LO |
-| V-C largest peak RF Rabi frequency / carrier, all tabulated states | 0.0060 |",results/tqe_viability_final
+| Trace and positivity, standard dwell-family case, 105–840 µs: largest per-class trace deviation; smallest eigenvalue | 5.3e-06; 1.1e-10 |
+| Trace and positivity, phase case, 55–220 µs: largest per-class trace deviation; smallest eigenvalue | 2.4e-05; −7.6e-10 |
+| E1dB rule, reference (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0732 / 0.0740 / 0.0753 / 0.0728 |
+| E1dB rule, 10 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.5808 / 0.5839 / 0.5863 / 0.5807 |
+| E1dB rule, 15 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.2175 / 0.2181 / 0.2191 / 0.2172 |
+| E1dB rule, weaker probe (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.7131 / 0.7128 / 0.7123 / 0.7133 |
+| E1dB rule, A_LO 0.425 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0591 / 0.0602 / 0.0619 / 0.0584 |
+| E1dB rule, A_LO 0.35 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0403 / 0.0419 / 0.0444 / 0.0394 |
+| Above the LO: 10 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 2.84 |
+| Above the LO: 15 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 1.06 |
+| Above the LO: weaker probe, reference phase case at 2.45 E1dB (archived) | peak signal/LO 3.49 |
+| Above the LO: 10 MHz, dwell high level at +3 dB (archived) | peak signal/LO 2.85 |
+| Above the LO: 15 MHz, dwell high level at +3 dB (archived) | peak signal/LO 1.07 |
+| Above the LO: weaker probe, dwell high level at +3 dB (archived) | peak signal/LO 3.50 |
+| Above the LO: weaker probe, step to 1.05 E1dB (archived) | peak signal/LO 1.50 |
+| Above the LO: shuffle family (8 realizations, all variants), +0 dB | peak signal/LO 1.60; 0.15% of samples above the LO |
+| Above the LO: shuffle family (8 realizations, all variants), +3 dB | peak signal/LO 2.25; 0.50% of samples above the LO |
+| Above the LO: shuffle family (8 realizations, all variants), +6 dB | peak signal/LO 3.18; 1.45% of samples above the LO |
+| Rotating-wave check: largest peak RF Rabi frequency / carrier, all tabulated states | 0.0060 |",results/tqe_viability_final
 TV_carrier,"RF carrier of the model's source configuration (Cs 47D5/2 -> 48P3/2), used only for the rotating-wave check",6946000000.0,6.946 GHz,python/experiments/tqe_viability_final/tvf_common.py
 TV_scan_grid,"IF-scan grid: prior-pass IFs, campaign IFs per LO field, IF definition","(29, 31)",29 IFs; 31 IFs (1000/P MHz for integer periods P from 500 to 80 ns),results/tqe_viability_final/02_resonance/resonance_scan.csv
 TV_vc_fair,V-C: largest peak signal/LO of the fair waveforms (+6 dB),0.9249635531432124,0.92,results/tqe_viability_final/05_numerical/vc_regime_table.csv

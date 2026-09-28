@@ -102,7 +102,9 @@ axb.set_xlabel("nonzero transitions per µs")
 axb.set_ylabel("X")
 axb.legend(loc="upper left", fontsize=fs(5.8), borderaxespad=0.2)
 
-panel(axc, "c", "peak excursion, OP1")
+panel(axc, "c")
+# descriptor right-aligned: centred, it collided with the narrow panel's "(c)" label (layout only)
+axc.set_title("peak excursion, OP1", loc="right", fontsize=8, pad=3.5, color=INK)
 shape = [("QPSK_LONGRAMP", "900 ns"), ("QPSK_REF", "300 ns"), ("QPSK_JUMP", "steps")]
 px = [C.loc[c, "peak_abs_freq_offset_Hz"] / 1e6 for c, _ in shape]
 py = [main.loc[c, "X"] for c, _ in shape]
