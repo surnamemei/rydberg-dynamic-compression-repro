@@ -1,0 +1,12 @@
+transient,osc_period_us,osc_period_gain_us,envelope_1e_us
+"power step a_L->a_H (+0 dB level), CW carrier",1.598439024390244,,2.54
+"power step a_L->a_H (+3 dB level), CW carrier",1.6221782178217823,,2.7800000000000002
+phase step pi at t=54 us (constant a_H),1.6890721649484537,1.6302487562189054,3.1799999999999997
+phase step pi/2 at t=58 us (constant a_H),1.7429787234042553,1.6302487562189054,2.499999999999993
+phase step pi/2 at t=62 us (constant a_H),1.6633502538071065,1.4962557077625571,
+phase step pi/2 at t=66 us (constant a_H),1.7246315789473685,1.5603809523809524,2.4000000000000057
+phase step pi at t=70 us (constant a_H),1.6302487562189054,1.8004395604395604,
+phase step pi at t=78 us (constant a_H),1.6384,1.6804102564102563,1.8399999999999892
+phase step pi at t=86 us (constant a_H),1.654949494949495,1.7522994652406416,2.839999999999989
+phase step pi at t=94 us (constant a_H),1.6384,1.6718367346938776,1.9000000000000057
+phase step pi/2 at t=98 us (constant a_H),1.6890721649484537,1.4309170305676855,

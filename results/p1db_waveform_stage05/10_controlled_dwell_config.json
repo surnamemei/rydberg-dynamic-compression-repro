@@ -1,0 +1,55 @@
+{
+  "duration_s": 0.000204,
+  "high_level_before_dither_Vpm": 0.1315612325416265,
+  "low_level_before_dither_Vpm": 0.043853744180542165,
+  "short_pattern": {
+    "high_ns": 50,
+    "low_ns": 150,
+    "period_ns": 200
+  },
+  "long_pattern": {
+    "high_us": 2,
+    "low_us": 6,
+    "period_us": 8,
+    "complete_periods": 25,
+    "remainder_high_us": 1,
+    "remainder_low_us": 3
+  },
+  "shared_quadrature_dither": {
+    "period_ns": 200,
+    "fourier_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "outer_bin_amplitude_scale": 2.5,
+    "rms_fraction_of_E1dB": 0.25,
+    "random_seed": 20260926,
+    "roll_max_to_sample": 25
+  },
+  "threshold_E1dB_Vpm": 0.08770748836108433,
+  "same_average_power_peak_and_B99_target": true,
+  "full_atomic_Nd": 1501,
+  "dt_s": 1e-09
+}

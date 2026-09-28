@@ -1,0 +1,1 @@
+[192/192] 100.0% | OFDM | r7 | +6 dB | elapsed 1344 s | avg 7.0 s/job | ETA 0 s

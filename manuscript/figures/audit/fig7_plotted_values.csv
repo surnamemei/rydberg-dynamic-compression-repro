@@ -1,0 +1,101 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+a,late-plateau gain cw +0 dB,0,0.6961740317005314,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,rel to CW static +0.163%
+a,late-plateau gain qpsk +0 dB,0,0.2786329048964148,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,rel to CW static -59.911%
+a,CW-static gain +0 dB,0,0.6950394513756489,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,
+a,late-plateau gain cw +3 dB,3,0.4321263130709507,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,rel to CW static +0.313%
+a,late-plateau gain qpsk +3 dB,3,0.1920929513695041,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,rel to CW static -55.408%
+a,CW-static gain +3 dB,3,0.4307773917818006,,,results/stage06_dwell_physics/12_plateau_steady_state.csv,
+b,D_ref atomic cw,0.05,0.2171856946689818,0.2150632763267592,0.2193081130112043,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic cw,1.0,0.1360357906114587,0.1334806309705004,0.138590950252417,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic cw,4.0,0.0698482845752049,0.0677373206671432,0.0719592484832666,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic cw,8.0,0.0488773049026768,0.047790884907867,0.0499637248974865,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic cw,16.0,0.0388522588772458,0.0367488300288084,0.0409556877256832,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic cw,32.0,0.0329549627925334,0.0323281671223179,0.0335817584627488,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,0.05,1.3480652255994152,1.342914571883924,1.3532158793149065,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,1.0,0.1034922168326542,0.1029652423834033,0.1040191912819052,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,4.0,0.04808721889525,0.047834271670364,0.0483401661201359,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,8.0,0.0384012864223399,0.0380549295146645,0.0387476433300153,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,16.0,0.0338613462938395,0.033664524344345,0.034058168243334,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh cw,32.0,0.0314076651838204,0.0312239203726137,0.0315914099950271,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,0.05,0.0250539078924751,0.0248403559406725,0.0252674598442777,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,1.0,0.0048631707188727,0.0047519816269847,0.0049743598107607,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,4.0,0.0044525953617693,0.0043550800781826,0.004550110645356,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,8.0,0.004535794156366,0.0044699363977819,0.00460165191495,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,16.0,0.0045175438092656,0.0044514007040421,0.004583686914489,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh cw,32.0,0.0045181146647882,0.0044692851797712,0.0045669441498052,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,0.05,0.0803694104396913,0.0790626686111595,0.0816761522682232,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,1.0,0.0885005667326787,0.0874625455175247,0.0895385879478326,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,4.0,0.103621013040879,0.1013833603118616,0.1058586657698964,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,8.0,0.1040258586626564,0.1024107363574931,0.1056409809678198,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,16.0,0.1044696286668186,0.1028602921048598,0.1060789652287774,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref atomic qpsk,32.0,0.1043121385232192,0.1023129335242197,0.1063113435222188,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,0.05,0.4826936701134608,0.4808397332003326,0.484547607026589,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,1.0,0.0738946526473971,0.0728688133772543,0.0749204919175398,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,4.0,0.0616906867924039,0.0612724083761594,0.0621089652086484,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,8.0,0.0598313492118582,0.0593455897395183,0.060317108684198,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,16.0,0.058793435169413,0.0585459948464335,0.0590408754923924,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_mh qpsk,32.0,0.058262041630831,0.0578245170116595,0.0586995662500025,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,0.05,0.0222443753587543,0.0218810618385636,0.022607688878945,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,1.0,0.0513716687030496,0.0510870994095954,0.0516562379965038,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,4.0,0.0519261039715956,0.0515513025531792,0.052300905390012,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,8.0,0.0518870203943413,0.0516590882905737,0.0521149524981089,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,16.0,0.0518874971518147,0.0515948862326256,0.0521801080710038,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,D_ref static_lti_mh qpsk,32.0,0.0518992898135809,0.0517606676950192,0.0520379119321426,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+b,gap annotations (ledger Q_refgap_cw_xi_4 / xi_32),text,0.0,,,,"+45%; +4.9% [+2.7%, +7.1%]"
+c,gain atomic cw,0.05,0.7235781699844162,0.7202287022919146,0.7269276376769177,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic cw,1.0,0.38962205342009526,0.37292000688038796,0.40632409995980256,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic cw,4.0,0.33278339323804107,0.32510197107766553,0.3404648153984166,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic cw,8.0,0.2909913156283906,0.2809505130980712,0.30103211815871,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic cw,16.0,0.2724478845133453,0.26469297592129604,0.28020279310539453,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic cw,32.0,0.26094221565426456,0.2559524766895097,0.2659319546190194,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,0.05,0.1752736539423504,0.1630931741676265,0.18745413371707428,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,1.0,0.23421394228647602,0.23316942541086627,0.23525845916208576,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,4.0,0.23752976306656198,0.2359621694786454,0.23909735665447857,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,8.0,0.2374917416275002,0.23668515670659282,0.23829832654840757,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,16.0,0.23804462050278324,0.23716161167398045,0.23892762933158604,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh cw,32.0,0.2382498612720842,0.2376630066116616,0.2388367159325068,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,0.05,0.2504326986367799,0.24801607396763586,0.25284932330592397,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,1.0,0.24432224315702297,0.243795749676294,0.24484873663775195,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,4.0,0.24413398649650753,0.2439657104455949,0.24430226254742016,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,8.0,0.24410515212098927,0.24390778580596673,0.2443025184360118,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,16.0,0.24412612418112395,0.2440100970475247,0.2442421513147232,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh cw,32.0,0.24410320979610217,0.2440460833128453,0.24416033627935904,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,0.05,0.4636029462214865,0.4558342960052855,0.4713715964376875,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,1.0,0.37902920247398125,0.3646428883387949,0.3934155166091676,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,4.0,0.3688361441535238,0.3595102500026702,0.3781620383043774,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,8.0,0.35327205974700027,0.34673555099473913,0.3598085684992614,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,16.0,0.3475131738141477,0.3438905668653452,0.3511357807629502,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain atomic qpsk,32.0,0.3490063194292725,0.34363727677020334,0.3543753620883417,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,0.05,0.5743921081291613,0.566374195778088,0.5824100204802346,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,1.0,0.5621969603788342,0.5578929423050815,0.5665009784525868,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,4.0,0.5612524489611462,0.5589345545105311,0.5635703434117614,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,8.0,0.5619950313875179,0.5602520501994497,0.5637380125755862,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,16.0,0.5618680019137221,0.5613510743664679,0.5623849294609763,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_mh qpsk,32.0,0.5618803881632441,0.5608019251800938,0.5629588511463945,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,0.05,0.5682683906230598,0.5670086898898936,0.569528091356226,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,1.0,0.5610633834725354,0.5599499800961871,0.5621767868488836,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,4.0,0.5608953491419237,0.5601733447026473,0.5616173535812001,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,8.0,0.5610602903393616,0.5603077500572018,0.5618128306215213,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,16.0,0.5609428261310138,0.5604931017026733,0.5613925505593542,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+c,gain static_lti_mh qpsk,32.0,0.5610744654040937,0.5608738973538967,0.5612750334542906,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv,"per-realization gain_abs/linear gain_abs; t 95% CI, n=4"
+d,D (prespecified) atomic cw,0.05,0.4258747995159427,0.4216064101988661,0.4301431888330194,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) atomic cw,1.0,0.6053795909518458,0.5661540986566396,0.644605083247052,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) atomic cw,4.0,0.4801448321153431,0.4515161486886002,0.508773515542086,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) atomic cw,8.0,0.4571348354163719,0.4219689673027574,0.4923007035299863,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) atomic cw,16.0,0.4334187792181946,0.3838874079051817,0.4829501505312076,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) atomic cw,32.0,0.4137487099637457,0.4016248444858635,0.4258725754416278,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,0.05,58.358236699079,49.04889785965144,67.66757553850657,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,1.0,1.9488362760310527,1.9162659550463104,1.981406597015796,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,4.0,0.861456378529212,0.8461233797315812,0.8767893773268427,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,8.0,0.6846762231872968,0.6729400314688573,0.6964124149057364,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,16.0,0.5998235921716554,0.5924169101656257,0.607230274177685,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_mh cw,32.0,0.5552429190170476,0.5495112349967316,0.5609746030373636,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,0.05,0.4007955842135567,0.3956565963329338,0.4059345720941797,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,1.0,0.0810112195620548,0.0787139233966712,0.0833085157274385,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,4.0,0.0742370604269554,0.0724322997450934,0.0760418211088173,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,8.0,0.0755787614220076,0.0742574042917311,0.0769001185522841,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,16.0,0.0752136179973702,0.0739932656705718,0.0764339703241686,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,D (prespecified) static_lti_mh cw,32.0,0.0751895607947586,0.0742745122546056,0.0761046093349117,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,
+d,full-static gap,4.0,-0.3813115464138688,,,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,fraction 0.371
+d,full-static gap,32.0,-0.1414942090533018,,,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv,fraction 0.371
+_audit,points outside axis limits,count,0.0,,,,

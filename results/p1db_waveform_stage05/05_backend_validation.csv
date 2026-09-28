@@ -1,0 +1,2 @@
+method,modulation,seed,power_db,Nd,dt_ns,n_samples,max_probe_response_difference_dB,rms_probe_response_difference_dB,pearson_correlation,cpu_runtime_s,status
+"CUDA versus CPU NumPy, 2 us prefix",CE,20262002,3,301,1.0,2000,0.006256557403549579,0.004249901375929745,0.9999954591433493,25.2609743,complete

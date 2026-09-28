@@ -1,0 +1,21 @@
+{
+  "written_before_any_run": "2026-09-28T00:02:36+10:00",
+  "status": "Clarifications of 00_decision_rules.json, fixed in this time-stamped project record before any revision2 run. They were prompted by inspecting archived results only (no revision2 output existed). Internal project record, not an external registration.",
+  "clarifications": [
+    {
+      "rule": "P3 memory_persists: 'slow component with time constant >= 1 us and weight >= 0.1'",
+      "issue": "The archived standard-probe +5% step (results/stage06_dwell_physics/03_tau_atom_results.csv, IF_step_P1dB_1.00to1.05E1, Nd 4001) has a two-exponential fit with fit2_a_fast = +0.609 and fit2_a_slow = -0.580: the slow component has the opposite sign to the fast one (undershoot, then slow recovery). A literal reading of 'weight >= 0.1' would declare no memory for the reference configuration itself, which is not the intended meaning.",
+      "clarified_rule": "|fit2_a_slow| >= 0.1 and fit2_tau_slow_s >= 1 us. The sign of the slow weight is reported. tau_1e is reported alongside as a fit-free descriptor (not a criterion)."
+    },
+    {
+      "rule": "P3 steps: '+5% step at 1.0 E1dB and linear step 0.05 -> 0.10 E1dB, for both probes'",
+      "issue": "The archived step (tau_atom.py) used the Stage-0.5 E1dB (0.0877 V/m) as its unit; the Nd = 4001 E1dB is 0.0732 V/m.",
+      "clarified_rule": "Each probe uses its own E1dB at Nd = 4001 (standard: archived controls_Nd4001 value; weak: the new weak-probe CW table), with otherwise identical code. The archived standard-probe tau (2.535 us at the Stage-0.5 unit) is quoted as context, not as a validation target."
+    },
+    {
+      "rule": "P1 validation 'bit-identically or to 1e-12 relative'",
+      "issue": "The dwell archive used 8 realizations; the P1 rule uses realizations 0-3.",
+      "clarified_rule": "The 5 MHz validation compares realizations 0-3 job by job with the archived jobs (gain_abs of the full, linear and static models) and the reference-phase X of seeds 20260701-20260703 with the archived revision P2 runs. IF comparisons use realizations 0-3 at every IF."
+    }
+  ]
+}

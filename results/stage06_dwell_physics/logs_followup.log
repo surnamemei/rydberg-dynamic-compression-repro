@@ -1,0 +1,113 @@
+GPU free at 2026-09-26T16:50:10
+{'experiment': 'tau_0.8xE1', 'E_start_Vpm': 0.05857509412890405, 'E_start_over_E1dB_converged': 0.8, 'Nd': 4001, 'tau_1e_s': 0.0, 'tau_90_s': 3.851e-06, 'tau_dom_s': 2.8383608969395144e-06, 'tau_dom_fit_rms_log_resid': 1.1959575487072602, 'tau_dom_window_s': '0.000e+00-8.033e-06', 'fit2_a_fast': np.float64(0.28945266458791247), 'fit2_tau_fast_s': np.float64(2.449426541865953e-07), 'fit2_a_slow': np.float64(-0.24485306453231825), 'fit2_tau_slow_s': np.float64(2.491218617469925e-06), 'fit2_rms_resid': 0.01656653213156526}
+{'experiment': 'tau_1.0xE1', 'E_start_Vpm': 0.07321886766113006, 'E_start_over_E1dB_converged': 1.0, 'Nd': 4001, 'tau_1e_s': 1.127e-06, 'tau_90_s': 5.431e-06, 'tau_dom_s': 3.2339572009374783e-06, 'tau_dom_fit_rms_log_resid': 1.0688414335167906, 'tau_dom_window_s': '1.164e-06-9.729e-06', 'fit2_a_fast': np.float64(0.4295624785352137), 'fit2_tau_fast_s': np.float64(2.3566929929836314e-07), 'fit2_a_slow': np.float64(-0.3840601610365618), 'fit2_tau_slow_s': np.float64(2.6986855113347925e-06), 'fit2_rms_resid': 0.024856425207044248}
+{'experiment': 'tau_1.2xE1', 'E_start_Vpm': 0.08786264119335607, 'E_start_over_E1dB_converged': 1.2, 'Nd': 4001, 'tau_1e_s': 2.5350000000000003e-06, 'tau_90_s': 7.108e-06, 'tau_dom_s': 3.984740034478841e-06, 'tau_dom_fit_rms_log_resid': 0.5542151220127313, 'tau_dom_window_s': '2.652e-06-1.153e-05', 'fit2_a_fast': np.float64(0.384975292178246), 'fit2_tau_fast_s': np.float64(2.535788704439268e-07), 'fit2_a_slow': np.float64(-0.5584518909076874), 'fit2_tau_slow_s': np.float64(3.109739595072477e-06), 'fit2_rms_resid': 0.035884652839968056}
+{'experiment': 'plateau_p+0_cw', 'Pavg_over_P1dB_dB': 0, 'carrier': 'cw', 'a_L_Vpm': 0.0422765741875365, 'a_H_Vpm': 0.1268297225626095, 'Nd': 4001, 'gain_low_before': 0.9617433351855333, 'gain_plateau_first_us': 0.8029724295827207, 'gain_plateau_last10us': 0.6961740317005314, 'cw_static_gain_aH': 0.6950394513756489, 'cw_static_gain_aL': 0.9606544916907562, 'plateau_vs_cw_static_rel': 0.0016323970137763766, 'plateau_settle_2pct_s': nan, 'gain_low_first_us_after': 0.6490880870771825, 'gain_low_1_to_5us_after': 0.8134578041668334, 'gain_low_end': 0.9617441075305706, 'recovery_settle_2pct_s': nan}
+{'experiment': 'plateau_p+0_qpsk', 'Pavg_over_P1dB_dB': 0, 'carrier': 'qpsk', 'a_L_Vpm': 0.0422765741875365, 'a_H_Vpm': 0.1268297225626095, 'Nd': 4001, 'gain_low_before': 0.9481351299301903, 'gain_plateau_first_us': 0.7766846465410819, 'gain_plateau_last10us': 0.27863290489641485, 'cw_static_gain_aH': 0.6950394513756489, 'cw_static_gain_aL': 0.9606544916907562, 'plateau_vs_cw_static_rel': -0.5991121017016605, 'plateau_settle_2pct_s': nan, 'gain_low_first_us_after': 0.36371337417809435, 'gain_low_1_to_5us_after': 0.6135725518102886, 'gain_low_end': 0.9277811883683174, 'recovery_settle_2pct_s': nan}
+{'experiment': 'plateau_p+3_cw', 'Pavg_over_P1dB_dB': 3, 'carrier': 'cw', 'a_L_Vpm': 0.05971724829792452, 'a_H_Vpm': 0.17915174489377356, 'Nd': 4001, 'gain_low_before': 0.9256238902522118, 'gain_plateau_first_us': 0.562596722677452, 'gain_plateau_last10us': 0.43212631307095073, 'cw_static_gain_aH': 0.4307773917818006, 'cw_static_gain_aL': 0.9254813168686145, 'plateau_vs_cw_static_rel': 0.0031313650968791684, 'plateau_settle_2pct_s': nan, 'gain_low_first_us_after': 0.35769274602629375, 'gain_low_1_to_5us_after': 0.5971363409174496, 'gain_low_end': 0.9256201065442624, 'recovery_settle_2pct_s': nan}
+{'experiment': 'plateau_p+3_qpsk', 'Pavg_over_P1dB_dB': 3, 'carrier': 'qpsk', 'a_L_Vpm': 0.05971724829792452, 'a_H_Vpm': 0.17915174489377356, 'Nd': 4001, 'gain_low_before': 0.8813752269379224, 'gain_plateau_first_us': 0.5762547140511391, 'gain_plateau_last10us': 0.1920929513695041, 'cw_static_gain_aH': 0.4307773917818006, 'cw_static_gain_aL': 0.9254813168686145, 'plateau_vs_cw_static_rel': -0.5540783823984803, 'plateau_settle_2pct_s': nan, 'gain_low_first_us_after': 0.2638453624504493, 'gain_low_1_to_5us_after': 0.5180363499094165, 'gain_low_end': 0.8373214244494943, 'recovery_settle_2pct_s': nan}
+dwell_r0_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8428 AIRlti=1.9053 AIRltiMH=1.9743 AIRstMH=0.7268 Dfull=4.162e-01 DltiMH=3.917e-01 80.0s
+dwell_r0_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.7234 AIRlti=1.8938 AIRltiMH=1.6388 AIRstMH=0.5890 Dfull=4.199e-01 DltiMH=2.698e-01 34.0s
+dwell_r0_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.5138 AIRlti=1.9591 AIRltiMH=1.7794 AIRstMH=0.5777 Dfull=6.506e-01 DltiMH=1.495e-01 56.9s
+dwell_r0_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.4425 AIRlti=1.9458 AIRltiMH=1.8785 AIRstMH=0.7440 Dfull=4.626e-01 DltiMH=9.862e-02 28.7s
+dwell_r0_xi_1_p+3_Nd4001_dt1 AIRfull=1.3842 AIRlti=1.9915 AIRltiMH=1.8680 AIRstMH=1.1181 Dfull=5.347e-01 DltiMH=8.229e-02 29.1s
+dwell_r0_xi_2_p+3_Nd4001_dt1 AIRfull=1.5529 AIRlti=1.9736 AIRltiMH=1.9627 AIRstMH=0.9646 Dfull=5.169e-01 DltiMH=7.313e-02 29.8s
+dwell_r0_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.8903 AIRlti=1.9245 AIRltiMH=1.9236 AIRstMH=1.3424 Dfull=2.981e-01 DltiMH=3.695e-02 28.9s
+dwell_r0_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.8579 AIRlti=1.9628 AIRltiMH=1.9233 AIRstMH=1.9424 Dfull=2.169e-01 DltiMH=3.605e-02 30.2s
+dwell_r0_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.8357 AIRlti=1.9440 AIRltiMH=1.9181 AIRstMH=2.0000 Dfull=3.622e-01 DltiMH=3.845e-02 32.7s
+dwell_r0_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.8700 AIRlti=1.8869 AIRltiMH=1.8794 AIRstMH=2.0000 Dfull=1.468e-01 DltiMH=2.923e-02 35.6s
+dwell_r0_xi_1_p+0_Nd4001_dt1 AIRfull=1.9060 AIRlti=1.9554 AIRltiMH=1.9256 AIRstMH=2.0000 Dfull=1.338e-01 DltiMH=2.494e-02 32.4s
+dwell_r0_xi_2_p+0_Nd4001_dt1 AIRfull=1.9515 AIRlti=1.9967 AIRltiMH=1.9841 AIRstMH=2.0000 Dfull=9.681e-02 DltiMH=2.287e-02 25.5s
+ 1.47, Combine: 3.39)
+dwell_r1_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8582 AIRlti=1.9358 AIRltiMH=1.9951 AIRstMH=0.8986 Dfull=4.544e-01 DltiMH=4.025e-01 28.7s
+dwell_r1_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.7645 AIRlti=1.9434 AIRltiMH=1.7724 AIRstMH=0.6727 Dfull=4.115e-01 DltiMH=2.693e-01 32.9s
+dwell_r1_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.3424 AIRlti=1.9736 AIRltiMH=1.8628 AIRstMH=0.5294 Dfull=6.701e-01 DltiMH=1.420e-01 31.9s
+dwell_r1_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.5209 AIRlti=1.9448 AIRltiMH=1.7067 AIRstMH=0.7523 Dfull=4.983e-01 DltiMH=9.811e-02 28.8s
+dwell_r1_xi_1_p+3_Nd4001_dt1 AIRfull=1.2466 AIRlti=1.9721 AIRltiMH=1.7640 AIRstMH=0.9351 Dfull=7.254e-01 DltiMH=7.380e-02 30.8s
+dwell_r1_xi_2_p+3_Nd4001_dt1 AIRfull=1.6395 AIRlti=1.9781 AIRltiMH=1.9469 AIRstMH=1.3695 Dfull=5.075e-01 DltiMH=7.770e-02 31.0s
+ (RK: 6.58, Interp: 1.91, Combine: 2.46)
+dwell_r1_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.8953 AIRlti=1.9467 AIRltiMH=1.9506 AIRstMH=1.2206 Dfull=3.049e-01 DltiMH=3.745e-02 31.7s
+dwell_r1_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.9128 AIRlti=1.9725 AIRltiMH=1.9501 AIRstMH=1.9505 Dfull=2.088e-01 DltiMH=3.493e-02 31.2s
+dwell_r1_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.8272 AIRlti=1.9784 AIRltiMH=1.9697 AIRstMH=1.9999 Dfull=3.449e-01 DltiMH=3.739e-02 34.1s
+dwell_r1_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.8938 AIRlti=1.9763 AIRltiMH=1.9686 AIRstMH=2.0000 Dfull=1.772e-01 DltiMH=2.935e-02 30.5s
+dwell_r1_xi_1_p+0_Nd4001_dt1 AIRfull=1.9125 AIRlti=1.9116 AIRltiMH=1.8808 AIRstMH=2.0000 Dfull=1.818e-01 DltiMH=2.447e-02 30.6s
+dwell_r1_xi_2_p+0_Nd4001_dt1 AIRfull=1.9578 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=9.629e-02 DltiMH=2.303e-02 31.4s
+me: 9.74 seconds: (RK: 5.85, Interp: 1.57, Combine: 2.32)
+dwell_r2_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8564 AIRlti=1.9385 AIRltiMH=1.9813 AIRstMH=0.7806 Dfull=4.597e-01 DltiMH=4.012e-01 35.1s
+dwell_r2_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.5992 AIRlti=1.9310 AIRltiMH=1.7877 AIRstMH=0.5855 Dfull=4.023e-01 DltiMH=2.632e-01 28.7s
+dwell_r2_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.4084 AIRlti=1.9636 AIRltiMH=1.7439 AIRstMH=0.5602 Dfull=6.705e-01 DltiMH=1.464e-01 29.6s
+dwell_r2_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.2712 AIRlti=1.9640 AIRltiMH=1.6917 AIRstMH=0.6542 Dfull=5.493e-01 DltiMH=1.021e-01 29.7s
+dwell_r2_xi_1_p+3_Nd4001_dt1 AIRfull=1.4914 AIRlti=1.9779 AIRltiMH=1.8465 AIRstMH=1.1931 Dfull=6.209e-01 DltiMH=7.803e-02 34.1s
+dwell_r2_xi_2_p+3_Nd4001_dt1 AIRfull=1.5860 AIRlti=1.9995 AIRltiMH=1.9401 AIRstMH=1.1331 Dfull=4.811e-01 DltiMH=7.455e-02 32.6s
+
+dwell_r2_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.9132 AIRlti=1.9563 AIRltiMH=1.9570 AIRstMH=1.3361 Dfull=3.280e-01 DltiMH=3.872e-02 28.4s
+dwell_r2_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.8326 AIRlti=1.9803 AIRltiMH=1.9559 AIRstMH=1.9311 Dfull=2.054e-01 DltiMH=3.576e-02 33.8s
+dwell_r2_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.8419 AIRlti=1.9647 AIRltiMH=1.9446 AIRstMH=2.0000 Dfull=3.330e-01 DltiMH=3.747e-02 29.2s
+dwell_r2_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.8256 AIRlti=1.9454 AIRltiMH=1.9129 AIRstMH=2.0000 Dfull=1.876e-01 DltiMH=2.945e-02 31.9s
+dwell_r2_xi_1_p+0_Nd4001_dt1 AIRfull=1.9422 AIRlti=1.9311 AIRltiMH=1.8896 AIRstMH=2.0000 Dfull=1.554e-01 DltiMH=2.500e-02 29.6s
+dwell_r2_xi_2_p+0_Nd4001_dt1 AIRfull=1.9799 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=8.962e-02 DltiMH=2.275e-02 31.9s
+y time: 1.89 seconds
+dwell_r3_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8504 AIRlti=1.9236 AIRltiMH=1.9731 AIRstMH=0.8188 Dfull=4.151e-01 DltiMH=4.100e-01 42.6s
+dwell_r3_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.6520 AIRlti=1.8941 AIRltiMH=1.4510 AIRstMH=0.3279 Dfull=3.930e-01 DltiMH=2.578e-01 28.3s
+dwell_r3_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.4413 AIRlti=1.9086 AIRltiMH=1.5593 AIRstMH=0.5824 Dfull=6.134e-01 DltiMH=1.385e-01 34.7s
+dwell_r3_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.4033 AIRlti=1.9558 AIRltiMH=1.8040 AIRstMH=0.7888 Dfull=4.940e-01 DltiMH=9.801e-02 45.2s
+dwell_r3_xi_1_p+3_Nd4001_dt1 AIRfull=1.6635 AIRlti=1.9961 AIRltiMH=1.8984 AIRstMH=1.0084 Dfull=5.316e-01 DltiMH=8.207e-02 63.0s
+dwell_r3_xi_2_p+3_Nd4001_dt1 AIRfull=1.6235 AIRlti=1.9957 AIRltiMH=1.9347 AIRstMH=1.1956 Dfull=4.446e-01 DltiMH=7.616e-02 70.7s
+ seconds
+dwell_r3_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.8509 AIRlti=1.9376 AIRltiMH=1.9345 AIRstMH=1.2274 Dfull=3.018e-01 DltiMH=3.763e-02 55.8s
+dwell_r3_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.7971 AIRlti=1.9308 AIRltiMH=1.8741 AIRstMH=1.9519 Dfull=2.054e-01 DltiMH=3.578e-02 30.5s
+dwell_r3_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.7789 AIRlti=1.9025 AIRltiMH=1.8733 AIRstMH=2.0000 Dfull=3.219e-01 DltiMH=3.709e-02 31.3s
+dwell_r3_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.8856 AIRlti=1.9660 AIRltiMH=1.9564 AIRstMH=2.0000 Dfull=1.686e-01 DltiMH=2.862e-02 30.2s
+dwell_r3_xi_1_p+0_Nd4001_dt1 AIRfull=1.9908 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.365e-01 DltiMH=2.504e-02 64.3s
+dwell_r3_xi_2_p+0_Nd4001_dt1 AIRfull=1.9352 AIRlti=2.0000 AIRltiMH=1.9999 AIRstMH=2.0000 Dfull=8.477e-02 DltiMH=2.319e-02 50.0s
+++ Computation time: 0.00 seconds
+uffers 6723.75 MB
+dwell_r0_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8473 AIRlti=1.9790 AIRltiMH=1.9663 AIRstMH=0.5199 Dfull=3.208e-01 DltiMH=7.061e-02 177.8s
+dwell_r0_xi_1_p+3_Nd4001_dt1 AIRfull=1.2153 AIRlti=1.9956 AIRltiMH=1.9951 AIRstMH=1.8980 Dfull=5.543e-01 DltiMH=1.642e-01 158.8s
+dwell_r0_xi_4_p+3_Nd4001_dt1 AIRfull=1.3583 AIRlti=1.9961 AIRltiMH=1.9956 AIRstMH=1.9567 Dfull=7.093e-01 DltiMH=1.651e-01 160.3s
+dwell_r0_xi_16_p+3_Nd4001_dt1 AIRfull=1.4881 AIRlti=1.9955 AIRltiMH=1.9950 AIRstMH=1.9697 Dfull=7.795e-01 DltiMH=1.652e-01 176.5s
+dwell_r0_xi_32_p+3_Nd4001_dt1 AIRfull=1.4996 AIRlti=1.9957 AIRltiMH=1.9954 AIRstMH=1.9700 Dfull=7.515e-01 DltiMH=1.647e-01 175.8s
+dwell_r1_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8296 AIRlti=1.9785 AIRltiMH=1.9602 AIRstMH=0.4262 Dfull=3.218e-01 DltiMH=7.155e-02 153.5s
+6)
+dwell_r1_xi_4_p+3_Nd4001_dt1 AIRfull=1.3790 AIRlti=1.9950 AIRltiMH=1.9943 AIRstMH=1.9713 Dfull=6.932e-01 DltiMH=1.657e-01 165.0s
+dwell_r1_xi_8_p+3_Nd4001_dt1 AIRfull=1.4525 AIRlti=1.9953 AIRltiMH=1.9950 AIRstMH=1.9779 Dfull=7.478e-01 DltiMH=1.651e-01 212.5s
+dwell_r1_xi_16_p+3_Nd4001_dt1 AIRfull=1.4879 AIRlti=1.9955 AIRltiMH=1.9955 AIRstMH=1.9867 Dfull=7.729e-01 DltiMH=1.649e-01 179.0s
+12.27)
+dwell_r2_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.7726 AIRlti=1.9780 AIRltiMH=1.9605 AIRstMH=0.4861 Dfull=3.189e-01 DltiMH=6.984e-02 164.8s
+dwell_r2_xi_1_p+3_Nd4001_dt1 AIRfull=1.1468 AIRlti=1.9947 AIRltiMH=1.9940 AIRstMH=1.9071 Dfull=5.811e-01 DltiMH=1.645e-01 164.7s
+dwell_r2_xi_4_p+3_Nd4001_dt1 AIRfull=1.3999 AIRlti=1.9949 AIRltiMH=1.9943 AIRstMH=1.9523 Dfull=6.890e-01 DltiMH=1.657e-01 179.7s
+ne: 25.64)
+dwell_r2_xi_16_p+3_Nd4001_dt1 AIRfull=1.4775 AIRlti=1.9951 AIRltiMH=1.9947 AIRstMH=1.9838 Dfull=7.584e-01 DltiMH=1.653e-01 174.0s
+dwell_r2_xi_32_p+3_Nd4001_dt1 AIRfull=1.5300 AIRlti=1.9949 AIRltiMH=1.9943 AIRstMH=1.9902 Dfull=7.395e-01 DltiMH=1.648e-01 161.3s
+dwell_r3_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.7638 AIRlti=1.9776 AIRltiMH=1.9673 AIRstMH=0.4605 Dfull=3.293e-01 DltiMH=7.138e-02 191.6s
+ombine: 48.13)
+dwell_r3_xi_4_p+3_Nd4001_dt1 AIRfull=1.3401 AIRlti=1.9959 AIRltiMH=1.9957 AIRstMH=1.9482 Dfull=6.535e-01 DltiMH=1.653e-01 77.5s
+dwell_r3_xi_8_p+3_Nd4001_dt1 AIRfull=1.4850 AIRlti=1.9950 AIRltiMH=1.9946 AIRstMH=1.9869 Dfull=7.176e-01 DltiMH=1.651e-01 81.6s
+dwell_r3_xi_16_p+3_Nd4001_dt1 AIRfull=1.5104 AIRlti=1.9950 AIRltiMH=1.9945 AIRstMH=1.9706 Dfull=7.571e-01 DltiMH=1.648e-01 85.4s
+2, Combine: 6.45)
+ne: 6.34)
+dwell_r0_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8647 AIRlti=1.9365 AIRltiMH=1.9929 AIRstMH=0.9078 Dfull=4.233e-01 DltiMH=3.982e-01 84.4s
+dwell_r0_xi_1_p+3_Nd4001_dt1 AIRfull=1.2919 AIRlti=1.9945 AIRltiMH=1.9561 AIRstMH=1.0858 Dfull=6.058e-01 DltiMH=8.190e-02 88.6s
+dwell_r0_xi_4_p+3_Nd4001_dt1 AIRfull=1.5474 AIRlti=1.9999 AIRltiMH=1.9754 AIRstMH=1.5604 Dfull=4.960e-01 DltiMH=7.508e-02 80.3s
+dwell_r0_xi_8_p+3_Nd4001_dt1 AIRfull=1.5200 AIRlti=1.9924 AIRltiMH=1.9753 AIRstMH=1.5090 Dfull=4.267e-01 DltiMH=7.491e-02 92.0s
+dwell_r0_xi_32_p+3_Nd4001_dt1 AIRfull=1.5620 AIRlti=1.9999 AIRltiMH=1.9992 AIRstMH=1.6426 Dfull=4.202e-01 DltiMH=7.489e-02 81.5s
+dwell_r1_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8413 AIRlti=1.9235 AIRltiMH=1.9860 AIRstMH=0.8032 Dfull=4.282e-01 DltiMH=4.055e-01 85.4s
+dwell_r1_xi_1_p+3_Nd4001_dt1 AIRfull=1.5136 AIRlti=1.9993 AIRltiMH=1.9551 AIRstMH=0.9199 Dfull=6.154e-01 DltiMH=8.207e-02 86.4s
+A launched with Nv=3427, Nrk=2440.00 k	64-bit system.
+dwell_r1_xi_8_p+3_Nd4001_dt1 AIRfull=1.4904 AIRlti=1.9999 AIRltiMH=1.9999 AIRstMH=1.6179 Dfull=4.793e-01 DltiMH=7.673e-02 82.0s
+dwell_r1_xi_16_p+3_Nd4001_dt1 AIRfull=1.5304 AIRlti=1.9965 AIRltiMH=1.9917 AIRstMH=1.7136 Dfull=4.436e-01 DltiMH=7.466e-02 92.9s
+dwell_r1_xi_32_p+3_Nd4001_dt1 AIRfull=1.5726 AIRlti=1.9999 AIRltiMH=1.9994 AIRstMH=1.6169 Dfull=4.029e-01 DltiMH=7.605e-02 84.8s
+ed with Nv=3427, Nrk=2440.00 k	64-bit system.
+dwell_r2_xi_1_p+3_Nd4001_dt1 AIRfull=1.5173 AIRlti=1.9797 AIRltiMH=1.8922 AIRstMH=1.0032 Dfull=5.713e-01 DltiMH=7.893e-02 83.9s
+dwell_r2_xi_4_p+3_Nd4001_dt1 AIRfull=1.6370 AIRlti=1.9983 AIRltiMH=1.9963 AIRstMH=1.3686 Dfull=4.786e-01 DltiMH=7.281e-02 81.7s
+dwell_r2_xi_8_p+3_Nd4001_dt1 AIRfull=1.4683 AIRlti=1.9997 AIRltiMH=1.9900 AIRstMH=1.5564 Dfull=4.587e-01 DltiMH=7.504e-02 83.7s
+Nv=3427, Nrk=2440.00 k	64-bit system.
+dwell_r2_xi_32_p+3_Nd4001_dt1 AIRfull=1.6079 AIRlti=1.9994 AIRltiMH=1.9987 AIRstMH=1.7623 Dfull=4.175e-01 DltiMH=7.490e-02 79.5s
+dwell_r3_xi_0.05_p+3_Nd4001_dt1 AIRfull=1.8156 AIRlti=1.9175 AIRltiMH=1.9820 AIRstMH=0.7021 Dfull=4.282e-01 DltiMH=3.994e-01 81.1s
+dwell_r3_xi_1_p+3_Nd4001_dt1 AIRfull=1.3063 AIRlti=1.9852 AIRltiMH=1.9017 AIRstMH=1.0911 Dfull=6.290e-01 DltiMH=8.114e-02 82.9s
+ Nrk=2440.00 k	64-bit system.
+dwell_r3_xi_8_p+3_Nd4001_dt1 AIRfull=1.5231 AIRlti=1.9880 AIRltiMH=1.9849 AIRstMH=1.5692 Dfull=4.638e-01 DltiMH=7.564e-02 92.5s
+dwell_r3_xi_16_p+3_Nd4001_dt1 AIRfull=1.5170 AIRlti=1.9982 AIRltiMH=1.9778 AIRstMH=1.7769 Dfull=4.613e-01 DltiMH=7.450e-02 89.8s
+dwell_r3_xi_32_p+3_Nd4001_dt1 AIRfull=1.5679 AIRlti=1.9979 AIRltiMH=1.9945 AIRstMH=1.7098 Dfull=4.145e-01 DltiMH=7.492e-02 93.5s
+0.00 k	64-bit system.
+FOLLOWUP_DONE

@@ -1,0 +1,36 @@
+{
+  "written_before_any_run": "2026-09-26T19:44:20+10:00",
+  "branch": "stage0.6-phase-mechanism (from 6b2f56b)",
+  "operating_point": "constant |E| = a_H = 3*0.5774*10^(3/20)*E1dB = 0.17915 V/m (the +3 dB dwell-family high level of FU-B), LO 0.5 V/m, IF 5 MHz, Transit config, 300 K",
+  "timeline": "0-50 us: CW at a_H (common settled initial state); 50-110 us: case-specific phase/frequency modulation at the SAME constant amplitude; simulation ends at 110 us so rhovec_final is the end-of-plateau atomic state",
+  "numerics": "decisive Nd=4001, dt=1 ns; checks at Nd=8001 and dt=0.5 ns (waveform regenerated analytically at 2 GHz) for CW, QPSK_REF, QPSK_JUMP, OFF_+1.31",
+  "cases": {
+    "CW": "constant phase, 5 MHz",
+    "OFF_+0.125": "constant +0.125 MHz offset (= mean phase drift of QPSK_REF)",
+    "OFF_+1.31 / OFF_-1.31": "constant offsets = peak inst.-frequency excursion of a pi/2 transition with a 300 ns raised-cosine ramp",
+    "OFF_+2.62 / OFF_-2.62": "constant offsets = peak excursion of a pi transition with a 300 ns ramp",
+    "QPSK_REF": "random QPSK (seed A), Ts=1 us, 300 ns raised-cosine ramps, |dphi|=pi taken as +pi (campaign carrier)",
+    "QPSK_REF_s2": "as QPSK_REF with seed B (reproducibility replicate)",
+    "QPSK_SLOW": "seed A labels, Ts=4 us, 300 ns ramps",
+    "QPSK_FAST": "seed A labels, Ts=0.5 us, 300 ns ramps",
+    "QPSK_JUMP": "seed A labels, Ts=1 us, instantaneous phase steps",
+    "QPSK_LONGRAMP": "seed A labels, Ts=1 us, 900 ns ramps",
+    "TOGGLE": "deterministic period-4 transition cycle [0,+pi/2,-pi/2,+pi], Ts=1 us, 300 ns ramps (same transition multiset and drift as random QPSK)"
+  },
+  "demodulation": "z(t) = MA_200[2 (y - MA_200 y) exp(-j(2 pi f_IF t + phi(t)))] with the known input phase; g(t) = |z_full| / |z_linear| where z_linear is the Nd-4001 small-signal model driven by the identical input (removes frequency-dependent small-signal response and demodulator effects)",
+  "primary_metric": "X = 1 - g_final/g_final(CW), g_final = median g over the last 20 us",
+  "secondary_metrics": ["t90 of the CW->modulated transition", "peak transient deviation", "integrated excess compression vs CW trajectory (us)", "coherent gain ratio", "probe-baseline shift", "thermal-averaged populations and velocity-resolved Rydberg population at 110 us"],
+  "model_predictions": "static (all-zone), Hammerstein LTI+static and single-slow-state models all predict g = CW-static compression at a_H for EVERY case (|E| is identical and constant), i.e. X = 0",
+  "rules": {
+    "EFFECT": "X_REF >= 0.20 and |X_REF_s2 - X_REF| <= 0.25 X_REF",
+    "H3_strong_KILL": "X(OFF_+0.125) >= 0.8 X_REF  (ordinary detuning by the mean drift reproduces the effect)",
+    "H3_partial": "some offset with |delta| in {1.31, 2.62} MHz gives X >= 0.8 X_REF (instantaneous-frequency detuning could explain; B/C confounded)",
+    "H1_transition_rate": "X_SLOW < X_REF < X_FAST with X_FAST - X_SLOW >= 0.10, AND every offset with |delta| <= 1.31 MHz has X < 0.5 X_REF",
+    "H2_frequency_swing": "X_JUMP > X_REF > X_LONGRAMP with X_JUMP - X_LONGRAMP >= 0.10",
+    "H4_discrete_jump": "X_JUMP >= 0.20 and X_REF < 0.5 X_JUMP and X_LONGRAMP < 0.5 X_JUMP",
+    "stochasticity_irrelevant": "|X_TOGGLE - X_REF| <= 0.25 X_REF",
+    "numerics_ok": "|Delta X| <= 0.02 for every checked case under Nd 4001->8001 and dt 1->0.5 ns",
+    "organizer": "candidate variables v in {transition rate (nonzero transitions/us), mean |f_inst - f_IF|, RMS(f_inst - f_IF), peak |f_inst - f_IF|, mean signed offset}; v 'cleanly organizes' X over all 12 non-replicate cases if (i) cases with equal v differ in X by <= 0.10 and (ii) the per-level mean X is monotone in v (tolerance 0.03)",
+    "decision": "GO: EFFECT, numerics_ok, not H3_strong, and exactly one organizer passes (or all passing organizers are identical on every case). CONDITIONAL GO: EFFECT and numerics_ok but 0 or >=2 distinct organizers pass (confounded/partial). HOLD: EFFECT fails on size or reproducibility. KILL: H3_strong or X_REF < 0.05."
+  }
+}

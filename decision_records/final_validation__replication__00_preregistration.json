@@ -1,0 +1,34 @@
+{
+  "written_before_any_run": "2026-09-26T20:35:28+10:00",
+  "source_design": "manuscript/final_experiment_assessment.md section 3",
+  "second_operating_point": {
+    "LO_Vpm": 0.35, "LO_Rabi_2pi_MHz": 6.456, "IF_Hz": 5.0e6, "config": "Transit, 300 K, all other parameters unchanged",
+    "E1dB_prime": "determined by the unchanged CW protocol (80 us tones, fundamental over last 10 us, 1-dB drop vs weak-tone slope) at Nd=4001 on the build_controls06 amplitude grid",
+    "operating_amplitude": "a' = 2.4468 x E1dB' (identical relative level to a_H = 2.4468 x E1dB at the original point)",
+    "small_signal_reference": "LTI kernel re-measured at LO'=0.35 V/m (same +-2 V/m, 1 ns impulse protocol, 62 us)"
+  },
+  "timeline": "0-50 us CW at the case amplitude (settled common state); 50-110 us case modulation at constant amplitude; runs end at 110 us. Exception: LO2_POWERSTEP (0-50 us CW at a'/3, 50-110 us CW at a').",
+  "zero_drift_definition": "QPSK labels as in the phase-mechanism experiment; every pi transition takes alternating sign (+pi, -pi, +pi, ...) in order of occurrence, so pi steps contribute no mean drift; +-pi/2 steps as drawn",
+  "run_matrix": {
+    "controls_LO0.35_Nd4001": "29 CW tones (build_controls06 grid) + 4 impulse runs",
+    "LO2 (LO 0.35, a')": ["LO2_CW", "LO2_OFF_+0.125", "LO2_OFF_+1.31", "LO2_OFF_-1.31", "LO2_QPSK_REF_zd (seed 20260701, Ts 1 us, 300 ns)", "LO2_QPSK_REF_zd_s2 (seed 20260702)", "LO2_QPSK_JUMP_zd (seed A, steps)", "LO2_QPSK_LONGRAMP_zd (seed A, 900 ns)", "LO2_QPSK_SLOW_zd (seed A, Ts 4 us)", "LO2_QPSK_FAST_zd (seed A, Ts 0.5 us)", "LO2_POWERSTEP"],
+    "LO1 (original LO 0.5, a_H)": ["LO1_QPSK_SLOW_zd", "LO1_QPSK_REF_zd", "LO1_QPSK_FAST_zd"],
+    "Nd8001_checks": ["LO1_OFF_+0.125 at Nd=8001 vs archived phase-mechanism Nd=4001 run", "long-dwell family r0, xi=32, CW carrier, +3 dB at Nd=8001 vs archived FU-D Nd=4001 row"],
+    "total_runs": 49
+  },
+  "metrics": "g(t)=|z_full|/|z_linear| with known-phase demodulation (identical to phase-mechanism pipeline, windows exclude final 0.5 us); X = 1 - g_final/g_CW with g_CW from the CW run at the same operating point (LO2_CW for LO2; archived phase-mechanism CW for LO1)",
+  "hypotheses": {
+    "H_gen": "X_REF' >= 0.20, with X_REF' = mean of LO2_QPSK_REF_zd and _s2",
+    "H_shape": "|X_JUMP' - X_LONGRAMP'| <= 0.10",
+    "H_detune": "every LO2 offset has X' < 0.5 X_REF'",
+    "H_drift": "at LO1: X_FAST_zd >= X_REF_zd - 0.03 (turnover was a drift artifact if this passes)",
+    "C9a_replication": "at LO2: |dominant oscillation period of LO2_POWERSTEP transient - median period of isolated phase-step transients in LO2_QPSK_SLOW_zd| <= 0.15 us",
+    "numerics": "|dX| <= 0.02 for LO1_OFF_+0.125 (8001 vs 4001); relative change of full-model D_ref <= 2% for the xi=32 long-dwell member"
+  },
+  "classification": {
+    "A_replicates": "H_gen, H_shape and H_detune all pass",
+    "B_weakens_but_qualitative": "X_REF' >= 0.05 but not A",
+    "C_fails": "X_REF' < 0.05"
+  },
+  "no_broadening": "No further runs will be added whatever the outcome; ambiguous outcomes are reported as such. If C, the paper is rescoped."
+}

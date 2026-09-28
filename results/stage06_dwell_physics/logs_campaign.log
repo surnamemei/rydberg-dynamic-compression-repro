@@ -1,0 +1,446 @@
+CE 20262002 -6 {'atomic': 0.8092, 'static': 0.9902, 'static_lti': 0.6807, 'static_mh': 0.9893, 'static_lti_mh': 0.6725}
+CE 20262002 3 {'atomic': -0.1883, 'static': 0.9937, 'static_lti': 0.6989, 'static_mh': 0.9892, 'static_lti_mh': 0.6711}
+CE 20262102 -6 {'atomic': 0.8377, 'static': 0.9789, 'static_lti': 0.7207, 'static_mh': 0.9784, 'static_lti_mh': 0.7191}
+CE 20262102 3 {'atomic': 0.483, 'static': 0.9848, 'static_lti': 0.7396, 'static_mh': 0.9789, 'static_lti_mh': 0.7243}
+CE 20262202 -6 {'atomic': 0.8395, 'static': 0.9888, 'static_lti': 0.6746, 'static_mh': 0.9898, 'static_lti_mh': 0.6893}
+CE 20262202 3 {'atomic': 0.3419, 'static': 0.9926, 'static_lti': 0.7037, 'static_mh': 0.9904, 'static_lti_mh': 0.6968}
+CE 20262302 -6 {'atomic': 0.8002, 'static': 0.9777, 'static_lti': 0.6892, 'static_mh': 0.9762, 'static_lti_mh': 0.6796}
+CE 20262302 3 {'atomic': 0.357, 'static': 0.9814, 'static_lti': 0.6842, 'static_mh': 0.9759, 'static_lti_mh': 0.6668}
+CE 20262402 -6 {'atomic': 0.8266, 'static': 0.9862, 'static_lti': 0.6453, 'static_mh': 0.9866, 'static_lti_mh': 0.6501}
+CE 20262402 3 {'atomic': -0.0687, 'static': 0.9897, 'static_lti': 0.6596, 'static_mh': 0.9876, 'static_lti_mh': 0.6623}
++++CE 20262502 -6 {'atomic': 0.8088, 'static': 0.9894, 'static_lti': 0.6655, 'static_mh': 0.9883, 'static_lti_mh': 0.6497}
+CE 20262502 3 {'atomic': 0.2666, 'static': 0.993, 'static_lti': 0.6882, 'static_mh': 0.9875, 'static_lti_mh': 0.6467}
+CE 20262602 -6 {'atomic': 0.7942, 'static': 0.9805, 'static_lti': 0.673, 'static_mh': 0.9803, 'static_lti_mh': 0.6633}
+CE 20262602 3 {'atomic': -0.7263, 'static': 0.9852, 'static_lti': 0.6839, 'static_mh': 0.9809, 'static_lti_mh': 0.6726}
+CE 20262702 -6 {'atomic': 0.8433, 'static': 0.9898, 'static_lti': 0.7238, 'static_mh': 0.9893, 'static_lti_mh': 0.7244}
+CE 20262702 3 {'atomic': -0.1926, 'static': 0.9945, 'static_lti': 0.7553, 'static_mh': 0.99, 'static_lti_mh': 0.728}
+QPSK 20262003 -6 {'atomic': 1.9167, 'static': 2.0, 'static_lti': 1.9343, 'static_mh': 2.0, 'static_lti_mh': 1.9362}
+QPSK 20262003 3 {'atomic': 1.2947, 'static': 2.0, 'static_lti': 1.938, 'static_mh': 1.6035, 'static_lti_mh': 1.9264}
+QPSK 20262103 -6 {'atomic': 1.928, 'static': 2.0, 'static_lti': 1.9401, 'static_mh': 2.0, 'static_lti_mh': 1.939}
+QPSK 20262103 3 {'atomic': 1.3162, 'static': 2.0, 'static_lti': 1.931, 'static_mh': 1.4401, 'static_lti_mh': 1.9168}
+QPSK 20262203 -6 {'atomic': 1.9195, 'static': 2.0, 'static_lti': 1.9528, 'static_mh': 2.0, 'static_lti_mh': 1.9516}
+> Total CUDA time: 2.36 seconds: (RK: 1.42, Interp: 0.34, Combine: 0.59)
++QPSK 20262203 3 {'atomic': 1.3365, 'static': 2.0, 'static_lti': 1.9455, 'static_mh': 1.5669, 'static_lti_mh': 1.9419}
+QPSK 20262303 -6 {'atomic': 1.9289, 'static': 2.0, 'static_lti': 1.9507, 'static_mh': 2.0, 'static_lti_mh': 1.9472}
+QPSK 20262303 3 {'atomic': 1.4171, 'static': 2.0, 'static_lti': 1.9441, 'static_mh': 1.5412, 'static_lti_mh': 1.9471}
+QPSK 20262403 -6 {'atomic': 1.902, 'static': 2.0, 'static_lti': 1.9295, 'static_mh': 2.0, 'static_lti_mh': 1.9275}
+QPSK 20262403 3 {'atomic': 1.2904, 'static': 2.0, 'static_lti': 1.9271, 'static_mh': 1.438, 'static_lti_mh': 1.9248}
+QPSK 20262503 -6 {'atomic': 1.9326, 'static': 2.0, 'static_lti': 1.9495, 'static_mh': 2.0, 'static_lti_mh': 1.9491}
+QPSK 20262503 3 {'atomic': 1.2811, 'static': 2.0, 'static_lti': 1.9401, 'static_mh': 1.4942, 'static_lti_mh': 1.9326}
+QPSK 20262603 -6 {'atomic': 1.9119, 'static': 2.0, 'static_lti': 1.9303, 'static_mh': 2.0, 'static_lti_mh': 1.9326}
+QPSK 20262603 3 {'atomic': 1.2894, 'static': 2.0, 'static_lti': 1.9329, 'static_mh': 1.5811, 'static_lti_mh': 1.925}
+QPSK 20262703 -6 {'atomic': 1.9281, 'static': 2.0, 'static_lti': 1.9431, 'static_mh': 2.0, 'static_lti_mh': 1.9404}
+QPSK 20262703 3 {'atomic': 1.1503, 'static': 2.0, 'static_lti': 1.9317, 'static_mh': 1.5291, 'static_lti_mh': 1.932}
+++> C++ Computation time: 0.00 seconds
+16QAM 20262004 3 {'atomic': 1.2463, 'static': 3.569, 'static_lti': 2.0922, 'static_mh': 1.5168, 'static_lti_mh': 2.0866}
+16QAM 20262104 -6 {'atomic': 2.3289, 'static': 3.9979, 'static_lti': 2.3926, 'static_mh': 3.5302, 'static_lti_mh': 2.3901}
+16QAM 20262104 3 {'atomic': 1.3545, 'static': 3.6114, 'static_lti': 2.2055, 'static_mh': 1.5001, 'static_lti_mh': 2.1827}
+16QAM 20262204 -6 {'atomic': 2.2468, 'static': 3.9986, 'static_lti': 2.321, 'static_mh': 3.4048, 'static_lti_mh': 2.3234}
+16QAM 20262204 3 {'atomic': 1.0988, 'static': 3.6053, 'static_lti': 2.1244, 'static_mh': 1.357, 'static_lti_mh': 2.091}
+16QAM 20262304 -6 {'atomic': 2.3517, 'static': 3.998, 'static_lti': 2.4247, 'static_mh': 3.4834, 'static_lti_mh': 2.4263}
+16QAM 20262304 3 {'atomic': 1.1457, 'static': 3.4061, 'static_lti': 2.1417, 'static_mh': 1.5239, 'static_lti_mh': 2.117}
+16QAM 20262404 -6 {'atomic': 2.3234, 'static': 3.9929, 'static_lti': 2.3809, 'static_mh': 3.5451, 'static_lti_mh': 2.3753}
+16QAM 20262404 3 {'atomic': 1.3949, 'static': 3.5283, 'static_lti': 2.2066, 'static_mh': 1.292, 'static_lti_mh': 2.2094}
+16QAM 20262504 -6 {'atomic': 2.3798, 'static': 3.9952, 'static_lti': 2.4505, 'static_mh': 3.5465, 'static_lti_mh': 2.4483}
+.
+16QAM 20262604 -6 {'atomic': 2.3389, 'static': 3.9928, 'static_lti': 2.3853, 'static_mh': 3.329, 'static_lti_mh': 2.3855}
+16QAM 20262604 3 {'atomic': 1.2866, 'static': 3.4928, 'static_lti': 2.1348, 'static_mh': 1.2706, 'static_lti_mh': 2.0983}
+16QAM 20262704 -6 {'atomic': 2.3581, 'static': 3.9945, 'static_lti': 2.3968, 'static_mh': 3.4652, 'static_lti_mh': 2.3937}
+16QAM 20262704 3 {'atomic': 1.39, 'static': 3.5487, 'static_lti': 2.1633, 'static_mh': 1.4418, 'static_lti_mh': 2.145}
+OFDM 20262005 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9818, 'static_lti_mh': 2.0}
+OFDM 20262005 3 {'atomic': 1.6107, 'static': 1.9241, 'static_lti': 1.9137, 'static_mh': 0.7475, 'static_lti_mh': 1.8955}
+OFDM 20262105 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9439, 'static_lti_mh': 2.0}
+OFDM 20262105 3 {'atomic': 1.8171, 'static': 1.8798, 'static_lti': 1.887, 'static_mh': 0.6526, 'static_lti_mh': 1.8534}
+OFDM 20262205 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9447, 'static_lti_mh': 2.0}
+OFDM 20262205 3 {'atomic': 1.7547, 'static': 1.9054, 'static_lti': 1.9204, 'static_mh': 0.487, 'static_lti_mh': 1.8884}
+.43 GB, total = 34.19 GB
+OFDM 20262305 3 {'atomic': 1.8126, 'static': 1.928, 'static_lti': 1.9337, 'static_mh': 0.225, 'static_lti_mh': 1.9242}
+OFDM 20262405 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9824, 'static_lti_mh': 2.0}
+OFDM 20262405 3 {'atomic': 1.813, 'static': 1.9388, 'static_lti': 1.9385, 'static_mh': 0.4325, 'static_lti_mh': 1.8953}
+OFDM 20262505 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9349, 'static_lti_mh': 2.0}
+OFDM 20262505 3 {'atomic': 1.6691, 'static': 1.9353, 'static_lti': 1.9366, 'static_mh': 0.2998, 'static_lti_mh': 1.928}
+OFDM 20262605 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9209, 'static_lti_mh': 2.0}
+OFDM 20262605 3 {'atomic': 1.8792, 'static': 1.9254, 'static_lti': 1.9281, 'static_mh': 0.7727, 'static_lti_mh': 1.9015}
+OFDM 20262705 -6 {'atomic': 2.0, 'static': 2.0, 'static_lti': 2.0, 'static_mh': 1.9039, 'static_lti_mh': 2.0}
+OFDM 20262705 3 {'atomic': 1.7758, 'static': 1.9305, 'static_lti': 1.9404, 'static_mh': 0.7185, 'static_lti_mh': 1.9083}
+ched with Nv=3427, Nrk=204.00 k	64-bit system.
+dwell_r0_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.7690 AIRlti=1.9699 AIRltiMH=1.9522 AIRstMH=0.5297 Dfull=3.113e-01 DltiMH=7.192e-02 31.6s
+dwell_r0_xi_0.1_p+3_Nd4001_dt1 AIRfull=0.8848 AIRlti=1.9799 AIRltiMH=1.9721 AIRstMH=1.1612 Dfull=2.794e-01 DltiMH=9.743e-02 27.9s
+dwell_r0_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.0853 AIRlti=1.9944 AIRltiMH=1.9925 AIRstMH=1.5405 Dfull=3.098e-01 DltiMH=1.391e-01 29.2s
+dwell_r0_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.2334 AIRlti=1.9949 AIRltiMH=1.9941 AIRstMH=1.8121 Dfull=4.201e-01 DltiMH=1.574e-01 28.3s
+dwell_r0_xi_1_p+3_Nd4001_dt1 AIRfull=1.1356 AIRlti=1.9959 AIRltiMH=1.9951 AIRstMH=1.8115 Dfull=5.385e-01 DltiMH=1.635e-01 31.5s
+dwell_r0_xi_2_p+3_Nd4001_dt1 AIRfull=1.3344 AIRlti=1.9934 AIRltiMH=1.9931 AIRstMH=1.9190 Dfull=6.439e-01 DltiMH=1.637e-01 28.1s
+dwell_r0_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.0976 AIRlti=1.8347 AIRltiMH=1.8275 AIRstMH=1.9648 Dfull=1.716e-01 DltiMH=1.703e-02 27.0s
+dwell_r0_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4073 AIRlti=1.9415 AIRltiMH=1.9406 AIRstMH=1.9953 Dfull=1.315e-01 DltiMH=2.253e-02 26.9s
+dwell_r0_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.6771 AIRlti=1.9940 AIRltiMH=1.9924 AIRstMH=1.9998 Dfull=1.504e-01 DltiMH=3.000e-02 31.5s
+dwell_r0_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.7391 AIRlti=1.9999 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.775e-01 DltiMH=3.231e-02 29.2s
+dwell_r0_xi_1_p+0_Nd4001_dt1 AIRfull=1.5668 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.597e-01 DltiMH=3.287e-02 29.3s
+dwell_r0_xi_2_p+0_Nd4001_dt1 AIRfull=1.6170 AIRlti=1.9978 AIRltiMH=1.9990 AIRstMH=2.0000 Dfull=3.485e-01 DltiMH=3.280e-02 28.7s
+.10, Combine: 2.55)
+dwell_r0_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.4171 AIRlti=1.7300 AIRltiMH=1.6389 AIRstMH=0.5318 Dfull=5.729e-01 DltiMH=1.851e-01 27.9s
+dwell_r0_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.6366 AIRlti=1.5665 AIRltiMH=1.5194 AIRstMH=0.9981 Dfull=3.970e-01 DltiMH=2.999e-01 27.8s
+dwell_r0_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.9297 AIRlti=1.7363 AIRltiMH=1.7366 AIRstMH=1.2633 Dfull=3.949e-01 DltiMH=5.207e-01 26.8s
+dwell_r0_xi_0.5_p+6_Nd4001_dt1 AIRfull=1.0311 AIRlti=1.7043 AIRltiMH=1.6953 AIRstMH=1.4896 Dfull=5.103e-01 DltiMH=6.280e-01 29.0s
+dwell_r0_xi_1_p+6_Nd4001_dt1 AIRfull=0.9841 AIRlti=1.7447 AIRltiMH=1.7288 AIRstMH=1.5129 Dfull=5.792e-01 DltiMH=6.708e-01 33.1s
+dwell_r0_xi_2_p+6_Nd4001_dt1 AIRfull=1.1227 AIRlti=1.6935 AIRltiMH=1.6805 AIRstMH=1.5165 Dfull=6.963e-01 DltiMH=6.772e-01 26.8s
+(RK: 9.03, Interp: 1.98, Combine: 3.59)
+dwell_r1_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.7974 AIRlti=1.9784 AIRltiMH=1.9569 AIRstMH=0.5038 Dfull=3.048e-01 DltiMH=6.889e-02 28.2s
+dwell_r1_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.0635 AIRlti=1.9831 AIRltiMH=1.9744 AIRstMH=1.1099 Dfull=2.497e-01 DltiMH=9.554e-02 30.8s
+dwell_r1_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.1869 AIRlti=1.9957 AIRltiMH=1.9944 AIRstMH=1.6065 Dfull=3.155e-01 DltiMH=1.341e-01 25.4s
+dwell_r1_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.2419 AIRlti=1.9973 AIRltiMH=1.9962 AIRstMH=1.8413 Dfull=4.209e-01 DltiMH=1.606e-01 26.1s
+dwell_r1_xi_1_p+3_Nd4001_dt1 AIRfull=1.1404 AIRlti=1.9951 AIRltiMH=1.9947 AIRstMH=1.9449 Dfull=6.130e-01 DltiMH=1.650e-01 28.6s
+dwell_r1_xi_2_p+3_Nd4001_dt1 AIRfull=1.2847 AIRlti=1.9968 AIRltiMH=1.9966 AIRstMH=1.9419 Dfull=5.965e-01 DltiMH=1.647e-01 29.5s
+me: 9.78 seconds: (RK: 5.45, Interp: 1.98, Combine: 2.36)
++dwell_r1_xi_4_p+3_Nd4001_dt1 AIRfull=1.3924 AIRlti=1.9952 AIRltiMH=1.9952 AIRstMH=1.9426 Dfull=7.408e-01 DltiMH=1.647e-01 33.4s
+dwell_r1_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.1254 AIRlti=1.8700 AIRltiMH=1.8615 AIRstMH=1.9661 Dfull=1.720e-01 DltiMH=1.627e-02 29.2s
+dwell_r1_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4951 AIRlti=1.9624 AIRltiMH=1.9593 AIRstMH=1.9949 Dfull=1.199e-01 DltiMH=2.230e-02 26.5s
+dwell_r1_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.7873 AIRlti=1.9997 AIRltiMH=1.9996 AIRstMH=2.0000 Dfull=1.522e-01 DltiMH=2.934e-02 26.9s
+dwell_r1_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.6555 AIRlti=1.9997 AIRltiMH=1.9994 AIRstMH=2.0000 Dfull=1.824e-01 DltiMH=3.278e-02 32.8s
+dwell_r1_xi_1_p+0_Nd4001_dt1 AIRfull=1.5499 AIRlti=1.9950 AIRltiMH=1.9927 AIRstMH=2.0000 Dfull=2.490e-01 DltiMH=3.322e-02 27.9s
+dwell_r1_xi_2_p+0_Nd4001_dt1 AIRfull=1.5290 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.944e-01 DltiMH=3.288e-02 29.1s
+++> Total CUDA time: 13.70 seconds: (RK: 8.29, Interp: 2.98, Combine: 2.43)
+dwell_r1_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.5014 AIRlti=1.7448 AIRltiMH=1.6213 AIRstMH=0.4998 Dfull=5.493e-01 DltiMH=1.757e-01 29.5s
+dwell_r1_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.6634 AIRlti=1.5983 AIRltiMH=1.5641 AIRstMH=0.9144 Dfull=3.927e-01 DltiMH=2.912e-01 32.1s
+dwell_r1_xi_0.25_p+6_Nd4001_dt1 AIRfull=1.0299 AIRlti=1.7530 AIRltiMH=1.7347 AIRstMH=1.2919 Dfull=4.023e-01 DltiMH=4.985e-01 29.8s
+dwell_r1_xi_0.5_p+6_Nd4001_dt1 AIRfull=0.9305 AIRlti=1.7851 AIRltiMH=1.7680 AIRstMH=1.5504 Dfull=5.119e-01 DltiMH=6.507e-01 28.2s
+dwell_r1_xi_1_p+6_Nd4001_dt1 AIRfull=1.0850 AIRlti=1.7155 AIRltiMH=1.7147 AIRstMH=1.5548 Dfull=6.142e-01 DltiMH=6.800e-01 29.0s
+dwell_r1_xi_2_p+6_Nd4001_dt1 AIRfull=1.2107 AIRlti=1.7664 AIRltiMH=1.7613 AIRstMH=1.6417 Dfull=7.222e-01 DltiMH=6.826e-01 32.9s
+me: 1.82 seconds
+dwell_r2_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8850 AIRlti=1.9758 AIRltiMH=1.9624 AIRstMH=0.4752 Dfull=3.236e-01 DltiMH=7.143e-02 27.5s
+dwell_r2_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.1267 AIRlti=1.9837 AIRltiMH=1.9806 AIRstMH=0.9898 Dfull=2.664e-01 DltiMH=9.378e-02 26.9s
+dwell_r2_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.2906 AIRlti=1.9942 AIRltiMH=1.9920 AIRstMH=1.6070 Dfull=3.132e-01 DltiMH=1.359e-01 27.0s
+dwell_r2_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.3217 AIRlti=1.9942 AIRltiMH=1.9938 AIRstMH=1.7928 Dfull=4.088e-01 DltiMH=1.578e-01 30.5s
+dwell_r2_xi_1_p+3_Nd4001_dt1 AIRfull=1.0921 AIRlti=1.9953 AIRltiMH=1.9953 AIRstMH=1.9067 Dfull=5.849e-01 DltiMH=1.633e-01 28.9s
+dwell_r2_xi_2_p+3_Nd4001_dt1 AIRfull=1.2800 AIRlti=1.9940 AIRltiMH=1.9934 AIRstMH=1.8936 Dfull=6.063e-01 DltiMH=1.658e-01 28.0s
+conds
+dwell_r2_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.1521 AIRlti=1.8704 AIRltiMH=1.8720 AIRstMH=1.9674 Dfull=1.817e-01 DltiMH=1.707e-02 31.7s
+dwell_r2_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4796 AIRlti=1.9667 AIRltiMH=1.9698 AIRstMH=1.9987 Dfull=1.354e-01 DltiMH=2.195e-02 29.9s
+dwell_r2_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.6667 AIRlti=1.9947 AIRltiMH=1.9923 AIRstMH=1.9999 Dfull=1.675e-01 DltiMH=2.958e-02 29.8s
+dwell_r2_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.7228 AIRlti=1.9925 AIRltiMH=1.9954 AIRstMH=2.0000 Dfull=1.751e-01 DltiMH=3.265e-02 29.8s
+dwell_r2_xi_1_p+0_Nd4001_dt1 AIRfull=1.6382 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.498e-01 DltiMH=3.240e-02 27.8s
+dwell_r2_xi_2_p+0_Nd4001_dt1 AIRfull=1.6802 AIRlti=2.0000 AIRltiMH=1.9999 AIRstMH=2.0000 Dfull=2.736e-01 DltiMH=3.283e-02 34.2s
+tation time: 0.00 seconds
+dwell_r2_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.6186 AIRlti=1.7509 AIRltiMH=1.6498 AIRstMH=0.4649 Dfull=5.632e-01 DltiMH=1.840e-01 29.2s
+dwell_r2_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.8015 AIRlti=1.5991 AIRltiMH=1.5233 AIRstMH=0.7220 Dfull=4.126e-01 DltiMH=2.836e-01 28.9s
+dwell_r2_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.8692 AIRlti=1.7083 AIRltiMH=1.6730 AIRstMH=1.2010 Dfull=4.058e-01 DltiMH=5.079e-01 31.9s
+dwell_r2_xi_0.5_p+6_Nd4001_dt1 AIRfull=0.9282 AIRlti=1.7405 AIRltiMH=1.7242 AIRstMH=1.5182 Dfull=5.253e-01 DltiMH=6.314e-01 28.4s
+dwell_r2_xi_1_p+6_Nd4001_dt1 AIRfull=0.9484 AIRlti=1.7333 AIRltiMH=1.7265 AIRstMH=1.5688 Dfull=6.526e-01 DltiMH=6.786e-01 28.0s
+dwell_r2_xi_2_p+6_Nd4001_dt1 AIRfull=1.1605 AIRlti=1.7131 AIRltiMH=1.7007 AIRstMH=1.5141 Dfull=7.081e-01 DltiMH=6.927e-01 29.9s
+75 MB
+dwell_r3_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8050 AIRlti=1.9795 AIRltiMH=1.9543 AIRstMH=0.5551 Dfull=2.968e-01 DltiMH=7.227e-02 30.8s
+dwell_r3_xi_0.1_p+3_Nd4001_dt1 AIRfull=0.9658 AIRlti=1.9834 AIRltiMH=1.9667 AIRstMH=1.0500 Dfull=2.753e-01 DltiMH=9.862e-02 28.2s
+dwell_r3_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.2552 AIRlti=1.9938 AIRltiMH=1.9927 AIRstMH=1.6679 Dfull=3.164e-01 DltiMH=1.387e-01 25.4s
+dwell_r3_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.1871 AIRlti=1.9955 AIRltiMH=1.9946 AIRstMH=1.8406 Dfull=4.104e-01 DltiMH=1.593e-01 25.2s
+dwell_r3_xi_1_p+3_Nd4001_dt1 AIRfull=1.2796 AIRlti=1.9937 AIRltiMH=1.9929 AIRstMH=1.8801 Dfull=5.358e-01 DltiMH=1.644e-01 32.0s
+dwell_r3_xi_2_p+3_Nd4001_dt1 AIRfull=1.3161 AIRlti=1.9953 AIRltiMH=1.9951 AIRstMH=1.9322 Dfull=6.431e-01 DltiMH=1.628e-01 27.7s
+output buffers 6723.75 MB
+dwell_r3_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.1289 AIRlti=1.8714 AIRltiMH=1.8600 AIRstMH=1.9648 Dfull=1.624e-01 DltiMH=1.674e-02 25.2s
+dwell_r3_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4668 AIRlti=1.9479 AIRltiMH=1.9427 AIRstMH=1.9935 Dfull=1.400e-01 DltiMH=2.268e-02 38.3s
+dwell_r3_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.7335 AIRlti=1.9998 AIRltiMH=1.9998 AIRstMH=2.0000 Dfull=1.708e-01 DltiMH=3.006e-02 28.0s
+dwell_r3_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.7685 AIRlti=1.9998 AIRltiMH=1.9998 AIRstMH=2.0000 Dfull=1.692e-01 DltiMH=3.269e-02 25.2s
+dwell_r3_xi_1_p+0_Nd4001_dt1 AIRfull=1.4989 AIRlti=1.9999 AIRltiMH=1.9999 AIRstMH=2.0000 Dfull=2.768e-01 DltiMH=3.313e-02 25.3s
+dwell_r3_xi_2_p+0_Nd4001_dt1 AIRfull=1.5951 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.186e-01 DltiMH=3.257e-02 25.1s
+with Nrk=57.00 k, output buffers 6723.75 MB
+dwell_r3_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.5044 AIRlti=1.7427 AIRltiMH=1.6165 AIRstMH=0.5265 Dfull=5.267e-01 DltiMH=1.844e-01 28.2s
+dwell_r3_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.5567 AIRlti=1.6404 AIRltiMH=1.5552 AIRstMH=0.8964 Dfull=3.993e-01 DltiMH=3.040e-01 24.9s
+dwell_r3_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.8796 AIRlti=1.6883 AIRltiMH=1.6623 AIRstMH=1.3190 Dfull=3.993e-01 DltiMH=5.174e-01 24.7s
+dwell_r3_xi_0.5_p+6_Nd4001_dt1 AIRfull=1.0262 AIRlti=1.7248 AIRltiMH=1.6978 AIRstMH=1.5146 Dfull=5.119e-01 DltiMH=6.420e-01 24.8s
+dwell_r3_xi_1_p+6_Nd4001_dt1 AIRfull=1.0727 AIRlti=1.6980 AIRltiMH=1.6766 AIRstMH=1.5327 Dfull=5.797e-01 DltiMH=6.785e-01 28.6s
+dwell_r3_xi_2_p+6_Nd4001_dt1 AIRfull=1.0655 AIRlti=1.7387 AIRltiMH=1.7326 AIRstMH=1.5969 Dfull=6.991e-01 DltiMH=6.748e-01 33.5s
+nk 4/4 uploaded with Nrk=57.00 k, output buffers 6723.75 MB
+dwell_r4_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.6280 AIRlti=1.9675 AIRltiMH=1.9472 AIRstMH=0.4836 Dfull=3.189e-01 DltiMH=7.141e-02 28.5s
+dwell_r4_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.1150 AIRlti=1.9864 AIRltiMH=1.9819 AIRstMH=1.0333 Dfull=2.777e-01 DltiMH=9.744e-02 28.5s
+dwell_r4_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.2304 AIRlti=1.9946 AIRltiMH=1.9932 AIRstMH=1.5986 Dfull=3.126e-01 DltiMH=1.357e-01 31.3s
+dwell_r4_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.2741 AIRlti=1.9948 AIRltiMH=1.9946 AIRstMH=1.5804 Dfull=4.368e-01 DltiMH=1.562e-01 27.4s
+dwell_r4_xi_1_p+3_Nd4001_dt1 AIRfull=1.2743 AIRlti=1.9957 AIRltiMH=1.9955 AIRstMH=1.7839 Dfull=5.783e-01 DltiMH=1.639e-01 28.4s
+dwell_r4_xi_2_p+3_Nd4001_dt1 AIRfull=1.2197 AIRlti=1.9960 AIRltiMH=1.9958 AIRstMH=1.8979 Dfull=6.713e-01 DltiMH=1.653e-01 28.1s
+87.68 MB
+dwell_r4_xi_0.05_p+0_Nd4001_dt1 AIRfull=0.9094 AIRlti=1.8150 AIRltiMH=1.8125 AIRstMH=1.9433 Dfull=1.753e-01 DltiMH=1.682e-02 29.1s
+dwell_r4_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.5316 AIRlti=1.9647 AIRltiMH=1.9652 AIRstMH=1.9966 Dfull=1.446e-01 DltiMH=2.234e-02 28.5s
+dwell_r4_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.6671 AIRlti=1.9977 AIRltiMH=1.9980 AIRstMH=2.0000 Dfull=1.576e-01 DltiMH=2.924e-02 25.9s
+dwell_r4_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.6209 AIRlti=1.9940 AIRltiMH=1.9963 AIRstMH=2.0000 Dfull=2.045e-01 DltiMH=3.220e-02 25.4s
+dwell_r4_xi_1_p+0_Nd4001_dt1 AIRfull=1.7353 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.323e-01 DltiMH=3.311e-02 29.6s
+dwell_r4_xi_2_p+0_Nd4001_dt1 AIRfull=1.5890 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.220e-01 DltiMH=3.283e-02 31.3s
+, output buffers 30787.68 MB
+dwell_r4_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.3361 AIRlti=1.7069 AIRltiMH=1.5919 AIRstMH=0.4751 Dfull=5.516e-01 DltiMH=1.837e-01 26.1s
+dwell_r4_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.7663 AIRlti=1.6080 AIRltiMH=1.5569 AIRstMH=0.8439 Dfull=4.022e-01 DltiMH=2.968e-01 27.6s
+dwell_r4_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.8654 AIRlti=1.7439 AIRltiMH=1.7107 AIRstMH=1.3050 Dfull=3.859e-01 DltiMH=5.093e-01 30.2s
+dwell_r4_xi_0.5_p+6_Nd4001_dt1 AIRfull=0.9944 AIRlti=1.7454 AIRltiMH=1.7320 AIRstMH=1.3652 Dfull=5.312e-01 DltiMH=6.215e-01 30.1s
+dwell_r4_xi_1_p+6_Nd4001_dt1 AIRfull=1.2212 AIRlti=1.7359 AIRltiMH=1.7274 AIRstMH=1.4981 Dfull=6.373e-01 DltiMH=6.716e-01 29.1s
+dwell_r4_xi_2_p+6_Nd4001_dt1 AIRfull=1.0744 AIRlti=1.7484 AIRltiMH=1.7401 AIRstMH=1.6064 Dfull=7.224e-01 DltiMH=6.853e-01 30.6s
+with Nrk=261.00 k, output buffers 30787.68 MB
+dwell_r5_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8502 AIRlti=1.9847 AIRltiMH=1.9679 AIRstMH=0.5212 Dfull=3.187e-01 DltiMH=7.109e-02 29.3s
+dwell_r5_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.0444 AIRlti=1.9856 AIRltiMH=1.9805 AIRstMH=1.2069 Dfull=2.706e-01 DltiMH=9.780e-02 29.8s
+dwell_r5_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.1465 AIRlti=1.9917 AIRltiMH=1.9914 AIRstMH=1.5558 Dfull=3.217e-01 DltiMH=1.353e-01 30.6s
+dwell_r5_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.3135 AIRlti=1.9965 AIRltiMH=1.9956 AIRstMH=1.7832 Dfull=4.597e-01 DltiMH=1.574e-01 29.4s
+dwell_r5_xi_1_p+3_Nd4001_dt1 AIRfull=1.2101 AIRlti=1.9945 AIRltiMH=1.9946 AIRstMH=1.9104 Dfull=4.995e-01 DltiMH=1.635e-01 29.4s
+dwell_r5_xi_2_p+3_Nd4001_dt1 AIRfull=1.2761 AIRlti=1.9954 AIRltiMH=1.9955 AIRstMH=1.9723 Dfull=5.878e-01 DltiMH=1.634e-01 25.1s
+Chunk 3/4 uploaded with Nrk=261.00 k, output buffers 30787.68 MB
+dwell_r5_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.1805 AIRlti=1.9056 AIRltiMH=1.8991 AIRstMH=1.9768 Dfull=1.794e-01 DltiMH=1.682e-02 26.3s
+dwell_r5_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4916 AIRlti=1.9637 AIRltiMH=1.9602 AIRstMH=1.9972 Dfull=1.344e-01 DltiMH=2.247e-02 27.8s
+dwell_r5_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.6088 AIRlti=1.9967 AIRltiMH=1.9975 AIRstMH=2.0000 Dfull=1.630e-01 DltiMH=2.927e-02 26.8s
+dwell_r5_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.6850 AIRlti=1.9995 AIRltiMH=1.9998 AIRstMH=2.0000 Dfull=1.940e-01 DltiMH=3.268e-02 27.0s
+dwell_r5_xi_1_p+0_Nd4001_dt1 AIRfull=1.5836 AIRlti=1.9970 AIRltiMH=1.9983 AIRstMH=2.0000 Dfull=2.429e-01 DltiMH=3.264e-02 28.5s
+dwell_r5_xi_2_p+0_Nd4001_dt1 AIRfull=1.6169 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.139e-01 DltiMH=3.246e-02 28.8s
+s 30787.68 MB
+dwell_r5_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.5846 AIRlti=1.7871 AIRltiMH=1.6512 AIRstMH=0.5161 Dfull=5.523e-01 DltiMH=1.810e-01 26.9s
+dwell_r5_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.7007 AIRlti=1.6137 AIRltiMH=1.5850 AIRstMH=1.0206 Dfull=3.953e-01 DltiMH=3.003e-01 27.8s
+dwell_r5_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.7886 AIRlti=1.6936 AIRltiMH=1.6837 AIRstMH=1.2866 Dfull=4.007e-01 DltiMH=5.097e-01 28.3s
+dwell_r5_xi_0.5_p+6_Nd4001_dt1 AIRfull=0.9410 AIRlti=1.7416 AIRltiMH=1.7357 AIRstMH=1.4731 Dfull=5.537e-01 DltiMH=6.286e-01 27.7s
+dwell_r5_xi_1_p+6_Nd4001_dt1 AIRfull=0.9428 AIRlti=1.7266 AIRltiMH=1.7274 AIRstMH=1.5177 Dfull=6.355e-01 DltiMH=6.806e-01 30.2s
+dwell_r5_xi_2_p+6_Nd4001_dt1 AIRfull=1.1157 AIRlti=1.7243 AIRltiMH=1.7247 AIRstMH=1.6096 Dfull=7.955e-01 DltiMH=6.788e-01 27.8s
+, output buffers 30787.68 MB
+dwell_r6_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.8363 AIRlti=1.9828 AIRltiMH=1.9741 AIRstMH=0.4615 Dfull=3.166e-01 DltiMH=7.072e-02 26.6s
+dwell_r6_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.1128 AIRlti=1.9872 AIRltiMH=1.9812 AIRstMH=1.0637 Dfull=2.661e-01 DltiMH=9.686e-02 30.3s
+dwell_r6_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.2839 AIRlti=1.9937 AIRltiMH=1.9922 AIRstMH=1.5742 Dfull=3.005e-01 DltiMH=1.351e-01 27.9s
+dwell_r6_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.2634 AIRlti=1.9931 AIRltiMH=1.9930 AIRstMH=1.7849 Dfull=4.293e-01 DltiMH=1.585e-01 30.0s
+dwell_r6_xi_1_p+3_Nd4001_dt1 AIRfull=1.2459 AIRlti=1.9956 AIRltiMH=1.9954 AIRstMH=1.8906 Dfull=5.204e-01 DltiMH=1.619e-01 27.3s
+dwell_r6_xi_2_p+3_Nd4001_dt1 AIRfull=1.4054 AIRlti=1.9962 AIRltiMH=1.9958 AIRstMH=1.8596 Dfull=5.932e-01 DltiMH=1.645e-01 26.3s
+d with Nrk=261.00 k, output buffers 30787.68 MB
+dwell_r6_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.1960 AIRlti=1.9013 AIRltiMH=1.9077 AIRstMH=1.9839 Dfull=1.729e-01 DltiMH=1.688e-02 27.0s
+dwell_r6_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.5259 AIRlti=1.9772 AIRltiMH=1.9736 AIRstMH=1.9985 Dfull=1.383e-01 DltiMH=2.262e-02 26.5s
+dwell_r6_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.7394 AIRlti=1.9899 AIRltiMH=1.9910 AIRstMH=1.9998 Dfull=1.507e-01 DltiMH=2.943e-02 26.4s
+dwell_r6_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.6308 AIRlti=1.9970 AIRltiMH=1.9956 AIRstMH=2.0000 Dfull=1.918e-01 DltiMH=3.273e-02 27.7s
+dwell_r6_xi_1_p+0_Nd4001_dt1 AIRfull=1.6367 AIRlti=1.9999 AIRltiMH=1.9999 AIRstMH=2.0000 Dfull=2.371e-01 DltiMH=3.283e-02 30.5s
+dwell_r6_xi_2_p+0_Nd4001_dt1 AIRfull=1.6460 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.278e-01 DltiMH=3.325e-02 26.9s
+Chunk 2/4 uploaded with Nrk=261.00 k, output buffers 30787.68 MB
+dwell_r6_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.4877 AIRlti=1.7360 AIRltiMH=1.6602 AIRstMH=0.4623 Dfull=5.718e-01 DltiMH=1.802e-01 28.3s
+dwell_r6_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.7258 AIRlti=1.6106 AIRltiMH=1.5289 AIRstMH=0.8966 Dfull=3.883e-01 DltiMH=2.927e-01 28.4s
+dwell_r6_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.8090 AIRlti=1.7370 AIRltiMH=1.7033 AIRstMH=1.2755 Dfull=3.934e-01 DltiMH=4.985e-01 27.7s
+dwell_r6_xi_0.5_p+6_Nd4001_dt1 AIRfull=1.0883 AIRlti=1.6925 AIRltiMH=1.6922 AIRstMH=1.4179 Dfull=5.252e-01 DltiMH=6.352e-01 26.9s
+dwell_r6_xi_1_p+6_Nd4001_dt1 AIRfull=1.0497 AIRlti=1.7126 AIRltiMH=1.7034 AIRstMH=1.5747 Dfull=6.027e-01 DltiMH=6.652e-01 28.1s
+dwell_r6_xi_2_p+6_Nd4001_dt1 AIRfull=1.2743 AIRlti=1.7392 AIRltiMH=1.7319 AIRstMH=1.5221 Dfull=7.230e-01 DltiMH=6.719e-01 30.2s
+30787.68 MB
+dwell_r7_xi_0.05_p+3_Nd4001_dt1 AIRfull=0.6170 AIRlti=1.9734 AIRltiMH=1.9499 AIRstMH=0.5209 Dfull=3.423e-01 DltiMH=7.042e-02 31.8s
+dwell_r7_xi_0.1_p+3_Nd4001_dt1 AIRfull=1.0674 AIRlti=1.9876 AIRltiMH=1.9795 AIRstMH=1.0886 Dfull=2.676e-01 DltiMH=9.814e-02 32.1s
+dwell_r7_xi_0.25_p+3_Nd4001_dt1 AIRfull=1.3602 AIRlti=1.9955 AIRltiMH=1.9945 AIRstMH=1.5108 Dfull=3.192e-01 DltiMH=1.389e-01 31.6s
+dwell_r7_xi_0.5_p+3_Nd4001_dt1 AIRfull=1.3085 AIRlti=1.9958 AIRltiMH=1.9953 AIRstMH=1.7961 Dfull=4.109e-01 DltiMH=1.573e-01 36.6s
+dwell_r7_xi_1_p+3_Nd4001_dt1 AIRfull=1.0949 AIRlti=1.9963 AIRltiMH=1.9954 AIRstMH=1.9310 Dfull=5.373e-01 DltiMH=1.638e-01 29.3s
+dwell_r7_xi_2_p+3_Nd4001_dt1 AIRfull=1.2754 AIRlti=1.9955 AIRltiMH=1.9947 AIRstMH=1.9727 Dfull=6.392e-01 DltiMH=1.653e-01 28.2s
+utput buffers 30787.68 MB
+dwell_r7_xi_0.05_p+0_Nd4001_dt1 AIRfull=1.0511 AIRlti=1.8527 AIRltiMH=1.8452 AIRstMH=1.9650 Dfull=1.841e-01 DltiMH=1.691e-02 30.4s
+dwell_r7_xi_0.1_p+0_Nd4001_dt1 AIRfull=1.4582 AIRlti=1.9646 AIRltiMH=1.9632 AIRstMH=1.9949 Dfull=1.366e-01 DltiMH=2.244e-02 26.4s
+dwell_r7_xi_0.25_p+0_Nd4001_dt1 AIRfull=1.6550 AIRlti=1.9953 AIRltiMH=1.9967 AIRstMH=2.0000 Dfull=1.790e-01 DltiMH=3.038e-02 28.5s
+dwell_r7_xi_0.5_p+0_Nd4001_dt1 AIRfull=1.8402 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.812e-01 DltiMH=3.239e-02 28.1s
+dwell_r7_xi_1_p+0_Nd4001_dt1 AIRfull=1.3383 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.414e-01 DltiMH=3.335e-02 27.7s
+dwell_r7_xi_2_p+0_Nd4001_dt1 AIRfull=1.6753 AIRlti=1.9994 AIRltiMH=1.9985 AIRstMH=2.0000 Dfull=3.111e-01 DltiMH=3.280e-02 27.7s
+ith Nrk=261.00 k, output buffers 30787.68 MB
+dwell_r7_xi_0.05_p+6_Nd4001_dt1 AIRfull=0.3987 AIRlti=1.7686 AIRltiMH=1.6558 AIRstMH=0.5400 Dfull=5.686e-01 DltiMH=1.799e-01 29.9s
+dwell_r7_xi_0.1_p+6_Nd4001_dt1 AIRfull=0.6957 AIRlti=1.6209 AIRltiMH=1.5637 AIRstMH=0.8916 Dfull=4.111e-01 DltiMH=3.028e-01 27.9s
+dwell_r7_xi_0.25_p+6_Nd4001_dt1 AIRfull=0.9818 AIRlti=1.7393 AIRltiMH=1.7084 AIRstMH=1.2590 Dfull=4.189e-01 DltiMH=5.159e-01 32.8s
+dwell_r7_xi_0.5_p+6_Nd4001_dt1 AIRfull=1.0539 AIRlti=1.7222 AIRltiMH=1.7086 AIRstMH=1.4899 Dfull=5.125e-01 DltiMH=6.276e-01 30.8s
+dwell_r7_xi_1_p+6_Nd4001_dt1 AIRfull=0.9787 AIRlti=1.7315 AIRltiMH=1.7110 AIRstMH=1.5658 Dfull=6.012e-01 DltiMH=6.653e-01 29.3s
+dwell_r7_xi_2_p+6_Nd4001_dt1 AIRfull=1.2216 AIRlti=1.7256 AIRltiMH=1.7202 AIRstMH=1.5848 Dfull=7.311e-01 DltiMH=6.889e-01 29.2s
+/4 uploaded with Nrk=261.00 k, output buffers 30787.68 MB
+unk.
+shuffle_r0_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.7600 AIRlti=0.6582 AIRltiMH=0.6873 AIRstMH=0.3155 Dfull=8.778e-01 DltiMH=1.059e+00 31.3s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.6064 AIRlti=0.7446 AIRltiMH=0.5224 AIRstMH=0.1763 Dfull=7.365e-01 DltiMH=1.099e+00 28.6s
+shuffle_r0_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.6017 AIRlti=0.6367 AIRltiMH=0.6202 AIRstMH=0.2071 Dfull=5.764e-01 DltiMH=1.045e+00 31.1s
+shuffle_r0_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9988 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.8869 Dfull=8.873e-02 DltiMH=2.141e-02 32.5s
+shuffle_r0_ORIGINAL_p+0_Nd4001_dt1 AIRfull=0.6634 AIRlti=0.6628 AIRltiMH=0.6446 AIRstMH=0.5090 Dfull=6.541e-01 DltiMH=6.518e-01 34.5s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.8736 AIRlti=1.0782 AIRltiMH=1.0648 AIRstMH=0.7980 Dfull=5.905e-01 DltiMH=6.921e-01 31.2s
+shuffle_r0_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.9985 Dfull=4.415e-02 DltiMH=1.754e-02 32.6s
+shuffle_r0_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.5833 AIRlti=0.7091 AIRltiMH=0.8042 AIRstMH=0.4771 Dfull=1.080e+00 DltiMH=1.598e+00 31.7s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.3756 AIRlti=0.5929 AIRltiMH=0.5968 AIRstMH=0.3893 Dfull=8.768e-01 DltiMH=1.594e+00 31.4s
+shuffle_r0_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.4098 AIRlti=0.6324 AIRltiMH=0.5655 AIRstMH=0.0085 Dfull=7.038e-01 DltiMH=1.451e+00 30.0s
+shuffle_r0_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.8847 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.5155 Dfull=1.988e-01 DltiMH=2.714e-02 30.0s
+shuffle_r1_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.9371 AIRlti=0.7995 AIRltiMH=0.7571 AIRstMH=0.7169 Dfull=6.654e-01 DltiMH=6.535e-01 31.4s
+ Combine: 2.33)
+shuffle_r1_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.5581 AIRlti=0.9254 AIRltiMH=0.9848 AIRstMH=0.6679 Dfull=4.450e-01 DltiMH=6.009e-01 32.3s
+shuffle_r1_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9889 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=8.468e-02 DltiMH=1.480e-02 30.8s
+shuffle_r1_ORIGINAL_p+0_Nd4001_dt1 AIRfull=1.1761 AIRlti=0.8951 AIRltiMH=0.8334 AIRstMH=0.4311 Dfull=4.311e-01 DltiMH=3.270e-01 28.4s
+shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=1.0143 AIRlti=1.3190 AIRltiMH=1.3040 AIRstMH=1.2651 Dfull=4.381e-01 DltiMH=3.379e-01 31.7s
+shuffle_r1_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=0.8346 AIRlti=1.3914 AIRltiMH=1.3844 AIRstMH=1.1302 Dfull=3.411e-01 DltiMH=3.175e-01 28.5s
+shuffle_r1_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.894e-02 DltiMH=1.073e-02 28.2s
+20, Interp: 2.71, Combine: 2.49)
+shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.6648 AIRlti=0.8563 AIRltiMH=0.8311 AIRstMH=0.6786 Dfull=5.737e-01 DltiMH=1.119e+00 30.0s
+shuffle_r1_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.6422 AIRlti=0.7475 AIRltiMH=0.7463 AIRstMH=0.0962 Dfull=5.037e-01 DltiMH=9.661e-01 26.3s
+shuffle_r1_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.8905 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.8999 Dfull=1.934e-01 DltiMH=2.153e-02 26.6s
+shuffle_r2_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.9466 AIRlti=0.5686 AIRltiMH=0.5341 AIRstMH=0.4950 Dfull=7.446e-01 DltiMH=8.145e-01 26.8s
+shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.8933 AIRlti=0.9787 AIRltiMH=0.9265 AIRstMH=0.7516 Dfull=6.439e-01 DltiMH=8.253e-01 26.9s
+shuffle_r2_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.7947 AIRlti=1.0621 AIRltiMH=1.0396 AIRstMH=-0.2488 Dfull=5.407e-01 DltiMH=7.231e-01 29.2s
+.14 seconds: (RK: 5.96, Interp: 1.74, Combine: 2.44)
+shuffle_r2_ORIGINAL_p+0_Nd4001_dt1 AIRfull=1.0406 AIRlti=0.4063 AIRltiMH=0.3884 AIRstMH=0.5820 Dfull=5.189e-01 DltiMH=4.562e-01 26.6s
+shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.4972 AIRlti=0.9360 AIRltiMH=0.9245 AIRstMH=0.8088 Dfull=5.507e-01 DltiMH=4.687e-01 26.9s
+shuffle_r2_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=1.0262 AIRlti=0.7984 AIRltiMH=0.6744 AIRstMH=0.5242 Dfull=3.869e-01 DltiMH=4.368e-01 28.2s
+shuffle_r2_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=4.301e-02 DltiMH=1.374e-02 29.1s
+shuffle_r2_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.7802 AIRlti=0.8118 AIRltiMH=0.7889 AIRstMH=0.1507 Dfull=8.660e-01 DltiMH=1.284e+00 27.7s
+shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.7196 AIRlti=0.7781 AIRltiMH=0.8182 AIRstMH=0.4199 Dfull=6.973e-01 DltiMH=1.294e+00 27.5s
+al CUDA time: 9.45 seconds: (RK: 5.54, Interp: 1.65, Combine: 2.26)
+shuffle_r2_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.9211 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.7544 Dfull=1.802e-01 DltiMH=2.309e-02 30.7s
+shuffle_r3_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.8769 AIRlti=1.1500 AIRltiMH=1.1481 AIRstMH=1.0953 Dfull=6.225e-01 DltiMH=5.568e-01 28.6s
+shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.7751 AIRlti=1.0653 AIRltiMH=1.0671 AIRstMH=1.1952 Dfull=5.773e-01 DltiMH=5.781e-01 27.6s
+shuffle_r3_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.7687 AIRlti=1.2511 AIRltiMH=1.2490 AIRstMH=0.6643 Dfull=4.228e-01 DltiMH=5.228e-01 27.3s
+shuffle_r3_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9995 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=9.112e-02 DltiMH=1.351e-02 27.4s
+shuffle_r3_ORIGINAL_p+0_Nd4001_dt1 AIRfull=1.0821 AIRlti=1.4711 AIRltiMH=1.4657 AIRstMH=1.4883 Dfull=4.266e-01 DltiMH=2.706e-01 30.7s
+ seconds
+++shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.7608 AIRlti=1.3009 AIRltiMH=1.3263 AIRstMH=1.3410 Dfull=4.455e-01 DltiMH=2.877e-01 27.7s
+shuffle_r3_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=1.1039 AIRlti=1.4936 AIRltiMH=1.4906 AIRstMH=1.4002 Dfull=2.976e-01 DltiMH=2.660e-01 27.2s
+shuffle_r3_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=4.400e-02 DltiMH=1.048e-02 28.1s
+shuffle_r3_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.7985 AIRlti=0.7920 AIRltiMH=0.7788 AIRstMH=0.6054 Dfull=6.822e-01 DltiMH=9.992e-01 28.3s
+shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.8550 AIRlti=0.7714 AIRltiMH=0.8174 AIRstMH=0.7757 Dfull=6.245e-01 DltiMH=1.036e+00 27.9s
+shuffle_r3_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.6635 AIRlti=0.9699 AIRltiMH=0.9454 AIRstMH=0.3022 Dfull=4.858e-01 DltiMH=9.240e-01 29.3s
+shuffle_r3_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.8407 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.7637 Dfull=1.990e-01 DltiMH=2.027e-02 29.1s
++> Memory time: 1.78 seconds
+shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.8153 AIRlti=1.1012 AIRltiMH=1.0744 AIRstMH=0.8157 Dfull=7.074e-01 DltiMH=7.985e-01 34.6s
+shuffle_r4_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.7001 AIRlti=1.0333 AIRltiMH=0.9877 AIRstMH=0.6377 Dfull=5.971e-01 DltiMH=8.371e-01 29.0s
+shuffle_r4_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9545 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.9216 Dfull=9.147e-02 DltiMH=1.842e-02 28.8s
+shuffle_r4_ORIGINAL_p+0_Nd4001_dt1 AIRfull=1.0967 AIRlti=1.1781 AIRltiMH=1.1727 AIRstMH=1.1215 Dfull=5.497e-01 DltiMH=4.273e-01 27.9s
+shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.0354 AIRlti=0.9622 AIRltiMH=0.8896 AIRstMH=-0.0388 Dfull=5.145e-01 DltiMH=4.643e-01 30.3s
+shuffle_r4_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=0.9464 AIRlti=0.9331 AIRltiMH=1.0352 AIRstMH=0.9568 Dfull=4.011e-01 DltiMH=5.306e-01 27.5s
+ime: 0.00 seconds
++++shuffle_r4_SHUFFLED_p+0_Nd4001_dt1 AIRfull=1.9651 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.9805 Dfull=4.906e-02 DltiMH=1.494e-02 26.3s
+shuffle_r4_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.6871 AIRlti=0.7561 AIRltiMH=0.7600 AIRstMH=0.6583 Dfull=1.026e+00 DltiMH=1.146e+00 25.9s
+shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.6906 AIRlti=0.7873 AIRltiMH=0.6446 AIRstMH=-0.3264 Dfull=8.837e-01 DltiMH=1.254e+00 24.9s
+shuffle_r4_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.4066 AIRlti=0.8586 AIRltiMH=0.8519 AIRstMH=0.0870 Dfull=8.128e-01 DltiMH=1.214e+00 25.5s
+shuffle_r4_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.8622 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.7419 Dfull=1.932e-01 DltiMH=2.405e-02 26.5s
+shuffle_r5_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.8384 AIRlti=1.1375 AIRltiMH=1.1775 AIRstMH=1.1201 Dfull=6.838e-01 DltiMH=6.563e-01 25.2s
+shuffle_r5_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.8965 AIRlti=1.1320 AIRltiMH=1.1407 AIRstMH=1.1210 Dfull=6.170e-01 DltiMH=6.577e-01 25.8s
+> C++ Computation time: 0.00 seconds
+shuffle_r5_SHUFFLED_p+3_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.9974 Dfull=8.006e-02 DltiMH=1.503e-02 31.5s
+shuffle_r5_ORIGINAL_p+0_Nd4001_dt1 AIRfull=0.9913 AIRlti=1.1437 AIRltiMH=1.1391 AIRstMH=1.2471 Dfull=5.148e-01 DltiMH=3.267e-01 28.9s
+shuffle_r5_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.8762 AIRlti=1.2208 AIRltiMH=1.2542 AIRstMH=1.2652 Dfull=5.030e-01 DltiMH=3.349e-01 29.5s
+shuffle_r5_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=0.5114 AIRlti=0.9569 AIRltiMH=0.7792 AIRstMH=0.5656 Dfull=3.347e-01 DltiMH=3.183e-01 27.6s
+shuffle_r5_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=4.151e-02 DltiMH=1.147e-02 40.7s
+shuffle_r5_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.6927 AIRlti=0.8390 AIRltiMH=0.8382 AIRstMH=0.4448 Dfull=7.931e-01 DltiMH=1.164e+00 26.9s
+723.75 MB
+shuffle_r5_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.5228 AIRlti=0.9192 AIRltiMH=0.7378 AIRstMH=0.1737 Dfull=4.990e-01 DltiMH=9.761e-01 28.5s
+shuffle_r5_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.9057 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.8259 Dfull=1.983e-01 DltiMH=2.234e-02 28.4s
+shuffle_r6_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.8001 AIRlti=1.0154 AIRltiMH=1.0173 AIRstMH=0.9566 Dfull=6.320e-01 DltiMH=5.882e-01 30.9s
+shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.7270 AIRlti=1.0985 AIRltiMH=1.1069 AIRstMH=1.0244 Dfull=5.905e-01 DltiMH=5.814e-01 28.6s
+shuffle_r6_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.5429 AIRlti=0.6474 AIRltiMH=0.5905 AIRstMH=0.5157 Dfull=4.206e-01 DltiMH=5.504e-01 29.9s
+shuffle_r6_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9993 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=8.604e-02 DltiMH=1.413e-02 28.0s
+ k, output buffers 6723.75 MB
+shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.9715 AIRlti=1.3329 AIRltiMH=1.3342 AIRstMH=1.2690 Dfull=4.282e-01 DltiMH=2.877e-01 28.0s
+shuffle_r6_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1 AIRfull=1.0424 AIRlti=1.2461 AIRltiMH=1.2832 AIRstMH=0.9423 Dfull=3.148e-01 DltiMH=2.792e-01 28.2s
+shuffle_r6_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=4.154e-02 DltiMH=1.060e-02 27.9s
+shuffle_r6_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.8343 AIRlti=0.9285 AIRltiMH=1.0749 AIRstMH=0.8423 Dfull=6.632e-01 DltiMH=1.030e+00 27.2s
+shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.6820 AIRlti=0.9120 AIRltiMH=0.9362 AIRstMH=0.6560 Dfull=6.179e-01 DltiMH=1.022e+00 29.7s
+shuffle_r6_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.7193 AIRlti=0.8463 AIRltiMH=0.6755 AIRstMH=0.1469 Dfull=4.677e-01 DltiMH=9.304e-01 28.4s
+oaded with Nrk=57.00 k, output buffers 6723.75 MB
+shuffle_r7_ORIGINAL_p+3_Nd4001_dt1 AIRfull=0.7669 AIRlti=0.6696 AIRltiMH=0.5696 AIRstMH=0.5470 Dfull=6.604e-01 DltiMH=6.745e-01 29.7s
+shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1 AIRfull=0.7203 AIRlti=0.9887 AIRltiMH=1.0212 AIRstMH=0.8415 Dfull=6.279e-01 DltiMH=7.163e-01 31.6s
+shuffle_r7_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1 AIRfull=0.5811 AIRlti=0.8291 AIRltiMH=0.8152 AIRstMH=0.5865 Dfull=4.829e-01 DltiMH=6.394e-01 28.9s
+shuffle_r7_SHUFFLED_p+3_Nd4001_dt1 AIRfull=1.9719 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.018e-01 DltiMH=1.638e-02 29.1s
+shuffle_r7_ORIGINAL_p+0_Nd4001_dt1 AIRfull=1.0975 AIRlti=1.3804 AIRltiMH=1.3518 AIRstMH=1.3067 Dfull=5.300e-01 DltiMH=3.308e-01 28.4s
+shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1 AIRfull=0.9596 AIRlti=1.3112 AIRltiMH=1.3291 AIRstMH=1.2805 Dfull=4.894e-01 DltiMH=3.495e-01 26.1s
+B
+shuffle_r7_SHUFFLED_p+0_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=4.785e-02 DltiMH=1.177e-02 28.8s
+shuffle_r7_ORIGINAL_p+6_Nd4001_dt1 AIRfull=0.6710 AIRlti=0.7277 AIRltiMH=0.6544 AIRstMH=0.4418 Dfull=7.674e-01 DltiMH=1.153e+00 26.4s
+shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1 AIRfull=0.7481 AIRlti=0.7933 AIRltiMH=0.8353 AIRstMH=0.8438 Dfull=6.520e-01 DltiMH=1.227e+00 27.4s
+shuffle_r7_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1 AIRfull=0.5704 AIRlti=0.7662 AIRltiMH=0.6667 AIRstMH=0.3333 Dfull=5.085e-01 DltiMH=1.028e+00 33.6s
+shuffle_r7_SHUFFLED_p+6_Nd4001_dt1 AIRfull=1.8450 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=1.8480 Dfull=2.125e-01 DltiMH=2.327e-02 29.2s
+buffers 30787.68 MB
+dwell_r0_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.3211 AIRlti=1.5665 AIRltiMH=1.5659 AIRstMH=1.8458 Dfull=5.533e-02 DltiMH=1.177e-02 31.1s
+dwell_r0_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7146 AIRlti=1.7972 AIRltiMH=1.7884 AIRstMH=1.9546 Dfull=3.147e-02 DltiMH=1.129e-02 27.3s
+dwell_r0_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.8045 AIRlti=1.9157 AIRltiMH=1.9065 AIRstMH=1.9996 Dfull=2.642e-02 DltiMH=9.089e-03 29.4s
+dwell_r0_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9858 AIRlti=1.9999 AIRltiMH=1.9997 AIRstMH=2.0000 Dfull=2.303e-02 DltiMH=7.222e-03 28.9s
+dwell_r0_xi_1_p-6_Nd4001_dt1 AIRfull=1.9639 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.397e-02 DltiMH=6.363e-03 43.0s
+dwell_r0_xi_2_p-6_Nd4001_dt1 AIRfull=1.9277 AIRlti=1.9451 AIRltiMH=1.9409 AIRstMH=2.0000 Dfull=2.244e-02 DltiMH=5.990e-03 28.1s
+dwell_r1_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.3641 AIRlti=1.6163 AIRltiMH=1.6225 AIRstMH=1.8781 Dfull=5.822e-02 DltiMH=1.156e-02 26.4s
+dwell_r1_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7667 AIRlti=1.8511 AIRltiMH=1.8477 AIRstMH=1.9737 Dfull=3.094e-02 DltiMH=1.098e-02 27.1s
+dwell_r1_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.9805 AIRlti=1.9981 AIRltiMH=1.9978 AIRstMH=1.9999 Dfull=2.757e-02 DltiMH=9.448e-03 30.8s
+dwell_r1_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9908 AIRlti=1.9886 AIRltiMH=1.9933 AIRstMH=2.0000 Dfull=2.102e-02 DltiMH=7.457e-03 26.2s
+dwell_r1_xi_1_p-6_Nd4001_dt1 AIRfull=1.8314 AIRlti=1.9120 AIRltiMH=1.9166 AIRstMH=2.0000 Dfull=2.230e-02 DltiMH=6.492e-03 25.2s
+dwell_r1_xi_2_p-6_Nd4001_dt1 AIRfull=1.9992 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=3.056e-02 DltiMH=5.952e-03 25.6s
+1.68, Combine: 2.35)
+dwell_r2_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.4797 AIRlti=1.6427 AIRltiMH=1.6339 AIRstMH=1.8899 Dfull=5.838e-02 DltiMH=1.215e-02 24.8s
+dwell_r2_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7492 AIRlti=1.8723 AIRltiMH=1.8554 AIRstMH=1.9699 Dfull=3.333e-02 DltiMH=1.138e-02 25.2s
+dwell_r2_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.8688 AIRlti=1.9155 AIRltiMH=1.9222 AIRstMH=1.9996 Dfull=3.210e-02 DltiMH=9.332e-03 27.0s
+dwell_r2_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.8174 AIRlti=1.8900 AIRltiMH=1.8909 AIRstMH=2.0000 Dfull=2.332e-02 DltiMH=7.400e-03 26.6s
+dwell_r2_xi_1_p-6_Nd4001_dt1 AIRfull=1.9995 AIRlti=1.9999 AIRltiMH=1.9999 AIRstMH=2.0000 Dfull=2.466e-02 DltiMH=6.235e-03 27.3s
+dwell_r2_xi_2_p-6_Nd4001_dt1 AIRfull=1.9713 AIRlti=1.9997 AIRltiMH=1.9989 AIRstMH=2.0000 Dfull=2.795e-02 DltiMH=5.818e-03 35.2s
+: 5.23, Interp: 1.55, Combine: 2.20)
+dwell_r3_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.4495 AIRlti=1.6567 AIRltiMH=1.6600 AIRstMH=1.8762 Dfull=5.303e-02 DltiMH=1.147e-02 27.8s
+dwell_r3_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7205 AIRlti=1.8165 AIRltiMH=1.8180 AIRstMH=1.9619 Dfull=3.340e-02 DltiMH=1.134e-02 26.5s
+dwell_r3_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.9155 AIRlti=1.9884 AIRltiMH=1.9825 AIRstMH=1.9993 Dfull=3.252e-02 DltiMH=9.428e-03 32.7s
+dwell_r3_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9449 AIRlti=1.9994 AIRltiMH=1.9994 AIRstMH=2.0000 Dfull=2.676e-02 DltiMH=7.394e-03 29.6s
+dwell_r3_xi_1_p-6_Nd4001_dt1 AIRfull=1.9993 AIRlti=1.9921 AIRltiMH=1.9977 AIRstMH=2.0000 Dfull=2.513e-02 DltiMH=6.394e-03 28.8s
+dwell_r3_xi_2_p-6_Nd4001_dt1 AIRfull=1.9618 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.769e-02 DltiMH=5.962e-03 27.0s
+2.22 seconds: (RK: 7.97, Interp: 1.75, Combine: 2.50)
+dwell_r4_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.2054 AIRlti=1.5174 AIRltiMH=1.5143 AIRstMH=1.8728 Dfull=5.884e-02 DltiMH=1.157e-02 31.1s
+dwell_r4_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7874 AIRlti=1.8473 AIRltiMH=1.8506 AIRstMH=1.9732 Dfull=3.320e-02 DltiMH=1.114e-02 28.5s
+dwell_r4_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.9365 AIRlti=1.9823 AIRltiMH=1.9782 AIRstMH=1.9991 Dfull=2.814e-02 DltiMH=9.133e-03 27.3s
+dwell_r4_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9283 AIRlti=1.9271 AIRltiMH=1.9271 AIRstMH=2.0000 Dfull=2.875e-02 DltiMH=7.364e-03 26.6s
+dwell_r4_xi_1_p-6_Nd4001_dt1 AIRfull=1.9769 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.703e-02 DltiMH=6.518e-03 32.1s
+dwell_r4_xi_2_p-6_Nd4001_dt1 AIRfull=1.9213 AIRlti=1.9992 AIRltiMH=1.9997 AIRstMH=2.0000 Dfull=2.957e-02 DltiMH=5.751e-03 29.2s
+ Total CUDA time: 22.13 seconds: (RK: 6.44, Interp: 1.75, Combine: 13.94)
+dwell_r5_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.4815 AIRlti=1.7273 AIRltiMH=1.7189 AIRstMH=1.8916 Dfull=5.829e-02 DltiMH=1.172e-02 27.5s
+dwell_r5_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7156 AIRlti=1.8426 AIRltiMH=1.8374 AIRstMH=1.9827 Dfull=3.358e-02 DltiMH=1.138e-02 28.3s
+dwell_r5_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.8391 AIRlti=1.9382 AIRltiMH=1.9367 AIRstMH=2.0000 Dfull=2.907e-02 DltiMH=9.275e-03 30.1s
+dwell_r5_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9156 AIRlti=1.9574 AIRltiMH=1.9637 AIRstMH=2.0000 Dfull=2.604e-02 DltiMH=7.767e-03 27.1s
+dwell_r5_xi_1_p-6_Nd4001_dt1 AIRfull=1.9282 AIRlti=1.9613 AIRltiMH=1.9596 AIRstMH=2.0000 Dfull=2.294e-02 DltiMH=6.378e-03 26.3s
+dwell_r5_xi_2_p-6_Nd4001_dt1 AIRfull=1.9986 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.882e-02 DltiMH=5.872e-03 27.4s
+e: 1.85 seconds
+dwell_r6_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.4777 AIRlti=1.7108 AIRltiMH=1.6910 AIRstMH=1.8855 Dfull=5.292e-02 DltiMH=1.173e-02 30.1s
+dwell_r6_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.7492 AIRlti=1.8874 AIRltiMH=1.8799 AIRstMH=1.9811 Dfull=3.279e-02 DltiMH=1.117e-02 28.7s
+dwell_r6_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.8718 AIRlti=1.9364 AIRltiMH=1.9333 AIRstMH=1.9999 Dfull=2.769e-02 DltiMH=9.284e-03 27.5s
+dwell_r6_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.8019 AIRlti=1.9070 AIRltiMH=1.9110 AIRstMH=1.9989 Dfull=2.480e-02 DltiMH=7.514e-03 27.2s
+dwell_r6_xi_1_p-6_Nd4001_dt1 AIRfull=1.9586 AIRlti=1.9987 AIRltiMH=1.9977 AIRstMH=2.0000 Dfull=2.392e-02 DltiMH=6.512e-03 31.4s
+dwell_r6_xi_2_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.579e-02 DltiMH=6.190e-03 27.9s
+nds
+dwell_r7_xi_0.05_p-6_Nd4001_dt1 AIRfull=1.3654 AIRlti=1.6188 AIRltiMH=1.6133 AIRstMH=1.8768 Dfull=5.761e-02 DltiMH=1.180e-02 29.0s
+dwell_r7_xi_0.1_p-6_Nd4001_dt1 AIRfull=1.6912 AIRlti=1.8194 AIRltiMH=1.8061 AIRstMH=1.9698 Dfull=3.385e-02 DltiMH=1.140e-02 27.9s
+dwell_r7_xi_0.25_p-6_Nd4001_dt1 AIRfull=1.8650 AIRlti=1.9378 AIRltiMH=1.9408 AIRstMH=1.9990 Dfull=3.411e-02 DltiMH=9.629e-03 26.3s
+dwell_r7_xi_0.5_p-6_Nd4001_dt1 AIRfull=1.9981 AIRlti=1.9992 AIRltiMH=1.9988 AIRstMH=2.0000 Dfull=2.376e-02 DltiMH=7.371e-03 26.8s
+dwell_r7_xi_1_p-6_Nd4001_dt1 AIRfull=1.9997 AIRlti=1.9998 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.576e-02 DltiMH=6.656e-03 26.3s
+dwell_r7_xi_2_p-6_Nd4001_dt1 AIRfull=1.9776 AIRlti=1.9784 AIRltiMH=1.9787 AIRstMH=1.9999 Dfull=2.900e-02 DltiMH=5.871e-03 26.2s
+ation time: 0.00 seconds
+
+shuffle_r0_ORIGINAL_p-6_Nd4001_dt1 AIRfull=0.4112 AIRlti=1.2537 AIRltiMH=1.2642 AIRstMH=1.3219 Dfull=3.902e-01 DltiMH=1.614e-01 29.1s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.1769 AIRlti=0.5455 AIRltiMH=0.3357 AIRstMH=-0.0956 Dfull=2.470e-01 DltiMH=1.755e-01 26.3s
+shuffle_r0_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=0.9916 AIRlti=1.1965 AIRltiMH=1.1830 AIRstMH=1.2842 Dfull=2.015e-01 DltiMH=1.831e-01 27.8s
+shuffle_r0_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.186e-02 DltiMH=1.335e-02 29.4s
+shuffle_r1_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.0129 AIRlti=1.8048 AIRltiMH=1.8005 AIRstMH=1.8730 Dfull=1.506e-01 DltiMH=4.522e-02 30.5s
+shuffle_r1_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.3289 AIRlti=1.7853 AIRltiMH=1.7846 AIRstMH=1.8334 Dfull=1.733e-01 DltiMH=4.412e-02 26.3s
+shuffle_r1_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.682e-02 DltiMH=8.887e-03 29.2s
+shuffle_r2_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.2402 AIRlti=1.5155 AIRltiMH=1.5210 AIRstMH=1.5224 Dfull=2.745e-01 DltiMH=9.226e-02 29.0s
+shuffle_r2_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.2566 AIRlti=1.3518 AIRltiMH=1.3466 AIRstMH=1.3496 Dfull=2.783e-01 DltiMH=9.486e-02 33.6s
+shuffle_r2_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=1.4764 AIRlti=1.6437 AIRltiMH=1.6780 AIRstMH=1.0630 Dfull=8.362e-02 DltiMH=1.059e-01 29.2s
+shuffle_r2_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.018e-02 DltiMH=1.092e-02 30.8s
+shuffle_r3_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.5152 AIRlti=1.7351 AIRltiMH=1.7300 AIRstMH=1.7733 Dfull=1.501e-01 DltiMH=4.664e-02 29.3s
+4, Combine: 2.49)
+shuffle_r3_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=1.5791 AIRlti=1.6776 AIRltiMH=1.6782 AIRstMH=1.7425 Dfull=8.020e-02 DltiMH=5.306e-02 29.5s
+shuffle_r3_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.771e-02 DltiMH=9.294e-03 30.1s
+shuffle_r4_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.3266 AIRlti=1.4265 AIRltiMH=1.4263 AIRstMH=1.4773 Dfull=2.143e-01 DltiMH=1.472e-01 27.2s
+shuffle_r4_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.4382 AIRlti=1.5807 AIRltiMH=1.5878 AIRstMH=1.6016 Dfull=1.710e-01 DltiMH=1.459e-01 31.1s
+shuffle_r4_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=-2.2397 AIRlti=0.1467 AIRltiMH=0.0922 AIRstMH=-0.6815 Dfull=2.071e-01 DltiMH=1.948e-01 28.8s
+shuffle_r4_SHUFFLED_p-6_Nd4001_dt1 AIRfull=1.9998 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=2.158e-02 DltiMH=1.284e-02 30.2s
+K: 9.78, Interp: 1.65, Combine: 3.63)
+shuffle_r5_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.3711 AIRlti=1.7612 AIRltiMH=1.7640 AIRstMH=1.8112 Dfull=1.495e-01 DltiMH=6.403e-02 29.3s
+shuffle_r5_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=1.0027 AIRlti=1.6127 AIRltiMH=1.5982 AIRstMH=1.8390 Dfull=8.954e-02 DltiMH=6.616e-02 33.7s
+shuffle_r5_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.830e-02 DltiMH=9.859e-03 30.3s
+shuffle_r6_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.6305 AIRlti=1.8348 AIRltiMH=1.8364 AIRstMH=1.8802 Dfull=1.033e-01 DltiMH=4.652e-02 29.0s
+shuffle_r6_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.6979 AIRlti=1.6635 AIRltiMH=1.6779 AIRstMH=1.6668 Dfull=7.256e-02 DltiMH=4.761e-02 28.8s
+shuffle_r6_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=1.4834 AIRlti=1.6674 AIRltiMH=1.6765 AIRstMH=1.7742 Dfull=8.514e-02 DltiMH=5.077e-02 32.2s
+e: 10.71 seconds: (RK: 6.32, Interp: 1.90, Combine: 2.50)
+shuffle_r6_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.795e-02 DltiMH=9.365e-03 29.2s
+shuffle_r7_ORIGINAL_p-6_Nd4001_dt1 AIRfull=1.1161 AIRlti=1.7351 AIRltiMH=1.7407 AIRstMH=1.7816 Dfull=1.776e-01 DltiMH=3.850e-02 27.7s
+shuffle_r7_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1 AIRfull=1.3375 AIRlti=1.7546 AIRltiMH=1.7609 AIRstMH=1.7926 Dfull=1.240e-01 DltiMH=3.963e-02 27.7s
+shuffle_r7_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1 AIRfull=1.6200 AIRlti=1.6875 AIRltiMH=1.6858 AIRstMH=1.7395 Dfull=7.187e-02 DltiMH=4.350e-02 26.4s
+shuffle_r7_SHUFFLED_p-6_Nd4001_dt1 AIRfull=2.0000 AIRlti=2.0000 AIRltiMH=2.0000 AIRstMH=2.0000 Dfull=1.872e-02 DltiMH=9.571e-03 32.3s
+dwell_r0_xi_0.05_p+3_Nd8001_dt1 AIRfull=0.7697 AIRlti=1.9699 AIRltiMH=1.9522 AIRstMH=0.5297 Dfull=3.112e-01 DltiMH=7.192e-02 81.4s
+dwell_r0_xi_0.25_p+3_Nd8001_dt1 AIRfull=1.0880 AIRlti=1.9944 AIRltiMH=1.9925 AIRstMH=1.5405 Dfull=3.097e-01 DltiMH=1.391e-01 81.3s
+dwell_r0_xi_1_p+3_Nd8001_dt1 AIRfull=1.1350 AIRlti=1.9959 AIRltiMH=1.9951 AIRstMH=1.8115 Dfull=5.387e-01 DltiMH=1.635e-01 77.6s
+dwell_r0_xi_4_p+3_Nd8001_dt1 AIRfull=1.2961 AIRlti=1.9937 AIRltiMH=1.9932 AIRstMH=1.9790 Dfull=7.113e-01 DltiMH=1.649e-01 90.4s
+dwell_r1_xi_0.05_p+3_Nd8001_dt1 AIRfull=0.7967 AIRlti=1.9784 AIRltiMH=1.9569 AIRstMH=0.5038 Dfull=3.048e-01 DltiMH=6.889e-02 81.7s
+dwell_r1_xi_1_p+3_Nd8001_dt1 AIRfull=1.1401 AIRlti=1.9951 AIRltiMH=1.9947 AIRstMH=1.9449 Dfull=6.132e-01 DltiMH=1.650e-01 105.3s
+dwell_r1_xi_4_p+3_Nd8001_dt1 AIRfull=1.3923 AIRlti=1.9952 AIRltiMH=1.9952 AIRstMH=1.9426 Dfull=7.403e-01 DltiMH=1.647e-01 75.0s
+al = 34.19 GB
+dwell_r0_xi_0.05_p+3_Nd4001_dt0.5 AIRfull=0.7688 AIRlti=1.9699 AIRltiMH=1.9522 AIRstMH=0.5297 Dfull=3.114e-01 DltiMH=7.192e-02 41.3s
+dwell_r0_xi_0.25_p+3_Nd4001_dt0.5 AIRfull=1.0853 AIRlti=1.9944 AIRltiMH=1.9925 AIRstMH=1.5405 Dfull=3.098e-01 DltiMH=1.391e-01 40.9s
+dwell_r0_xi_1_p+3_Nd4001_dt0.5 AIRfull=1.1354 AIRlti=1.9959 AIRltiMH=1.9951 AIRstMH=1.8115 Dfull=5.387e-01 DltiMH=1.635e-01 44.4s
+dwell_r0_xi_4_p+3_Nd4001_dt0.5 AIRfull=1.2961 AIRlti=1.9937 AIRltiMH=1.9932 AIRstMH=1.9790 Dfull=7.118e-01 DltiMH=1.649e-01 40.2s
+dwell_r1_xi_0.05_p+3_Nd4001_dt0.5 AIRfull=0.7973 AIRlti=1.9784 AIRltiMH=1.9569 AIRstMH=0.5038 Dfull=3.048e-01 DltiMH=6.889e-02 40.9s
+dwell_r1_xi_1_p+3_Nd4001_dt0.5 AIRfull=1.1402 AIRlti=1.9951 AIRltiMH=1.9947 AIRstMH=1.9449 Dfull=6.132e-01 DltiMH=1.650e-01 41.7s
+dwell_r1_xi_4_p+3_Nd4001_dt0.5 AIRfull=1.3923 AIRlti=1.9952 AIRltiMH=1.9952 AIRstMH=1.9426 Dfull=7.408e-01 DltiMH=1.647e-01 40.9s
+ GB, total = 34.19 GB
+shuffle_r0_ORIGINAL_p+3_Nd8001_dt1 AIRfull=0.7590 AIRlti=0.6582 AIRltiMH=0.6873 AIRstMH=0.3155 Dfull=8.774e-01 DltiMH=1.059e+00 77.5s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd8001_dt1 AIRfull=0.6059 AIRlti=0.7446 AIRltiMH=0.5224 AIRstMH=0.1763 Dfull=7.367e-01 DltiMH=1.099e+00 72.8s
+shuffle_r1_ORIGINAL_p+3_Nd8001_dt1 AIRfull=0.9352 AIRlti=0.7995 AIRltiMH=0.7571 AIRstMH=0.7169 Dfull=6.651e-01 DltiMH=6.535e-01 70.8s
+shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+3_Nd8001_dt1 AIRfull=0.7968 AIRlti=1.0262 AIRltiMH=1.0023 AIRstMH=0.9322 Dfull=5.650e-01 DltiMH=6.744e-01 83.6s
+shuffle_r0_ORIGINAL_p+3_Nd4001_dt0.5 AIRfull=0.7603 AIRlti=0.6582 AIRltiMH=0.6873 AIRstMH=0.3155 Dfull=8.774e-01 DltiMH=1.059e+00 42.8s
+shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt0.5 AIRfull=0.6064 AIRlti=0.7446 AIRltiMH=0.5224 AIRstMH=0.1763 Dfull=7.365e-01 DltiMH=1.099e+00 40.9s
+shuffle_r1_ORIGINAL_p+3_Nd4001_dt0.5 AIRfull=0.9366 AIRlti=0.7995 AIRltiMH=0.7571 AIRstMH=0.7169 Dfull=6.655e-01 DltiMH=6.535e-01 41.5s
+shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt0.5 AIRfull=0.7980 AIRlti=1.0262 AIRltiMH=1.0023 AIRstMH=0.9322 Dfull=5.644e-01 DltiMH=6.744e-01 41.3s
+CAMPAIGN_DONE

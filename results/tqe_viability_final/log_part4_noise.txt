@@ -1,0 +1,299 @@
+{
+ "generated": "2026-09-28T03:24:29+10:00",
+ "code_version": "d298b8edeb3cfdcfc721d563b9dbb3cff4e30ddc",
+ "code_dirty": true,
+ "classification": "PARTIALLY ROBUST",
+ "validation_c1": {
+  "max_abs_surrogate_and_linear": 2.10997885830011e-13,
+  "max_abs_atomic": 3.333999742949345e-13,
+  "max_abs_atomic_original_path": 0.0,
+  "pass": true,
+  "c1_reproduces_02_losses.csv": 4.715872137239785e-11,
+  "c1_reproduces_03_excess_over_controls.csv": 3.658184866139891e-13,
+  "c1_reproduces_04_thresholds.csv": 9.423573033018329e-13
+ },
+ "per_scale": {
+  "0.25": {
+   "a_static_mh": true,
+   "a_static_lti_mh": true,
+   "b_both_signs": true,
+   "surrogate_failure_holds": true,
+   "informative_formats": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+   ],
+   "loss_+3dB_bit": {
+    "CE": 0.4075378542937108,
+    "QPSK": 0.4008669510878048,
+    "16QAM": 0.8450586640037724,
+    "OFDM": 0.11168962950320846
+   },
+   "ranking_+3dB_all": [
+    "16QAM",
+    "CE",
+    "QPSK",
+    "OFDM"
+   ],
+   "baseline_AIR_-6dB": {
+    "CE": 0.8115210300831961,
+    "QPSK": 1.9370391684174226,
+    "16QAM": 2.3658257231302025,
+    "OFDM": 2.0
+   },
+   "P5_dB": {
+    "CE": 0.9404633800193029,
+    "QPSK": -0.2613816266625668,
+    "16QAM": -2.581107110095658,
+    "OFDM": 2.659664301782742
+   },
+   "P10_dB": {
+    "CE": 1.1689555462146524,
+    "QPSK": 0.905771778349313,
+    "16QAM": -1.1950470559687354,
+    "OFDM": 5.215058431598919
+   },
+   "P5_censored_top": {
+    "CE": false,
+    "QPSK": false,
+    "16QAM": false,
+    "OFDM": false
+   },
+   "broad_ordering_testable": true,
+   "most_least_affected": [
+    "16QAM",
+    "OFDM"
+   ],
+   "broad_ordering_unchanged": true,
+   "detailed_ranking_unchanged": false
+  },
+  "0.5": {
+   "a_static_mh": true,
+   "a_static_lti_mh": true,
+   "b_both_signs": true,
+   "surrogate_failure_holds": true,
+   "informative_formats": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+   ],
+   "loss_+3dB_bit": {
+    "CE": 0.3984427621096311,
+    "QPSK": 0.39919426272355985,
+    "16QAM": 0.8413621327023513,
+    "OFDM": 0.11242312202225163
+   },
+   "ranking_+3dB_all": [
+    "16QAM",
+    "QPSK",
+    "CE",
+    "OFDM"
+   ],
+   "baseline_AIR_-6dB": {
+    "CE": 0.8040087101227804,
+    "QPSK": 1.934530317898793,
+    "16QAM": 2.3617152835685298,
+    "OFDM": 2.0
+   },
+   "P5_dB": {
+    "CE": 0.760303305171518,
+    "QPSK": -0.21703055284089467,
+    "16QAM": -2.5596948552113257,
+    "OFDM": 2.639822058196588
+   },
+   "P10_dB": {
+    "CE": 1.0115882825151206,
+    "QPSK": 0.9181696203896214,
+    "16QAM": -1.1703035533581105,
+    "OFDM": 5.174633870464923
+   },
+   "P5_censored_top": {
+    "CE": false,
+    "QPSK": false,
+    "16QAM": false,
+    "OFDM": false
+   },
+   "broad_ordering_testable": true,
+   "most_least_affected": [
+    "16QAM",
+    "OFDM"
+   ],
+   "broad_ordering_unchanged": true,
+   "detailed_ranking_unchanged": true
+  },
+  "1.0": {
+   "a_static_mh": true,
+   "a_static_lti_mh": true,
+   "b_both_signs": true,
+   "surrogate_failure_holds": true,
+   "informative_formats": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+   ],
+   "loss_+3dB_bit": {
+    "CE": 0.37772394696329925,
+    "QPSK": 0.39302048453450344,
+    "16QAM": 0.827296115483788,
+    "OFDM": 0.11553249228356843
+   },
+   "ranking_+3dB_all": [
+    "16QAM",
+    "QPSK",
+    "CE",
+    "OFDM"
+   ],
+   "baseline_AIR_-6dB": {
+    "CE": 0.7728668041419696,
+    "QPSK": 1.925806738722851,
+    "16QAM": 2.345856496834844,
+    "OFDM": 2.0
+   },
+   "P5_dB": {
+    "CE": 0.9015034444328317,
+    "QPSK": -0.04591032574020293,
+    "16QAM": -2.4733096700405177,
+    "OFDM": 2.558478031807801
+   },
+   "P10_dB": {
+    "CE": 1.1397354337379313,
+    "QPSK": 0.9649687375751859,
+    "16QAM": -1.0708218912314038,
+    "OFDM": 5.044744422070757
+   },
+   "P5_censored_top": {
+    "CE": false,
+    "QPSK": false,
+    "16QAM": false,
+    "OFDM": false
+   },
+   "broad_ordering_testable": true,
+   "most_least_affected": [
+    "16QAM",
+    "OFDM"
+   ],
+   "broad_ordering_unchanged": true,
+   "detailed_ranking_unchanged": true
+  },
+  "2.0": {
+   "a_static_mh": true,
+   "a_static_lti_mh": true,
+   "b_both_signs": true,
+   "surrogate_failure_holds": true,
+   "informative_formats": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+   ],
+   "loss_+3dB_bit": {
+    "CE": 0.30879318828172997,
+    "QPSK": 0.3695126229822764,
+    "16QAM": 0.7749585471258795,
+    "OFDM": 0.129190630089167
+   },
+   "ranking_+3dB_all": [
+    "16QAM",
+    "QPSK",
+    "CE",
+    "OFDM"
+   ],
+   "baseline_AIR_-6dB": {
+    "CE": 0.6629947896030719,
+    "QPSK": 1.8937232750463768,
+    "16QAM": 2.286131645054683,
+    "OFDM": 1.9999880064357232
+   },
+   "P5_dB": {
+    "CE": 1.2459903195238364,
+    "QPSK": 0.17417633712200245,
+    "16QAM": -2.1238592968741328,
+    "OFDM": 2.2349644042602095
+   },
+   "P10_dB": {
+    "CE": 1.452818261392561,
+    "QPSK": 1.1475875616792408,
+    "16QAM": -0.6672837305156412,
+    "OFDM": 4.621318433384813
+   },
+   "P5_censored_top": {
+    "CE": false,
+    "QPSK": false,
+    "16QAM": false,
+    "OFDM": false
+   },
+   "broad_ordering_testable": true,
+   "most_least_affected": [
+    "16QAM",
+    "OFDM"
+   ],
+   "broad_ordering_unchanged": true,
+   "detailed_ranking_unchanged": true
+  },
+  "4.0": {
+   "a_static_mh": true,
+   "a_static_lti_mh": true,
+   "b_both_signs": true,
+   "surrogate_failure_holds": true,
+   "informative_formats": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+   ],
+   "loss_+3dB_bit": {
+    "CE": 0.07339368988894729,
+    "QPSK": 0.2813279183672355,
+    "16QAM": 0.6019989149780156,
+    "OFDM": 0.08093372337007396
+   },
+   "ranking_+3dB_all": [
+    "16QAM",
+    "QPSK",
+    "OFDM",
+    "CE"
+   ],
+   "baseline_AIR_-6dB": {
+    "CE": 0.34804790561453947,
+    "QPSK": 1.7751031821561618,
+    "16QAM": 2.08399393999655,
+    "OFDM": 1.8892145171163393
+   },
+   "P5_dB": {
+    "CE": 2.524438440827228,
+    "QPSK": 0.9161193443703987,
+    "16QAM": -0.5997622118297228,
+    "OFDM": 3.3421380087282015
+   },
+   "P10_dB": {
+    "CE": 2.638491285085616,
+    "QPSK": 1.8765753809211017,
+    "16QAM": 0.4391513291044174,
+    "OFDM": 5.43738429387694
+   },
+   "P5_censored_top": {
+    "CE": false,
+    "QPSK": false,
+    "16QAM": false,
+    "OFDM": false
+   },
+   "broad_ordering_testable": true,
+   "most_least_affected": [
+    "16QAM",
+    "CE"
+   ],
+   "broad_ordering_unchanged": false,
+   "detailed_ranking_unchanged": false
+  }
+ },
+ "prior_pass_P4_rule": "PARTIALLY_ROBUST",
+ "bits_per_symbol": {
+  "16QAM": 4.0,
+  "CE": 1.0,
+  "OFDM": 2.0,
+  "QPSK": 2.0
+ }
+}

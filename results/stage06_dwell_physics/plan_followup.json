@@ -1,0 +1,1001 @@
+[
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "tau_0.8xE1",
+  "weight": 0.14,
+  "family": "FU-A tau step",
+  "realization": 0,
+  "xi": "step@0.8E1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "tau_1.0xE1",
+  "weight": 0.14,
+  "family": "FU-A tau step",
+  "realization": 0,
+  "xi": "step@1.0E1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "tau_1.2xE1",
+  "weight": 0.14,
+  "family": "FU-A tau step",
+  "realization": 0,
+  "xi": "step@1.2E1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "plateau_p+0_cw",
+  "weight": 0.21,
+  "family": "FU-B plateau cw",
+  "realization": 0,
+  "xi": "60us",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "plateau_p+0_qpsk",
+  "weight": 0.21,
+  "family": "FU-B plateau qpsk",
+  "realization": 0,
+  "xi": "60us",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "plateau_p+3_cw",
+  "weight": 0.21,
+  "family": "FU-B plateau cw",
+  "realization": 0,
+  "xi": "60us",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cw_steps",
+  "job_id": "plateau_p+3_qpsk",
+  "weight": 0.21,
+  "family": "FU-B plateau qpsk",
+  "realization": 0,
+  "xi": "60us",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.25_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.25",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.5_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.5",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_2_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "2",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_4_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.05_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.05",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.25_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.25",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_0.5_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "0.5",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_2_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "2",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r0_xi_4_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 0,
+  "xi": "4",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.25_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.25",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.5_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.5",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_2_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "2",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_4_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.05_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.05",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.25_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.25",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_0.5_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "0.5",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_2_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "2",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r1_xi_4_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 1,
+  "xi": "4",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.25_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.25",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.5_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.5",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_2_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "2",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_4_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.05_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.05",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.25_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.25",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_0.5_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "0.5",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_2_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "2",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r2_xi_4_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 2,
+  "xi": "4",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.25_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.25",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.5_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.5",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_1_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_2_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "2",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_4_p+3_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.05_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.05",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.25_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.25",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_0.5_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "0.5",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_1_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "1",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_2_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "2",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_cwcarrier",
+  "job_id": "dwell_r3_xi_4_p+0_Nd4001_dt1",
+  "weight": 1.0,
+  "family": "FU-C dwell CW-carrier",
+  "realization": 3,
+  "xi": "4",
+  "power_db": 0
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r0_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 0,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r1_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 1,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r2_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 2,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_qpsk",
+  "job_id": "dwell_r3_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long QPSK-carrier",
+  "realization": 3,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r0_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 0,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r1_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 1,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r2_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 2,
+  "xi": "32",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_0.05_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "0.05",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_1_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "1",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_4_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "4",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_8_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "8",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_16_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "16",
+  "power_db": 3
+ },
+ {
+  "tag": "fu_long_cw",
+  "job_id": "dwell_r3_xi_32_p+3_Nd4001_dt1",
+  "weight": 2.9,
+  "family": "FU-D long CW-carrier",
+  "realization": 3,
+  "xi": "32",
+  "power_db": 3
+ }
+]

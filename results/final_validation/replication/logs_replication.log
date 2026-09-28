@@ -1,0 +1,18 @@
+[1/16]   6.2% | LO2_CW | Nd=4001 | elapsed 6 s | avg 5.8 s/run | ETA 87 s
+[2/16]  12.5% | LO2_OFF_+0.125 | Nd=4001 | elapsed 11 s | avg 5.6 s/run | ETA 79 s
+[3/16]  18.8% | LO2_OFF_+1.31 | Nd=4001 | elapsed 17 s | avg 5.6 s/run | ETA 73 s
+[4/16]  25.0% | LO2_OFF_-1.31 | Nd=4001 | elapsed 22 s | avg 5.6 s/run | ETA 67 s
+[5/16]  31.2% | LO2_QPSK_REF_zd | Nd=4001 | elapsed 28 s | avg 5.6 s/run | ETA 61 s
+[6/16]  37.5% | LO2_QPSK_REF_zd_s2 | Nd=4001 | elapsed 34 s | avg 5.6 s/run | ETA 56 s
+[7/16]  43.8% | LO2_QPSK_JUMP_zd | Nd=4001 | elapsed 39 s | avg 5.6 s/run | ETA 50 s
+[8/16]  50.0% | LO2_QPSK_LONGRAMP_zd | Nd=4001 | elapsed 45 s | avg 5.6 s/run | ETA 45 s
+[9/16]  56.2% | LO2_QPSK_SLOW_zd | Nd=4001 | elapsed 50 s | avg 5.6 s/run | ETA 39 s
+[10/16]  62.5% | LO2_QPSK_FAST_zd | Nd=4001 | elapsed 56 s | avg 5.6 s/run | ETA 34 s
++++[11/16]  68.8% | LO2_POWERSTEP | Nd=4001 | elapsed 62 s | avg 5.6 s/run | ETA 28 s
+[12/16]  75.0% | LO1_QPSK_SLOW_zd | Nd=4001 | elapsed 67 s | avg 5.6 s/run | ETA 22 s
+[13/16]  81.2% | LO1_QPSK_REF_zd | Nd=4001 | elapsed 72 s | avg 5.5 s/run | ETA 17 s
+[14/16]  87.5% | LO1_QPSK_FAST_zd | Nd=4001 | elapsed 78 s | avg 5.6 s/run | ETA 11 s
+[15/16]  93.8% | LO1_OFF_+0.125 | Nd=8001 | elapsed 91 s | avg 6.1 s/run | ETA 6 s
+[16/16] 100.0% | LONG_XI32 | Nd=8001 | elapsed 315 s | avg 19.7 s/run | ETA 0 s
+> Total CUDA time: 1.41 seconds: (RK: 0.68, Interp: 0.17, Combine: 0.57)
+REPLICATION_DONE

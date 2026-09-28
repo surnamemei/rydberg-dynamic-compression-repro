@@ -1,0 +1,25 @@
+{
+  "source_commit": "409572499ef54825b66c532e0aecdcffa89e7be1",
+  "branch": "p1db-waveform-fairness",
+  "E1dB_Vpm": 0.08770748836108433,
+  "E1dB_definition": "first -1 dB crossing of 5 MHz CW fundamental relative to weak-tone slope; tail fundamental over final 4 us of a 40 us full-thermal transient",
+  "power_conversion": "P/P1dB=(E/E1dB)^2; E_rms=E1dB*10^(Pavg_dB/20)",
+  "old_stage0_saved_row_max_peak_relation_error_dB": 2.6645352591003757e-15,
+  "old_stage0_saved_row_max_rms_field_relation_error_Vpm": 9.020562075079397e-17,
+  "old_stage0_AIR": "fixed s=1 Gaussian auxiliary LLR; calibration variance fit on calibration segment only; train/cal/test are sequential disjoint portions, no test labels fit receiver",
+  "old_stage0_bandwidths_MHz": {
+    "16QAM": 5.362847222222222,
+    "OFDM": 5.947916666666666,
+    "QPSK": 5.345486111111111
+  },
+  "old_stage0_rate_Hz": {
+    "16QAM": 5000000.0,
+    "OFDM": 4500000.0,
+    "QPSK": 5000000.0
+  },
+  "current_waveforms_all_unit_RMS_after_resampling": true,
+  "current_primary_Nd": 1501,
+  "current_primary_dt_ns": 1.0,
+  "max_abs_timestep_AIR_change": 7.148864264161503e-05,
+  "screening_Nd501_max_abs_AIR_change": 0.3081687882357902
+}

@@ -1,0 +1,7 @@
+{
+ "classification": "DOES_NOT_SURVIVE",
+ "X_REF_ratio_15_over_5": -0.035521258502825726,
+ "d_gain_ratio_15_over_5": 0.5223594916703223,
+ "validation_5MHz_all_phase_runs_identical": true,
+ "validation_5MHz_max_dwell_gain_rel_diff": 1.189143309997784e-14
+}

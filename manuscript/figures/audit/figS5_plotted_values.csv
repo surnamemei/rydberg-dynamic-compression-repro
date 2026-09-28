@@ -1,0 +1,72 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+a,dD atomic +0 dB,0.1,-0.0398400999621871,-0.0481589311088474,-0.0315212688155268,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +0 dB,0.25,-0.0135428866289112,-0.0221849424915363,-0.004900830766286,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +0 dB,0.5,0.0095095126080489,-0.0001604442984957,0.0191794695145935,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +0 dB,1.0,0.0736844561867368,0.0574045586871083,0.0899643536863653,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +0 dB,2.0,0.1387937207945589,0.1171135714803899,0.160473870108728,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +0 dB,4.0,0.178193611379488,0.1505298386304528,0.2058573841285232,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,0.1,-0.0578057413788401,-0.0589412175095899,-0.0566702652480904,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,0.25,-0.076690747441895,-0.0779224848731459,-0.0754590100106442,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,0.5,-0.0806440627233633,-0.0817977995810017,-0.0794903258657249,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,1.0,-0.083049793550406,-0.0842555776081209,-0.081844009492691,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,2.0,-0.0843795966910374,-0.0856003170110835,-0.0831588763709913,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +0 dB,4.0,-0.0850890730788188,-0.0861896023596022,-0.0839885437980354,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,0.1,0.0055976115752073,0.0053055241757921,0.0058896989746225,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,0.25,0.012845701005938,0.0124961396538399,0.0131952623580362,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,0.5,0.0157342702004827,0.0154028044424553,0.0160657359585102,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,1.0,0.0161250007284115,0.0157101462726046,0.0165398551842184,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,2.0,0.0159829332293479,0.0157006597545553,0.0162652067041406,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +0 dB,4.0,0.0160313225529429,0.0158080557934925,0.0162545893123933,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,0.1,-0.0475169523982674,-0.0611535439968082,-0.0338803607997267,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,0.25,-0.0029950975580407,-0.0147424094472111,0.0087522143311297,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,0.5,0.1080047755322394,0.0896352303288636,0.1263743207356153,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,1.0,0.2343635307537912,0.1994031713666244,0.2693238901409581,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,2.0,0.30605893739926,0.2786053556285492,0.3335125191699708,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic +3 dB,4.0,0.3887906947104196,0.3675707077315021,0.4100106816893371,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,0.1,-0.8743297061822392,-0.901520868260116,-0.8471385441043623,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,0.25,-1.2205851021712149,-1.2496271155993777,-1.191543088743052,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,0.5,-1.323322007741358,-1.3505728948245503,-1.2960711206581654,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,1.0,-1.3741226430239653,-1.4026056090415264,-1.345639677006404,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,2.0,-1.3991866031177072,-1.4272866340828183,-1.371086572152596,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh +3 dB,4.0,-1.4130024362441689,-1.4402970659011674,-1.3857078065871704,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,0.1,0.0259319166092615,0.0246079207211733,0.0272559124973498,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,0.25,0.0655777555960565,0.0642397078800419,0.066915803312071,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,0.5,0.0870455801897999,0.0852867937175691,0.0888043666620308,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,1.0,0.0926570502663709,0.0913492915992551,0.0939648089334868,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,2.0,0.0934081840883239,0.0919501405001617,0.0948662276764861,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh +3 dB,4.0,0.0943500536135148,0.0932817530596453,0.0954183541673842,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,0.1,-0.0237583979271712,-0.0259663467186063,-0.0215504491357362,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,0.25,-0.0268759689749958,-0.0299323851075618,-0.0238195528424297,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,0.5,-0.0318919427179388,-0.0349139966564999,-0.0288698887793776,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,1.0,-0.0321148082366265,-0.0344757642891819,-0.0297538521840712,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,2.0,-0.0288503077912666,-0.0307490907373859,-0.0269515248451472,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD atomic -6 dB,4.0,-0.0259961407897667,-0.0296095338699837,-0.0223827477095497,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,0.1,-0.0985537090438809,-0.1003085953550524,-0.0967988227327094,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,0.25,-0.1352167111551358,-0.1369348989848631,-0.1334985233254085,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,0.5,-0.1469522059713361,-0.1488215952361097,-0.1450828167065626,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,1.0,-0.1517970978913974,-0.1536389590253684,-0.1499552367574263,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,2.0,-0.1544914707157448,-0.1562985507651392,-0.1526843906663504,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_mh -6 dB,4.0,-0.1558471407794867,-0.1575877375209068,-0.1541065440380667,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,0.1,-0.0004619835228528,-0.0006211155306844,-0.0003028515150211,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,0.25,-0.0023965205631419,-0.0026251645570035,-0.0021678765692802,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,0.5,-0.0042876546968792,-0.004512296593788,-0.0040630127999705,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,1.0,-0.0052801235581949,-0.0055219827335581,-0.0050382643828316,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,2.0,-0.0057978535170979,-0.0060195205539138,-0.0055761864802821,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+a,dD static_lti_mh -6 dB,4.0,-0.0061008169267641,-0.0062664014683186,-0.0059352323852095,results/stage06_dwell_physics/05_controlled_pair_results.csv,
+b,DSH vs full: QPSK carrier dwell,0.0736844561867368,0.0009529828461067,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: QPSK carrier dwell,0.1387937207945589,0.0071603390465331,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: QPSK carrier dwell,0.178193611379488,0.0147639734501694,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: QPSK carrier dwell,0.2343635307537912,0.0157704252831332,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: QPSK carrier dwell,0.30605893739926,0.0479208650375764,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: QPSK carrier dwell,0.3887906947104196,0.089216372210249,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,False,False"
+b,DSH vs full: CW carrier dwell,-0.1563384745653065,0.0034077163279169,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: CW carrier dwell,-0.2163438366452682,0.0083738964877339,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: CW carrier dwell,-0.227876236156525,0.016826391545419,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: CW carrier dwell,0.1667861474014814,0.0160989658345375,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: CW carrier dwell,0.0511968254649617,0.0560740498021018,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: CW carrier dwell,0.0220684219302869,0.1310465870590998,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=False,False,False,False,True,False"
+b,DSH vs full: shuffle cycles,-0.0754598378582234,-0.0645552160466527,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=True,True"
+b,DSH vs full: shuffle cycles,-0.1244435553906149,-0.1217313586947847,,,results/stage06_dwell_physics/16_followup_single_slow_state.csv,"within_25pct=True,True"
+b,dwell contrasts within 25%,count,1.0,,,,of 12
+b,clustering contrasts within 25%,count,2.0,,,,of 2
+_audit,points outside axis limits,count,0.0,,,,

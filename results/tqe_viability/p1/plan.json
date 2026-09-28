@@ -1,0 +1,222 @@
+{
+ "run": [
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.95,
+   "amp_Vpm": 0.04880324303911659
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.9,
+   "amp_Vpm": 0.07016204570893679
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.85,
+   "amp_Vpm": 0.08710894090567625
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.8,
+   "amp_Vpm": 0.1015927114071777
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.6,
+   "amp_Vpm": 0.14664565965116375
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_CW_gain",
+   "target": 0.4,
+   "amp_Vpm": 0.1855828320597952
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_signal_to_LO",
+   "target": 0.2,
+   "amp_Vpm": 0.1
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_signal_to_LO",
+   "target": 0.358,
+   "amp_Vpm": 0.179
+  },
+  {
+   "config": "IF5",
+   "rule": "matched_signal_to_LO",
+   "target": 0.6,
+   "amp_Vpm": 0.3
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_signal_to_LO",
+   "target": 0.2,
+   "amp_Vpm": 0.1
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_signal_to_LO",
+   "target": 0.358,
+   "amp_Vpm": 0.179
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_signal_to_LO",
+   "target": 0.6,
+   "amp_Vpm": 0.3
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.95,
+   "amp_Vpm": 0.13318404472851433
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.9,
+   "amp_Vpm": 0.20207439213990733
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.85,
+   "amp_Vpm": 0.38100957230359195
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_signal_to_LO",
+   "target": 0.2,
+   "amp_Vpm": 0.1
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_signal_to_LO",
+   "target": 0.358,
+   "amp_Vpm": 0.179
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_signal_to_LO",
+   "target": 0.6,
+   "amp_Vpm": 0.3
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_signal_to_LO",
+   "target": 0.2,
+   "amp_Vpm": 0.1
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_signal_to_LO",
+   "target": 0.358,
+   "amp_Vpm": 0.179
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_signal_to_LO",
+   "target": 0.6,
+   "amp_Vpm": 0.3
+  }
+ ],
+ "infeasible": [
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.95,
+   "amp_Vpm": 0.5555998997938573
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.9,
+   "amp_Vpm": 0.5769770245094764
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.85,
+   "amp_Vpm": 0.599576346473805
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.8,
+   "amp_Vpm": 0.6160023683315293
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.6,
+   "amp_Vpm": 0.6933046993521621
+  },
+  {
+   "config": "IF10",
+   "rule": "matched_CW_gain",
+   "target": 0.4,
+   "amp_Vpm": 0.8173385144187426
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.8,
+   "amp_Vpm": 0.5234135289575841
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.6,
+   "amp_Vpm": null
+  },
+  {
+   "config": "IF15",
+   "rule": "matched_CW_gain",
+   "target": 0.4,
+   "amp_Vpm": null
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.95,
+   "amp_Vpm": 0.7056932712468993
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.9,
+   "amp_Vpm": 0.7119706029773382
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.85,
+   "amp_Vpm": 0.718606829445598
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.8,
+   "amp_Vpm": 0.7256454908236588
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.6,
+   "amp_Vpm": 0.7590460569939194
+  },
+  {
+   "config": "IF5_weak",
+   "rule": "matched_CW_gain",
+   "target": 0.4,
+   "amp_Vpm": 0.80753431424111
+  }
+ ]
+}

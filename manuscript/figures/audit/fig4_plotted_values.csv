@@ -1,0 +1,30 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+a,envelope dwell xi_0.05 max in window,max,1.737339646388802,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_0.05_p+3_Nd4001_dt1.npz,stored decimated input a[::50]
+a,envelope dwell xi_4 max in window,max,1.737339646388802,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_4_p+3_Nd4001_dt1.npz,stored decimated input a[::50]
+a,envelope shuffle ORIGINAL max in window,max,4.386914378091998,,,results/stage06_dwell_physics/traces/main/shuffle_r0_ORIGINAL_p+3_Nd4001_dt1.npz,stored decimated input a[::50]
+a,envelope shuffle BLOCK_SHUFFLED_CYCLES max in window,max,4.386327479094382,,,results/stage06_dwell_physics/traces/main/shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1.npz,stored decimated input a[::50]
+b,histogram identical dwell,max|h0-h1|,0.0,,,,regenerated full-rate envelopes; sorted samples identical
+b,time-weighted dwell/tau dwell xi_0.05,xi_0.05,0.05407523865877711,,,results/stage06_dwell_physics/04_controlled_pair_configs.csv,stored T_dwell_over_tau = 0.054075
+b,time-weighted dwell/tau dwell xi_4,xi_4,3.77451698224852,,,results/stage06_dwell_physics/04_controlled_pair_configs.csv,stored T_dwell_over_tau = 3.774517
+b,histogram identical shuffle,max|h0-h1|,0.0,,,,regenerated full-rate envelopes; sorted samples identical
+b,time-weighted dwell/tau shuffle ORIGINAL,ORIGINAL,1.0342391439842207,,,results/stage06_dwell_physics/04_controlled_pair_configs.csv,stored T_dwell_over_tau = 1.034239
+b,time-weighted dwell/tau shuffle BLOCK_SHUFFLED_CYCLES,BLOCK_SHUFFLED_CYCLES,1.0345885680473372,,,results/stage06_dwell_physics/04_controlled_pair_configs.csv,stored T_dwell_over_tau = 1.034589
+c,|y| static_mh xi_0.05 window mean,mean,0.7872766079842526,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_0.05_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+c,|y| static_lti_mh xi_0.05 window mean,mean,0.5621857437792205,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_0.05_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+c,|y| atomic xi_0.05 window mean,mean,0.4585074923188932,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_0.05_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+c,|y| static_mh xi_4 window mean,mean,0.6131085341668547,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_4_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+c,|y| static_lti_mh xi_4 window mean,mean,0.6107960183969058,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_4_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+c,|y| atomic xi_4 window mean,mean,0.4093097085383166,,,results/stage06_dwell_physics/traces/main/dwell_r0_xi_4_p+3_Nd4001_dt1.npz,normalized by RMS |y_linear| over the analysis window
+d,dD cycle-shuffle atomic,-6,-0.0336884429628897,-0.0786266471589148,0.0112497612331353,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle atomic,0,-0.0153641870390147,-0.0426457232390096,0.01191734916098,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle atomic,3,-0.0754598378582234,-0.1064315745000606,-0.0444881012163862,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle atomic,6,-0.1244435553906149,-0.1725766943941863,-0.0763104163870435,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_mh,-6,7.748641616902273e-05,-0.0012707082755567,0.0014256811078947,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_mh,0,0.0067709857987857,-0.0086772933134343,0.0222192649110058,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_mh,3,0.0035393137292557,-0.015226471969676,0.0223050994281876,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_mh,6,0.0328065821472468,-0.0597324103382114,0.125345574632705,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_lti_mh,-6,0.0033692733800809,-0.0008501592158501,0.007588705976012,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_lti_mh,0,0.0179349316434922,0.0060520942602552,0.0298177690267291,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_lti_mh,3,0.0268853825964151,0.0024052440760434,0.0513655211167869,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+d,dD cycle-shuffle static_lti_mh,6,0.0241283196085806,-0.0139287079043347,0.0621853471214961,results/stage06_dwell_physics/06_temporal_shuffle_results.csv,
+_audit,points outside axis limits,count,0.0,,,,

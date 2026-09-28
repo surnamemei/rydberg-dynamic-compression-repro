@@ -1,0 +1,488 @@
+timestamp,job_id,family,realization,xi,power_db,elapsed_s,avg_job_s,eta_s
+2026-09-26T13:26:24,dwell_r0_xi_0.05_p+3_Nd4001_dt1,dwell/main,0,0.05,3,31.9,31.9,13303
+2026-09-26T13:26:51,dwell_r0_xi_0.1_p+3_Nd4001_dt1,dwell/main,0,0.1,3,27.2,29.6,12297
+2026-09-26T13:27:20,dwell_r0_xi_0.25_p+3_Nd4001_dt1,dwell/main,0,0.25,3,28.6,29.2,12130
+2026-09-26T13:27:48,dwell_r0_xi_0.5_p+3_Nd4001_dt1,dwell/main,0,0.5,3,28.3,29.0,12009
+2026-09-26T13:28:19,dwell_r0_xi_1_p+3_Nd4001_dt1,dwell/main,0,1,3,30.9,29.4,12136
+2026-09-26T13:28:47,dwell_r0_xi_2_p+3_Nd4001_dt1,dwell/main,0,2,3,27.5,29.1,11974
+2026-09-26T13:29:15,dwell_r0_xi_4_p+3_Nd4001_dt1,dwell/main,0,4,3,28.3,29.0,11901
+2026-09-26T13:29:41,dwell_r0_xi_0.05_p+0_Nd4001_dt1,dwell/main,0,0.05,0,26.3,28.6,11737
+2026-09-26T13:30:07,dwell_r0_xi_0.1_p+0_Nd4001_dt1,dwell/main,0,0.1,0,26.3,28.4,11601
+2026-09-26T13:30:38,dwell_r0_xi_0.25_p+0_Nd4001_dt1,dwell/main,0,0.25,0,30.8,28.6,11674
+2026-09-26T13:31:07,dwell_r0_xi_0.5_p+0_Nd4001_dt1,dwell/main,0,0.5,0,28.5,28.3,11506
+2026-09-26T13:31:35,dwell_r0_xi_1_p+0_Nd4001_dt1,dwell/main,0,1,0,28.6,28.4,11533
+2026-09-26T13:32:03,dwell_r0_xi_2_p+0_Nd4001_dt1,dwell/main,0,2,0,28.1,28.4,11484
+2026-09-26T13:32:36,dwell_r0_xi_4_p+0_Nd4001_dt1,dwell/main,0,4,0,32.5,28.8,11625
+2026-09-26T13:33:04,dwell_r0_xi_0.05_p+6_Nd4001_dt1,dwell/main,0,0.05,6,27.9,28.5,11475
+2026-09-26T13:33:31,dwell_r0_xi_0.1_p+6_Nd4001_dt1,dwell/main,0,0.1,6,27.1,28.4,11433
+2026-09-26T13:33:57,dwell_r0_xi_0.25_p+6_Nd4001_dt1,dwell/main,0,0.25,6,26.2,28.2,11320
+2026-09-26T13:34:26,dwell_r0_xi_0.5_p+6_Nd4001_dt1,dwell/main,0,0.5,6,28.4,28.4,11373
+2026-09-26T13:34:58,dwell_r0_xi_1_p+6_Nd4001_dt1,dwell/main,0,1,6,32.4,29.0,11590
+2026-09-26T13:35:24,dwell_r0_xi_2_p+6_Nd4001_dt1,dwell/main,0,2,6,26.2,28.6,11374
+2026-09-26T13:35:51,dwell_r0_xi_4_p+6_Nd4001_dt1,dwell/main,0,4,6,26.6,28.4,11272
+2026-09-26T13:36:18,dwell_r1_xi_0.05_p+3_Nd4001_dt1,dwell/main,1,0.05,3,27.6,28.3,11203
+2026-09-26T13:36:49,dwell_r1_xi_0.1_p+3_Nd4001_dt1,dwell/main,1,0.1,3,30.8,28.6,11283
+2026-09-26T13:37:14,dwell_r1_xi_0.25_p+3_Nd4001_dt1,dwell/main,1,0.25,3,24.8,27.8,10949
+2026-09-26T13:37:39,dwell_r1_xi_0.5_p+3_Nd4001_dt1,dwell/main,1,0.5,3,25.5,27.5,10825
+2026-09-26T13:38:07,dwell_r1_xi_1_p+3_Nd4001_dt1,dwell/main,1,1,3,27.9,27.6,10830
+2026-09-26T13:38:36,dwell_r1_xi_2_p+3_Nd4001_dt1,dwell/main,1,2,3,28.9,27.9,10907
+2026-09-26T13:39:09,dwell_r1_xi_4_p+3_Nd4001_dt1,dwell/main,1,4,3,32.7,28.3,11050
+2026-09-26T13:39:37,dwell_r1_xi_0.05_p+0_Nd4001_dt1,dwell/main,1,0.05,0,28.6,28.0,10873
+2026-09-26T13:40:03,dwell_r1_xi_0.1_p+0_Nd4001_dt1,dwell/main,1,0.1,0,25.8,27.9,10829
+2026-09-26T13:40:30,dwell_r1_xi_0.25_p+0_Nd4001_dt1,dwell/main,1,0.25,0,26.9,27.9,10811
+2026-09-26T13:41:02,dwell_r1_xi_0.5_p+0_Nd4001_dt1,dwell/main,1,0.5,0,32.1,28.4,10958
+2026-09-26T13:41:29,dwell_r1_xi_1_p+0_Nd4001_dt1,dwell/main,1,1,0,27.2,28.0,10791
+2026-09-26T13:41:58,dwell_r1_xi_2_p+0_Nd4001_dt1,dwell/main,1,2,0,28.4,28.4,10903
+2026-09-26T13:42:25,dwell_r1_xi_4_p+0_Nd4001_dt1,dwell/main,1,4,0,26.8,28.5,10927
+2026-09-26T13:42:53,dwell_r1_xi_0.05_p+6_Nd4001_dt1,dwell/main,1,0.05,6,28.8,28.6,10931
+2026-09-26T13:43:25,dwell_r1_xi_0.1_p+6_Nd4001_dt1,dwell/main,1,0.1,6,31.4,28.9,10999
+2026-09-26T13:43:54,dwell_r1_xi_0.25_p+6_Nd4001_dt1,dwell/main,1,0.25,6,29.1,28.5,10834
+2026-09-26T13:44:22,dwell_r1_xi_0.5_p+6_Nd4001_dt1,dwell/main,1,0.5,6,27.5,28.4,10766
+2026-09-26T13:44:50,dwell_r1_xi_1_p+6_Nd4001_dt1,dwell/main,1,1,6,28.3,28.7,10834
+2026-09-26T13:45:22,dwell_r1_xi_2_p+6_Nd4001_dt1,dwell/main,1,2,6,32.2,29.2,11008
+2026-09-26T13:45:51,dwell_r1_xi_4_p+6_Nd4001_dt1,dwell/main,1,4,6,28.6,28.9,10848
+2026-09-26T13:46:18,dwell_r2_xi_0.05_p+3_Nd4001_dt1,dwell/main,2,0.05,3,26.9,28.8,10809
+2026-09-26T13:46:44,dwell_r2_xi_0.1_p+3_Nd4001_dt1,dwell/main,2,0.1,3,26.3,28.6,10700
+2026-09-26T13:47:10,dwell_r2_xi_0.25_p+3_Nd4001_dt1,dwell/main,2,0.25,3,26.3,28.6,10654
+2026-09-26T13:47:40,dwell_r2_xi_0.5_p+3_Nd4001_dt1,dwell/main,2,0.5,3,29.8,28.7,10664
+2026-09-26T13:48:08,dwell_r2_xi_1_p+3_Nd4001_dt1,dwell/main,2,1,3,28.3,28.3,10518
+2026-09-26T13:48:36,dwell_r2_xi_2_p+3_Nd4001_dt1,dwell/main,2,2,3,27.3,28.2,10421
+2026-09-26T13:49:02,dwell_r2_xi_4_p+3_Nd4001_dt1,dwell/main,2,4,3,26.8,28.1,10366
+2026-09-26T13:49:33,dwell_r2_xi_0.05_p+0_Nd4001_dt1,dwell/main,2,0.05,0,31.0,28.4,10438
+2026-09-26T13:50:03,dwell_r2_xi_0.1_p+0_Nd4001_dt1,dwell/main,2,0.1,0,29.8,28.1,10322
+2026-09-26T13:50:32,dwell_r2_xi_0.25_p+0_Nd4001_dt1,dwell/main,2,0.25,0,29.1,28.2,10310
+2026-09-26T13:51:01,dwell_r2_xi_0.5_p+0_Nd4001_dt1,dwell/main,2,0.5,0,29.1,28.4,10361
+2026-09-26T13:51:29,dwell_r2_xi_1_p+0_Nd4001_dt1,dwell/main,2,1,0,27.1,28.5,10363
+2026-09-26T13:52:02,dwell_r2_xi_2_p+0_Nd4001_dt1,dwell/main,2,2,0,33.5,29.2,10593
+2026-09-26T13:52:31,dwell_r2_xi_4_p+0_Nd4001_dt1,dwell/main,2,4,0,28.5,29.0,10516
+2026-09-26T13:52:59,dwell_r2_xi_0.05_p+6_Nd4001_dt1,dwell/main,2,0.05,6,28.5,29.1,10497
+2026-09-26T13:53:27,dwell_r2_xi_0.1_p+6_Nd4001_dt1,dwell/main,2,0.1,6,28.2,29.2,10501
+2026-09-26T13:53:59,dwell_r2_xi_0.25_p+6_Nd4001_dt1,dwell/main,2,0.25,6,31.2,29.6,10629
+2026-09-26T13:54:26,dwell_r2_xi_0.5_p+6_Nd4001_dt1,dwell/main,2,0.5,6,27.7,29.3,10483
+2026-09-26T13:54:54,dwell_r2_xi_1_p+6_Nd4001_dt1,dwell/main,2,1,6,27.3,29.0,10364
+2026-09-26T13:55:24,dwell_r2_xi_2_p+6_Nd4001_dt1,dwell/main,2,2,6,29.9,29.1,10365
+2026-09-26T13:55:55,dwell_r2_xi_4_p+6_Nd4001_dt1,dwell/main,2,4,6,31.3,29.3,10415
+2026-09-26T13:56:25,dwell_r3_xi_0.05_p+3_Nd4001_dt1,dwell/main,3,0.05,3,30.1,29.6,10494
+2026-09-26T13:56:52,dwell_r3_xi_0.1_p+3_Nd4001_dt1,dwell/main,3,0.1,3,27.5,29.0,10252
+2026-09-26T13:57:17,dwell_r3_xi_0.25_p+3_Nd4001_dt1,dwell/main,3,0.25,3,24.7,28.7,10088
+2026-09-26T13:57:42,dwell_r3_xi_0.5_p+3_Nd4001_dt1,dwell/main,3,0.5,3,24.6,28.3,9920
+2026-09-26T13:58:13,dwell_r3_xi_1_p+3_Nd4001_dt1,dwell/main,3,1,3,31.3,28.6,9998
+2026-09-26T13:58:40,dwell_r3_xi_2_p+3_Nd4001_dt1,dwell/main,3,2,3,27.0,28.1,9821
+2026-09-26T13:59:06,dwell_r3_xi_4_p+3_Nd4001_dt1,dwell/main,3,4,3,26.3,28.0,9741
+2026-09-26T13:59:31,dwell_r3_xi_0.05_p+0_Nd4001_dt1,dwell/main,3,0.05,0,24.5,27.7,9615
+2026-09-26T14:00:08,dwell_r3_xi_0.1_p+0_Nd4001_dt1,dwell/main,3,0.1,0,37.6,28.5,9853
+2026-09-26T14:00:36,dwell_r3_xi_0.25_p+0_Nd4001_dt1,dwell/main,3,0.25,0,27.3,28.1,9685
+2026-09-26T14:01:00,dwell_r3_xi_0.5_p+0_Nd4001_dt1,dwell/main,3,0.5,0,24.5,27.5,9463
+2026-09-26T14:01:25,dwell_r3_xi_1_p+0_Nd4001_dt1,dwell/main,3,1,0,24.6,27.2,9337
+2026-09-26T14:01:49,dwell_r3_xi_2_p+0_Nd4001_dt1,dwell/main,3,2,0,24.4,27.2,9299
+2026-09-26T14:02:14,dwell_r3_xi_4_p+0_Nd4001_dt1,dwell/main,3,4,0,25.1,27.2,9291
+2026-09-26T14:02:42,dwell_r3_xi_0.05_p+6_Nd4001_dt1,dwell/main,3,0.05,6,27.5,26.9,9137
+2026-09-26T14:03:06,dwell_r3_xi_0.1_p+6_Nd4001_dt1,dwell/main,3,0.1,6,24.2,26.6,9016
+2026-09-26T14:03:30,dwell_r3_xi_0.25_p+6_Nd4001_dt1,dwell/main,3,0.25,6,24.0,26.4,8912
+2026-09-26T14:03:54,dwell_r3_xi_0.5_p+6_Nd4001_dt1,dwell/main,3,0.5,6,24.1,26.3,8871
+2026-09-26T14:04:23,dwell_r3_xi_1_p+6_Nd4001_dt1,dwell/main,3,1,6,28.6,25.4,8543
+2026-09-26T14:04:55,dwell_r3_xi_2_p+6_Nd4001_dt1,dwell/main,3,2,6,32.8,26.0,8703
+2026-09-26T14:05:24,dwell_r3_xi_4_p+6_Nd4001_dt1,dwell/main,3,4,6,28.3,26.4,8805
+2026-09-26T14:05:52,dwell_r4_xi_0.05_p+3_Nd4001_dt1,dwell/main,4,0.05,3,27.9,26.7,8889
+2026-09-26T14:06:19,dwell_r4_xi_0.1_p+3_Nd4001_dt1,dwell/main,4,0.1,3,27.8,27.0,8977
+2026-09-26T14:06:50,dwell_r4_xi_0.25_p+3_Nd4001_dt1,dwell/main,4,0.25,3,30.5,27.6,9129
+2026-09-26T14:07:17,dwell_r4_xi_0.5_p+3_Nd4001_dt1,dwell/main,4,0.5,3,26.6,27.5,9072
+2026-09-26T14:07:44,dwell_r4_xi_1_p+3_Nd4001_dt1,dwell/main,4,1,3,27.7,27.8,9161
+2026-09-26T14:08:12,dwell_r4_xi_2_p+3_Nd4001_dt1,dwell/main,4,2,3,27.4,28.2,9245
+2026-09-26T14:08:38,dwell_r4_xi_4_p+3_Nd4001_dt1,dwell/main,4,4,3,26.5,28.4,9298
+2026-09-26T14:09:07,dwell_r4_xi_0.05_p+0_Nd4001_dt1,dwell/main,4,0.05,0,29.1,28.5,9284
+2026-09-26T14:09:35,dwell_r4_xi_0.1_p+0_Nd4001_dt1,dwell/main,4,0.1,0,27.8,28.0,9092
+2026-09-26T14:10:00,dwell_r4_xi_0.25_p+0_Nd4001_dt1,dwell/main,4,0.25,0,25.2,27.7,8963
+2026-09-26T14:10:25,dwell_r4_xi_0.5_p+0_Nd4001_dt1,dwell/main,4,0.5,0,24.7,27.3,8833
+2026-09-26T14:10:54,dwell_r4_xi_1_p+0_Nd4001_dt1,dwell/main,4,1,0,28.9,27.5,8842
+2026-09-26T14:11:25,dwell_r4_xi_2_p+0_Nd4001_dt1,dwell/main,4,2,0,30.6,27.5,8815
+2026-09-26T14:11:54,dwell_r4_xi_4_p+0_Nd4001_dt1,dwell/main,4,4,0,29.2,27.7,8870
+2026-09-26T14:12:20,dwell_r4_xi_0.05_p+6_Nd4001_dt1,dwell/main,4,0.05,6,26.1,27.6,8789
+2026-09-26T14:12:47,dwell_r4_xi_0.1_p+6_Nd4001_dt1,dwell/main,4,0.1,6,27.0,27.5,8748
+2026-09-26T14:13:16,dwell_r4_xi_0.25_p+6_Nd4001_dt1,dwell/main,4,0.25,6,29.5,27.8,8814
+2026-09-26T14:13:46,dwell_r4_xi_0.5_p+6_Nd4001_dt1,dwell/main,4,0.5,6,29.4,27.8,8795
+2026-09-26T14:14:14,dwell_r4_xi_1_p+6_Nd4001_dt1,dwell/main,4,1,6,28.4,27.9,8788
+2026-09-26T14:14:44,dwell_r4_xi_2_p+6_Nd4001_dt1,dwell/main,4,2,6,29.9,28.4,8906
+2026-09-26T14:15:11,dwell_r4_xi_4_p+6_Nd4001_dt1,dwell/main,4,4,6,27.5,28.6,8963
+2026-09-26T14:15:40,dwell_r5_xi_0.05_p+3_Nd4001_dt1,dwell/main,5,0.05,3,28.6,28.6,8925
+2026-09-26T14:16:09,dwell_r5_xi_0.1_p+3_Nd4001_dt1,dwell/main,5,0.1,3,29.1,28.5,8850
+2026-09-26T14:16:39,dwell_r5_xi_0.25_p+3_Nd4001_dt1,dwell/main,5,0.25,3,29.9,28.5,8842
+2026-09-26T14:17:08,dwell_r5_xi_0.5_p+3_Nd4001_dt1,dwell/main,5,0.5,3,28.6,28.8,8893
+2026-09-26T14:17:37,dwell_r5_xi_1_p+3_Nd4001_dt1,dwell/main,5,1,3,29.4,29.0,8938
+2026-09-26T14:18:01,dwell_r5_xi_2_p+3_Nd4001_dt1,dwell/main,5,2,3,24.5,28.5,8754
+2026-09-26T14:18:26,dwell_r5_xi_4_p+3_Nd4001_dt1,dwell/main,5,4,3,24.3,28.0,8570
+2026-09-26T14:18:51,dwell_r5_xi_0.05_p+0_Nd4001_dt1,dwell/main,5,0.05,0,25.6,27.7,8455
+2026-09-26T14:19:18,dwell_r5_xi_0.1_p+0_Nd4001_dt1,dwell/main,5,0.1,0,27.0,27.4,8341
+2026-09-26T14:19:45,dwell_r5_xi_0.25_p+0_Nd4001_dt1,dwell/main,5,0.25,0,26.8,27.4,8292
+2026-09-26T14:20:11,dwell_r5_xi_0.5_p+0_Nd4001_dt1,dwell/main,5,0.5,0,26.3,27.1,8194
+2026-09-26T14:20:39,dwell_r5_xi_1_p+0_Nd4001_dt1,dwell/main,5,1,0,27.8,27.0,8128
+2026-09-26T14:21:07,dwell_r5_xi_2_p+0_Nd4001_dt1,dwell/main,5,2,0,28.1,26.8,8047
+2026-09-26T14:21:38,dwell_r5_xi_4_p+0_Nd4001_dt1,dwell/main,5,4,0,31.2,27.1,8098
+2026-09-26T14:22:05,dwell_r5_xi_0.05_p+6_Nd4001_dt1,dwell/main,5,0.05,6,26.2,26.8,7977
+2026-09-26T14:22:32,dwell_r5_xi_0.1_p+6_Nd4001_dt1,dwell/main,5,0.1,6,27.1,27.0,8028
+2026-09-26T14:22:59,dwell_r5_xi_0.25_p+6_Nd4001_dt1,dwell/main,5,0.25,6,27.6,27.4,8099
+2026-09-26T14:23:27,dwell_r5_xi_0.5_p+6_Nd4001_dt1,dwell/main,5,0.5,6,27.7,27.6,8134
+2026-09-26T14:23:57,dwell_r5_xi_1_p+6_Nd4001_dt1,dwell/main,5,1,6,29.5,27.8,8179
+2026-09-26T14:24:24,dwell_r5_xi_2_p+6_Nd4001_dt1,dwell/main,5,2,6,27.1,27.9,8161
+2026-09-26T14:24:49,dwell_r5_xi_4_p+6_Nd4001_dt1,dwell/main,5,4,6,25.5,27.8,8111
+2026-09-26T14:25:15,dwell_r6_xi_0.05_p+3_Nd4001_dt1,dwell/main,6,0.05,3,26.0,27.6,8031
+2026-09-26T14:25:45,dwell_r6_xi_0.1_p+3_Nd4001_dt1,dwell/main,6,0.1,3,29.5,27.7,8046
+2026-09-26T14:26:12,dwell_r6_xi_0.25_p+3_Nd4001_dt1,dwell/main,6,0.25,3,27.3,27.3,7904
+2026-09-26T14:26:41,dwell_r6_xi_0.5_p+3_Nd4001_dt1,dwell/main,6,0.5,3,29.3,27.7,7966
+2026-09-26T14:27:09,dwell_r6_xi_1_p+3_Nd4001_dt1,dwell/main,6,1,3,27.3,27.7,7943
+2026-09-26T14:27:34,dwell_r6_xi_2_p+3_Nd4001_dt1,dwell/main,6,2,3,25.6,27.5,7857
+2026-09-26T14:28:01,dwell_r6_xi_4_p+3_Nd4001_dt1,dwell/main,6,4,3,27.0,27.4,7810
+2026-09-26T14:28:27,dwell_r6_xi_0.05_p+0_Nd4001_dt1,dwell/main,6,0.05,0,26.3,27.1,7691
+2026-09-26T14:28:53,dwell_r6_xi_0.1_p+0_Nd4001_dt1,dwell/main,6,0.1,0,25.8,27.0,7628
+2026-09-26T14:29:19,dwell_r6_xi_0.25_p+0_Nd4001_dt1,dwell/main,6,0.25,0,25.7,27.0,7605
+2026-09-26T14:29:47,dwell_r6_xi_0.5_p+0_Nd4001_dt1,dwell/main,6,0.5,0,27.7,27.1,7626
+2026-09-26T14:30:16,dwell_r6_xi_1_p+0_Nd4001_dt1,dwell/main,6,1,0,29.9,27.2,7608
+2026-09-26T14:30:43,dwell_r6_xi_2_p+0_Nd4001_dt1,dwell/main,6,2,0,26.2,27.1,7551
+2026-09-26T14:31:08,dwell_r6_xi_4_p+0_Nd4001_dt1,dwell/main,6,4,0,25.6,26.7,7422
+2026-09-26T14:31:36,dwell_r6_xi_0.05_p+6_Nd4001_dt1,dwell/main,6,0.05,6,27.6,26.7,7404
+2026-09-26T14:32:03,dwell_r6_xi_0.1_p+6_Nd4001_dt1,dwell/main,6,0.1,6,27.7,26.9,7436
+2026-09-26T14:32:30,dwell_r6_xi_0.25_p+6_Nd4001_dt1,dwell/main,6,0.25,6,26.9,26.9,7407
+2026-09-26T14:32:57,dwell_r6_xi_0.5_p+6_Nd4001_dt1,dwell/main,6,0.5,6,26.9,27.0,7397
+2026-09-26T14:33:25,dwell_r6_xi_1_p+6_Nd4001_dt1,dwell/main,6,1,6,27.4,27.2,7412
+2026-09-26T14:33:54,dwell_r6_xi_2_p+6_Nd4001_dt1,dwell/main,6,2,6,29.5,27.5,7489
+2026-09-26T14:34:31,dwell_r6_xi_4_p+6_Nd4001_dt1,dwell/main,6,4,6,37.0,28.5,7714
+2026-09-26T14:35:02,dwell_r7_xi_0.05_p+3_Nd4001_dt1,dwell/main,7,0.05,3,31.1,28.6,7719
+2026-09-26T14:35:34,dwell_r7_xi_0.1_p+3_Nd4001_dt1,dwell/main,7,0.1,3,31.3,29.1,7827
+2026-09-26T14:36:04,dwell_r7_xi_0.25_p+3_Nd4001_dt1,dwell/main,7,0.25,3,30.9,29.6,7940
+2026-09-26T14:36:40,dwell_r7_xi_0.5_p+3_Nd4001_dt1,dwell/main,7,0.5,3,35.9,30.5,8132
+2026-09-26T14:37:09,dwell_r7_xi_1_p+3_Nd4001_dt1,dwell/main,7,1,3,28.6,30.5,8125
+2026-09-26T14:37:36,dwell_r7_xi_2_p+3_Nd4001_dt1,dwell/main,7,2,3,27.5,30.6,8111
+2026-09-26T14:38:03,dwell_r7_xi_4_p+3_Nd4001_dt1,dwell/main,7,4,3,26.7,30.6,8074
+2026-09-26T14:38:33,dwell_r7_xi_0.05_p+0_Nd4001_dt1,dwell/main,7,0.05,0,29.7,30.8,8105
+2026-09-26T14:38:59,dwell_r7_xi_0.1_p+0_Nd4001_dt1,dwell/main,7,0.1,0,25.7,30.4,7974
+2026-09-26T14:39:26,dwell_r7_xi_0.25_p+0_Nd4001_dt1,dwell/main,7,0.25,0,27.7,29.5,7702
+2026-09-26T14:39:54,dwell_r7_xi_0.5_p+0_Nd4001_dt1,dwell/main,7,0.5,0,28.1,29.2,7593
+2026-09-26T14:40:21,dwell_r7_xi_1_p+0_Nd4001_dt1,dwell/main,7,1,0,27.0,28.8,7452
+2026-09-26T14:40:48,dwell_r7_xi_2_p+0_Nd4001_dt1,dwell/main,7,2,0,27.0,28.4,7322
+2026-09-26T14:41:28,dwell_r7_xi_4_p+0_Nd4001_dt1,dwell/main,7,4,0,40.2,28.8,7404
+2026-09-26T14:41:58,dwell_r7_xi_0.05_p+6_Nd4001_dt1,dwell/main,7,0.05,6,29.2,28.9,7392
+2026-09-26T14:42:25,dwell_r7_xi_0.1_p+6_Nd4001_dt1,dwell/main,7,0.1,6,27.2,28.8,7354
+2026-09-26T14:42:57,dwell_r7_xi_0.25_p+6_Nd4001_dt1,dwell/main,7,0.25,6,32.0,29.4,7461
+2026-09-26T14:43:27,dwell_r7_xi_0.5_p+6_Nd4001_dt1,dwell/main,7,0.5,6,30.1,29.4,7441
+2026-09-26T14:43:55,dwell_r7_xi_1_p+6_Nd4001_dt1,dwell/main,7,1,6,28.5,29.7,7483
+2026-09-26T14:44:24,dwell_r7_xi_2_p+6_Nd4001_dt1,dwell/main,7,2,6,28.5,29.8,7471
+2026-09-26T14:44:55,dwell_r7_xi_4_p+6_Nd4001_dt1,dwell/main,7,4,6,31.0,30.1,7514
+2026-09-26T14:45:29,shuffle_r0_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,0,ORIGINAL,3,34.3,30.8,7666
+2026-09-26T14:45:57,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_CYCLES,3,27.9,30.9,7657
+2026-09-26T14:46:27,shuffle_r0_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_FIXED,3,30.3,29.9,7382
+2026-09-26T14:46:59,shuffle_r0_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,0,SHUFFLED,3,31.7,30.1,7413
+2026-09-26T14:47:33,shuffle_r0_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,0,ORIGINAL,0,33.7,30.8,7543
+2026-09-26T14:48:03,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_CYCLES,0,30.5,30.6,7475
+2026-09-26T14:48:30,shuffle_r0_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_FIXED,0,26.6,30.3,7361
+2026-09-26T14:49:02,shuffle_r0_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,0,SHUFFLED,0,31.9,30.6,7413
+2026-09-26T14:49:33,shuffle_r0_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,0,ORIGINAL,6,31.0,30.9,7443
+2026-09-26T14:50:03,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_CYCLES,6,30.6,30.8,7404
+2026-09-26T14:50:33,shuffle_r0_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_FIXED,6,29.2,30.3,7253
+2026-09-26T14:51:02,shuffle_r0_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,0,SHUFFLED,6,29.3,30.5,7255
+2026-09-26T14:51:33,shuffle_r1_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,1,ORIGINAL,3,30.8,30.5,7236
+2026-09-26T14:52:08,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_CYCLES,3,34.9,30.8,7280
+2026-09-26T14:52:39,shuffle_r1_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_FIXED,3,31.5,30.6,7198
+2026-09-26T14:53:09,shuffle_r1_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,1,SHUFFLED,3,30.1,30.6,7158
+2026-09-26T14:53:38,shuffle_r1_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,1,ORIGINAL,0,28.4,30.8,7168
+2026-09-26T14:54:08,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_CYCLES,0,30.9,30.7,7114
+2026-09-26T14:54:36,shuffle_r1_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_FIXED,0,27.7,30.3,7009
+2026-09-26T14:55:04,shuffle_r1_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,1,SHUFFLED,0,27.4,30.0,6904
+2026-09-26T14:55:30,shuffle_r1_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,1,ORIGINAL,6,26.6,29.8,6813
+2026-09-26T14:55:59,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_CYCLES,6,29.2,29.7,6783
+2026-09-26T14:56:25,shuffle_r1_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_FIXED,6,25.5,29.2,6634
+2026-09-26T14:56:51,shuffle_r1_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,1,SHUFFLED,6,25.9,28.3,6402
+2026-09-26T14:57:18,shuffle_r2_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,2,ORIGINAL,3,27.0,27.9,6271
+2026-09-26T14:57:44,shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_CYCLES,3,26.2,27.5,6156
+2026-09-26T14:58:12,shuffle_r2_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_FIXED,3,28.4,27.5,6131
+2026-09-26T14:58:39,shuffle_r2_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,2,SHUFFLED,3,26.3,27.0,6000
+2026-09-26T14:59:05,shuffle_r2_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,2,ORIGINAL,0,25.9,26.8,5932
+2026-09-26T14:59:31,shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_CYCLES,0,26.1,26.7,5877
+2026-09-26T14:59:59,shuffle_r2_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_FIXED,0,28.2,26.9,5886
+2026-09-26T15:00:27,shuffle_r2_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,2,SHUFFLED,0,28.4,26.8,5841
+2026-09-26T15:00:54,shuffle_r2_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,2,ORIGINAL,6,26.9,26.9,5845
+2026-09-26T15:01:21,shuffle_r2_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_CYCLES,6,26.8,27.0,5837
+2026-09-26T15:01:47,shuffle_r2_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_FIXED,6,25.7,26.9,5784
+2026-09-26T15:02:17,shuffle_r2_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,2,SHUFFLED,6,30.0,27.3,5838
+2026-09-26T15:02:45,shuffle_r3_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,3,ORIGINAL,3,27.9,27.2,5800
+2026-09-26T15:03:12,shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_CYCLES,3,26.8,27.3,5784
+2026-09-26T15:03:39,shuffle_r3_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_FIXED,3,27.3,27.4,5787
+2026-09-26T15:04:06,shuffle_r3_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,3,SHUFFLED,3,26.7,27.5,5772
+2026-09-26T15:04:35,shuffle_r3_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,3,ORIGINAL,0,29.9,27.7,5780
+2026-09-26T15:05:02,shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_CYCLES,0,26.9,27.5,5722
+2026-09-26T15:05:29,shuffle_r3_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_FIXED,0,26.5,27.5,5685
+2026-09-26T15:05:56,shuffle_r3_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,3,SHUFFLED,0,27.4,27.5,5669
+2026-09-26T15:06:24,shuffle_r3_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,3,ORIGINAL,6,27.6,27.7,5680
+2026-09-26T15:06:52,shuffle_r3_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_CYCLES,6,27.9,27.5,5610
+2026-09-26T15:07:20,shuffle_r3_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_FIXED,6,28.5,27.6,5594
+2026-09-26T15:07:49,shuffle_r3_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,3,SHUFFLED,6,28.3,27.7,5597
+2026-09-26T15:08:18,shuffle_r4_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,4,ORIGINAL,3,29.1,27.9,5606
+2026-09-26T15:08:52,shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_CYCLES,3,33.9,28.6,5721
+2026-09-26T15:09:20,shuffle_r4_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_FIXED,3,28.3,28.4,5659
+2026-09-26T15:09:48,shuffle_r4_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,4,SHUFFLED,3,28.1,28.6,5653
+2026-09-26T15:10:15,shuffle_r4_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,4,ORIGINAL,0,27.1,28.6,5637
+2026-09-26T15:10:45,shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_CYCLES,0,29.6,28.8,5652
+2026-09-26T15:11:11,shuffle_r4_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_FIXED,0,26.7,28.7,5605
+2026-09-26T15:11:38,shuffle_r4_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,4,SHUFFLED,0,26.3,28.6,5546
+2026-09-26T15:12:03,shuffle_r4_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,4,ORIGINAL,6,25.1,28.2,5451
+2026-09-26T15:12:27,shuffle_r4_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_CYCLES,6,24.2,27.8,5342
+2026-09-26T15:12:52,shuffle_r4_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_FIXED,6,24.7,27.4,5230
+2026-09-26T15:13:17,shuffle_r4_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,4,SHUFFLED,6,25.7,26.6,5048
+2026-09-26T15:13:43,shuffle_r5_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,5,ORIGINAL,3,25.4,26.3,4967
+2026-09-26T15:14:08,shuffle_r5_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_CYCLES,3,25.0,26.0,4883
+2026-09-26T15:14:35,shuffle_r5_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_FIXED,3,27.8,26.0,4870
+2026-09-26T15:15:06,shuffle_r5_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,5,SHUFFLED,3,30.7,26.2,4865
+2026-09-26T15:15:34,shuffle_r5_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,5,ORIGINAL,0,28.0,26.3,4864
+2026-09-26T15:16:03,shuffle_r5_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_CYCLES,0,28.7,26.5,4881
+2026-09-26T15:16:30,shuffle_r5_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_FIXED,0,26.8,26.7,4887
+2026-09-26T15:17:10,shuffle_r5_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,5,SHUFFLED,0,39.8,28.3,5145
+2026-09-26T15:17:36,shuffle_r5_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,5,ORIGINAL,6,26.1,28.4,5143
+2026-09-26T15:18:01,shuffle_r5_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_CYCLES,6,25.8,28.4,5115
+2026-09-26T15:18:30,shuffle_r5_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_FIXED,6,28.5,28.7,5143
+2026-09-26T15:18:58,shuffle_r5_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,5,SHUFFLED,6,27.6,29.0,5161
+2026-09-26T15:19:28,shuffle_r6_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,6,ORIGINAL,3,30.3,29.2,5175
+2026-09-26T15:19:56,shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_CYCLES,3,27.8,28.9,5095
+2026-09-26T15:20:25,shuffle_r6_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_FIXED,3,29.1,29.1,5084
+2026-09-26T15:20:52,shuffle_r6_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,6,SHUFFLED,3,27.2,28.9,5030
+2026-09-26T15:21:23,shuffle_r6_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,6,ORIGINAL,0,30.6,29.3,5065
+2026-09-26T15:21:50,shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_CYCLES,0,27.1,28.0,4817
+2026-09-26T15:22:17,shuffle_r6_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_FIXED,0,27.4,28.1,4811
+2026-09-26T15:22:45,shuffle_r6_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,6,SHUFFLED,0,27.9,28.3,4818
+2026-09-26T15:23:11,shuffle_r6_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,6,ORIGINAL,6,26.4,28.1,4754
+2026-09-26T15:23:40,shuffle_r6_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_CYCLES,6,28.9,28.3,4747
+2026-09-26T15:24:08,shuffle_r6_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_FIXED,6,27.6,28.0,4674
+2026-09-26T15:24:36,shuffle_r6_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,6,SHUFFLED,6,28.0,28.0,4650
+2026-09-26T15:25:05,shuffle_r7_ORIGINAL_p+3_Nd4001_dt1,shuffle/main,7,ORIGINAL,3,29.1,28.0,4621
+2026-09-26T15:25:36,shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_CYCLES,3,30.8,28.4,4651
+2026-09-26T15:26:04,shuffle_r7_BLOCK_SHUFFLED_FIXED_p+3_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_FIXED,3,28.1,28.1,4583
+2026-09-26T15:26:32,shuffle_r7_SHUFFLED_p+3_Nd4001_dt1,shuffle/main,7,SHUFFLED,3,28.4,28.2,4575
+2026-09-26T15:27:00,shuffle_r7_ORIGINAL_p+0_Nd4001_dt1,shuffle/main,7,ORIGINAL,0,27.6,28.3,4549
+2026-09-26T15:27:26,shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+0_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_CYCLES,0,26.1,28.1,4494
+2026-09-26T15:27:56,shuffle_r7_BLOCK_SHUFFLED_FIXED_p+0_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_FIXED,0,30.7,28.5,4533
+2026-09-26T15:28:24,shuffle_r7_SHUFFLED_p+0_Nd4001_dt1,shuffle/main,7,SHUFFLED,0,27.9,28.4,4490
+2026-09-26T15:28:50,shuffle_r7_ORIGINAL_p+6_Nd4001_dt1,shuffle/main,7,ORIGINAL,6,25.6,28.2,4432
+2026-09-26T15:29:17,shuffle_r7_BLOCK_SHUFFLED_CYCLES_p+6_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_CYCLES,6,26.6,28.1,4381
+2026-09-26T15:29:49,shuffle_r7_BLOCK_SHUFFLED_FIXED_p+6_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_FIXED,6,32.8,28.5,4412
+2026-09-26T15:30:18,shuffle_r7_SHUFFLED_p+6_Nd4001_dt1,shuffle/main,7,SHUFFLED,6,28.4,28.2,4346
+2026-09-26T15:30:50,dwell_r0_xi_0.05_p-6_Nd4001_dt1,dwell/main,0,0.05,-6,32.5,28.7,4385
+2026-09-26T15:31:17,dwell_r0_xi_0.1_p-6_Nd4001_dt1,dwell/main,0,0.1,-6,26.4,28.5,4328
+2026-09-26T15:31:45,dwell_r0_xi_0.25_p-6_Nd4001_dt1,dwell/main,0,0.25,-6,28.6,28.6,4316
+2026-09-26T15:32:14,dwell_r0_xi_0.5_p-6_Nd4001_dt1,dwell/main,0,0.5,-6,28.9,28.9,4328
+2026-09-26T15:32:56,dwell_r0_xi_1_p-6_Nd4001_dt1,dwell/main,0,1,-6,41.3,29.9,4457
+2026-09-26T15:33:23,dwell_r0_xi_2_p-6_Nd4001_dt1,dwell/main,0,2,-6,27.3,29.9,4418
+2026-09-26T15:33:49,dwell_r0_xi_4_p-6_Nd4001_dt1,dwell/main,0,4,-6,26.5,29.9,4401
+2026-09-26T15:34:15,dwell_r1_xi_0.05_p-6_Nd4001_dt1,dwell/main,1,0.05,-6,25.6,29.8,4357
+2026-09-26T15:34:41,dwell_r1_xi_0.1_p-6_Nd4001_dt1,dwell/main,1,0.1,-6,26.2,29.2,4231
+2026-09-26T15:35:11,dwell_r1_xi_0.25_p-6_Nd4001_dt1,dwell/main,1,0.25,-6,30.0,29.3,4225
+2026-09-26T15:35:37,dwell_r1_xi_0.5_p-6_Nd4001_dt1,dwell/main,1,0.5,-6,25.4,28.6,4093
+2026-09-26T15:36:01,dwell_r1_xi_1_p-6_Nd4001_dt1,dwell/main,1,1,-6,24.4,28.4,4035
+2026-09-26T15:36:27,dwell_r1_xi_2_p-6_Nd4001_dt1,dwell/main,1,2,-6,25.6,28.1,3965
+2026-09-26T15:36:51,dwell_r1_xi_4_p-6_Nd4001_dt1,dwell/main,1,4,-6,24.5,27.7,3875
+2026-09-26T15:37:15,dwell_r2_xi_0.05_p-6_Nd4001_dt1,dwell/main,2,0.05,-6,24.0,26.0,3608
+2026-09-26T15:37:39,dwell_r2_xi_0.1_p-6_Nd4001_dt1,dwell/main,2,0.1,-6,24.4,25.7,3541
+2026-09-26T15:38:06,dwell_r2_xi_0.25_p-6_Nd4001_dt1,dwell/main,2,0.25,-6,26.2,25.6,3511
+2026-09-26T15:38:32,dwell_r2_xi_0.5_p-6_Nd4001_dt1,dwell/main,2,0.5,-6,26.6,25.7,3499
+2026-09-26T15:38:59,dwell_r2_xi_1_p-6_Nd4001_dt1,dwell/main,2,1,-6,26.5,25.8,3477
+2026-09-26T15:39:33,dwell_r2_xi_2_p-6_Nd4001_dt1,dwell/main,2,2,-6,34.4,26.2,3510
+2026-09-26T15:40:02,dwell_r2_xi_4_p-6_Nd4001_dt1,dwell/main,2,4,-6,28.8,26.5,3529
+2026-09-26T15:40:29,dwell_r3_xi_0.05_p-6_Nd4001_dt1,dwell/main,3,0.05,-6,27.1,26.8,3538
+2026-09-26T15:40:55,dwell_r3_xi_0.1_p-6_Nd4001_dt1,dwell/main,3,0.1,-6,25.6,26.8,3512
+2026-09-26T15:41:26,dwell_r3_xi_0.25_p-6_Nd4001_dt1,dwell/main,3,0.25,-6,31.9,27.5,3580
+2026-09-26T15:41:55,dwell_r3_xi_0.5_p-6_Nd4001_dt1,dwell/main,3,0.5,-6,28.9,28.0,3615
+2026-09-26T15:42:23,dwell_r3_xi_1_p-6_Nd4001_dt1,dwell/main,3,1,-6,28.0,28.4,3634
+2026-09-26T15:42:50,dwell_r3_xi_2_p-6_Nd4001_dt1,dwell/main,3,2,-6,26.2,28.4,3606
+2026-09-26T15:43:29,dwell_r3_xi_4_p-6_Nd4001_dt1,dwell/main,3,4,-6,39.2,29.6,3736
+2026-09-26T15:43:59,dwell_r4_xi_0.05_p-6_Nd4001_dt1,dwell/main,4,0.05,-6,30.3,30.0,3754
+2026-09-26T15:44:27,dwell_r4_xi_0.1_p-6_Nd4001_dt1,dwell/main,4,0.1,-6,27.7,29.4,3642
+2026-09-26T15:44:54,dwell_r4_xi_0.25_p-6_Nd4001_dt1,dwell/main,4,0.25,-6,27.3,29.2,3594
+2026-09-26T15:45:20,dwell_r4_xi_0.5_p-6_Nd4001_dt1,dwell/main,4,0.5,-6,25.8,29.1,3548
+2026-09-26T15:45:51,dwell_r4_xi_1_p-6_Nd4001_dt1,dwell/main,4,1,-6,31.3,29.7,3588
+2026-09-26T15:46:20,dwell_r4_xi_2_p-6_Nd4001_dt1,dwell/main,4,2,-6,28.4,29.3,3517
+2026-09-26T15:46:47,dwell_r4_xi_4_p-6_Nd4001_dt1,dwell/main,4,4,-6,27.6,29.2,3472
+2026-09-26T15:47:14,dwell_r5_xi_0.05_p-6_Nd4001_dt1,dwell/main,5,0.05,-6,26.8,29.1,3428
+2026-09-26T15:47:41,dwell_r5_xi_0.1_p-6_Nd4001_dt1,dwell/main,5,0.1,-6,27.5,29.2,3414
+2026-09-26T15:48:11,dwell_r5_xi_0.25_p-6_Nd4001_dt1,dwell/main,5,0.25,-6,29.2,28.2,3270
+2026-09-26T15:48:38,dwell_r5_xi_0.5_p-6_Nd4001_dt1,dwell/main,5,0.5,-6,27.1,27.9,3204
+2026-09-26T15:49:03,dwell_r5_xi_1_p-6_Nd4001_dt1,dwell/main,5,1,-6,25.5,27.6,3151
+2026-09-26T15:49:30,dwell_r5_xi_2_p-6_Nd4001_dt1,dwell/main,5,2,-6,26.5,27.6,3115
+2026-09-26T15:50:09,dwell_r5_xi_4_p-6_Nd4001_dt1,dwell/main,5,4,-6,39.4,28.9,3240
+2026-09-26T15:50:39,dwell_r6_xi_0.05_p-6_Nd4001_dt1,dwell/main,6,0.05,-6,29.3,28.7,3189
+2026-09-26T15:51:06,dwell_r6_xi_0.1_p-6_Nd4001_dt1,dwell/main,6,0.1,-6,27.9,28.7,3155
+2026-09-26T15:51:33,dwell_r6_xi_0.25_p-6_Nd4001_dt1,dwell/main,6,0.25,-6,26.7,28.6,3117
+2026-09-26T15:52:00,dwell_r6_xi_0.5_p-6_Nd4001_dt1,dwell/main,6,0.5,-6,26.4,28.6,3085
+2026-09-26T15:52:30,dwell_r6_xi_1_p-6_Nd4001_dt1,dwell/main,6,1,-6,30.6,28.9,3090
+2026-09-26T15:52:57,dwell_r6_xi_2_p-6_Nd4001_dt1,dwell/main,6,2,-6,27.0,28.7,3038
+2026-09-26T15:53:26,dwell_r6_xi_4_p-6_Nd4001_dt1,dwell/main,6,4,-6,28.4,28.8,3022
+2026-09-26T15:53:55,dwell_r7_xi_0.05_p-6_Nd4001_dt1,dwell/main,7,0.05,-6,29.0,29.1,3030
+2026-09-26T15:54:22,dwell_r7_xi_0.1_p-6_Nd4001_dt1,dwell/main,7,0.1,-6,27.1,29.2,3007
+2026-09-26T15:54:47,dwell_r7_xi_0.25_p-6_Nd4001_dt1,dwell/main,7,0.25,-6,25.5,27.8,2836
+2026-09-26T15:55:13,dwell_r7_xi_0.5_p-6_Nd4001_dt1,dwell/main,7,0.5,-6,26.0,27.5,2774
+2026-09-26T15:55:39,dwell_r7_xi_1_p-6_Nd4001_dt1,dwell/main,7,1,-6,25.5,27.2,2723
+2026-09-26T15:56:04,dwell_r7_xi_2_p-6_Nd4001_dt1,dwell/main,7,2,-6,25.3,27.1,2683
+2026-09-26T15:56:30,dwell_r7_xi_4_p-6_Nd4001_dt1,dwell/main,7,4,-6,25.8,27.0,2649
+2026-09-26T15:56:59,shuffle_r0_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,0,ORIGINAL,-6,29.6,26.9,2612
+2026-09-26T15:57:25,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_CYCLES,-6,25.5,26.8,2570
+2026-09-26T15:57:52,shuffle_r0_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,0,BLOCK_SHUFFLED_FIXED,-6,27.0,26.6,2531
+2026-09-26T15:58:20,shuffle_r0_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,0,SHUFFLED,-6,28.5,26.6,2499
+2026-09-26T15:58:50,shuffle_r1_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,1,ORIGINAL,-6,29.8,26.9,2498
+2026-09-26T15:59:16,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_CYCLES,-6,25.4,26.8,2470
+2026-09-26T15:59:44,shuffle_r1_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,1,BLOCK_SHUFFLED_FIXED,-6,28.6,27.1,2467
+2026-09-26T16:00:13,shuffle_r1_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,1,SHUFFLED,-6,29.2,27.5,2473
+2026-09-26T16:00:42,shuffle_r2_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,2,ORIGINAL,-6,28.3,27.8,2472
+2026-09-26T16:01:15,shuffle_r2_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_CYCLES,-6,32.7,28.5,2505
+2026-09-26T16:01:43,shuffle_r2_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,2,BLOCK_SHUFFLED_FIXED,-6,28.4,28.4,2467
+2026-09-26T16:02:13,shuffle_r2_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,2,SHUFFLED,-6,30.0,28.8,2477
+2026-09-26T16:02:42,shuffle_r3_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,3,ORIGINAL,-6,28.6,29.0,2462
+2026-09-26T16:03:14,shuffle_r3_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_CYCLES,-6,32.4,29.4,2466
+2026-09-26T16:03:43,shuffle_r3_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,3,BLOCK_SHUFFLED_FIXED,-6,28.7,29.3,2428
+2026-09-26T16:04:12,shuffle_r3_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,3,SHUFFLED,-6,29.2,29.6,2430
+2026-09-26T16:04:38,shuffle_r4_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,4,ORIGINAL,-6,26.5,29.4,2383
+2026-09-26T16:05:09,shuffle_r4_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_CYCLES,-6,30.3,29.5,2362
+2026-09-26T16:05:37,shuffle_r4_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,4,BLOCK_SHUFFLED_FIXED,-6,27.9,29.5,2330
+2026-09-26T16:06:06,shuffle_r4_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,4,SHUFFLED,-6,29.4,29.2,2274
+2026-09-26T16:06:36,shuffle_r5_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,5,ORIGINAL,-6,29.4,29.3,2253
+2026-09-26T16:07:05,shuffle_r5_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_CYCLES,-6,29.4,29.2,2218
+2026-09-26T16:07:38,shuffle_r5_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,5,BLOCK_SHUFFLED_FIXED,-6,32.9,29.6,2222
+2026-09-26T16:08:07,shuffle_r5_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,5,SHUFFLED,-6,29.5,29.3,2170
+2026-09-26T16:08:36,shuffle_r6_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,6,ORIGINAL,-6,28.4,29.3,2138
+2026-09-26T16:09:04,shuffle_r6_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_CYCLES,-6,28.0,29.2,2099
+2026-09-26T16:09:35,shuffle_r6_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,6,BLOCK_SHUFFLED_FIXED,-6,31.4,29.6,2105
+2026-09-26T16:10:03,shuffle_r6_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,6,SHUFFLED,-6,28.4,29.5,2062
+2026-09-26T16:10:30,shuffle_r7_ORIGINAL_p-6_Nd4001_dt1,shuffle/main,7,ORIGINAL,-6,27.0,29.4,2026
+2026-09-26T16:10:57,shuffle_r7_BLOCK_SHUFFLED_CYCLES_p-6_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_CYCLES,-6,26.9,29.1,1980
+2026-09-26T16:11:23,shuffle_r7_BLOCK_SHUFFLED_FIXED_p-6_Nd4001_dt1,shuffle/main,7,BLOCK_SHUFFLED_FIXED,-6,25.6,28.7,1925
+2026-09-26T16:11:54,shuffle_r7_SHUFFLED_p-6_Nd4001_dt1,shuffle/main,7,SHUFFLED,-6,31.5,28.9,1910
+2026-09-26T16:13:15,dwell_r0_xi_0.05_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,0,0.05,3,81.0,33.8,1748
+2026-09-26T16:14:34,dwell_r0_xi_0.25_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,0,0.25,3,78.8,38.7,1609
+2026-09-26T16:15:50,dwell_r0_xi_1_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,0,1,3,76.0,43.5,1477
+2026-09-26T16:17:18,dwell_r0_xi_4_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,0,4,3,87.9,49.4,1369
+2026-09-26T16:18:38,dwell_r1_xi_0.05_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,1,0.05,3,80.1,54.3,1235
+2026-09-26T16:19:58,dwell_r1_xi_0.25_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,1,0.25,3,79.9,59.5,1121
+2026-09-26T16:21:41,dwell_r1_xi_1_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,1,1,3,102.7,67.0,1044
+2026-09-26T16:22:54,dwell_r1_xi_4_p+3_Nd8001_dt1,dwell/num_Nd8001 Nd8001,1,4,3,73.4,71.7,933
+2026-09-26T16:23:35,dwell_r0_xi_0.05_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,0,0.05,3,40.9,73.2,866
+2026-09-26T16:24:15,dwell_r0_xi_0.25_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,0,0.25,3,40.1,74.1,779
+2026-09-26T16:24:59,dwell_r0_xi_1_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,0,1,3,43.6,70.3,728
+2026-09-26T16:25:37,dwell_r0_xi_4_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,0,4,3,38.5,66.3,673
+2026-09-26T16:26:17,dwell_r1_xi_0.05_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,1,0.05,3,40.1,62.7,624
+2026-09-26T16:26:57,dwell_r1_xi_0.25_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,1,0.25,3,39.8,57.9,565
+2026-09-26T16:27:38,dwell_r1_xi_1_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,1,1,3,40.8,54.0,516
+2026-09-26T16:28:17,dwell_r1_xi_4_p+3_Nd4001_dt0.5,dwell/num_dt0p5 dt0.5ns,1,4,3,39.3,49.9,466
+2026-09-26T16:29:34,shuffle_r0_ORIGINAL_p+3_Nd8001_dt1,shuffle/num_Nd8001 Nd8001,0,ORIGINAL,3,76.8,47.3,378
+2026-09-26T16:30:45,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd8001_dt1,shuffle/num_Nd8001 Nd8001,0,BLOCK_SHUFFLED_CYCLES,3,71.0,47.1,306
+2026-09-26T16:31:54,shuffle_r1_ORIGINAL_p+3_Nd8001_dt1,shuffle/num_Nd8001 Nd8001,1,ORIGINAL,3,69.2,49.9,234
+2026-09-26T16:33:15,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+3_Nd8001_dt1,shuffle/num_Nd8001 Nd8001,1,BLOCK_SHUFFLED_CYCLES,3,81.0,54.0,165
+2026-09-26T16:33:58,shuffle_r0_ORIGINAL_p+3_Nd4001_dt0.5,shuffle/num_dt0p5 dt0.5ns,0,ORIGINAL,3,43.3,54.0,124
+2026-09-26T16:34:38,shuffle_r0_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt0.5,shuffle/num_dt0p5 dt0.5ns,0,BLOCK_SHUFFLED_CYCLES,3,39.2,54.1,83
+2026-09-26T16:35:18,shuffle_r1_ORIGINAL_p+3_Nd4001_dt0.5,shuffle/num_dt0p5 dt0.5ns,1,ORIGINAL,3,40.8,54.1,41
+2026-09-26T16:35:59,shuffle_r1_BLOCK_SHUFFLED_CYCLES_p+3_Nd4001_dt0.5,shuffle/num_dt0p5 dt0.5ns,1,BLOCK_SHUFFLED_CYCLES,3,40.4,54.2,0
+2026-09-26T16:50:35,tau_0.8xE1,FU-A tau step,0,step@0.8E1,0,25.4,25.4,35574
+2026-09-26T16:50:52,tau_1.0xE1,FU-A tau step,0,step@1.0E1,0,16.8,21.1,29553
+2026-09-26T16:51:03,tau_1.2xE1,FU-A tau step,0,step@1.2E1,0,11.7,18.0,25158
+2026-09-26T16:52:26,plateau_p+0_cw,FU-B plateau cw,0,60us,0,82.4,34.1,38064
+2026-09-26T16:53:06,plateau_p+0_qpsk,FU-B plateau qpsk,0,60us,0,39.7,35.2,37818
+2026-09-26T16:53:29,plateau_p+3_cw,FU-B plateau cw,0,60us,3,23.0,33.2,35050
+2026-09-26T16:54:04,plateau_p+3_qpsk,FU-B plateau qpsk,0,60us,3,35.0,33.4,34656
+2026-09-26T16:55:24,dwell_r0_xi_0.05_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,0.05,3,80.3,39.3,32117
+2026-09-26T16:55:57,dwell_r0_xi_0.1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,0.1,3,33.1,38.6,29112
+2026-09-26T16:56:52,dwell_r0_xi_0.25_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,0.25,3,55.0,40.2,27122
+2026-09-26T16:57:20,dwell_r0_xi_0.5_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,0.5,3,27.8,40.5,24047
+2026-09-26T16:57:48,dwell_r0_xi_1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,1,3,28.2,41.6,22174
+2026-09-26T16:58:17,dwell_r0_xi_2_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,2,3,28.9,43.3,21020
+2026-09-26T16:58:48,dwell_r0_xi_4_p+3_Nd4001_dt1,FU-C dwell CW-carrier,0,4,3,31.2,38.2,14110
+2026-09-26T16:59:17,dwell_r0_xi_0.05_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,0.05,0,28.9,37.1,11036
+2026-09-26T16:59:46,dwell_r0_xi_0.1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,0.1,0,29.3,37.8,9482
+2026-09-26T17:00:18,dwell_r0_xi_0.25_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,0.25,0,31.8,37.4,6935
+2026-09-26T17:00:53,dwell_r0_xi_0.5_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,0.5,0,34.7,32.9,6058
+2026-09-26T17:01:24,dwell_r0_xi_1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,1,0,31.5,32.7,5996
+2026-09-26T17:01:49,dwell_r0_xi_2_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,2,0,24.6,29.7,5410
+2026-09-26T17:02:18,dwell_r0_xi_4_p+0_Nd4001_dt1,FU-C dwell CW-carrier,0,4,0,29.6,29.9,5414
+2026-09-26T17:02:46,dwell_r1_xi_0.05_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,0.05,3,27.8,29.8,5377
+2026-09-26T17:03:18,dwell_r1_xi_0.1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,0.1,3,32.0,30.1,5403
+2026-09-26T17:03:49,dwell_r1_xi_0.25_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,0.25,3,31.0,30.1,5367
+2026-09-26T17:04:17,dwell_r1_xi_0.5_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,0.5,3,27.9,30.0,5320
+2026-09-26T17:04:47,dwell_r1_xi_1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,1,3,29.9,30.1,5301
+2026-09-26T17:05:17,dwell_r1_xi_2_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,2,3,30.0,29.9,5239
+2026-09-26T17:05:47,dwell_r1_xi_4_p+3_Nd4001_dt1,FU-C dwell CW-carrier,1,4,3,30.3,29.5,5133
+2026-09-26T17:06:18,dwell_r1_xi_0.05_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,0.05,0,30.8,29.4,5092
+2026-09-26T17:06:48,dwell_r1_xi_0.1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,0.1,0,30.3,30.0,5160
+2026-09-26T17:07:22,dwell_r1_xi_0.25_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,0.25,0,33.2,30.3,5191
+2026-09-26T17:07:51,dwell_r1_xi_0.5_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,0.5,0,29.5,30.5,5190
+2026-09-26T17:08:21,dwell_r1_xi_1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,1,0,29.6,30.3,5120
+2026-09-26T17:08:51,dwell_r1_xi_2_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,2,0,30.5,30.2,5082
+2026-09-26T17:09:21,dwell_r1_xi_4_p+0_Nd4001_dt1,FU-C dwell CW-carrier,1,4,0,29.7,30.4,5081
+2026-09-26T17:09:55,dwell_r2_xi_0.05_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,0.05,3,34.3,30.8,5123
+2026-09-26T17:10:23,dwell_r2_xi_0.1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,0.1,3,27.7,30.6,5055
+2026-09-26T17:10:53,dwell_r2_xi_0.25_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,0.25,3,29.6,30.5,5013
+2026-09-26T17:11:21,dwell_r2_xi_0.5_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,0.5,3,28.8,30.3,4950
+2026-09-26T17:11:55,dwell_r2_xi_1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,1,3,33.1,30.6,4966
+2026-09-26T17:12:26,dwell_r2_xi_2_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,2,3,31.6,30.5,4909
+2026-09-26T17:12:54,dwell_r2_xi_4_p+3_Nd4001_dt1,FU-C dwell CW-carrier,2,4,3,27.9,30.3,4853
+2026-09-26T17:13:22,dwell_r2_xi_0.05_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,0.05,0,27.5,30.1,4788
+2026-09-26T17:13:54,dwell_r2_xi_0.1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,0.1,0,32.9,30.3,4795
+2026-09-26T17:14:23,dwell_r2_xi_0.25_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,0.25,0,28.2,30.2,4742
+2026-09-26T17:14:54,dwell_r2_xi_0.5_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,0.5,0,30.9,29.8,4659
+2026-09-26T17:15:22,dwell_r2_xi_1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,1,0,28.7,29.9,4645
+2026-09-26T17:15:53,dwell_r2_xi_2_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,2,0,31.0,30.1,4636
+2026-09-26T17:16:31,dwell_r2_xi_4_p+0_Nd4001_dt1,FU-C dwell CW-carrier,2,4,0,37.4,30.9,4737
+2026-09-26T17:17:11,dwell_r3_xi_0.05_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,0.05,3,40.8,31.7,4823
+2026-09-26T17:17:40,dwell_r3_xi_0.1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,0.1,3,28.3,31.4,4741
+2026-09-26T17:18:14,dwell_r3_xi_0.25_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,0.25,3,33.8,31.9,4799
+2026-09-26T17:18:57,dwell_r3_xi_0.5_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,0.5,3,43.3,33.5,5003
+2026-09-26T17:19:58,dwell_r3_xi_1_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,1,3,61.1,36.4,5388
+2026-09-26T17:21:07,dwell_r3_xi_2_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,2,3,68.9,40.4,5950
+2026-09-26T17:21:52,dwell_r3_xi_4_p+3_Nd4001_dt1,FU-C dwell CW-carrier,3,4,3,45.6,41.9,6124
+2026-09-26T17:22:46,dwell_r3_xi_0.05_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,0.05,0,53.9,44.4,6449
+2026-09-26T17:23:16,dwell_r3_xi_0.1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,0.1,0,29.5,44.3,6384
+2026-09-26T17:23:46,dwell_r3_xi_0.25_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,0.25,0,30.4,43.6,6239
+2026-09-26T17:24:16,dwell_r3_xi_0.5_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,0.5,0,29.3,42.4,6033
+2026-09-26T17:25:18,dwell_r3_xi_1_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,1,0,62.4,45.8,6472
+2026-09-26T17:26:07,dwell_r3_xi_2_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,2,0,49.0,47.4,6639
+2026-09-26T17:26:51,dwell_r3_xi_4_p+0_Nd4001_dt1,FU-C dwell CW-carrier,3,4,0,44.1,47.4,6602
+2026-09-26T17:29:47,dwell_r0_xi_0.05_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,0.05,3,175.9,58.9,6459
+2026-09-26T17:32:21,dwell_r0_xi_1_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,1,3,154.1,67.4,6111
+2026-09-26T17:34:57,dwell_r0_xi_4_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,4,3,155.5,78.4,6083
+2026-09-26T17:37:27,dwell_r0_xi_8_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,8,3,150.6,88.1,5922
+2026-09-26T17:40:19,dwell_r0_xi_16_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,16,3,171.6,102.3,6157
+2026-09-26T17:43:09,dwell_r0_xi_32_p+3_Nd4001_dt1,FU-D long QPSK-carrier,0,32,3,170.0,116.2,6357
+2026-09-26T17:45:38,dwell_r1_xi_0.05_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,0.05,3,148.7,128.2,6467
+2026-09-26T17:48:16,dwell_r1_xi_1_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,1,3,158.2,137.8,6218
+2026-09-26T17:50:56,dwell_r1_xi_4_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,4,3,160.1,148.9,6133
+2026-09-26T17:54:22,dwell_r1_xi_8_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,8,3,206.6,165.1,6275
+2026-09-26T17:57:16,dwell_r1_xi_16_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,16,3,173.1,164.9,6099
+2026-09-26T18:00:15,dwell_r1_xi_32_p+3_Nd4001_dt1,FU-D long QPSK-carrier,1,32,3,179.6,167.4,6026
+2026-09-26T18:02:55,dwell_r2_xi_0.05_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,0.05,3,160.0,167.8,5875
+2026-09-26T18:05:34,dwell_r2_xi_1_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,1,3,158.7,168.7,5734
+2026-09-26T18:08:29,dwell_r2_xi_4_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,4,3,174.7,169.0,5576
+2026-09-26T18:11:48,dwell_r2_xi_8_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,8,3,199.5,171.9,5502
+2026-09-26T18:14:36,dwell_r2_xi_16_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,16,3,168.1,173.9,5390
+2026-09-26T18:17:12,dwell_r2_xi_32_p+3_Nd4001_dt1,FU-D long QPSK-carrier,2,32,3,156.2,173.7,5210
+2026-09-26T18:20:18,dwell_r3_xi_0.05_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,0.05,3,185.8,176.2,5111
+2026-09-26T18:22:24,dwell_r3_xi_1_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,1,3,125.5,168.1,4708
+2026-09-26T18:23:39,dwell_r3_xi_4_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,4,3,75.5,158.4,4276
+2026-09-26T18:24:58,dwell_r3_xi_8_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,8,3,78.6,148.3,3855
+2026-09-26T18:26:21,dwell_r3_xi_16_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,16,3,83.3,140.6,3515
+2026-09-26T18:27:44,dwell_r3_xi_32_p+3_Nd4001_dt1,FU-D long QPSK-carrier,3,32,3,83.2,133.0,3193
+2026-09-26T18:29:09,dwell_r0_xi_0.05_p+3_Nd4001_dt1,FU-D long CW-carrier,0,0.05,3,85.1,124.1,2854
+2026-09-26T18:30:35,dwell_r0_xi_1_p+3_Nd4001_dt1,FU-D long CW-carrier,0,1,3,85.6,112.7,2479
+2026-09-26T18:31:52,dwell_r0_xi_4_p+3_Nd4001_dt1,FU-D long CW-carrier,0,4,3,77.3,103.6,2176
+2026-09-26T18:33:21,dwell_r0_xi_8_p+3_Nd4001_dt1,FU-D long CW-carrier,0,8,3,88.9,96.9,1938
+2026-09-26T18:34:44,dwell_r0_xi_16_p+3_Nd4001_dt1,FU-D long CW-carrier,0,16,3,82.3,86.5,1644
+2026-09-26T18:36:02,dwell_r0_xi_32_p+3_Nd4001_dt1,FU-D long CW-carrier,0,32,3,78.4,81.8,1473
+2026-09-26T18:37:25,dwell_r1_xi_0.05_p+3_Nd4001_dt1,FU-D long CW-carrier,1,0.05,3,83.5,82.6,1405
+2026-09-26T18:38:49,dwell_r1_xi_1_p+3_Nd4001_dt1,FU-D long CW-carrier,1,1,3,83.4,83.1,1330
+2026-09-26T18:40:07,dwell_r1_xi_4_p+3_Nd4001_dt1,FU-D long CW-carrier,1,4,3,78.2,82.6,1239
+2026-09-26T18:41:26,dwell_r1_xi_8_p+3_Nd4001_dt1,FU-D long CW-carrier,1,8,3,78.9,82.2,1150
+2026-09-26T18:42:56,dwell_r1_xi_16_p+3_Nd4001_dt1,FU-D long CW-carrier,1,16,3,89.7,82.6,1074
+2026-09-26T18:44:18,dwell_r1_xi_32_p+3_Nd4001_dt1,FU-D long CW-carrier,1,32,3,82.8,82.3,988
+2026-09-26T18:45:45,dwell_r2_xi_0.05_p+3_Nd4001_dt1,FU-D long CW-carrier,2,0.05,3,86.2,83.2,915
+2026-09-26T18:47:05,dwell_r2_xi_1_p+3_Nd4001_dt1,FU-D long CW-carrier,2,1,3,80.8,82.4,824
+2026-09-26T18:48:25,dwell_r2_xi_4_p+3_Nd4001_dt1,FU-D long CW-carrier,2,4,3,79.5,82.1,739
+2026-09-26T18:49:45,dwell_r2_xi_8_p+3_Nd4001_dt1,FU-D long CW-carrier,2,8,3,80.6,82.3,659
+2026-09-26T18:51:11,dwell_r2_xi_16_p+3_Nd4001_dt1,FU-D long CW-carrier,2,16,3,85.2,82.5,578
+2026-09-26T18:52:27,dwell_r2_xi_32_p+3_Nd4001_dt1,FU-D long CW-carrier,2,32,3,76.3,81.8,491
+2026-09-26T18:53:46,dwell_r3_xi_0.05_p+3_Nd4001_dt1,FU-D long CW-carrier,3,0.05,3,79.1,81.9,410
+2026-09-26T18:55:06,dwell_r3_xi_1_p+3_Nd4001_dt1,FU-D long CW-carrier,3,1,3,79.8,82.0,328
+2026-09-26T18:56:29,dwell_r3_xi_4_p+3_Nd4001_dt1,FU-D long CW-carrier,3,4,3,83.1,81.3,244
+2026-09-26T18:57:59,dwell_r3_xi_8_p+3_Nd4001_dt1,FU-D long CW-carrier,3,8,3,90.4,82.1,164
+2026-09-26T18:59:26,dwell_r3_xi_16_p+3_Nd4001_dt1,FU-D long CW-carrier,3,16,3,86.6,82.1,82
+2026-09-26T19:00:56,dwell_r3_xi_32_p+3_Nd4001_dt1,FU-D long CW-carrier,3,32,3,90.4,83.1,0

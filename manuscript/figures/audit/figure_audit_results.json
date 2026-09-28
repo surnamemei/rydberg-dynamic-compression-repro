@@ -1,0 +1,3240 @@
+{
+ "summary": {
+  "fig1": {
+   "numeric_checks": "6/6",
+   "size_in": [
+    6.99,
+    5.85
+   ],
+   "size_mm": [
+    177.5,
+    148.6
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x3510 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig2": {
+   "numeric_checks": "7/7",
+   "size_in": [
+    3.36,
+    3.95
+   ],
+   "size_mm": [
+    85.3,
+    100.3
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "2014x2370 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig3": {
+   "numeric_checks": "37/37",
+   "size_in": [
+    6.99,
+    2.75
+   ],
+   "size_mm": [
+    177.5,
+    69.8
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1650 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig4": {
+   "numeric_checks": "15/15",
+   "size_in": [
+    6.99,
+    5.0
+   ],
+   "size_mm": [
+    177.5,
+    127.0
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x3000 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig5": {
+   "numeric_checks": "8/8",
+   "size_in": [
+    6.99,
+    2.75
+   ],
+   "size_mm": [
+    177.5,
+    69.8
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1650 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig6": {
+   "numeric_checks": "7/7",
+   "size_in": [
+    6.99,
+    2.6
+   ],
+   "size_mm": [
+    177.5,
+    66.0
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1560 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig7": {
+   "numeric_checks": "18/18",
+   "size_in": [
+    6.99,
+    4.7
+   ],
+   "size_mm": [
+    177.5,
+    119.4
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x2820 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig8": {
+   "numeric_checks": "44/44",
+   "size_in": [
+    6.99,
+    5.3
+   ],
+   "size_mm": [
+    177.5,
+    134.6
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x3180 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig9": {
+   "numeric_checks": "12/12",
+   "size_in": [
+    6.99,
+    5.1
+   ],
+   "size_mm": [
+    177.5,
+    129.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x3060 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "fig10": {
+   "numeric_checks": "6/6",
+   "size_in": [
+    6.99,
+    2.55
+   ],
+   "size_mm": [
+    177.5,
+    64.8
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1530 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS1": {
+   "numeric_checks": "5/5",
+   "size_in": [
+    3.36,
+    2.6
+   ],
+   "size_mm": [
+    85.3,
+    66.0
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "2014x1560 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS2": {
+   "numeric_checks": "9/9",
+   "size_in": [
+    3.36,
+    2.4
+   ],
+   "size_mm": [
+    85.3,
+    61.0
+   ],
+   "fonts": [
+    "FreeSans"
+   ],
+   "fonts_embedded": true,
+   "png": "2014x1440 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS3": {
+   "numeric_checks": "8/8",
+   "size_in": [
+    3.36,
+    2.5
+   ],
+   "size_mm": [
+    85.3,
+    63.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "2014x1500 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS4": {
+   "numeric_checks": "4/4",
+   "size_in": [
+    6.99,
+    2.5
+   ],
+   "size_mm": [
+    177.5,
+    63.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1500 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS5": {
+   "numeric_checks": "18/18",
+   "size_in": [
+    6.99,
+    3.25
+   ],
+   "size_mm": [
+    177.5,
+    82.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1950 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS6": {
+   "numeric_checks": "18/18",
+   "size_in": [
+    6.99,
+    2.5
+   ],
+   "size_mm": [
+    177.5,
+    63.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1500 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS7": {
+   "numeric_checks": "3/3",
+   "size_in": [
+    6.99,
+    2.55
+   ],
+   "size_mm": [
+    177.5,
+    64.8
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1530 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS8": {
+   "numeric_checks": "12/12",
+   "size_in": [
+    6.99,
+    4.9
+   ],
+   "size_mm": [
+    177.5,
+    124.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x2940 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS9": {
+   "numeric_checks": "2/2",
+   "size_in": [
+    6.99,
+    5.6
+   ],
+   "size_mm": [
+    177.5,
+    142.2
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold",
+    "FreeSansOblique"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x3360 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  },
+  "figS10": {
+   "numeric_checks": "3/3",
+   "size_in": [
+    6.99,
+    2.5
+   ],
+   "size_mm": [
+    177.5,
+    63.5
+   ],
+   "fonts": [
+    "FreeSans",
+    "FreeSansBold"
+   ],
+   "fonts_embedded": true,
+   "png": "4193x1500 px @ 600 dpi",
+   "forbidden_text": [],
+   "ascii_minus": 0,
+   "verdict": "PASS"
+  }
+ },
+ "simulation_imports_in_figure_code": {},
+ "details": {
+  "fig1": {
+   "numeric": [
+    {
+     "check": "(b) E1dB Nd=1501",
+     "plotted": 0.0878128561,
+     "ledger_or_source": 0.0878128561,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) E1dB Nd=4001",
+     "plotted": 0.0732188677,
+     "ledger_or_source": 0.0732188677,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) E1dB Nd=8001",
+     "plotted": 0.0726522458,
+     "ledger_or_source": 0.0726522458,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) |c0/c1| nearest E1dB",
+     "plotted": 0.5743576587,
+     "ledger_or_source": 0.5743576587,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) max |c0/c1| 0.75-3.2 E1dB",
+     "plotted": 2.8365029423,
+     "ledger_or_source": 2.8365029423,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     5.85
+    ],
+    "size_mm": [
+     177.5,
+     148.6
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     3510
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig2": {
+   "numeric": [
+    {
+     "check": "(b) E1dB Nd=1501",
+     "plotted": 0.0878128561,
+     "ledger_or_source": 0.0878128561,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) E1dB Nd=4001",
+     "plotted": 0.0732188677,
+     "ledger_or_source": 0.0732188677,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) E1dB Nd=8001",
+     "plotted": 0.0726522458,
+     "ledger_or_source": 0.0726522458,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max NMSE at Nd=1501",
+     "plotted": 0.0088683907,
+     "ledger_or_source": 0.0088683907,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max NMSE at Nd=3001",
+     "plotted": 0.0001768883,
+     "ledger_or_source": 0.0001768883,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max NMSE at Nd=4001",
+     "plotted": 1.80379e-05,
+     "ledger_or_source": 1.80379e-05,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     3.36,
+     3.95
+    ],
+    "size_mm": [
+     85.3,
+     100.3
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     2014,
+     2370
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig3": {
+   "numeric": [
+    {
+     "check": "(a) loss CE +0 dB",
+     "plotted": -0.1083425373,
+     "ledger_or_source": -0.1083425373,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh CE +0 dB",
+     "plotted": 0.1062224855,
+     "ledger_or_source": 0.1062224855,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh CE +0 dB",
+     "plotted": -0.1900941153,
+     "ledger_or_source": -0.1900941153,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss CE +3 dB",
+     "plotted": 0.377723947,
+     "ledger_or_source": 0.377723947,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh CE +3 dB",
+     "plotted": 0.5915236463,
+     "ledger_or_source": 0.5915236463,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh CE +3 dB",
+     "plotted": 0.2935942989,
+     "ledger_or_source": 0.2935942989,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss CE +6 dB",
+     "plotted": 0.7683500418,
+     "ledger_or_source": 0.7683500418,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh CE +6 dB",
+     "plotted": 0.9792234141,
+     "ledger_or_source": 0.9792234141,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh CE +6 dB",
+     "plotted": 0.6738735661,
+     "ledger_or_source": 0.6738735661,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss QPSK +0 dB",
+     "plotted": 0.0975061837,
+     "ledger_or_source": 0.0975061837,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh QPSK +0 dB",
+     "plotted": 0.171699445,
+     "ledger_or_source": 0.171699445,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh QPSK +0 dB",
+     "plotted": 0.1170970453,
+     "ledger_or_source": 0.1170970453,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss QPSK +3 dB",
+     "plotted": 0.3930204845,
+     "ledger_or_source": 0.3930204845,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh QPSK +3 dB",
+     "plotted": 0.4060583285,
+     "ledger_or_source": 0.4060583285,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh QPSK +3 dB",
+     "plotted": 0.4076888291,
+     "ledger_or_source": 0.4076888291,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss QPSK +6 dB",
+     "plotted": 0.8281501111,
+     "ledger_or_source": 0.8281501111,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh QPSK +6 dB",
+     "plotted": 0.0127914227,
+     "ledger_or_source": 0.0127914227,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh QPSK +6 dB",
+     "plotted": 0.8155487503,
+     "ledger_or_source": 0.8155487503,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss 16-QAM +0 dB",
+     "plotted": 0.3236053154,
+     "ledger_or_source": 0.3236053154,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh 16-QAM +0 dB",
+     "plotted": 1.4928365628,
+     "ledger_or_source": 1.4928365628,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh 16-QAM +0 dB",
+     "plotted": 0.3371630498,
+     "ledger_or_source": 0.3371630498,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss 16-QAM +3 dB",
+     "plotted": 0.8272961155,
+     "ledger_or_source": 0.8272961155,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh 16-QAM +3 dB",
+     "plotted": 0.6054756427,
+     "ledger_or_source": 0.6054756427,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh 16-QAM +3 dB",
+     "plotted": 0.7487931557,
+     "ledger_or_source": 0.7487931557,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss 16-QAM +6 dB",
+     "plotted": 1.2822859549,
+     "ledger_or_source": 1.2822859549,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh 16-QAM +6 dB",
+     "plotted": -0.0245848923,
+     "ledger_or_source": -0.0245848923,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh 16-QAM +6 dB",
+     "plotted": 0.8925306013,
+     "ledger_or_source": 0.8925306013,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss OFDM +0 dB",
+     "plotted": 0.0099941947,
+     "ledger_or_source": 0.0099941947,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh OFDM +0 dB",
+     "plotted": -0.185907111,
+     "ledger_or_source": -0.185907111,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh OFDM +0 dB",
+     "plotted": 0.0099941947,
+     "ledger_or_source": 0.0099941947,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss OFDM +3 dB",
+     "plotted": 0.1155324923,
+     "ledger_or_source": 0.1155324923,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh OFDM +3 dB",
+     "plotted": -0.8792835266,
+     "ledger_or_source": -0.8792835266,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh OFDM +3 dB",
+     "plotted": 0.1079490235,
+     "ledger_or_source": 0.1079490235,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) loss OFDM +6 dB",
+     "plotted": 0.2394611948,
+     "ledger_or_source": 0.2394611948,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_mh OFDM +6 dB",
+     "plotted": -1.4203541525,
+     "ledger_or_source": -1.4203541525,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) excess static_lti_mh OFDM +6 dB",
+     "plotted": -0.105664463,
+     "ledger_or_source": -0.105664463,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.75
+    ],
+    "size_mm": [
+     177.5,
+     69.8
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1650
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig4": {
+   "numeric": [
+    {
+     "check": "(d) cycle-shuffle dD full -6 dB",
+     "plotted": -0.033688443,
+     "ledger_or_source": -0.033688443,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD static -6 dB",
+     "plotted": 7.74864e-05,
+     "ledger_or_source": 7.74864e-05,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD full +0 dB",
+     "plotted": -0.015364187,
+     "ledger_or_source": -0.015364187,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD static +0 dB",
+     "plotted": 0.0067709858,
+     "ledger_or_source": 0.0067709858,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD full +3 dB",
+     "plotted": -0.0754598379,
+     "ledger_or_source": -0.0754598379,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD static +3 dB",
+     "plotted": 0.0035393137,
+     "ledger_or_source": 0.0035393137,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD full +6 dB",
+     "plotted": -0.1244435554,
+     "ledger_or_source": -0.1244435554,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) cycle-shuffle dD static +6 dB",
+     "plotted": 0.0328065821,
+     "ledger_or_source": 0.0328065821,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) histograms identical (dwell)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0.0,
+     "pass": true
+    },
+    {
+     "check": "(b) histograms identical (shuffle)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0.0,
+     "pass": true
+    },
+    {
+     "check": "(b) time-weighted dwell/tau dwell xi_0.05 vs stored T_dwell_over_tau",
+     "plotted": 0.0540752387,
+     "ledger_or_source": 0.054075,
+     "tol": 5e-07,
+     "pass": true
+    },
+    {
+     "check": "(b) time-weighted dwell/tau dwell xi_4 vs stored T_dwell_over_tau",
+     "plotted": 3.7745169822,
+     "ledger_or_source": 3.774517,
+     "tol": 5e-07,
+     "pass": true
+    },
+    {
+     "check": "(b) time-weighted dwell/tau shuffle ORIGINAL vs stored T_dwell_over_tau",
+     "plotted": 1.034239144,
+     "ledger_or_source": 1.034239,
+     "tol": 5e-07,
+     "pass": true
+    },
+    {
+     "check": "(b) time-weighted dwell/tau shuffle BLOCK_SHUFFLED_CYCLES vs stored T_dwell_over_tau",
+     "plotted": 1.034588568,
+     "ledger_or_source": 1.034589,
+     "tol": 5e-07,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     5.0
+    ],
+    "size_mm": [
+     177.5,
+     127.0
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     3000
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS5": {
+   "numeric": [
+    {
+     "check": "(a) dD full -6 dB xi=0.1",
+     "plotted": -0.0237583979,
+     "ledger_or_source": -0.0237583979,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full -6 dB xi=1",
+     "plotted": -0.0321148082,
+     "ledger_or_source": -0.0321148082,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full -6 dB xi=4",
+     "plotted": -0.0259961408,
+     "ledger_or_source": -0.0259961408,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD LTI+static -6 dB xi=4",
+     "plotted": -0.0061008169,
+     "ledger_or_source": -0.0061008169,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +0 dB xi=0.1",
+     "plotted": -0.0398401,
+     "ledger_or_source": -0.0398401,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +0 dB xi=1",
+     "plotted": 0.0736844562,
+     "ledger_or_source": 0.0736844562,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +0 dB xi=4",
+     "plotted": 0.1781936114,
+     "ledger_or_source": 0.1781936114,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD LTI+static +0 dB xi=4",
+     "plotted": 0.0160313226,
+     "ledger_or_source": 0.0160313226,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +3 dB xi=0.1",
+     "plotted": -0.0475169524,
+     "ledger_or_source": -0.0475169524,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +3 dB xi=1",
+     "plotted": 0.2343635308,
+     "ledger_or_source": 0.2343635308,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full +3 dB xi=4",
+     "plotted": 0.3887906947,
+     "ledger_or_source": 0.3887906947,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD LTI+static +3 dB xi=4",
+     "plotted": 0.0943500536,
+     "ledger_or_source": 0.0943500536,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD static +0 dB xi=4",
+     "plotted": -0.0850890731,
+     "ledger_or_source": -0.0850890731,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD static +3 dB xi=4",
+     "plotted": -1.4130024362,
+     "ledger_or_source": -1.4130024362,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) dwell contrasts within 25%",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(b) clustering +3 dB (DSH, full)",
+     "plotted": [
+      -0.064555216,
+      -0.0754598379
+     ],
+     "ledger_or_source": [
+      -0.064555216,
+      -0.0754598379
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) clustering +6 dB (DSH, full)",
+     "plotted": [
+      -0.1217313587,
+      -0.1244435554
+     ],
+     "ledger_or_source": [
+      -0.1217313587,
+      -0.1244435554
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     3.25
+    ],
+    "size_mm": [
+     177.5,
+     82.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1950
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig6": {
+   "numeric": [
+    {
+     "check": "(a) tau_1e LO step (us)",
+     "plotted": 1.939,
+     "ledger_or_source": 1.939,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) tau_1e linear-regime step (us)",
+     "plotted": 0.047,
+     "ledger_or_source": 0.047,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) tau_atom (+5% step, us)",
+     "plotted": 2.535,
+     "ledger_or_source": 2.535,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) plateau first us / last 10 us",
+     "plotted": [
+      0.5625967227,
+      0.4321263131
+     ],
+     "ledger_or_source": [
+      0.5625967227,
+      0.4321263131
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) after: first us / 1-5 us",
+     "plotted": [
+      0.357692746,
+      0.5971363409
+     ],
+     "ledger_or_source": [
+      0.357692746,
+      0.5971363409
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) plotted trace inside axis range 0-1.3 (no clipping)",
+     "plotted": [
+      1.0,
+      1.0
+     ],
+     "ledger_or_source": [
+      1.0,
+      1.0
+     ],
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.6
+    ],
+    "size_mm": [
+     177.5,
+     66.0
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1560
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig7": {
+   "numeric": [
+    {
+     "check": "(a) plateau vs CW-static, unmodulated +0 dB",
+     "plotted": 0.001632397,
+     "ledger_or_source": 0.001632397,
+     "tol": 1e-06,
+     "pass": true
+    },
+    {
+     "check": "(a) plateau vs CW-static, QPSK carrier +0 dB",
+     "plotted": -0.5991121017,
+     "ledger_or_source": -0.5991121017,
+     "tol": 1e-06,
+     "pass": true
+    },
+    {
+     "check": "(a) plateau vs CW-static, unmodulated +3 dB",
+     "plotted": 0.0031313651,
+     "ledger_or_source": 0.0031313651,
+     "tol": 1e-06,
+     "pass": true
+    },
+    {
+     "check": "(a) plateau vs CW-static, QPSK carrier +3 dB",
+     "plotted": -0.5540783824,
+     "ledger_or_source": -0.5540783824,
+     "tol": 1e-06,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static cw xi=0.05",
+     "plotted": [
+      0.2171856947,
+      1.3480652256
+     ],
+     "ledger_or_source": [
+      0.2171856947,
+      1.3480652256
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static cw xi=4",
+     "plotted": [
+      0.0698482846,
+      0.0480872189
+     ],
+     "ledger_or_source": [
+      0.0698482846,
+      0.0480872189
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static cw xi=32",
+     "plotted": [
+      0.0329549628,
+      0.0314076652
+     ],
+     "ledger_or_source": [
+      0.0329549628,
+      0.0314076652
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) gain full/static cw xi=0.05",
+     "plotted": [
+      0.72357817,
+      0.1752736539
+     ],
+     "ledger_or_source": [
+      0.72357817,
+      0.1752736539
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) gain full/static cw xi=32",
+     "plotted": [
+      0.2609422157,
+      0.2382498613
+     ],
+     "ledger_or_source": [
+      0.2609422157,
+      0.2382498613
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static qpsk xi=0.05",
+     "plotted": [
+      0.0803694104,
+      0.4826936701
+     ],
+     "ledger_or_source": [
+      0.0803694104,
+      0.4826936701
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static qpsk xi=4",
+     "plotted": [
+      0.103621013,
+      0.0616906868
+     ],
+     "ledger_or_source": [
+      0.103621013,
+      0.0616906868
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref full/static qpsk xi=32",
+     "plotted": [
+      0.1043121385,
+      0.0582620416
+     ],
+     "ledger_or_source": [
+      0.1043121385,
+      0.0582620416
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) gain full/static qpsk xi=0.05",
+     "plotted": [
+      0.4636029462,
+      0.5743921081
+     ],
+     "ledger_or_source": [
+      0.4636029462,
+      0.5743921081
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) gain full/static qpsk xi=32",
+     "plotted": [
+      0.3490063194,
+      0.5618803882
+     ],
+     "ledger_or_source": [
+      0.3490063194,
+      0.5618803882
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) D_ref LTI+static cw xi=32",
+     "plotted": 0.0045181147,
+     "ledger_or_source": 0.0045181147,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) prespecified full-static gap xi=4 / 32",
+     "plotted": [
+      -0.3813115464,
+      -0.1414942091
+     ],
+     "ledger_or_source": [
+      -0.3813115464,
+      -0.1414942091
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) static D at xi=0.05 (ill-conditioning)",
+     "plotted": 58.3582366991,
+     "ledger_or_source": 58.3582366991,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     4.7
+    ],
+    "size_mm": [
+     177.5,
+     119.4
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     2820
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig8": {
+   "numeric": [
+    {
+     "check": "(a) X CW",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X OFF_+0.125",
+     "plotted": -0.1729975111,
+     "ledger_or_source": -0.1729975111,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X OFF_+1.31",
+     "plotted": -0.8250928416,
+     "ledger_or_source": -0.8250928416,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X OFF_-1.31",
+     "plotted": -0.5012634506,
+     "ledger_or_source": -0.5012634506,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X OFF_+2.62",
+     "plotted": -2.0207180748,
+     "ledger_or_source": -2.0207180748,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X OFF_-2.62",
+     "plotted": -0.29377558,
+     "ledger_or_source": -0.29377558,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_REF",
+     "plotted": 0.520302428,
+     "ledger_or_source": 0.520302428,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_REF_s2",
+     "plotted": 0.5231158544,
+     "ledger_or_source": 0.5231158544,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_SLOW",
+     "plotted": 0.1586271312,
+     "ledger_or_source": 0.1586271312,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_FAST",
+     "plotted": 0.4383238313,
+     "ledger_or_source": 0.4383238313,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_JUMP",
+     "plotted": 0.5233541835,
+     "ledger_or_source": 0.5233541835,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X QPSK_LONGRAMP",
+     "plotted": 0.5025690398,
+     "ledger_or_source": 0.5025690398,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X TOGGLE",
+     "plotted": 0.6510141327,
+     "ledger_or_source": 0.6510141327,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max |dX| numerical checks",
+     "plotted": 0.0030661881,
+     "ledger_or_source": 0.0030661881,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) surrogate |X| <= spread of pipeline gains 0.434-0.436",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(b) X original slow/ref/fast",
+     "plotted": [
+      0.1586271312,
+      0.520302428,
+      0.4383238313
+     ],
+     "ledger_or_source": [
+      0.1586271312,
+      0.520302428,
+      0.4383238313
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) X six zero-drift sequences slow/ref/fast",
+     "plotted": [
+      0.2446719933,
+      0.4942764691,
+      0.4246957961
+     ],
+     "ledger_or_source": [
+      0.2446719933,
+      0.4942764691,
+      0.4246957961
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) X longramp/ref/jump",
+     "plotted": [
+      0.5025690398,
+      0.520302428,
+      0.5233541835
+     ],
+     "ledger_or_source": [
+      0.5025690398,
+      0.520302428,
+      0.5233541835
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) peak excursion jump/ref/longramp (MHz)",
+     "plotted": [
+      500.0,
+      2.6179460291,
+      0.8726628538
+     ],
+     "ledger_or_source": [
+      500.0,
+      2.6179460291,
+      0.8726628538
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) pi/2 min magnitude range, full",
+     "plotted": [
+      0.3483095219,
+      0.6762978482
+     ],
+     "ledger_or_source": [
+      0.3483095219,
+      0.6762978482
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) pi/2 min magnitude range, small-signal",
+     "plotted": [
+      0.8675339767,
+      0.9980872513
+     ],
+     "ledger_or_source": [
+      0.8675339767,
+      0.9980872513
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) pi/2 phase-lag range (magnitude > 0.4)",
+     "plotted": [
+      0.9426050787,
+      1.7191161932
+     ],
+     "ledger_or_source": [
+      0.9426050787,
+      1.7191161932
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) OP1 power-step periods",
+     "plotted": [
+      1.5984390244,
+      1.6221782178
+     ],
+     "ledger_or_source": [
+      1.5984390244,
+      1.6221782178
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) OP1 phase-step period range",
+     "plotted": [
+      1.6302487562,
+      1.7429787234
+     ],
+     "ledger_or_source": [
+      1.6302487562,
+      1.7429787234
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(d) OP2 power / phase median period",
+     "plotted": [
+      0.5601367521,
+      0.5582282794
+     ],
+     "ledger_or_source": [
+      0.5601367521,
+      0.5582282794
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 reference",
+     "plotted": 0.4942764691,
+     "ledger_or_source": 0.4942764691,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 slow",
+     "plotted": 0.2446719933,
+     "ledger_or_source": 0.2446719933,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 fast",
+     "plotted": 0.4246957961,
+     "ledger_or_source": 0.4246957961,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 steps",
+     "plotted": 0.5506330685,
+     "ledger_or_source": 0.5506330685,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 900 ns ramps",
+     "plotted": 0.4558948097,
+     "ledger_or_source": 0.4558948097,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 offset +0.125",
+     "plotted": -0.1729975111,
+     "ledger_or_source": -0.1729975111,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 offset +1.31",
+     "plotted": -0.8250928416,
+     "ledger_or_source": -0.8250928416,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP1 offset −1.31",
+     "plotted": -0.5012634506,
+     "ledger_or_source": -0.5012634506,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 reference",
+     "plotted": 0.1649510003,
+     "ledger_or_source": 0.1649510003,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 slow",
+     "plotted": 0.0515825641,
+     "ledger_or_source": 0.0515825641,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 fast",
+     "plotted": 0.2161462206,
+     "ledger_or_source": 0.2161462206,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 steps",
+     "plotted": 0.196485686,
+     "ledger_or_source": 0.196485686,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 900 ns ramps",
+     "plotted": 0.0300461089,
+     "ledger_or_source": 0.0300461089,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 offset +0.125",
+     "plotted": 0.0072862887,
+     "ledger_or_source": 0.0072862887,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 offset +1.31",
+     "plotted": -0.5616076624,
+     "ledger_or_source": -0.5616076624,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) OP2 offset −1.31",
+     "plotted": -0.1779590815,
+     "ledger_or_source": -0.1779590815,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(e) all values inside axis range -0.92..0.72 (no clipping)",
+     "plotted": [
+      1.0,
+      1.0
+     ],
+     "ledger_or_source": [
+      1.0,
+      1.0
+     ],
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(a) all values inside axis range -2.2..0.85 (no clipping)",
+     "plotted": [
+      1.0,
+      1.0
+     ],
+     "ledger_or_source": [
+      1.0,
+      1.0
+     ],
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     5.3
+    ],
+    "size_mm": [
+     177.5,
+     134.6
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     3180
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS1": {
+   "numeric": [
+    {
+     "check": "(a) max |AIR diff| at Nd=1501",
+     "plotted": 0.0193087447,
+     "ledger_or_source": 0.0193087447,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max |AIR diff| at Nd=3001",
+     "plotted": 0.0038859729,
+     "ledger_or_source": 0.0038859729,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max |AIR diff| at Nd=4001",
+     "plotted": 0.0015165945,
+     "ledger_or_source": 0.0015165945,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) plateau-onset period at Nd 1501/4001/8001",
+     "plotted": [
+      1.5906796117,
+      1.5906796117,
+      1.5906796117
+     ],
+     "ledger_or_source": [
+      1.5906796117,
+      1.5906796117,
+      1.5906796117
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     3.36,
+     2.6
+    ],
+    "size_mm": [
+     85.3,
+     66.0
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     2014,
+     1560
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS2": {
+   "numeric": [
+    {
+     "check": "B99 mean CE (MHz) = equal-weight mean of stored per-seed B99",
+     "plotted": 5.3688883781,
+     "ledger_or_source": 5.3688883781,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "B99 mean CE rounds into the quoted range 5.36-5.37 MHz",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "B99 mean QPSK (MHz) = equal-weight mean of stored per-seed B99",
+     "plotted": 5.3718686104,
+     "ledger_or_source": 5.3718686104,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "B99 mean QPSK rounds into the quoted range 5.36-5.37 MHz",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "B99 mean 16-QAM (MHz) = equal-weight mean of stored per-seed B99",
+     "plotted": 5.3652524948,
+     "ledger_or_source": 5.3652524948,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "B99 mean 16-QAM rounds into the quoted range 5.36-5.37 MHz",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "B99 mean OFDM (MHz) = equal-weight mean of stored per-seed B99",
+     "plotted": 5.3555369377,
+     "ledger_or_source": 5.3555369377,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "B99 mean OFDM rounds into the quoted range 5.36-5.37 MHz",
+     "plotted": 1.0,
+     "ledger_or_source": 1.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     3.36,
+     2.4
+    ],
+    "size_mm": [
+     85.3,
+     61.0
+    ],
+    "fonts": [
+     "FreeSans"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     2014,
+     1440
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS3": {
+   "numeric": [
+    {
+     "check": "(a) dD full -6 dB xi=0.1",
+     "plotted": -0.0237583979,
+     "ledger_or_source": -0.0237583979,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) dD full +6 dB xi=0.1",
+     "plotted": -0.1572316206,
+     "ledger_or_source": -0.1572316206,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full -6 dB xi=1",
+     "plotted": -0.0321148082,
+     "ledger_or_source": -0.0321148082,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) dD full +6 dB xi=1",
+     "plotted": 0.0557480158,
+     "ledger_or_source": 0.0557480158,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) dD full -6 dB xi=4",
+     "plotted": -0.0259961408,
+     "ledger_or_source": -0.0259961408,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) dD full +6 dB xi=4",
+     "plotted": 0.2832458804,
+     "ledger_or_source": 0.2832458804,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) dD LTI+static +6 dB xi=4",
+     "plotted": 0.5035594646,
+     "ledger_or_source": 0.5035594646,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     3.36,
+     2.5
+    ],
+    "size_mm": [
+     85.3,
+     63.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     2014,
+     1500
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS4": {
+   "numeric": [
+    {
+     "check": "(a) Rydberg population change range, phase cases (%)",
+     "plotted": [
+      0.1589855661,
+      1.2832188096
+     ],
+     "ledger_or_source": [
+      0.1589855661,
+      1.2832188096
+     ],
+     "tol": 1e-07,
+     "pass": true
+    },
+    {
+     "check": "(b) max |probe shift| phase cases (dB)",
+     "plotted": 0.0330534891,
+     "ledger_or_source": 0.0330534891,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) max |probe shift| offsets (dB)",
+     "plotted": 0.3170415177,
+     "ledger_or_source": 0.3170415177,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.5
+    ],
+    "size_mm": [
+     177.5,
+     63.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1500
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig5": {
+   "numeric": [
+    {
+     "check": "(a) fitted gain QPSK +3 dB, full, xi 0.05 / 4",
+     "plotted": [
+      0.4695585353,
+      0.3597628055
+     ],
+     "ledger_or_source": [
+      0.4695585353,
+      0.3597628055
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) fitted gain unmodulated +3 dB, full, xi 0.05 / 0.25 / 4",
+     "plotted": [
+      0.7185701502,
+      0.366924387,
+      0.3373295732
+     ],
+     "ledger_or_source": [
+      0.7185701502,
+      0.366924387,
+      0.3373295732
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) D_ref full, xi=4 minus reference = paired mean change",
+     "plotted": 0.0224115897,
+     "ledger_or_source": 0.0224115897,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) D_ref LTI+static, xi=4 minus reference = paired mean change",
+     "plotted": 0.0295899477,
+     "ledger_or_source": 0.0295899477,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(d) declustering D_ref, full, +3 dB, 2-us span",
+     "plotted": -0.0056986512,
+     "ledger_or_source": -0.0056986512,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(d) declustering D_ref, full, +3 dB, span range 2-16 us",
+     "plotted": [
+      -0.0056986512,
+      -0.0050546251
+     ],
+     "ledger_or_source": [
+      -0.0056986512,
+      -0.0050546251
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(d) declustering D_ref, full, +6 dB, 2-us span",
+     "plotted": -0.0054090973,
+     "ledger_or_source": -0.0054090973,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.75
+    ],
+    "size_mm": [
+     177.5,
+     69.8
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1650
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS6": {
+   "numeric": [
+    {
+     "check": "(a) X REF OP1 -6 dB",
+     "plotted": 0.0101700619,
+     "ledger_or_source": 0.0101700619,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP1 -3 dB",
+     "plotted": 0.0396040403,
+     "ledger_or_source": 0.0396040403,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP1 +0 dB",
+     "plotted": 0.140065511,
+     "ledger_or_source": 0.140065511,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP1 +3 dB",
+     "plotted": 0.3286209225,
+     "ledger_or_source": 0.3286209225,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP1 +6 dB",
+     "plotted": 0.5368532712,
+     "ledger_or_source": 0.5368532712,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP1 +8 dB",
+     "plotted": 0.4969812212,
+     "ledger_or_source": 0.4969812212,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 -6 dB",
+     "plotted": 0.0475242752,
+     "ledger_or_source": 0.0475242752,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 -3 dB",
+     "plotted": 0.083229245,
+     "ledger_or_source": 0.083229245,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 +0 dB",
+     "plotted": 0.1317744183,
+     "ledger_or_source": 0.1317744183,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 +3 dB",
+     "plotted": 0.1738020769,
+     "ledger_or_source": 0.1738020769,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 +6 dB",
+     "plotted": 0.198691733,
+     "ledger_or_source": 0.198691733,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) X REF OP2 +8 dB",
+     "plotted": 0.1540155986,
+     "ledger_or_source": 0.1540155986,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(a) max |X| of the g(a,f) surrogate",
+     "plotted": 0.0044966671,
+     "ledger_or_source": 0.0044966671,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) OP1 R at -0.25 / +0.125 MHz",
+     "plotted": [
+      0.5080945082,
+      1.1729975111
+     ],
+     "ledger_or_source": [
+      0.5080945082,
+      1.1729975111
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) OP1 R at +3 MHz",
+     "plotted": 3.3111602002,
+     "ledger_or_source": 3.3111602002,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(b) OP3 R at +0.125 MHz",
+     "plotted": 1.0027821255,
+     "ledger_or_source": 1.0027821255,
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "(c) X REF (3 sequences) OP2 / OP3 / OP1",
+     "plotted": [
+      0.1558097603,
+      0.2943833687,
+      0.5070424964
+     ],
+     "ledger_or_source": [
+      0.1558097603,
+      0.2943833687,
+      0.5070424964
+     ],
+     "tol": 1e-09,
+     "pass": true
+    },
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.5
+    ],
+    "size_mm": [
+     177.5,
+     63.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1500
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig9": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(b) X at signal/LO 0.2/0.358/0.4 C1",
+     "plotted": [
+      0.3231869545,
+      0.4944965679,
+      0.4613960778
+     ],
+     "ledger_or_source": [
+      0.3231869545,
+      0.4944965679,
+      0.4613960778
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X at signal/LO 0.2/0.358/0.4 C2",
+     "plotted": [
+      0.0554197155,
+      0.0827192077,
+      0.0857948033
+     ],
+     "ledger_or_source": [
+      0.0554197155,
+      0.0827192077,
+      0.0857948033
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X at signal/LO 0.2/0.358/0.4 C3",
+     "plotted": [
+      -0.0102171744,
+      -0.0297496725,
+      -0.0377127662
+     ],
+     "ledger_or_source": [
+      -0.0102171744,
+      -0.0297496725,
+      -0.0377127662
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X at signal/LO 0.2/0.358/0.4 C4",
+     "plotted": [
+      0.0086179744,
+      0.0382043977,
+      0.052391063
+     ],
+     "ledger_or_source": [
+      0.0086179744,
+      0.0382043977,
+      0.052391063
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) X at CW gain 0.9/0.85, 5 MHz",
+     "plotted": [
+      0.1227094823,
+      0.2321112384
+     ],
+     "ledger_or_source": [
+      0.1227094823,
+      0.2321112384
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) X at CW gain 0.9/0.85, 15 MHz",
+     "plotted": [
+      -0.0383814306,
+      -0.0126937523
+     ],
+     "ledger_or_source": [
+      -0.0383814306,
+      -0.0126937523
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) X at CW gain 0.8/0.6/0.4 OP1",
+     "plotted": [
+      0.3342035683,
+      0.5341800407,
+      0.4820884442
+     ],
+     "ledger_or_source": [
+      0.3342035683,
+      0.5341800407,
+      0.4820884442
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) X at CW gain 0.8/0.6/0.4 OP3",
+     "plotted": [
+      0.1276070624,
+      0.2726867878,
+      0.461678391
+     ],
+     "ledger_or_source": [
+      0.1276070624,
+      0.2726867878,
+      0.461678391
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) X at CW gain 0.8/0.6/0.4 OP2",
+     "plotted": [
+      0.1720878199,
+      0.1534291678,
+      0.2375139836
+     ],
+     "ledger_or_source": [
+      0.1720878199,
+      0.1534291678,
+      0.2375139836
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(e) X_coh maximum per LO field (0.35/0.425/0.5)",
+     "plotted": [
+      0.4066271671,
+      0.4746561305,
+      0.5457446274
+     ],
+     "ledger_or_source": [
+      0.4066271671,
+      0.4746561305,
+      0.5457446274
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(d) r2 of the CW-gain minimum within the ledger range",
+     "plotted": [
+      1.0326828833,
+      1.0205336729,
+      1.0326828833
+     ],
+     "ledger_or_source": [
+      1.0326828833,
+      1.0205336729,
+      1.0326828833
+     ],
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     5.1
+    ],
+    "size_mm": [
+     177.5,
+     129.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     3060
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "fig10": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(a) median NMSE GMP / best surrogate, dwell",
+     "plotted": [
+      0.1599606861,
+      0.4970935471
+     ],
+     "ledger_or_source": [
+      0.1599606861,
+      0.4970935471
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(a) median NMSE GMP / best surrogate, shuffle",
+     "plotted": [
+      0.218320205,
+      0.6644156095
+     ],
+     "ledger_or_source": [
+      0.218320205,
+      0.6644156095
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(a) median NMSE GMP / best surrogate, phase",
+     "plotted": [
+      0.2005264169,
+      1.1117997576
+     ],
+     "ledger_or_source": [
+      0.2005264169,
+      1.1117997576
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(a) median NMSE GMP / best surrogate, fair",
+     "plotted": [
+      0.0494461521,
+      0.0549567251
+     ],
+     "ledger_or_source": [
+      0.0494461521,
+      0.0549567251
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) GMP |AIR error| QPSK/16QAM/OFDM/CE",
+     "plotted": [
+      0.0177368747,
+      0.0372140079,
+      0.0761720642,
+      0.8039642093
+     ],
+     "ledger_or_source": [
+      0.0177368747,
+      0.0372140079,
+      0.0761720642,
+      0.8039642093
+     ],
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.55
+    ],
+    "size_mm": [
+     177.5,
+     64.8
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1530
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS7": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(a) a_H output minimum (rel. pre-step)",
+     "plotted": 0.1288273553,
+     "ledger_or_source": 0.1288273553,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) rho43 +IF phase at the window end (rad)",
+     "plotted": -13.775411079,
+     "ledger_or_source": -13.775411079,
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.55
+    ],
+    "size_mm": [
+     177.5,
+     64.8
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1530
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS8": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(b) X REF 5 MHz",
+     "plotted": 0.5070424964,
+     "ledger_or_source": 0.5070424964,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) dwell gain change full / static 5 MHz",
+     "plotted": [
+      -0.1132787224,
+      -0.0063570975
+     ],
+     "ledger_or_source": [
+      -0.1132787224,
+      -0.0063570975
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X REF 10 MHz",
+     "plotted": -0.0957985295,
+     "ledger_or_source": -0.0957985295,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) dwell gain change full / static 10 MHz",
+     "plotted": [
+      -0.1113674869,
+      -0.0901634815
+     ],
+     "ledger_or_source": [
+      -0.1113674869,
+      -0.0901634815
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X REF 15 MHz",
+     "plotted": -0.0180107876,
+     "ledger_or_source": -0.0180107876,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) dwell gain change full / static 15 MHz",
+     "plotted": [
+      -0.0591722158,
+      -0.0037831874
+     ],
+     "ledger_or_source": [
+      -0.0591722158,
+      -0.0037831874
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(b) X REF weak probe",
+     "plotted": -0.1063818794,
+     "ledger_or_source": -0.1063818794,
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(c) dwell gain change full / static weak probe",
+     "plotted": [
+      -0.0255470406,
+      -0.1623412131
+     ],
+     "ledger_or_source": [
+      -0.0255470406,
+      -0.1623412131
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(d) S5 = max R - 1 at 5/10/15 MHz",
+     "plotted": [
+      2.0207180748,
+      0.2331670188,
+      0.1964682619
+     ],
+     "ledger_or_source": [
+      2.0207180748,
+      0.2331670188,
+      0.1964682619
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(a) matched level 10 MHz and weak probe (V/m)",
+     "plotted": [
+      1.4211978277,
+      1.7448247673
+     ],
+     "ledger_or_source": [
+      1.4211978277,
+      1.7448247673
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(e) slow time constants weak / standard probe (us)",
+     "plotted": [
+      4.4363735445,
+      2.6986855113
+     ],
+     "ledger_or_source": [
+      4.4363735445,
+      2.6986855113
+     ],
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     4.9
+    ],
+    "size_mm": [
+     177.5,
+     124.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     2940
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS9": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(f) X_coh maximum per LO field (0.35/0.425/0.5)",
+     "plotted": [
+      0.4066271671,
+      0.4746561305,
+      0.5457446274
+     ],
+     "ledger_or_source": [
+      0.4066271671,
+      0.4746561305,
+      0.5457446274
+     ],
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     5.6
+    ],
+    "size_mm": [
+     177.5,
+     142.2
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold",
+     "FreeSansOblique"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     3360
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  },
+  "figS10": {
+   "numeric": [
+    {
+     "check": "no data point outside its axis limits (lines, error bars, bars, fills, histograms)",
+     "plotted": 0.0,
+     "ledger_or_source": 0.0,
+     "tol": 0,
+     "pass": true
+    },
+    {
+     "check": "(b) static minus full, OFDM +3 dB, range over c",
+     "plotted": [
+      -0.8795787115,
+      -0.8487037141
+     ],
+     "ledger_or_source": [
+      -0.8795787115,
+      -0.8487037141
+     ],
+     "tol": 1e-12,
+     "pass": true
+    },
+    {
+     "check": "(a) full-model loss +3 dB at c = 4, CE / OFDM",
+     "plotted": [
+      0.0733936899,
+      0.0809337234
+     ],
+     "ledger_or_source": [
+      0.0733936899,
+      0.0809337234
+     ],
+     "tol": 1e-12,
+     "pass": true
+    }
+   ],
+   "files": {
+    "pdf_svg_png": {
+     "pdf": true,
+     "svg": true,
+     "png": true
+    },
+    "size_in": [
+     6.99,
+     2.5
+    ],
+    "size_mm": [
+     177.5,
+     63.5
+    ],
+    "fonts": [
+     "FreeSans",
+     "FreeSansBold"
+    ],
+    "fonts_embedded": true,
+    "png_px": [
+     4193,
+     1500
+    ],
+    "png_dpi": 600,
+    "svg_text_elements": 0,
+    "svg_contains_paths_or_files": false
+   },
+   "text": {
+    "forbidden_hits": [],
+    "ascii_hyphen_minus_before_digit": 0
+   }
+  }
+ },
+ "all_pass": true
+}

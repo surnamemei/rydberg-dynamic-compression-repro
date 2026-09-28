@@ -1,0 +1,22 @@
+table OP1_IF5: E1dB = 0.073219 V/m, settle 1.3e-05, 147 s
+VALIDATION E1dB at 5 MHz: new 0.07321886766113006 vs archived 0.07321886766113006 (rel. diff 0.0e+00)
+p1 IF 5 MHz done
+table OP1_IF10: E1dB = 0.580839 V/m, settle 9.7e-06, 149 s
+p1 IF 10 MHz done
+table OP1_IF15: E1dB = 0.217541 V/m, settle 8.7e-06, 147 s
+p1 IF 15 MHz done
+VALIDATION E1dB at 5 MHz: new 0.07321886766113006 vs archived 0.07321886766113006 (rel. diff 0.0e+00)
+p1 IF 5 MHz done
+extended table OP1_IF10: 35 amplitudes up to 1.609 V/m, E1dB = 0.580839 V/m
+p1 IF 10 MHz done
+extended table OP1_IF15: 29 amplitudes up to 0.700 V/m, E1dB = 0.217541 V/m
+p1 IF 15 MHz done
+p4 step_aH: chained vs continuous max |dy| / mean|y - <y>| = 3.79e-07; walls 3.2 s / 41.2 s
+p4 step_smallsignal: chained vs continuous max |dy| / mean|y - <y>| = 9.67e-06; walls 3.3 s / 40.8 s
+p4 done
+table OP1_IF5_weakprobe: E1dB = nan V/m, settle 1.5e-06, 162 s
+extended table weak probe: 37 amplitudes up to 2.128 V/m, E1dB = 0.713105 V/m
+kernel weakprobe: lin_check 6.265e-02
+p3 step weak: tau_1e 1.033e-06, slow 4.436373544538869e-06 (a 0.3095503203548405)
+p3 step standard: tau_1e 1.127e-06, slow 2.6986855113347925e-06 (a -0.3840601610365618)
+p3 done

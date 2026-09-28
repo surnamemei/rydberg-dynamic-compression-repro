@@ -1,0 +1,39 @@
+{
+  "written": "2026-09-28T00:15:34+10:00",
+  "status": "Documented deviations from 00_decision_rules.json, written during P1 execution. Internal time-stamped project record, not an external registration.",
+  "state_when_written": "P1 at 5 MHz complete (validated bit-identically against the archive). At 10 MHz the CW table, the CW and reference-QPSK phase runs and the five offset runs were complete, and their X values had been inspected (X_REF = -0.102, -0.108, -0.077); 4 of 8 dwell jobs were complete and not yet analysed. No 15 MHz result existed.",
+  "deviations": [
+    {
+      "id": "D1_extended_CW_grid",
+      "trigger": "E1dB(10 MHz) = 0.581 V/m (5 MHz: 0.0732 V/m). The fundamental gain at 10 MHz first compresses slightly (-0.28 dB at 0.03 V/m), then expands to +2.0 dB near 0.3 V/m, and falls through -1 dB only at 0.58 V/m, above the LO field (0.5 V/m). The matched levels of the rules (2.4468 E1dB for the phase runs; +3 dB re P1dB for the dwell family, high level 1.732 x 1.413 E1dB) therefore lie at 1.42 V/m, outside the archived amplitude grid (<= 0.70 V/m). A CW-matched static surrogate interpolated on the archived grid would be clamped at 0.70 V/m and is not valid there. At 15 MHz the -1 dB crossing may not exist within the archived grid at all.",
+      "rule": "At 10 and 15 MHz the CW table (same 80 us protocol, same harmonic extraction k = 0-3) is extended above 0.70 V/m with amplitudes a_j = 0.80 x 1.15^j V/m, j = 0, 1, ..., until a_j >= 3 E1dB(IF), where E1dB(IF) is located by the unchanged archived rule (slope from the first two nonzero grid amplitudes; first -1 dB crossing) on the archived grid if a crossing exists there, else on the extended grid. The static surrogate of the P1 dwell criterion uses the extended table. At 5 MHz the archived grid covers every level used (dwell high level 0.179 V/m) and is not extended. The phase criterion does not use the table except through E1dB, so the 10 MHz phase runs already completed are unaffected.",
+      "effect_on_criteria": "None on the criteria themselves; the static surrogate becomes valid at the dwell amplitudes."
+    },
+    {
+      "id": "D2_regime_note",
+      "note": "Fixed before the P1 classification is evaluated: at 10 MHz (and possibly 15 MHz) the matched relative level exceeds the LO field, so the prespecified matched-level comparison tests the effects in a different field regime (signal field larger than the LO field) as well as at a different IF. The prespecified classification is applied exactly as fixed; this regime difference is reported alongside it as an interpretive caveat and does not alter the classification. No runs at other levels are added in this pass."
+    },
+    {
+      "id": "D3_extended_grid_weak_probe",
+      "written": "2026-09-28T00:17:07+10:00",
+      "state_when_written": "No P3 (weak-probe) run existed.",
+      "rule": "The D1 extension (amplitudes 0.80 x 1.15^j V/m until >= 3 E1dB) applies to the weak-probe CW table if no -1 dB crossing exists on the archived grid or if 3 E1dB_wp > 0.70 V/m; otherwise the archived grid is used, as for the standard probe at 5 MHz."
+    },
+    {
+      "id": "D4_P4_analysis_corrections",
+      "written": "2026-09-28T00:36:23+10:00",
+      "state_when_written": "All revision2 runs complete; P4 analysis output inspected.",
+      "corrections": [
+        "The first P4 analysis demodulated each density-matrix element without removing its 200 ns boxcar base. This departs from the prespecified demodulator (the one used for the output, pm_run.demod, which removes the base before mixing): the large DC part of each coherence leaked into the IF components during the phase ramp (a spike ~100x the IF component). Corrected to the prespecified demodulator.",
+        "The search and correlation windows were shortened from 55.0 to 54.75 us: within 0.2 us of the record end the base-removal and demodulation boxcars run off the record (the demodulated output magnitude jumps >10x there). Same reason as the 0.5 us end exclusion of the X window.",
+        "Added, as a consistency check only, the real-signal IF component of Im(rho21) (the probe observable); it is excluded from the tracking verdict. The output-phase metric was replaced by the largest |deviation| of the demodulated output phase from the drive phase (the first definition was not meaningful).",
+        "Criterion values are unchanged."
+      ]
+    },
+    {
+      "id": "D5_grid_extension_endpoint",
+      "written": "2026-09-28T00:36:23+10:00",
+      "note": "The extension loop of D1/D3 stops at the last amplitude below 3 E1dB (10 MHz: 1.609 V/m, the next grid point 1.851 V/m >= 3 x 0.581 V/m was not computed; weak probe: 2.128 V/m vs 3 x 0.713 = 2.139 V/m). Every field amplitude used lies inside the computed grid (10 MHz: <= 1.425 V/m; weak probe: <= 1.745 V/m), so no interpolation was clamped. Not re-run."
+    }
+  ]
+}

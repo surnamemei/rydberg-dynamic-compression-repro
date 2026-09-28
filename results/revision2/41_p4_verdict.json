@@ -1,0 +1,31 @@
+{
+ "meta": [
+  {
+   "case": "step_aH",
+   "chain_dev": 3.790400970654785e-07,
+   "output_dip": 0.8711726447130879,
+   "output_t_min_us": 50.99,
+   "output_phase_max_abs_dev_rad": 1.5642349183134976,
+   "output_phase_dev_signed_rad": 1.5642349183134976,
+   "output_phase_t_max_us": 50.800000000000004
+  },
+  {
+   "case": "step_smallsignal",
+   "chain_dev": 9.670868124741451e-06,
+   "output_dip": 0.2512188460609295,
+   "output_t_min_us": 50.08,
+   "output_phase_max_abs_dev_rad": 0.16021207548042415,
+   "output_phase_dev_signed_rad": 0.16021207548042415,
+   "output_phase_t_max_us": 50.010000000000005
+  }
+ ],
+ "probe_observable_consistency": [
+  {
+   "dip": 0.8727380345742481,
+   "dt_min_vs_output_us": 0.0,
+   "r_vs_output": 0.9981133572926014
+  }
+ ],
+ "tracking_components_aH_thermal": [],
+ "any_internal_IF_component_tracks": false
+}

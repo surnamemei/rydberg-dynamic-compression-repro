@@ -1,0 +1,171 @@
+{"experiment": "LO_step_+1pct", "Nd": 1501, "tau_1e_s": 1.953e-06, "tau_90_s": 5.473e-06, "tau_dom_s": 2.784e-06, "tau_dom_fit_rms_log_resid": 0.007553905, "tau_dom_window_s": "2.442e-06-8.856e-06", "fit2_a_fast": -0.126182346, "fit2_tau_fast_s": 2.93e-07, "fit2_a_slow": 0.878644631, "fit2_tau_slow_s": 2.439e-06, "fit2_rms_resid": 0.005391346}
+{"experiment": "LO_step_-1pct", "Nd": 1501, "tau_1e_s": 1.986e-06, "tau_90_s": 5.457e-06, "tau_dom_s": 2.744e-06, "tau_dom_fit_rms_log_resid": 0.008534373, "tau_dom_window_s": "2.421e-06-8.794e-06", "fit2_a_fast": -0.133499096, "fit2_tau_fast_s": 2.89e-07, "fit2_a_slow": 0.888194295, "fit2_tau_slow_s": 2.417e-06, "fit2_rms_resid": 0.00537007}
+{"experiment": "IF_step_small_0.05to0.10E1", "Nd": 1501, "envelope_gain_before": 0.003186573, "envelope_gain_after": 0.003183716, "pre_step_drift_rel": 0.000100194, "tau_1e_s": 3.9e-08, "tau_90_s": 1.663e-06, "tau_dom_s": 3.575e-06, "tau_dom_fit_rms_log_resid": 0.265884144, "tau_dom_window_s": "4.700e-08-1.959e-06", "fit2_a_fast": -0.009124267, "fit2_tau_fast_s": 1.572e-06, "fit2_a_slow": -0.159897438, "fit2_tau_slow_s": 1.572e-06, "fit2_rms_resid": 0.005415655}
+{"experiment": "IF_step_P1dB_1.00to1.05E1", "Nd": 1501, "envelope_gain_before": 0.002839335, "envelope_gain_after": 0.002803628, "pre_step_drift_rel": 3.974e-06, "tau_1e_s": 2.511e-06, "tau_90_s": 6.927e-06, "tau_dom_s": 4.106e-06, "tau_dom_fit_rms_log_resid": 0.541739967, "tau_dom_window_s": "2.547e-06-1.152e-05", "fit2_a_fast": 0.585012573, "fit2_tau_fast_s": 2.2e-07, "fit2_a_slow": -0.460928281, "fit2_tau_slow_s": 3.344e-06, "fit2_rms_resid": 0.032270469}
+{"experiment": "IF_step_P1dB_1.05to1.00E1", "Nd": 1501, "envelope_gain_before": 0.002803622, "envelope_gain_after": 0.00283933, "pre_step_drift_rel": 5.43e-06, "tau_1e_s": 2.325e-06, "tau_90_s": 6.929e-06, "tau_dom_s": 4.287e-06, "tau_dom_fit_rms_log_resid": 0.513622982, "tau_dom_window_s": "2.541e-06-1.151e-05", "fit2_a_fast": 0.564370312, "fit2_tau_fast_s": 2.15e-07, "fit2_a_slow": -0.449224564, "fit2_tau_slow_s": 3.456e-06, "fit2_rms_resid": 0.031357568}
+{"experiment": "IF_plateau_0.5to1.5E1_on", "Nd": 1501, "envelope_gain_before": 0.003092509, "envelope_gain_after": 0.002353783, "pre_step_drift_rel": 1.1683e-05, "tau_1e_s": 1.33e-06, "tau_90_s": 4.447e-06, "tau_dom_s": 2.722e-06, "tau_dom_fit_rms_log_resid": 1.018874366, "tau_dom_window_s": "2.701e-06-7.719e-06", "fit2_a_fast": 0.507214073, "fit2_tau_fast_s": 3.84e-07, "fit2_a_slow": -0.554991519, "fit2_tau_slow_s": 2.053e-06, "fit2_rms_resid": 0.04776351}
+{"experiment": "IF_plateau_0.5to1.5E1_off_recovery", "Nd": 1501, "envelope_gain_before": 0.002353844, "envelope_gain_after": 0.003092519, "pre_step_drift_rel": 0.000223708, "tau_1e_s": 9.25e-07, "tau_90_s": 5.152e-06, "tau_dom_s": 4.37e-06, "tau_dom_fit_rms_log_resid": 0.349843944, "tau_dom_window_s": "1.113e-06-1.054e-05", "fit2_a_fast": 0.236303398, "fit2_tau_fast_s": 2.13e-07, "fit2_a_slow": -0.315542363, "fit2_tau_slow_s": 3.834e-06, "fit2_rms_resid": 0.017052399}
++++> CUDA launched with Nv=1285, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 3982.92 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.23 seconds
++++> Total CUDA time: 1.16 seconds: (RK: 0.71, Interp: 0.16, Combine: 0.30)
++++> CUDA launched with Nv=1285, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 3982.92 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.22 seconds
++++> Total CUDA time: 1.18 seconds: (RK: 0.76, Interp: 0.18, Combine: 0.23)
++++> CUDA launched with Nv=1285, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 5310.56 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.21 seconds
++++> Total CUDA time: 1.45 seconds: (RK: 0.94, Interp: 0.25, Combine: 0.26)
++++> CUDA launched with Nv=1285, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 5310.56 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.21 seconds
++++> Total CUDA time: 1.45 seconds: (RK: 0.95, Interp: 0.23, Combine: 0.27)
++++> CUDA launched with Nv=1285, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 5310.56 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.21 seconds
++++> Total CUDA time: 1.49 seconds: (RK: 1.00, Interp: 0.24, Combine: 0.25)
++++> CUDA launched with Nv=1285, Nrk=150.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=150.00 k, output buffers 6638.20 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.21 seconds
++++> Total CUDA time: 1.74 seconds: (RK: 1.18, Interp: 0.28, Combine: 0.28)
++++> CUDA launched with Nv=3427, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 10616.44 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.57 seconds
++++> Total CUDA time: 1.61 seconds: (RK: 0.73, Interp: 0.19, Combine: 0.68)
++++> CUDA launched with Nv=3427, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 10616.44 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.56 seconds
++++> Total CUDA time: 1.57 seconds: (RK: 0.72, Interp: 0.17, Combine: 0.68)
++++> CUDA launched with Nv=3427, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 14155.26 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.52 seconds
++++> Total CUDA time: 1.56 seconds: (RK: 0.77, Interp: 0.20, Combine: 0.58)
++++> CUDA launched with Nv=3427, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 14155.26 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.61 seconds: (RK: 0.81, Interp: 0.21, Combine: 0.59)
++++> CUDA launched with Nv=3427, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 14155.26 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA t{"experiment": "LO_step_+1pct", "Nd": 4001, "tau_1e_s": 1.939e-06, "tau_90_s": 5.474e-06, "tau_dom_s": 2.775e-06, "tau_dom_fit_rms_log_resid": 0.007763217, "tau_dom_window_s": "2.444e-06-8.862e-06", "fit2_a_fast": -0.124224319, "fit2_tau_fast_s": 2.95e-07, "fit2_a_slow": 0.878388911, "fit2_tau_slow_s": 2.44e-06, "fit2_rms_resid": 0.005429566}
+{"experiment": "LO_step_-1pct", "Nd": 4001, "tau_1e_s": 1.948e-06, "tau_90_s": 5.443e-06, "tau_dom_s": 2.735e-06, "tau_dom_fit_rms_log_resid": 0.00768776, "tau_dom_window_s": "2.455e-06-8.780e-06", "fit2_a_fast": -0.133678404, "fit2_tau_fast_s": 2.87e-07, "fit2_a_slow": 0.887680325, "fit2_tau_slow_s": 2.417e-06, "fit2_rms_resid": 0.005370168}
+{"experiment": "IF_step_small_0.05to0.10E1", "Nd": 4001, "envelope_gain_before": 0.003507399, "envelope_gain_after": 0.003503024, "pre_step_drift_rel": 4.239e-05, "tau_1e_s": 4.7e-08, "tau_90_s": 7.4e-08, "tau_dom_s": 2.52e-07, "tau_dom_fit_rms_log_resid": 0.669337442, "tau_dom_window_s": "5.400e-08-2.460e-07", "fit2_a_fast": -0.183041975, "fit2_tau_fast_s": 8.2e-08, "fit2_a_slow": -0.009625956, "fit2_tau_slow_s": 3.151e-06, "fit2_rms_resid": 0.001547963}
+{"experiment": "IF_step_P1dB_1.00to1.05E1", "Nd": 4001, "envelope_gain_before": 0.00297212, "envelope_gain_after": 0.002921507, "pre_step_drift_rel": 2.293e-06, "tau_1e_s": 2.535e-06, "tau_90_s": 7.044e-06, "tau_dom_s": 3.993e-06, "tau_dom_fit_rms_log_resid": 0.556637602, "tau_dom_window_s": "2.650e-06-1.153e-05", "fit2_a_fast": 0.608743709, "fit2_tau_fast_s": 2.14e-07, "fit2_a_slow": -0.579866918, "fit2_tau_slow_s": 2.979e-06, "fit2_rms_resid": 0.03554251}
+{"experiment": "IF_step_P1dB_1.05to1.00E1", "Nd": 4001, "envelope_gain_before": 0.002921504, "envelope_gain_after": 0.002972117, "pre_step_drift_rel": 1.764e-06, "tau_1e_s": 2.53e-06, "tau_90_s": 7.021e-06, "tau_dom_s": 4.164e-06, "tau_dom_fit_rms_log_resid": 0.523643763, "tau_dom_window_s": "2.637e-06-1.153e-05", "fit2_a_fast": 0.585231586, "fit2_tau_fast_s": 2.09e-07, "fit2_a_slow": -0.566346283, "fit2_tau_slow_s": 3.077e-06, "fit2_rms_resid": 0.034632883}
+{"experiment": "IF_plateau_0.5to1.5E1_on", "Nd": 4001, "envelope_gain_before": 0.003362737, "envelope_gain_after": 0.002364393, "pre_step_drift_rel": 4.684e-06, "tau_1e_s": 1.438e-06, "tau_90_s": 4.458e-06, "tau_dom_s": 2.307e-06, "tau_dom_fit_rms_log_resid": 1.114241268, "tau_dom_window_s": "2.715e-06-7.721e-06", "fit2_a_fast": 0.718384707, "fit2_tau_fast_s": 4.69e-07, "fit2_a_slow": -0.823836697, "fit2_tau_slow_s": 1.631e-06, "fit2_rms_resid": 0.052439538}
+{"experiment": "IF_plateau_0.5to1.5E1_off_recovery", "Nd": 4001, "envelope_gain_before": 0.002364359, "envelope_gain_after": 0.003362736, "pre_step_drift_rel": 0.000228088, "tau_1e_s": 9.37e-07, "tau_90_s": 6.328e-06, "tau_dom_s": 4.6e-06, "tau_dom_fit_rms_log_resid": 0.334928237, "tau_dom_window_s": "1.130e-06-1.073e-05", "fit2_a_fast": 0.061289497, "fit2_tau_fast_s": 2.2e-07, "fit2_a_slow": -0.332464628, "fit2_tau_slow_s": 4.034e-06, "fit2_rms_resid": 0.018868085}
+{"experiment": "LO_step_+1pct", "Nd": 8001, "tau_1e_s": 1.939e-06, "tau_90_s": 5.472e-06, "tau_dom_s": 2.774e-06, "tau_dom_fit_rms_log_resid": 0.007725229, "tau_dom_window_s": "2.443e-06-8.857e-06", "fit2_a_fast": -0.124523317, "fit2_tau_fast_s": 2.95e-07, "fit2_a_slow": 0.878491653, "fit2_tau_slow_s": 2.439e-06, "fit2_rms_resid": 0.005427548}
+{"experiment": "LO_step_-1pct", "Nd": 8001, "tau_1e_s": 1.948e-06, "tau_90_s": 5.445e-06, "tau_dom_s": 2.735e-06, "tau_dom_fit_rms_log_resid": 0.00750002, "tau_dom_window_s": "2.456e-06-8.778e-06", "fit2_a_fast": -0.133558197, "fit2_tau_fast_s": 2.87e-07, "fit2_a_slow": 0.887578739, "fit2_tau_slow_s": 2.418e-06, "fit2_rms_resid": 0.005370106}
+{"experiment": "IF_step_small_0.05to0.10E1", "Nd": 8001, "envelope_gain_before": 0.003520513, "envelope_gain_after": 0.003516178, "pre_step_drift_rel": 5.3654e-05, "tau_1e_s": 4.8e-08, "tau_90_s": 7.4e-08, "tau_dom_s": 2.32e-07, "tau_dom_fit_rms_log_resid": 0.739182919, "tau_dom_window_s": "5.500e-08-2.420e-07", "fit2_a_fast": -0.168998875, "fit2_tau_fast_s": 8.8e-08, "fit2_a_slow": -0.004346155, "fit2_tau_slow_s": 2.036e-06, "fit2_rms_resid": 0.001479307}
+{"experiment": "IF_step_P1dB_1.00to1.05E1", "Nd": 8001, "envelope_gain_before": 0.002974829, "envelope_gain_after": 0.002923245, "pre_step_drift_rel": 2.106e-06, "tau_1e_s": 2.538e-06, "tau_90_s": 7.041e-06, "tau_dom_s": 3.91e-06, "tau_dom_fit_rms_log_resid": 0.567406528, "tau_dom_window_s": "2.658e-06-1.153e-05", "fit2_a_fast": 0.600511785, "fit2_tau_fast_s": 2.23e-07, "fit2_a_slow": -0.599068207, "fit2_tau_slow_s": 2.928e-06, "fit2_rms_resid": 0.035765047}
+{"experiment": "IF_step_P1dB_1.05to1.00E1", "Nd": 8001, "envelope_gain_before": 0.002923244, "envelope_gain_after": 0.002974831, "pre_step_drift_rel": 7.35e-07, "tau_1e_s": 2.534e-06, "tau_90_s": 7.022e-06, "tau_dom_s": 4.12e-06, "tau_dom_fit_rms_log_resid": 0.52718462, "tau_dom_window_s": "2.643e-06-1.153e-05", "fit2_a_fast": 0.198247936, "fit2_tau_fast_s": 2.66e-07, "fit2_a_slow": -0.520460975, "fit2_tau_slow_s": 3.391e-06, "fit2_rms_resid": 0.035662539}
+{"experiment": "IF_plateau_0.5to1.5E1_on", "Nd": 8001, "envelope_gain_before": 0.003374101, "envelope_gain_after": 0.002360708, "pre_step_drift_rel": 4.206e-06, "tau_1e_s": 1.44e-06, "tau_90_s": 4.479e-06, "tau_dom_s": 2.242e-06, "tau_dom_fit_rms_log_resid": 1.063669281, "tau_dom_window_s": "2.718e-06-7.715e-06", "fit2_a_fast": 0.743817133, "fit2_tau_fast_s": 4.78e-07, "fit2_a_slow": -0.854841727, "fit2_tau_slow_s": 1.615e-06, "fit2_rms_resid": 0.052771766}
+{"experiment": "IF_plateau_0.5to1.5E1_off_recovery", "Nd": 8001, "envelope_gain_before": 0.002360675, "envelope_gain_after": 0.00337409, "pre_step_drift_rel": 0.000225058, "tau_1e_s": 9.39e-07, "tau_90_s": 6.331e-06, "tau_dom_s": 4.599e-06, "tau_dom_fit_rms_log_resid": 0.331253664, "tau_dom_window_s": "1.132e-06-1.073e-05", "fit2_a_fast": 0.049593873, "fit2_tau_fast_s": 2.12e-07, "fit2_a_slow": -0.335441775, "fit2_tau_slow_s": 4.033e-06, "fit2_rms_resid": 0.018907509}
+                                             experiment    Nd      tau_1e_s      tau_90_s     tau_dom_s  tau_dom_fit_rms_log_resid     tau_dom_window_s  fit2_a_fast  fit2_tau_fast_s  fit2_a_slow  fit2_tau_slow_s  fit2_rms_resid  envelope_gain_before  envelope_gain_after  pre_step_drift_rel
+0                                         LO_step_+1pct  1501  1.953000e-06  5.473000e-06  2.783975e-06                   0.007554  2.442e-06-8.856e-06    -0.126182     2.928438e-07     0.878645         0.000002        0.005391                   NaN                  NaN                 NaN
+1                                         LO_step_-1pct  1501  1.986000e-06  5.457000e-06  2.743956e-06                   0.008534  2.421e-06-8.794e-06    -0.133499     2.893107e-07     0.888194         0.000002        0.005370                   NaN                  NaN                 NaN
+2                            IF_step_small_0.05to0.10E1  1501  3.900000e-08  1.663000e-06  3.574776e-06                   0.265884  4.700e-08-1.959e-06    -0.009124     1.572047e-06    -0.159897         0.000002        0.005416              0.003187             0.003184        1.001938e-04
+3                             IF_step_P1dB_1.00to1.05E1  1501  2.511000e-06  6.927000e-06  4.105877e-06                   0.541740  2.547e-06-1.152e-05     0.585013     2.201920e-07    -0.460928         0.000003        0.032270              0.002839             0.002804        3.973597e-06
+4                             IF_step_P1dB_1.05to1.00E1  1501  2.325000e-06  6.929000e-06  4.286776e-06                   0.513623  2.541e-06-1.151e-05     0.564370     2.154367e-07    -0.449225         0.000003        0.031358              0.002804             0.002839        5.430428e-06
+5                              IF_plateau_0.5to1.5E1_on  1501  1.330000e-06  4.447000e-06  2.722308e-06                   1.018874  2.701e-06-7.719e-06     0.507214     3.842664e-07    -0.554992         0.000002        0.047764              0.003093             0.002354        1.168304e-05
+6                    IF_plateau_0.5to1.5E1_off_recovery  1501  9.250000e-07  5.152000e-06  4.369575e-06                   0.349844  1.113e-06-1.054e-05     0.236303     2.127427e-07    -0.315542         0.000004        0.017052              0.002354             0.003093        2.237085e-04
+7                                         LO_step_+1pct  4001  1.939000e-06  5.474000e-06  2.774893e-06                   0.007763  2.444e-06-8.862e-06    -0.124224     2.950061e-07     0.878389         0.000002        0.005430                   NaN                  NaN                 NaN
+8                                         LO_step_-1pct  4001  1.948000e-06  5.443000e-06  2.735480e-06                   0.007688  2.455e-06-8.780e-06    -0.133678     2.870509e-07     0.887680         0.000002        0.005370                   NaN                  NaN                 NaN
+9                            IF_step_small_0.05to0.10E1  4001  4.700000e-08  7.400000e-08  2.516550e-07                   0.669337  5.400e-08-2.460e-07    -0.183042     8.183632e-08    -0.009626         0.000003        0.001548              0.003507             0.003503        4.238956e-05
+10                            IF_step_P1dB_1.00to1.05E1  4001  2.535000e-06  7.044000e-06  3.992854e-06                   0.556638  2.650e-06-1.153e-05     0.608744     2.144344e-07    -0.579867         0.000003        0.035543              0.002972             0.002922        2.292953e-06
+11                            IF_step_P1dB_1.05to1.00E1  4001  2.530000e-06  7.021000e-06  4.164347e-06                   0.523644  2.637e-06-1.153e-05     0.585232     2.094424e-07    -0.566346         0.000003        0.034633              0.002922             0.002972        1.763621e-06
+12                             IF_plateau_0.5to1.5E1_on  4001  1.438000e-06  4.458000e-06  2.306520e-06                   1.114241  2.715e-06-7.721e-06     0.718385     4.693936e-07    -0.823837         0.000002        0.052440              0.003363             0.002364        4.684327e-06
+13                   IF_plateau_0.5to1.5E1_off_recovery  4001  9.370000e-07  6.328000e-06  4.600448e-06                   0.334928  1.130e-06-1.073e-05     0.061289     2.197063e-07    -0.332465         0.000004        0.018868              0.002364             0.003363        2.280878e-04
+14                                        LO_step_+1pct  8001  1.939000e-06  5.472000e-06  2.774037e-06                   0.007725  2.443e-06-8.857e-06    -0.124523     2.947610e-07     0.878492         0.000002        0.005428                   NaN                  NaN                 NaN
+15                                        LO_step_-1pct  8001  1.948000e-06  5.445000e-06  2.735195e-06                   0.007500  2.456e-06-8.778e-06    -0.133558     2.869494e-07     0.887579         0.000002        0.005370                   NaN                  NaN                 NaN
+16                           IF_step_small_0.05to0.10E1  8001  4.800000e-08  7.400000e-08  2.322919e-07                   0.739183  5.500e-08-2.420e-07    -0.168999     8.820122e-08    -0.004346         0.000002        0.001479              0.003521             0.003516        5.365401e-05
+17                            IF_step_P1dB_1.00to1.05E1  8001  2.538000e-06  7.041000e-06  3.909762e-06                   0.567407  2.658e-06-1.153e-05     0.600512     2.229056e-07    -0.599068         0.000003        0.035765              0.002975             0.002923        2.106364e-06
+18                            IF_step_P1dB_1.05to1.00E1  8001  2.534000e-06  7.022000e-06  4.119728e-06                   0.527185  2.643e-06-1.153e-05     0.198248     2.664578e-07    -0.520461         0.000003        0.035663              0.002923             0.002975        7.348748e-07
+19                             IF_plateau_0.5to1.5E1_on  8001  1.440000e-06  4.479000e-06  2.241586e-06                   1.063669  2.718e-06-7.715e-06     0.743817     4.776001e-07    -0.854842         0.000002        0.052772              0.003374             0.002361        4.205843e-06
+20                   IF_plateau_0.5to1.5E1_off_recovery  8001  9.390000e-07  6.331000e-06  4.598531e-06                   0.331254  1.132e-06-1.073e-05     0.049594     2.124012e-07    -0.335442         0.000004        0.018908              0.002361             0.003374        2.250580e-04
+21  weak_impulse_kernel_IF_envelope(Stage-0.5 artifact)  1501  2.150000e-07  3.670000e-07  2.275812e-06                   0.877216  2.330e-07-1.400e-05     1.057453     1.603557e-07     0.020876         0.000002        0.012858                   NaN                  NaN                 NaN
+ime: 1.60 seconds: (RK: 0.80, Interp: 0.20, Combine: 0.59)
++++> CUDA launched with Nv=3427, Nrk=150.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=150.00 k, output buffers 17694.07 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.81 seconds
++++> Total CUDA time: 1.85 seconds: (RK: 1.01, Interp: 0.26, Combine: 0.58)
++++> CUDA launched with Nv=6857, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 21241.67 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.18 seconds
++++> Total CUDA time: 4.94 seconds: (RK: 2.12, Interp: 0.19, Combine: 2.63)
++++> CUDA launched with Nv=6857, Nrk=90.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=90.00 k, output buffers 21241.67 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.73 seconds
++++> Total CUDA time: 4.96 seconds: (RK: 0.71, Interp: 1.69, Combine: 2.56)
++++> CUDA launched with Nv=6857, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 28322.22 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.98 seconds
++++> Total CUDA time: 5.69 seconds: (RK: 0.74, Interp: 2.15, Combine: 2.80)
++++> CUDA launched with Nv=6857, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 28322.22 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.99 seconds
++++> Total CUDA time: 4.22 seconds: (RK: 1.75, Interp: 0.85, Combine: 1.62)
++++> CUDA launched with Nv=6857, Nrk=120.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=120.00 k, output buffers 28322.22 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.95 seconds
++++> Total CUDA time: 3.98 seconds: (RK: 1.87, Interp: 0.81, Combine: 1.31)
++++> CUDA launched with Nv=6857, Nrk=150.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=20.00 k, output buffers 4720.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.22 seconds
++++> Total CUDA time: 5.30 seconds: (RK: 1.66, Interp: 1.07, Combine: 2.57)

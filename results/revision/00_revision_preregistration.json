@@ -1,0 +1,90 @@
+{
+  "written_before_any_run": "2026-09-27T14:54:00+10:00",
+  "purpose": "Focused pre-submission revision addressing a skeptical review. Scope is fixed here. It excludes new waveform families, fitted dynamic or neural models, Liouvillian eigenmode analysis and broad sweeps. The upstream simulator (RydbergComms 4095724) is used unmodified. The archived results are not altered; all new outputs go to results/revision/.",
+  "common": {
+    "Nd": 4001,
+    "dt_s": 1e-9,
+    "phase_metric": "X = 1 - g/g_CW, where g is the median over the last 20 us (final 0.5 us excluded) of |z_full|/|z_linear|; windows, demodulation and linear reference are identical to phase_mechanism/pm_analyze.py and final_validation/fv_analyze_replication.py",
+    "ci": "two-sided 95% Student-t interval over independent sequences or realizations",
+    "interpretation_rule": "A difference is interpreted only if its 95% CI excludes zero; otherwise it is reported as unresolved at the achieved precision."
+  },
+  "P1_metric_robustness": {
+    "data": "The Section IV jobs listed below are re-run with the archived seeds, code path (stage06_dwell/run06.run_job) and Nd = 4001, storing baseband traces for every realization. Realization 0 is also compared with the archived stored traces as a determinism check.",
+    "run_matrix": {
+      "dwell_+3dB": ["xi_0.05", "xi_0.1", "xi_0.25", "xi_0.5", "xi_1", "xi_2", "xi_4"],
+      "dwell_0dB": ["xi_0.05", "xi_0.1", "xi_4"],
+      "dwell_+6dB": ["xi_0.05", "xi_4"],
+      "shuffle_+3dB": ["ORIGINAL", "BLOCK_SHUFFLED_CYCLES"],
+      "shuffle_+6dB": ["ORIGINAL", "BLOCK_SHUFFLED_CYCLES"],
+      "realizations": "0-7"
+    },
+    "metric_variants": "D (self-normalized best-linear-approximation residual power / fit AC power) and D_ref (residual power / the linear model's fit AC power at the same span), each with FIR spans L = 2, 4, 8 and 16 us: lags -L/4 to +3L/4 at 20 MHz (the archived 2 us fit uses -10..+30), plus a constant. The lag columns are taken from the full periodic input, not zero-filled at the window edges. The archived zero-fill 2 us D is also recomputed; it must reproduce the archived values within 1e-6 relative.",
+    "decisive_contrasts": {
+      "C1": "dwell xi = 4 minus the xi = 0.05 reference, +3 dB",
+      "C2": "cycle block-shuffle minus original, +3 dB"
+    },
+    "criteria_per_variant": {
+      "a": "the full-model paired change (n = 8) has the archived sign and a 95% CI excluding zero",
+      "b": "the excess over the all-zone LTI+static surrogate (full change minus surrogate change, paired) has the archived sign and a CI excluding zero",
+      "c": "the same for the all-zone static surrogate"
+    },
+    "classification": {
+      "SURVIVES": "a, b and c hold for C1 and C2 under all 8 metric variants",
+      "SURVIVES_WITH_QUALIFICATION": "a, b and c hold for C1 and C2 under all four D_ref variants and under D at 2 us, but fail under a longer-span D",
+      "DOES_NOT_SURVIVE": "any of a, b, c fails for C1 or C2 under any D_ref variant"
+    },
+    "secondary_reported_not_decisive": "0 dB and +6 dB contrasts; growth of the full-model dwell change between xi = 0.25 and 4; numerical differences, from the stored realization-0 traces at Nd = 8001 and dt = 0.5 ns, under each metric variant"
+  },
+  "P2_sequence_replication": {
+    "seeds": [20260701, 20260702, 20260703, 20260704, 20260705, 20260706],
+    "cases": {
+      "REF": "1 us symbols, 300 ns raised-cosine ramps",
+      "FAST": "0.5 us symbols, 300 ns ramps",
+      "SLOW": "4 us symbols, 300 ns ramps",
+      "JUMP": "1 us symbols, instantaneous steps",
+      "LONGRAMP": "1 us symbols, 900 ns ramps"
+    },
+    "sequence_rules": "All sequences are zero-drift (pi steps alternating in sign, final_validation/fv_replication.zd_transitions). For each seed, JUMP and LONGRAMP use the symbol sequence of that seed's REF.",
+    "operating_points": {
+      "OP2": "A_LO = 0.35 V/m, a' = 2.4468 E1dB' (required)",
+      "OP1": "A_LO = 0.5 V/m, a_H = 2.4468 E1dB (same seeds, so that OP1-versus-OP2 differences can be judged against sequence-to-sequence uncertainty)"
+    },
+    "reported": "Mean and 95% CI of X per case and operating point. Paired-by-seed contrasts: JUMP-REF, LONGRAMP-REF, SLOW-REF, FAST-REF, and OP1-OP2 per case.",
+    "determinism_check": "The recomputed seed-A and seed-B zero-drift cases must reproduce the archived X within 1e-6 where archived runs exist (OP2 REF A and B, JUMP A, LONGRAMP A, SLOW A, FAST A; OP1 REF A, SLOW A, FAST A)."
+  },
+  "P3_amplitude_sweep": {
+    "levels_dB_re_P1dB": [-6, -3, 0, 3, 6, 8],
+    "amplitude": "a = E1dB(OP) * 10^(p/20), constant envelope",
+    "cases": "CW and REF (zero-drift) with seeds 20260701-20260703, at OP1 and OP2",
+    "materially_nonzero": "mean X >= 0.05 and the lower bound of the 95% CI > 0",
+    "onset": "the lowest level from which the criterion holds at that level and every higher level"
+  },
+  "P4_operating_point_frequency_selectivity": {
+    "sweep": "Constant frequency offsets df in {0, +-0.125, +-0.25, +-0.5, +-0.75, +-1.0, +-1.31, +-1.75, +-2.0, +-2.62, +-3.0} MHz at a = 2.4468 E1dB, at OP1 and OP2. Each run is 50 us CW then 60 us at the offset (the phase_mechanism timeline).",
+    "quantities": "R(df) = g(df)/g(0) = 1 - X_offset (large-signal gain relative to the small-signal model, normalized to its on-IF value), and the small-signal and large-signal output ratios to CW",
+    "OP3": "A_LO = 0.425 V/m (midpoint). E1dB'' from the identical CW protocol and small-signal kernel (final_validation/fv_controls functions, outputs written under results/revision/). a'' = 2.4468 E1dB''. Runs: CW; REF (zero-drift) with seeds 20260701-20260703; offsets +0.125, +-1.31, +-2.62 MHz.",
+    "like_for_like_selectivity": "S5 = max over {+0.125, +-1.31, +-2.62} MHz of R(df) - 1, computed identically at OP1, OP2 and OP3",
+    "classification": {
+      "MONOTONIC_IN_LO": "S5(OP3) and mean X_REF(OP3) each lie between their OP2 and OP1 values (tolerance 0.05 absolute)",
+      "OP1_ISOLATED": "S5(OP3) < 0.5 S5(OP1) and |S5(OP3) - S5(OP2)| <= 0.10. The selectivity is then confined to the upper end of the tested LO range, which is consistent with a resonance-like feature near OP1. Three points cannot distinguish this from a steep threshold.",
+      "OTHER": "any other pattern, reported descriptively"
+    }
+  },
+  "P5_frequency_dependent_static_surrogate": {
+    "calibration": "The complex steady-state IF response C(a, df) = median of z_full over the last 20 us of the offset runs, on the grid of levels {-6, -3, 0, +3, +6, +8 dB re P1dB, 2.4468 E1dB} x the 21-offset P4 grid, at OP1 and OP2 (the P4 sweep is the 2.4468 E1dB slice)",
+    "surrogate": "Memoryless: z_sur(t) = C(|E(t)|, f_i(t)), with f_i = (1/2pi) dphi/dt, clamped to +-3 MHz. Interpolation is linear in level (dB) and in df, on the real and imaginary parts. The IF output Re{z_sur u e^{j 2pi IF t}} is analysed with the identical demodulation, windows and linear reference. Nothing is fitted to phase-modulated data, and there is no dynamic state.",
+    "tests": {
+      "T1": "The REF compression at 2.4468 E1dB is reproduced if |X_sur - X_full| <= 0.25 X_full, at OP1 and at OP2 (mean over the P2 seeds)",
+      "T2": "Each of the contrasts SLOW-REF, FAST-REF, JUMP-REF and LONGRAMP-REF (P2 seeds) whose full-model CI excludes zero is reproduced if the surrogate contrast has the same sign and |d_sur - d_full| <= 0.25 |d_full|",
+      "T3": "X(p) over the P3 levels, reported"
+    },
+    "verdict": "REPRODUCES if T1 passes at both operating points and at least 75% of the eligible T2 contrasts pass; otherwise FAILS"
+  },
+  "P6_numerical_closure": {
+    "double_precision": "The upstream CPU C++ RK4 path (double precision, the same step-refinement rule, unmodified source compiled with the upstream build script). (i) OP1 CW and REF seed 20260701, compared with the GPU single-precision X: tolerance |dX| <= 0.01. (ii) Long-dwell family, realization 0, unmodulated carrier, xi = 32, +3 dB (2.4 ms), compared with the archived GPU D_ref: tolerance: the full-minus-static D_ref excess changes by <= 1 percentage point.",
+    "extended_segment": "REF seed 20260701 at OP1 with a 200 us modulated segment (0-50 us CW). Persistence holds if X in every 20 us window from 40 us after onset to the end stays within +-0.03 of X in the 40-60 us window.",
+    "timing": "Wall time per representative run (GPU and CPU) is recorded."
+  },
+  "P7_reproducibility": "The release package is extended with the revision code, this file, the configs and seeds, and the processed outputs sufficient to rebuild every revision table and figure.",
+  "manuscript_rule": "The manuscript is updated only where these results require it. Each change is recorded in results/revision/manuscript_changes.md."
+}

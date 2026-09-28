@@ -1,0 +1,6 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+,B99 mean CE (MHz),B99,5.36888837814331,,,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv,regenerated per-seed B99 equal to stored values
+,B99 mean QPSK (MHz),B99,5.371868610382079,,,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv,regenerated per-seed B99 equal to stored values
+,B99 mean 16-QAM (MHz),B99,5.365252494812011,,,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv,regenerated per-seed B99 equal to stored values
+,B99 mean OFDM (MHz),B99,5.355536937713622,,,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv,regenerated per-seed B99 equal to stored values
+_audit,points outside axis limits,count,0.0,,,,

@@ -1,0 +1,31 @@
+{
+  "tau_atom_s": 2.5350000000000003e-06,
+  "tau_definition": "tau_1e of the normalized IF-envelope excess after a +5% amplitude step from E1dB (full thermal, Nd=4001, dt=1 ns); fixed before any dwell run",
+  "decisive_Nd": 4001,
+  "controls_Nd": 4001,
+  "highest_check_Nd": 8001,
+  "n_samples": 800000,
+  "cyclic_prefix_samples": 40000,
+  "analysis_skip_samples": 5000,
+  "symbol_samples": 1000,
+  "phase_ramp_samples": 300,
+  "seed_base": 20260600,
+  "xis": [
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "xi_ref": 0.05,
+  "edge_samples": 10,
+  "occupancy": 0.25,
+  "level_ratio": 3.0,
+  "shuffle": {
+    "fast_xi": 0.25,
+    "slow_xi": 2.0,
+    "sigma_m": 0.6,
+    "block_xi": 0.25
+  }
+}

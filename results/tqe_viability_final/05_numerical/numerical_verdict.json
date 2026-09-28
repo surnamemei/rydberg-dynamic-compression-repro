@@ -1,0 +1,140 @@
+{
+ "generated": "2026-09-28T03:29:20+10:00",
+ "code_version": "4122e09385dc993ecead57d7944a6b73ddfff572",
+ "code_dirty": true,
+ "VA": {
+  "dwell": {
+   "within_thresholds": true,
+   "accumulation": false,
+   "trace_dev_max_first_last": [
+    5.306977641339472e-06,
+    4.066489054821432e-06
+   ],
+   "min_eig_min_first_last": [
+    1.0887601547181915e-10,
+    1.0825498616423034e-10
+   ]
+  },
+  "phase": {
+   "within_thresholds": true,
+   "accumulation": false,
+   "trace_dev_max_first_last": [
+    2.384073013672605e-05,
+    6.782873242627829e-06
+   ],
+   "min_eig_min_first_last": [
+    -7.618274438530764e-10,
+    1.0905230213565785e-10
+   ]
+  }
+ },
+ "VA_pass": true,
+ "free_diagnostics_pass": true,
+ "VB_material_C1_E1dB": false,
+ "VB_material_matched_amplitude": true,
+ "VB_max_abs_change_dB": {
+  "C1": 0.23881008762000866,
+  "C2": 0.08191995182666488,
+  "C3": 0.06153336329048266,
+  "C4": 0.009922482212352243,
+  "C5": 0.4085564187593914,
+  "C6": 0.8366197543983173
+ },
+ "VC_flagged_states": [
+  {
+   "source": "revision2 (archived)",
+   "state": "C2 reference phase case at 2.4468 E1dB",
+   "peak_signal_to_LO": 2.842395655389487,
+   "Rabi_to_carrier": 0.005101654292836651,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (C4 claim)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C3 reference phase case at 2.4468 E1dB",
+   "peak_signal_to_LO": 1.0645587098280658,
+   "Rabi_to_carrier": 0.002741171328890647,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (C4 claim)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C4 reference phase case at 2.4468 E1dB",
+   "peak_signal_to_LO": 3.4896495346814866,
+   "Rabi_to_carrier": 0.005961031053585796,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (C4 claim)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C2 dwell contrast, +3 dB re E1dB(C2) (peak, r0)",
+   "peak_signal_to_LO": 2.850826513959312,
+   "Rabi_to_carrier": 0.0051128481754225625,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (dwell configuration checks)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C3 dwell contrast, +3 dB re E1dB(C3) (peak, r0)",
+   "peak_signal_to_LO": 1.0677163082098458,
+   "Rabi_to_carrier": 0.0027453637590264843,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (dwell configuration checks)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C4 dwell contrast, +3 dB re E1dB(C4) (peak, r0)",
+   "peak_signal_to_LO": 3.500000219544578,
+   "Rabi_to_carrier": 0.005974773942294179,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.4-7.5 (dwell configuration checks)"
+  },
+  {
+   "source": "revision2 (archived)",
+   "state": "C4 (weaker probe) amplitude step x1.05 at E1dB (upper level)",
+   "peak_signal_to_LO": 1.4975200308221193,
+   "Rabi_to_carrier": 0.0033160259716662733,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "manuscript Sec. 7.5 (memory persists with the weaker probe)"
+  },
+  {
+   "source": "dwell/shuffle (archived, Sec. 4)",
+   "state": "shuffle r0-r7, max over variants, +0 dB",
+   "peak_signal_to_LO": 1.5960415742865417,
+   "Rabi_to_carrier": 0.003446835732094553,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "Sections 4-6, Part III"
+  },
+  {
+   "source": "dwell/shuffle (archived, Sec. 4)",
+   "state": "shuffle r0-r7, max over variants, +3 dB",
+   "peak_signal_to_LO": 2.254468646458547,
+   "Rabi_to_carrier": 0.004321047448046976,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "Sections 4-6, Part III"
+  },
+  {
+   "source": "dwell/shuffle (archived, Sec. 4)",
+   "state": "shuffle r0-r7, max over variants, +6 dB",
+   "peak_signal_to_LO": 3.18452160629754,
+   "Rabi_to_carrier": 0.005555904318778856,
+   "OUTSIDE_INTENDED_REGIME": true,
+   "RWA_QUESTIONABLE": false,
+   "used_by": "Sections 4-6, Part III"
+  }
+ ],
+ "VC_max_Rabi_to_carrier": 0.005974773942294179,
+ "stop_rule_S2": false,
+ "stop_rule_S4": false,
+ "numerical_checks_pass_excluding_claim_matrix": false,
+ "simulator_note": "Simulator inspection (python/utils/transient_quantum.py, unmodified upstream): the RF input is passed as a complex field envelope E(t) = A_LO + a(t) e^{j2pi f_IF t} in the frame rotating at the LO carrier; Omega_RF(t) = mu_MW E(t)/hbar enters the four-level ladder Hamiltonian as Omega_RF/2 and conj(Omega_RF)/2 (rotating-wave form; counter-rotating terms at twice the carrier are absent by construction). The transient solver integrates the full Lindblad equation for each velocity class without linearizing about the LO, so a signal larger than the LO is represented without formal change. The rotating-wave treatment requires |Omega_RF(t)| and the envelope's instantaneous frequency to be small compared with the carrier (the 6.946 GHz transition of the model's source configuration); this holds for every tabulated state (ratio column). What changes when the signal exceeds the LO is the receiver regime: the superheterodyne picture (a weak signal beating against a dominant LO, and the small-signal transfer function linearized about the LO steady state) no longer describes the operating point, which is therefore outside the intended regime of the inherited receiver model. Not quantified here: the four-level truncation (neighbouring Rydberg transitions), whose importance grows with the total RF Rabi frequency."
+}

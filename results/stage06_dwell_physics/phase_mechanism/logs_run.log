@@ -1,0 +1,22 @@
+[1/21]   4.8% | CW | Nd=4001 dt=1 ns | elapsed 6 s | avg 5.6 s/run | ETA 113 s
+[2/21]   9.5% | OFF_+0.125 | Nd=4001 dt=1 ns | elapsed 11 s | avg 5.6 s/run | ETA 107 s
+[3/21]  14.3% | OFF_+1.31 | Nd=4001 dt=1 ns | elapsed 17 s | avg 5.6 s/run | ETA 101 s
+[4/21]  19.0% | OFF_-1.31 | Nd=4001 dt=1 ns | elapsed 23 s | avg 5.6 s/run | ETA 96 s
+[5/21]  23.8% | OFF_+2.62 | Nd=4001 dt=1 ns | elapsed 28 s | avg 5.6 s/run | ETA 90 s
+[6/21]  28.6% | OFF_-2.62 | Nd=4001 dt=1 ns | elapsed 34 s | avg 5.7 s/run | ETA 85 s
+[7/21]  33.3% | QPSK_REF | Nd=4001 dt=1 ns | elapsed 40 s | avg 5.7 s/run | ETA 79 s
+[8/21]  38.1% | QPSK_REF_s2 | Nd=4001 dt=1 ns | elapsed 45 s | avg 5.7 s/run | ETA 74 s
+[9/21]  42.9% | QPSK_SLOW | Nd=4001 dt=1 ns | elapsed 51 s | avg 5.7 s/run | ETA 68 s
+[10/21]  47.6% | QPSK_FAST | Nd=4001 dt=1 ns | elapsed 57 s | avg 5.7 s/run | ETA 63 s
++++[11/21]  52.4% | QPSK_JUMP | Nd=4001 dt=1 ns | elapsed 63 s | avg 5.7 s/run | ETA 57 s
+[12/21]  57.1% | QPSK_LONGRAMP | Nd=4001 dt=1 ns | elapsed 68 s | avg 5.7 s/run | ETA 51 s
+[13/21]  61.9% | TOGGLE | Nd=4001 dt=1 ns | elapsed 74 s | avg 5.7 s/run | ETA 45 s
+[14/21]  66.7% | CW | Nd=8001 dt=1 ns | elapsed 87 s | avg 6.2 s/run | ETA 44 s
+[15/21]  71.4% | QPSK_REF | Nd=8001 dt=1 ns | elapsed 99 s | avg 6.6 s/run | ETA 40 s
+[16/21]  76.2% | QPSK_JUMP | Nd=8001 dt=1 ns | elapsed 111 s | avg 6.9 s/run | ETA 35 s
+[17/21]  81.0% | OFF_+1.31 | Nd=8001 dt=1 ns | elapsed 122 s | avg 7.2 s/run | ETA 29 s
+[18/21]  85.7% | CW | Nd=4001 dt=0.5 ns | elapsed 128 s | avg 7.1 s/run | ETA 21 s
+[19/21]  90.5% | QPSK_REF | Nd=4001 dt=0.5 ns | elapsed 134 s | avg 7.0 s/run | ETA 14 s
+[20/21]  95.2% | QPSK_JUMP | Nd=4001 dt=0.5 ns | elapsed 139 s | avg 7.0 s/run | ETA 7 s
+[21/21] 100.0% | OFF_+1.31 | Nd=4001 dt=0.5 ns | elapsed 145 s | avg 6.9 s/run | ETA 0 s
+> Total CUDA time: 1.55 seconds: (RK: 0.76, Interp: 0.19, Combine: 0.60)

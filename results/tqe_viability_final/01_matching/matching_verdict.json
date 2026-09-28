@@ -1,0 +1,114 @@
+{
+ "generated": "2026-09-28T03:15:37+10:00",
+ "code_version": "d5d42f1287eb92dda6fddd2a01552ea7dc536641",
+ "code_dirty": false,
+ "classification": "PARTIALLY SURVIVES",
+ "details": {
+  "HA1_evaluable_pairs": {
+   "A": 2,
+   "B": 9
+  },
+  "HA1_pairs_holding": 11,
+  "HA1_pairs_failing": [],
+  "HA1_reversals": [],
+  "HA2_evaluable_pairs": 12,
+  "HA2_pairs_holding": 11,
+  "HA2_pairs_failing": [
+   "A:matched_CW_gain=0.4:C5"
+  ],
+  "HA2_reversals": []
+ },
+ "robustness_X_coh": {
+  "classification": "SURVIVES",
+  "details": {
+   "HA1_evaluable_pairs": {
+    "A": 2,
+    "B": 9
+   },
+   "HA1_pairs_holding": 11,
+   "HA1_pairs_failing": [],
+   "HA1_reversals": [],
+   "HA2_evaluable_pairs": 12,
+   "HA2_pairs_holding": 12,
+   "HA2_pairs_failing": [],
+   "HA2_reversals": []
+  }
+ },
+ "prior_pass_rule_seeds1to3": {
+  "classification": "CONFIGURATION_DEPENDENCE_SURVIVES",
+  "states": [
+   {
+    "rule": "matched_CW_gain",
+    "target": 0.85,
+    "informative": true,
+    "dependence": true
+   },
+   {
+    "rule": "matched_CW_gain",
+    "target": 0.9,
+    "informative": true,
+    "dependence": true
+   },
+   {
+    "rule": "matched_CW_gain",
+    "target": 0.95,
+    "informative": false,
+    "dependence": false
+   },
+   {
+    "rule": "matched_signal_to_LO",
+    "target": 0.2,
+    "informative": true,
+    "dependence": true
+   },
+   {
+    "rule": "matched_signal_to_LO",
+    "target": 0.358,
+    "informative": true,
+    "dependence": true
+   },
+   {
+    "rule": "matched_signal_to_LO",
+    "target": 0.6,
+    "informative": true,
+    "dependence": true
+   }
+  ]
+ },
+ "operating_point_claim_reading": {
+  "decision": "KEEP",
+  "per_target": [
+   {
+    "target": 0.8,
+    "diff_C1_minus_C6": 0.16211574843559845,
+    "ci": [
+     0.1072949550933455,
+     0.2169365417778514
+    ],
+    "C1_gt_C6": true,
+    "C6_gt_C1": false
+   },
+   {
+    "target": 0.6,
+    "diff_C1_minus_C6": 0.3807508729729639,
+    "ci": [
+     0.320328578637917,
+     0.44117316730801076
+    ],
+    "C1_gt_C6": true,
+    "C6_gt_C1": false
+   },
+   {
+    "target": 0.4,
+    "diff_C1_minus_C6": 0.24457446058274915,
+    "ci": [
+     0.17427857299932997,
+     0.3148703481661683
+    ],
+    "C1_gt_C6": true,
+    "C6_gt_C1": false
+   }
+  ]
+ },
+ "stop_rule_S1": false
+}

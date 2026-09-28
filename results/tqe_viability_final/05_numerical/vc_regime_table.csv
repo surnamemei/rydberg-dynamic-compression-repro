@@ -1,0 +1,84 @@
+source,state,A_LO_Vpm,peak_signal_Vpm,peak_signal_to_LO,fraction_of_samples_signal_gt_LO,peak_total_Rabi_MHz,Rabi_to_carrier,OUTSIDE_INTENDED_REGIME,RWA_QUESTIONABLE,used_by
+revision2 (archived),C1 reference phase case at 2.4468 E1dB,0.5,0.17915192539325303,0.35830385078650606,,12.526814726022598,0.0018034573461017274,False,False,manuscript Sec. 7.4-7.5 (C4 claim)
+revision2 (archived),C2 reference phase case at 2.4468 E1dB,0.5,1.4211978276947435,2.842395655389487,,35.43609071804338,0.005101654292836651,True,False,manuscript Sec. 7.4-7.5 (C4 claim)
+revision2 (archived),C3 reference phase case at 2.4468 E1dB,0.5,0.5322793549140329,1.0645587098280658,,19.040176050474436,0.002741171328890647,True,False,manuscript Sec. 7.4-7.5 (C4 claim)
+revision2 (archived),C4 reference phase case at 2.4468 E1dB,0.5,1.7448247673407433,3.4896495346814866,,41.40532169820694,0.005961031053585796,True,False,manuscript Sec. 7.4-7.5 (C4 claim)
+revision (archived),OP2 reference phase case at 2.4468 E1dB,0.35,0.0986826817780522,0.28195051936586346,,8.27585789755968,0.001191456650958779,False,False,manuscript Sec. 7.3
+revision (archived),OP3 reference phase case at 2.4468 E1dB,0.425,0.14457124820132217,0.3401676428266404,,10.5056221335985,0.0015124707937803773,False,False,manuscript Sec. 7.3
+campaign Part I,C1 matched_CW_gain 0.95,0.5,0.04880324303911659,0.09760648607823318,,10.122560637092558,0.0014573222915480217,False,False,Part I
+campaign Part I,C1 matched_CW_gain 0.9,0.5,0.07016204570893679,0.14032409141787358,,10.51651926963209,0.0015140396299499121,False,False,Part I
+campaign Part I,C1 matched_CW_gain 0.85,0.5,0.08710894090567625,0.1742178818113525,,10.829101194785219,0.001559041346787391,False,False,Part I
+campaign Part I,C1 matched_CW_gain 0.8,0.5,0.1015927114071777,0.2031854228143554,,11.096251301886046,0.0015975023469458748,False,False,Part I
+campaign Part I,C1 matched_CW_gain 0.6,0.5,0.14664565965116375,0.2932913193023275,,11.92724347670276,0.0017171384216387502,False,False,Part I
+campaign Part I,C1 matched_CW_gain 0.4,0.5,0.1855828320597952,0.3711656641195904,,12.645431449792428,0.0018205343290803957,False,False,Part I
+campaign Part I,C1 matched_signal_to_LO 0.1,0.5,0.05,0.1,,10.144634568065198,0.0014605002257508204,False,False,Part I
+campaign Part I,C1 matched_signal_to_LO 0.2,0.5,0.1,0.2,,11.066874074252942,0.0015932729735463494,False,False,Part I
+campaign Part I,C1 matched_signal_to_LO 0.358,0.5,0.179,0.358,,12.524012494029579,0.0018030539150632853,False,False,Part I
+campaign Part I,C1 matched_signal_to_LO 0.4,0.5,0.2,0.4,,12.91135308662843,0.0018588184691374075,False,False,Part I
+campaign Part I,C1 matched_signal_to_LO 0.6,0.5,0.3,0.6,,14.755832099003925,0.0021243639647284657,False,False,Part I
+campaign Part I,C2 matched_signal_to_LO 0.1,0.5,0.05,0.1,,10.144634568065198,0.0014605002257508204,False,False,Part I
+campaign Part I,C2 matched_signal_to_LO 0.2,0.5,0.1,0.2,,11.066874074252942,0.0015932729735463494,False,False,Part I
+campaign Part I,C2 matched_signal_to_LO 0.358,0.5,0.179,0.358,,12.524012494029579,0.0018030539150632853,False,False,Part I
+campaign Part I,C2 matched_signal_to_LO 0.4,0.5,0.2,0.4,,12.91135308662843,0.0018588184691374075,False,False,Part I
+campaign Part I,C2 matched_signal_to_LO 0.6,0.5,0.3,0.6,,14.755832099003925,0.0021243639647284657,False,False,Part I
+campaign Part I,C3 matched_CW_gain 0.95,0.5,0.13318404472851433,0.26636808945702867,,11.678946814727684,0.001681391709577841,False,False,Part I
+campaign Part I,C3 matched_CW_gain 0.9,0.5,0.20207439213990733,0.40414878427981465,,12.94961481428339,0.0018643269240258263,False,False,Part I
+campaign Part I,C3 matched_CW_gain 0.85,0.5,0.38100957230359195,0.7620191446071839,,16.250036658158827,0.002339481234978236,False,False,Part I
+campaign Part I,C3 matched_signal_to_LO 0.1,0.5,0.05,0.1,,10.144634568065198,0.0014605002257508204,False,False,Part I
+campaign Part I,C3 matched_signal_to_LO 0.2,0.5,0.1,0.2,,11.066874074252942,0.0015932729735463494,False,False,Part I
+campaign Part I,C3 matched_signal_to_LO 0.358,0.5,0.179,0.358,,12.524012494029579,0.0018030539150632853,False,False,Part I
+campaign Part I,C3 matched_signal_to_LO 0.4,0.5,0.2,0.4,,12.91135308662843,0.0018588184691374075,False,False,Part I
+campaign Part I,C3 matched_signal_to_LO 0.6,0.5,0.3,0.6,,14.755832099003925,0.0021243639647284657,False,False,Part I
+campaign Part I,C4 matched_signal_to_LO 0.1,0.5,0.05,0.1,,10.144634568065198,0.0014605002257508204,False,False,Part I
+campaign Part I,C4 matched_signal_to_LO 0.2,0.5,0.1,0.2,,11.066874074252942,0.0015932729735463494,False,False,Part I
+campaign Part I,C4 matched_signal_to_LO 0.358,0.5,0.179,0.358,,12.524012494029579,0.0018030539150632853,False,False,Part I
+campaign Part I,C4 matched_signal_to_LO 0.4,0.5,0.2,0.4,,12.91135308662843,0.0018588184691374075,False,False,Part I
+campaign Part I,C4 matched_signal_to_LO 0.6,0.5,0.3,0.6,,14.755832099003925,0.0021243639647284657,False,False,Part I
+campaign Part I,C5 matched_CW_gain 0.8,0.425,0.08605405884557808,0.20248013846018373,,9.426284857299777,0.0013570810332997087,False,False,Part I
+campaign Part I,C5 matched_CW_gain 0.6,0.425,0.1504443286426032,0.35398665562965465,,10.613949869717858,0.0015280664943446384,False,False,Part I
+campaign Part I,C5 matched_CW_gain 0.4,0.425,0.2316542155463716,0.5450687424620508,,12.111849189631737,0.001743715690992188,False,False,Part I
+campaign Part I,C5 matched_signal_to_LO 0.1,0.425,0.0425,0.1,,8.622939382855417,0.0012414251918881972,False,False,Part I
+campaign Part I,C5 matched_signal_to_LO 0.2,0.425,0.085,0.2,,9.406842963115,0.0013542820275143968,False,False,Part I
+campaign Part I,C5 matched_signal_to_LO 0.358,0.425,0.15214999999999998,0.358,,10.64541061992514,0.0015325958278037924,False,False,Part I
+campaign Part I,C5 matched_signal_to_LO 0.4,0.425,0.17,0.4,,10.974650123634166,0.0015799956987667962,False,False,Part I
+campaign Part I,C5 same_absolute_level 0.1,0.425,0.1,0.23529411764705885,,9.683514814971325,0.0013941138518530555,False,False,Part I
+campaign Part I,C5 same_absolute_level 0.179,0.425,0.179,0.42117647058823526,,11.140653234747962,0.0016038947933699915,False,False,Part I
+campaign Part I,C6 matched_CW_gain 0.8,0.35,0.05906909847635823,0.16876885278959497,,7.545193667510054,0.0010862645648589194,False,False,Part I
+campaign Part I,C6 matched_CW_gain 0.6,0.35,0.11048625357033184,0.3156750102009481,,8.49357230197895,0.0012228005041720344,False,False,Part I
+campaign Part I,C6 matched_CW_gain 0.4,0.35,0.22436665706536807,0.6410475916153374,,10.59407244365342,0.0015252047860140252,False,False,Part I
+campaign Part I,C6 matched_signal_to_LO 0.1,0.35,0.034999999999999996,0.09999999999999999,,7.101244197645637,0.001022350158025574,False,False,Part I
+campaign Part I,C6 matched_signal_to_LO 0.2,0.35,0.06999999999999999,0.19999999999999998,,7.74681185197706,0.0011152910814824445,False,False,Part I
+campaign Part I,C6 matched_signal_to_LO 0.358,0.35,0.1253,0.358,,8.766808745820704,0.0012621377405442995,False,False,Part I
+campaign Part I,C6 matched_signal_to_LO 0.4,0.35,0.13999999999999999,0.39999999999999997,,9.037947160639902,0.0013011729283961852,False,False,Part I
+campaign Part I,C6 same_absolute_level 0.1,0.35,0.1,0.28571428571428575,,8.300155555689706,0.0011949547301597619,False,False,Part I
+campaign Part I,C6 same_absolute_level 0.179,0.35,0.179,0.5114285714285715,,9.757293975466343,0.0014047356716766978,False,False,Part I
+campaign Part II,"scan, A_LO 0.35, signal/LO 0.358",0.35,0.1253,0.358,,8.766808745820704,0.0012621377405442995,False,False,Part II
+campaign Part II,"scan, A_LO 0.425, signal/LO 0.358",0.425,0.15214999999999998,0.358,,10.64541061992514,0.0015325958278037924,False,False,Part II
+campaign Part II,"scan, A_LO 0.5, signal/LO 0.358",0.5,0.179,0.358,,12.524012494029579,0.0018030539150632853,False,False,Part II
+"fair waveforms (archived, Sec. 3)",CE at -6 dB re P1dB (peak over 8 realizations),0.5,0.03669636173240313,0.07339272346480626,0.0,9.899251752337017,0.0014251730135814884,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",CE at +0 dB re P1dB (peak over 8 realizations),0.5,0.07321886766113007,0.14643773532226015,0.0,10.572901708985981,0.0015221568829521998,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",CE at +3 dB re P1dB (peak over 8 realizations),0.5,0.10342439954611107,0.20684879909222215,0.0,11.130036405180842,0.0016023663122920878,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",CE at +6 dB re P1dB (peak over 8 realizations),0.5,0.14609084738894643,0.29218169477789285,0.0,11.917010080968074,0.0017156651426674452,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",QPSK at -6 dB re P1dB (peak over 8 realizations),0.5,0.0672764456759536,0.1345528913519072,0.0,10.463294982642614,0.001506377049041551,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",QPSK at +0 dB re P1dB (peak over 8 realizations),0.5,0.13423415674228126,0.2684683134845625,0.0,11.698315910428049,0.0016841802347290597,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",QPSK at +3 dB re P1dB (peak over 8 realizations),0.5,0.18961078616924792,0.37922157233849585,0.0,12.719726217969399,0.0018312303797825222,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",QPSK at +6 dB re P1dB (peak over 8 realizations),0.5,0.26783235432949953,0.5356647086589991,0.0,14.16250662583623,0.00203894423061276,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",16QAM at -6 dB re P1dB (peak over 8 realizations),0.5,0.08175596553539136,0.1635119310707827,0.0,10.730366687542684,0.0015448267618115008,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",16QAM at +0 dB re P1dB (peak over 8 realizations),0.5,0.1631245970566609,0.3262491941133218,0.0,12.231194018609651,0.0017608974976403183,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",16QAM at +3 dB re P1dB (peak over 8 realizations),0.5,0.23041961779399198,0.46083923558798395,0.0,13.472436552483455,0.0019395963939653693,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",16QAM at +6 dB re P1dB (peak over 8 realizations),0.5,0.3254763611516389,0.6509527223032778,0.0,15.225738233562884,0.002192015294207153,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",OFDM at -6 dB re P1dB (peak over 8 realizations),0.5,0.11617016993906629,0.23234033987813257,0.0,11.36512946504447,0.001636212131448959,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",OFDM at +0 dB re P1dB (peak over 8 realizations),0.5,0.23178996220294956,0.4635799244058991,0.0,13.497712267503937,0.00194323528181744,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",OFDM at +3 dB re P1dB (peak over 8 realizations),0.5,0.3274120240783554,0.6548240481567108,0.0,15.261441129996502,0.0021971553599188748,False,False,Sections 3 and Part III/IV
+"fair waveforms (archived, Sec. 3)",OFDM at +6 dB re P1dB (peak over 8 realizations),0.5,0.4624817765716062,0.9249635531432124,0.0,17.752774366802036,0.0025558270035706933,False,False,Sections 3 and Part III/IV
+revision2 (archived),"C2 dwell contrast, +3 dB re E1dB(C2) (peak, r0)",0.5,1.425413256979656,2.850826513959312,,35.513843426485124,0.0051128481754225625,True,False,manuscript Sec. 7.4-7.5 (dwell configuration checks)
+revision2 (archived),"C3 dwell contrast, +3 dB re E1dB(C3) (peak, r0)",0.5,0.5338581541049229,1.0677163082098458,,19.06929667019796,0.0027453637590264843,True,False,manuscript Sec. 7.4-7.5 (dwell configuration checks)
+revision2 (archived),"C4 dwell contrast, +3 dB re E1dB(C4) (peak, r0)",0.5,1.750000109772289,3.500000219544578,,41.50077980317537,0.005974773942294179,True,False,manuscript Sec. 7.4-7.5 (dwell configuration checks)
+revision2 (archived),C4 (weaker probe) amplitude step x1.05 at E1dB (upper level),0.5,0.7487600154110596,1.4975200308221193,,23.033116399193936,0.0033160259716662733,True,False,manuscript Sec. 7.5 (memory persists with the weaker probe)
+revision2 (archived),C1 amplitude step x1.05 at E1dB (upper level),0.5,0.07687981104418656,0.15375962208837313,,10.64042704134141,0.0015318783532020457,False,False,manuscript Sec. 7.5 (standard-probe comparison)
+"dwell/shuffle (archived, Sec. 4)","dwell r0-r7, max over variants, +0 dB",0.5,0.1272060416513762,0.2544120833027524,0.0,11.56868380261071,0.0016655173916802059,False,False,"Sections 4-6, Part III"
+"dwell/shuffle (archived, Sec. 4)","dwell r0-r7, max over variants, +3 dB",0.5,0.17968330973541474,0.3593666194708295,0.0,12.536615998688823,0.0018048684132866142,False,False,"Sections 4-6, Part III"
+"dwell/shuffle (archived, Sec. 4)","dwell r0-r7, max over variants, +6 dB",0.5,0.2538094211433526,0.5076188422867052,0.0,13.903856566298312,0.002001706963187203,False,False,"Sections 4-6, Part III"
+"dwell/shuffle (archived, Sec. 4)","shuffle r0-r7, max over variants, +0 dB",0.5,0.7980207871432708,1.5960415742865417,0.0014775,23.941720995128765,0.003446835732094553,True,False,"Sections 4-6, Part III"
+"dwell/shuffle (archived, Sec. 4)","shuffle r0-r7, max over variants, +3 dB",0.5,1.1272343232292734,2.254468646458547,0.00495,30.0139955741343,0.004321047448046976,True,False,"Sections 4-6, Part III"
+"dwell/shuffle (archived, Sec. 4)","shuffle r0-r7, max over variants, +6 dB",0.5,1.59226080314877,3.18452160629754,0.01446375,38.591311398237934,0.005555904318778856,True,False,"Sections 4-6, Part III"

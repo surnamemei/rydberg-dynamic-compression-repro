@@ -1,0 +1,10 @@
+item,value,rule,outcome
+H_gen,"X_REF' = 0.159 (seeds 0.188 / 0.129); original point X_REF = 0.520 (+pi), 0.520 (zero-drift)","X_REF' >= 0.20, with X_REF' = mean of LO2_QPSK_REF_zd and _s2",FAIL
+H_shape,"JUMP' 0.194, REF' 0.188, LONGRAMP' 0.038",|X_JUMP' - X_LONGRAMP'| <= 0.10,FAIL
+H_detune,"LO2_OFF_+0.125 +0.007, LO2_OFF_+1.31 -0.562, LO2_OFF_-1.31 -0.178 vs 0.5 X_REF' = 0.079",every LO2 offset has X' < 0.5 X_REF',PASS
+H_drift (original point),zero-drift SLOW/REF/FAST = 0.178 / 0.520 / 0.406 (+pi convention: 0.159 / 0.520 / 0.438),at LO1: X_FAST_zd >= X_REF_zd - 0.03 (turnover was a drift artifact if this passes),FAIL (turnover persists without drift)
+rate triplet at LO' (descriptive),SLOW'/REF'/FAST' = 0.041 / 0.188 / 0.197,descriptive,-
+C9a replication at LO',"power-step period 4.00 us; phase-step periods [3.6, 3.68, 3.72, 3.72, 4.0, 3.6, 4.0, 3.6, 3.15] (median 3.68)",at LO2: |dominant oscillation period of LO2_POWERSTEP transient - median period of isolated phase-step transients in LO2_QPSK_SLOW_zd| <= 0.15 us,FAIL
+numerics (Nd=8001 closure),OFF_+0.125: X -0.1730 (4001) vs -0.1746 (8001); xi=32 long dwell D_ref 0.03266 vs 0.03268 (rel 0.04%); gain_abs rel change 0.56%,|dX| <= 0.02 for LO1_OFF_+0.125 (8001 vs 4001); relative change of full-model D_ref <= 2% for the xi=32 long-dwell member,PASS
+static prediction at LO',"g_static' = 0.635; full model CW g = 0.633; E1dB' = 0.0403 V/m, a' = 0.0987 V/m",pipeline sanity (CW should match static),OK
+CLASSIFICATION,X_REF' = 0.159,"{""A_replicates"": ""H_gen, H_shape and H_detune all pass"", ""B_weakens_but_qualitative"": ""X_REF' >= 0.05 but not A"", ""C_fails"": ""X_REF' < 0.05""}",B_weakens_but_qualitative

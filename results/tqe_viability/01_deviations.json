@@ -1,0 +1,11 @@
+{
+  "status": "Deviations and implementation notes of the TQE-viability pass (internal time-stamped record).",
+  "entries": [
+    {
+      "id": "V1_demodulator_boxcar",
+      "written": "2026-09-28T02:06:27+10:00",
+      "state_when_written": "P1 runs at 5 and 10 MHz complete; the first 15 MHz run had crashed before producing output; no P2 or P4 output existed.",
+      "note": "The first implementation of n_box assumed an integer IF period in ns and stopped at 15 MHz (period 66.7 ns). Fixed to the rule as written: the smallest boxcar of at least 200 samples spanning an integer number of IF periods (200 samples at 5, 10 and 15 MHz; P ceil(200/P) on the P2 grid). No existing output was affected."
+    }
+  ]
+}

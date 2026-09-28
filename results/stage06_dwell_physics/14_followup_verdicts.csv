@@ -1,0 +1,17 @@
+item,value,rule,outcome
+FU-A tau_1e at converged E1dB,1.127 us (vs 2.535),>20% difference -> report both xi axes,TRIGGERED
+FU-B H_QS_cw +0 dB,+0.16% vs CW static,|dev| < 2%,SUPPORTED
+FU-B H_carrier +0 dB,-59.9% vs CW static,< -10%,SUPPORTED
+FU-B H_QS_cw +3 dB,+0.31% vs CW static,|dev| < 2%,SUPPORTED
+FU-B H_carrier +3 dB,-55.4% vs CW static,< -10%,SUPPORTED
+"FU-C amplitude-dwell dynamics without phase modulation (+3 dB, xi=4)","full-LTI_MH = +0.350 [+0.265,+0.434] (QPSK carrier, same reals: +0.301)","CI excludes 0, same sign as QPSK",SUPPORTED
+"FU-D quasi-static convergence, qpsk carrier (+3 dB)","D_full-D_static: xi=4 +0.484, xi=32 +0.569 [+0.542,+0.595]",|xi=32| < 25% of |xi=4| or CI includes 0,not supported
+"FU-D quasi-static convergence, cw carrier (+3 dB)","D_full-D_static: xi=4 -0.381, xi=32 -0.141 [-0.154,-0.129]",|xi=32| < 25% of |xi=4| or CI includes 0,not supported
+"FU-E DSH explains ordering effect: CW carrier dwell (FU-C, 4 reals)",1/6 contrasts within 25%; median rel. error 1.03,all contrasts within 25%,not supported
+"FU-E DSH explains ordering effect: QPSK carrier dwell (main, 8 reals)",0/6 contrasts within 25%; median rel. error 0.92,all contrasts within 25%,not supported
+"FU-E DSH explains ordering effect: shuffle cycles (main, 8 reals)",2/2 contrasts within 25%; median rel. error 0.08,all contrasts within 25%,SUPPORTED
+"FU-E trace NMSE DSH < LTI_MH (fu_cwcarrier/dwell, realization 0)",100% of 14 waveforms; median NMSE DSH 0.101 vs LTI_MH 0.130,>= 75% of waveforms,SUPPORTED
+"FU-E trace NMSE DSH < LTI_MH (fu_long_cw/dwell, realization 0)",100% of 6 waveforms; median NMSE DSH 0.043 vs LTI_MH 0.055,>= 75% of waveforms,SUPPORTED
+"FU-E trace NMSE DSH < LTI_MH (fu_long_qpsk/dwell, realization 0)",67% of 6 waveforms; median NMSE DSH 0.262 vs LTI_MH 0.260,>= 75% of waveforms,not supported
+"FU-E trace NMSE DSH < LTI_MH (main/dwell, realization 0)",93% of 28 waveforms; median NMSE DSH 0.258 vs LTI_MH 0.256,>= 75% of waveforms,SUPPORTED
+"FU-E trace NMSE DSH < LTI_MH (main/shuffle, realization 0)",88% of 16 waveforms; median NMSE DSH 0.210 vs LTI_MH 0.258,>= 75% of waveforms,SUPPORTED

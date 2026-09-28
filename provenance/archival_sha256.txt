@@ -1,0 +1,8 @@
+# SHA-256 of the archival (unsanitized) and public (sanitized) versions of the three run manifests.
+# The archival originals are kept in the private project record and are not distributed.
+bd2152138c91ee226b18b4fac053f257a5f92621001f769b3ca40d5c50326808  results/p1db_waveform_stage05/04_job_manifest_fair_v2_high.json  (archival original, not distributed)
+b3aa378e98ca497a02ddbb1cfa7954c189b63ae8857d6d4f9aff171eac13d34a  results/p1db_waveform_stage05/04_job_manifest_fair_v2_high.json  (public sanitized version)
+8f7b67eb8ae44cd325cce6d936808fc321226cc05a5f9d441aec72d3ac515524  results/p1db_waveform_stage05/screening_initial/04_job_manifest.json  (archival original, not distributed)
+d213d0a12fdef3bf43511a90c9070f0c394f048187278ece9b661130a39bf49c  results/p1db_waveform_stage05/screening_initial/04_job_manifest.json  (public sanitized version)
+592aedf06f413cfa6db626fd326d178f77f090a8752ca33d83ef71f9c3936664  results/p1db_waveform_stage05/screening_v3_correlated_preamble/04_job_manifest.json  (archival original, not distributed)
+2c54e3e865307188b81c42c4b28177ae7550220f567a96eecb00c3069a7d2932  results/p1db_waveform_stage05/screening_v3_correlated_preamble/04_job_manifest.json  (public sanitized version)

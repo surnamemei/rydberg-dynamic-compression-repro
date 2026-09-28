@@ -1,0 +1,51 @@
+{
+  "Nd": 1501,
+  "branch": "p1db-waveform-fairness",
+  "commit": "409572499ef54825b66c532e0aecdcffa89e7be1",
+  "config_version": "fair_v2",
+  "cuda_dll_dir": "<LOCAL_PROJECT_ROOT>\\.cuda-env\\Library\\bin",
+  "dt_s": 1e-09,
+  "grid": "high",
+  "models": [
+    "atomic",
+    "static",
+    "static_lti"
+  ],
+  "modulations": [
+    "CE",
+    "QPSK",
+    "16QAM",
+    "OFDM"
+  ],
+  "numpy": "2.3.5",
+  "power_db": [
+    -3,
+    0,
+    3,
+    6
+  ],
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "replicates": 8,
+  "run_started": "2026-09-26T01:41:46+1000",
+  "seed_base": [
+    20262001,
+    20262101,
+    20262201,
+    20262301,
+    20262401,
+    20262501,
+    20262601,
+    20262701
+  ],
+  "sigma_intensity": 6.792095186819493e-05,
+  "stage": "0.5",
+  "unique_job_key": [
+    "modulation",
+    "B_occ_99_Hz",
+    "information_symbol_rate_Hz",
+    "power_db",
+    "seed",
+    "model",
+    "Nd"
+  ]
+}

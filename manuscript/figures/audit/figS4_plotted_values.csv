@@ -1,0 +1,30 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+a,Rydberg population change vs CW (%) QPSK_REF,QPSK_REF,0.4634148754261158,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) QPSK_REF_s2,QPSK_REF_s2,0.47652922185401625,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) QPSK_SLOW,QPSK_SLOW,0.15898556609168502,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) QPSK_FAST,QPSK_FAST,1.283218809584552,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) QPSK_JUMP,QPSK_JUMP,0.6898432901631502,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) QPSK_LONGRAMP,QPSK_LONGRAMP,0.37428637970462475,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) TOGGLE,TOGGLE,1.1282126596179332,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) OFF_+0.125,OFF_+0.125,-1.3126871377811766,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) OFF_+1.31,OFF_+1.31,-6.639918566196812,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) OFF_-1.31,OFF_-1.31,-5.324171829901547,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) OFF_+2.62,OFF_+2.62,-6.03299657431382,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,Rydberg population change vs CW (%) OFF_-2.62,OFF_-2.62,2.119868989560536,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_REF,QPSK_REF,0.001417006488882322,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_REF_s2,QPSK_REF_s2,0.003872885815663807,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_SLOW,QPSK_SLOW,-0.0006635268088430735,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_FAST,QPSK_FAST,-0.017614253559784743,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_JUMP,QPSK_JUMP,0.015310362701832503,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) QPSK_LONGRAMP,QPSK_LONGRAMP,-0.033053489105448364,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) TOGGLE,TOGGLE,0.0006033973636832002,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) OFF_+0.125,OFF_+0.125,-0.0550432472152238,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) OFF_+1.31,OFF_+1.31,-0.31704151772499856,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) OFF_-1.31,OFF_-1.31,-0.27471725571126626,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) OFF_+2.62,OFF_+2.62,-0.29533576963058294,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+b,probe-baseline shift vs CW (dB) OFF_-2.62,OFF_-2.62,-0.013450737980623018,,,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv,
+a,range phase cases (%),"min,max",0.15898556609168502,,,,ledger F_ryd
+a,range phase cases (%),"min,max",1.283218809584552,,,,ledger F_ryd
+b,max |shift| phase cases (dB),max,0.033053489105448364,,,,ledger F_probe
+b,max |shift| offsets (dB),max,0.31704151772499856,,,,ledger F_probe_off
+_audit,points outside axis limits,count,0.0,,,,

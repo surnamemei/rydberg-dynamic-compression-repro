@@ -1,0 +1,16 @@
+{
+ "name": "weak_plus5pct_at_1.0",
+ "start_over_E1dB": 1.0,
+ "factor": 1.05,
+ "E1dB_Vpm": 0.7131047765819615,
+ "tau_1e_s": 1.033e-06,
+ "tau_90_s": 6.254000000000001e-06,
+ "tau_dom_s": 4.69463403580933e-06,
+ "tau_dom_fit_rms_log_resid": 0.1839595935445904,
+ "tau_dom_window_s": "1.431e-06-9.613e-06",
+ "fit2_a_fast": 0.282504659460651,
+ "fit2_tau_fast_s": 7.788925489606669e-07,
+ "fit2_a_slow": 0.3095503203548405,
+ "fit2_tau_slow_s": 4.436373544538869e-06,
+ "fit2_rms_resid": 0.012391785670375985
+}

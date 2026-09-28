@@ -1,0 +1,261 @@
+CW 4001 0.0 5.645102938701082e-12
+CW 4001 0.005 1.753428567878752e-05
+CW 4001 0.01 3.501124280971926e-05
+CW 4001 0.02 6.955403648826405e-05
+CW 4001 0.03 0.00010317474171306914
+CW 4001 0.04 0.0001354604485953418
+CW 4001 0.05 0.00016605103791418957
+CW 4001 0.06 0.00019462201551229109
+CW 4001 0.07 0.00022086576085631734
+CW 4001 0.08 0.00024447897637172323
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.52 seconds
++++> Total CUDA time: 1.33 seconds: (RK: 0.56, Interp: 0.15, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.52 seconds
++++> Total CUDA time: 1.31 seconds: (RK: 0.56, Interp: 0.14, Combine: 0.61)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.27 seconds: (RK: 0.53, Interp: 0.13, Combine: 0.60)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.28 seconds: (RK: 0.55, Interp: 0.14, Combine: 0.59)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.30 seconds: (RK: 0.53, Interp: 0.13, Combine: 0.64)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.50 seconds
++++> Total CUDA time: 1.37 seconds: (RK: 0.57, Interp: 0.16, Combine: 0.63)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.39 seconds: (RK: 0.60, Interp: 0.15, Combine: 0.65)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.51 seconds
++++> Total CUDA time: 1.37 seconds: (RK: 0.59, Interp: 0.15, Combine: 0.63)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.51 seconds
++++> Total CUDA time: 1.40 seconds: (RK: 0.58, Interp: 0.15, Combine: 0.67)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.26 seconds: (RK: 0.53, Interp: 0.14, Combine: 0.59)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.32 seconds: CW 4001 0.085 0.0002551959447407124
+CW 4001 0.09 0.0002651327822521956
+CW 4001 0.095 0.0002742404948773346
+CW 4001 0.1 0.0002824763600867657
+CW 4001 0.11 0.0002961230593194483
+CW 4001 0.12 0.0003056691238132821
+CW 4001 0.13 0.000310744230185997
+CW 4001 0.14 0.000311088972617227
+CW 4001 0.15 0.0003066692743228114
+CW 4001 0.17 0.00028527090159652716
+CW 4001 0.2 0.00023730994758822374
+(RK: 0.57, Interp: 0.13, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.36 seconds: (RK: 0.57, Interp: 0.12, Combine: 0.66)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.33 seconds: (RK: 0.58, Interp: 0.14, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.35 seconds: (RK: 0.59, Interp: 0.14, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.51 seconds
++++> Total CUDA time: 1.41 seconds: (RK: 0.60, Interp: 0.14, Combine: 0.67)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.37 seconds: (RK: 0.59, Interp: 0.14, Combine: 0.63)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.35 seconds: (RK: 0.57, Interp: 0.14, Combine: 0.64)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.47 seconds
++++> Total CUDA time: 1.37 seconds: (RK: 0.59, Interp: 0.15, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.40 seconds: (RK: 0.60, Interp: 0.13, Combine: 0.66)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.32 seconds: (RK: 0.57, Interp: 0.13, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.34 seconds: (RK: 0.56, Interp: 0.15, Combine: 0.63)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.46 secoCW 4001 0.23 0.00019958505027717645
+CW 4001 0.26 0.00019206870354336776
+CW 4001 0.3 0.00022318553583989243
+CW 4001 0.35 0.00030924441862091985
+CW 4001 0.4 0.00039754107203026056
+CW 4001 0.5 0.0003693540338306969
+CW 4001 0.6 9.735801636909315e-05
+CW 4001 0.7 0.00011106352123756452
+nds
++++> Total CUDA time: 1.29 seconds: (RK: 0.55, Interp: 0.13, Combine: 0.61)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.47 seconds
++++> Total CUDA time: 1.32 seconds: (RK: 0.57, Interp: 0.13, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.48 seconds
++++> Total CUDA time: 1.38 seconds: (RK: 0.60, Interp: 0.14, Combine: 0.64)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 1.39 seconds: (RK: 0.60, Interp: 0.16, Combine: 0.64)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.47 seconds
++++> Total CUDA time: 1.35 seconds: (RK: 0.59, Interp: 0.15, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.47 seconds
++++> Total CUDA time: 1.39 seconds: (RK: 0.60, Interp: 0.15, Combine: 0.65)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.51 seconds
++++> Total CUDA time: 1.41 seconds: (RK: 0.59, Interp: 0.15, Combine: 0.67)
++++> CUDA launched with Nv=3427, Nrk=80.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=80.00 k, output buffers 9436.84 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.50 seconds
++++> Total CUDA time: 1.43 seconds: (RK: 0.59, Interp: 0.15, Combine: 0.69)
++++> CUDA launched with Nv=3427, Nrk=62.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=62.00 k, output buffers 7313.55 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.31 seconds
++++> Total CUDA time: 1.24 seconds: (RK: 0.47, Interp: 0.10, Combine: 0.66)
++++> CUDA launched with Nv=3427, Nrk=62.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=62.00 k, output buffers 7313.55 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.31 seconds
++++> Total CUDA time: 1.30 seconds: (RK: 0.51, Interp: 0.12, Combine: 0.67)
++++> CUDA launched with Nv=3427, Nrk=62.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=62.00 k, output buffers 7313.55 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.31 seconds
++++> Total CUDA time: 1.02 seconds: (RK: 0.38, Interp: 0.10, Combine: 0.54)
++++> CUDA launched with Nv=3427, Nrk=62.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=62.00 k, output buffers 7313.55 MB
++++> C++ Computation time: E1dB 4001 0.07321886766113006 slope 0.0035039907083647143 settle 1.2556870327183237e-05 seconds 169.5905921679996
+0.00 seconds
++++> Memory time: 0.34 seconds
++++> Total CUDA time: 1.02 seconds: (RK: 0.38, Interp: 0.09, Combine: 0.54)

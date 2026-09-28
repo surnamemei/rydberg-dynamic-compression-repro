@@ -1,0 +1,55 @@
+{
+ "decided": "2026-09-28T03:18:07+10:00",
+ "rule": "00_plan.md section B: X_coh max >= 0.2, not at an edge, adjacent spacing > 0.2 MHz -> up to 4 IFs (integer-ns periods nearest to +-0.1 and +-0.2 MHz)",
+ "periods": {
+  "0.35": [
+   297,
+   288,
+   272,
+   265
+  ],
+  "0.5": [
+   208,
+   204,
+   196,
+   192
+  ]
+ },
+ "per_LO": {
+  "0.35": {
+   "Xcoh_max": 0.40662716706539426,
+   "at_IF_MHz": 3.5714285714285716,
+   "edge": false,
+   "max_adjacent_spacing_MHz": 0.27472527472527464,
+   "triggered": true,
+   "new_periods": [
+    297,
+    288,
+    272,
+    265
+   ]
+  },
+  "0.425": {
+   "Xcoh_max": 0.4746561304632061,
+   "at_IF_MHz": 4.3478260869565215,
+   "edge": false,
+   "max_adjacent_spacing_MHz": 0.19762845849802435,
+   "triggered": false,
+   "new_periods": []
+  },
+  "0.5": {
+   "Xcoh_max": 0.5300112045230763,
+   "at_IF_MHz": 5.0,
+   "edge": false,
+   "max_adjacent_spacing_MHz": 0.2631578947368425,
+   "triggered": true,
+   "new_periods": [
+    208,
+    204,
+    196,
+    192
+   ]
+  }
+ },
+ "triggered": true
+}

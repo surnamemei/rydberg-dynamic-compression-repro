@@ -1,0 +1,74 @@
+panel,series,x,y,ci_lo,ci_hi,source,note
+a,loss CE,-15,0.2615036397721434,0.1676658867712126,0.3553413927730743,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,-10,0.0991083294670471,0.0578646118822868,0.1403520470518075,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,-6,0.0,0.0,0.0,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,-3,-0.0940176384821616,-0.1062627093069996,-0.0817725676573236,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,0,-0.1083425372942242,-0.1732921191643712,-0.0433929554240771,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,3,0.3777239469633608,0.1002711347210029,0.6551767592057187,results/final_validation/regen_stage05/02_losses.csv,
+a,loss CE,6,0.7683500418113447,0.6273260096936353,0.909374073929054,results/final_validation/regen_stage05/02_losses.csv,
+a,screening CE (shifted),-4.431729357376869,0.0,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening CE (shifted),-1.4317293573768697,-0.0909383410134872,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening CE (shifted),1.5682706426231303,0.2620457978430868,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening CE (shifted),4.568270642623131,0.7055469970165109,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening CE (shifted),7.568270642623131,0.6907309949686411,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,loss QPSK,-15,0.0577578154121212,0.0266267914138723,0.08888883941037,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,-10,0.0069405638522772,-0.0039281704705811,0.0178092981751356,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,-6,0.0,0.0,0.0,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,-3,0.0165514632958369,0.0142065215218712,0.0188964050698026,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,0,0.0975061836858278,0.0863342749233915,0.108678092448264,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,3,0.393020484534505,0.361136342756794,0.424904626312216,results/final_validation/regen_stage05/02_losses.csv,
+a,loss QPSK,6,0.8281501110706795,0.7602421245748259,0.8960580975665331,results/final_validation/regen_stage05/02_losses.csv,
+a,screening QPSK (shifted),-4.431729357376869,0.0,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening QPSK (shifted),-1.4317293573768697,0.0419874671840827,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening QPSK (shifted),1.5682706426231303,0.2184587091449871,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening QPSK (shifted),4.568270642623131,0.6318578194202671,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening QPSK (shifted),7.568270642623131,1.0409457712965486,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,loss 16-QAM,-15,0.0921968477801871,0.0661174128617021,0.118276282698672,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,-10,-0.0019528548536854,-0.0085944539665401,0.0046887442591692,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,-6,0.0,0.0,0.0,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,-3,0.0731993070296606,0.0581961522556441,0.088202461803677,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,0,0.32360531541563,0.2761527904135869,0.371057840417673,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,3,0.8272961154837795,0.7194554173874272,0.9351368135801316,results/final_validation/regen_stage05/02_losses.csv,
+a,loss 16-QAM,6,1.282285954905563,1.196545478317632,1.3680264314934938,results/final_validation/regen_stage05/02_losses.csv,
+a,screening 16-QAM (shifted),-4.431729357376869,0.0,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening 16-QAM (shifted),-1.4317293573768697,0.1454263447588147,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening 16-QAM (shifted),1.5682706426231303,0.5433442439545204,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening 16-QAM (shifted),4.568270642623131,1.0372679399245146,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening 16-QAM (shifted),7.568270642623131,1.418198748772488,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,loss OFDM,-15,0.009844517875956,-0.0078983147056275,0.0275873504575397,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,-10,1.2934098236883076e-13,-2.7337865035869005e-13,5.320606150963515e-13,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,-6,0.0,0.0,0.0,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,-3,4.440892098500626e-15,-5.402458751748001e-15,1.4284242948749253e-14,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,0,0.0099941947408797,-0.0018639310624546,0.0218523205442142,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,3,0.1155324922835719,0.0532507309991204,0.1778142535680233,results/final_validation/regen_stage05/02_losses.csv,
+a,loss OFDM,6,0.2394611947727899,0.1833479524347242,0.2955744371108556,results/final_validation/regen_stage05/02_losses.csv,
+a,screening OFDM (shifted),-4.431729357376869,0.0,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening OFDM (shifted),-1.4317293573768697,0.0065915950528209,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening OFDM (shifted),1.5682706426231303,0.0483751497206814,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening OFDM (shifted),4.568270642623131,0.2562510645144344,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+a,screening OFDM (shifted),7.568270642623131,0.3075286471850807,,,results/final_validation/regen_stage05/05_archived_on_converged_axis.csv,p_converged_axis = p_archived + 1.568 dB
+b,excess static_mh CE,0,0.1062224855202879,0.0326913412626697,0.1797536297779061,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh CE,0,-0.190094115265174,-0.2434067326139241,-0.1367814979164239,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh CE,3,0.5915236463014317,0.3094445132176052,0.8736027793852582,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh CE,3,0.2935942989417274,0.0155465935542487,0.5716420043292061,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh CE,6,0.9792234141492872,0.8405405946560215,1.1179062336425531,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh CE,6,0.6738735661285132,0.5286367272053816,0.8191104050516449,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh QPSK,0,0.1716994449618313,0.1553427119089217,0.1880561780147409,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh QPSK,0,0.1170970453167501,0.1041406362604109,0.1300534543730892,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh QPSK,3,0.4060583284757518,0.3704290984135714,0.4416875585379322,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh QPSK,3,0.4076888291171032,0.3783062804422607,0.4370713777919457,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh QPSK,6,0.0127914226662874,-0.0824578381322032,0.108040683464778,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh QPSK,6,0.8155487502673854,0.7492020318263408,0.8818954687084299,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh 16-QAM,0,1.4928365627657412,1.394301384728337,1.5913717408031454,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh 16-QAM,0,0.3371630497611311,0.2850369553881317,0.3892891441341305,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh 16-QAM,3,0.6054756427374346,0.441847136203047,0.7691041492718221,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh 16-QAM,3,0.7487931556879001,0.6437281345303638,0.8538581768454363,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh 16-QAM,6,-0.0245848923274831,-0.15326051098439,0.1040907263294237,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh 16-QAM,6,0.892530601293662,0.8241623745547874,0.9608988280325368,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh OFDM,0,-0.1859071110234399,-0.2611180861000045,-0.1106961359468753,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh OFDM,0,0.0099941947187396,-0.0018639310947827,0.0218523205322621,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh OFDM,3,-0.8792835265949351,-0.972038694326434,-0.7865283588634364,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh OFDM,3,0.1079490235206416,0.0452176630074802,0.170680384033803,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_mh OFDM,6,-1.4203541525297894,-1.5438354515136743,-1.2968728535459042,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+b,excess static_lti_mh OFDM,6,-0.1056644629818192,-0.1893291029337974,-0.021999823029841,results/final_validation/regen_stage05/03_excess_over_controls.csv,
+_audit,points outside axis limits,count,0.0,,,,

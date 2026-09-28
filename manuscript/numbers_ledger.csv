@@ -1,0 +1,597 @@
+id,description,value,text,source
+M_LO,LO field amplitude (original point),0.5,0.5 V/m,python/utils/transient_quantum.py
+M_OmegaP,probe Rabi frequency /2pi,8080000.0,8.08 MHz,python/utils/transient_quantum.py
+M_OmegaC,coupling Rabi frequency /2pi,2049999.9999999998,2.05 MHz,python/utils/transient_quantum.py
+M_gamma2,intermediate-state decay /2pi,5200000.0,5.2 MHz,python/utils/transient_quantum.py
+M_gamma3,Rydberg decay gamma_3 /2pi,3900.0000000000005,3.9 kHz,python/utils/transient_quantum.py
+M_gamma4,Rydberg decay gamma_4 /2pi,1699.9999999999998,1.7 kHz,python/utils/transient_quantum.py
+M_transit,transit relaxation rate (s^-1) and 1/rate,109202.21093027959,1.09×10⁵ s⁻¹,python/utils/transient_quantum.py
+M_transit_inv,1/transit rate (us),9.157323752707281,9.2 µs,python/utils/transient_quantum.py
+M_wp,probe beam width,0.0017,1.70 mm,python/utils/transient_quantum.py
+M_d,cell length,0.02,2 cm,python/utils/transient_quantum.py
+M_N0,atomic density,4.89e+16,4.89×10¹⁰ cm⁻³,python/utils/transient_quantum.py
+M_LORabi,LO Rabi frequency /2pi at 0.5 V/m,9222395.061877452,9.22 MHz,python/utils/transient_quantum.py
+M_LORabi2,LO Rabi frequency /2pi at 0.35 V/m,6455676.543314216,6.46 MHz,python/utils/transient_quantum.py
+M_Nd1501_kept,velocity classes retained within ±3 sigma for Nd=1501,1285,1285,python/utils/transient_quantum.py
+M_Nd4001_kept,velocity classes retained within ±3 sigma for Nd=4001,3427,3427,python/utils/transient_quantum.py
+M_Nd8001_kept,velocity classes retained within ±3 sigma for Nd=8001,6857,6857,python/utils/transient_quantum.py
+M_sigma,intensity noise sigma (receiver),6.792095186819493e-05,6.79e-05,artifacts/stage1_5_frozen.npz
+N_E1_1501,CW E1dB at Nd=1501,0.08781285606020049,0.0878 V/m,results/stage06_dwell_physics/artifacts/controls_Nd1501.npz
+N_E1_4001,CW E1dB at Nd=4001,0.07321886766113006,0.0732 V/m,results/stage06_dwell_physics/artifacts/controls_Nd4001.npz
+N_E1_8001,CW E1dB at Nd=8001,0.07265224583563967,0.0727 V/m,results/stage06_dwell_physics/artifacts/controls_Nd8001.npz
+N_E1_arch,"archived Stage-0.5 E1dB (Nd=1501, 40 us CW)",0.08770748836108433,0.0877 V/m,artifacts/p1db_reference.npz
+N_shift,power-axis shift archived->converged (dB),1.5682733263233317,1.57 dB,artifacts/p1db_reference.npz
+N_ssgain1501,small-signal CW gain Nd1501 / Nd8001,0.9052028460386441,9.5%,results/stage06_dwell_physics/artifacts
+N_cwsettle,CW-table settling check (rel change between last two 10 us windows),1.2556870327183237e-05,1.3e-05,results/stage06_dwell_physics/artifacts/controls_Nd4001.npz
+N_nd1501_AIR,max |AIR - AIR(8001)| at Nd=1501,0.0193087447253501,0.0193,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd1501_NMSE,max baseband NMSE vs Nd=8001 at Nd=1501,0.00886839071015,8.9e-03,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd1501_RMS,max |output RMS rel diff| at Nd=1501 (%),0.5706505204690501,0.57%,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd3001_AIR,max |AIR - AIR(8001)| at Nd=3001,0.0038859729443683,0.0039,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd3001_NMSE,max baseband NMSE vs Nd=8001 at Nd=3001,0.0001768882711493,1.8e-04,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd3001_RMS,max |output RMS rel diff| at Nd=3001 (%),0.0171526650976,0.017%,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd4001_AIR,max |AIR - AIR(8001)| at Nd=4001,0.0015165945348638,0.0015,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd4001_NMSE,max baseband NMSE vs Nd=8001 at Nd=4001,1.803787525526328e-05,1.8e-05,results/stage06_dwell_physics/02_nd_convergence.csv
+N_nd4001_RMS,max |output RMS rel diff| at Nd=4001 (%),0.014723964938169999,0.015%,results/stage06_dwell_physics/02_nd_convergence.csv
+N_val_D_Nd8001,max |D_BLA| change Nd4001->8001 (per waveform),0.0005165824223624,5.2e-04,results/stage06_dwell_physics/07_numerical_validation.csv
+N_val_D_dt,max |D_BLA| change dt 1->0.5 ns (per waveform),0.0003664921396843,3.7e-04,results/stage06_dwell_physics/07_numerical_validation.csv
+N_val_pair,max |pair-effect change| over Nd/dt checks,0.0008696582609967,8.7e-04,results/stage06_dwell_physics/07_numerical_validation.csv
+N_val_margin_min,min margin ratio (non-null effects),116.04531515708916,116,results/stage06_dwell_physics/07_numerical_validation.csv
+N_val_margin_max,max margin ratio (non-null effects),13789.801385783448,13790,results/stage06_dwell_physics/07_numerical_validation.csv
+N_ctl_mh,all-zone controls: CW rel. error range,"(np.float64(0.0006438182224344), np.float64(0.0165297620073269))",0.06–1.7%,results/stage06_dwell_physics/07b_control_cw_validation.csv
+N_ctl_f1,fundamental-only controls: CW rel. error range,"(np.float64(0.0383593371783812), np.float64(0.6706852445513933))",4–67%,results/stage06_dwell_physics/07b_control_cw_validation.csv
+N_c0c1_nearE1,|c0/c1| at the grid amplitude nearest E1dB,0.5743576587284929,0.57,results/stage06_dwell_physics/artifacts/controls_MH_Nd4001.npz
+N_c0c1_max,max |c0/c1| for 0.75-3.2 E1dB,2.8365029423234014,2.8,results/stage06_dwell_physics/artifacts/controls_MH_Nd4001.npz
+N_osc_on,plateau-onset oscillation period at Nd 1501/4001/8001 (us),"(1.5906796116504855, 1.5906796116504855, 1.5906796116504855)",1.591 µs,manuscript/posthoc/posthoc_oscillation_vs_Nd.csv
+R_loss_CE_+0,"full-model AIR loss vs -6 dB, CE, +0 dB",-0.1083425372942242,"−0.11 [−0.17, −0.04]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_CE_+3,"full-model AIR loss vs -6 dB, CE, +3 dB",0.3777239469633608,"0.38 [0.10, 0.66]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_CE_+6,"full-model AIR loss vs -6 dB, CE, +6 dB",0.7683500418113447,"0.77 [0.63, 0.91]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_QPSK_+0,"full-model AIR loss vs -6 dB, QPSK, +0 dB",0.0975061836858278,"0.10 [0.09, 0.11]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_QPSK_+3,"full-model AIR loss vs -6 dB, QPSK, +3 dB",0.393020484534505,"0.39 [0.36, 0.42]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_QPSK_+6,"full-model AIR loss vs -6 dB, QPSK, +6 dB",0.8281501110706795,"0.83 [0.76, 0.90]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_16QAM_+0,"full-model AIR loss vs -6 dB, 16QAM, +0 dB",0.32360531541563,"0.32 [0.28, 0.37]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_16QAM_+3,"full-model AIR loss vs -6 dB, 16QAM, +3 dB",0.8272961154837795,"0.83 [0.72, 0.94]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_16QAM_+6,"full-model AIR loss vs -6 dB, 16QAM, +6 dB",1.282285954905563,"1.28 [1.20, 1.37]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_OFDM_+0,"full-model AIR loss vs -6 dB, OFDM, +0 dB",0.0099941947408797,"0.01 [−0.00, 0.02]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_OFDM_+3,"full-model AIR loss vs -6 dB, OFDM, +3 dB",0.1155324922835719,"0.12 [0.05, 0.18]",results/final_validation/regen_stage05/02_losses.csv
+R_loss_OFDM_+6,"full-model AIR loss vs -6 dB, OFDM, +6 dB",0.2394611947727899,"0.24 [0.18, 0.30]",results/final_validation/regen_stage05/02_losses.csv
+R_exc_CE_+0_static_mh,AIR(control)-AIR(full) static_mh CE +0 dB,0.1062224855202879,"+0.11 [+0.03, +0.18]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_CE_+0_static_lti_mh,AIR(control)-AIR(full) static_lti_mh CE +0 dB,-0.190094115265174,"−0.19 [−0.24, −0.14]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_CE_+3_static_mh,AIR(control)-AIR(full) static_mh CE +3 dB,0.5915236463014317,"+0.59 [+0.31, +0.87]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_CE_+3_static_lti_mh,AIR(control)-AIR(full) static_lti_mh CE +3 dB,0.2935942989417274,"+0.29 [+0.02, +0.57]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_CE_+6_static_mh,AIR(control)-AIR(full) static_mh CE +6 dB,0.9792234141492872,"+0.98 [+0.84, +1.12]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_CE_+6_static_lti_mh,AIR(control)-AIR(full) static_lti_mh CE +6 dB,0.6738735661285132,"+0.67 [+0.53, +0.82]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+0_static_mh,AIR(control)-AIR(full) static_mh QPSK +0 dB,0.1716994449618313,"+0.17 [+0.16, +0.19]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+0_static_lti_mh,AIR(control)-AIR(full) static_lti_mh QPSK +0 dB,0.1170970453167501,"+0.12 [+0.10, +0.13]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+3_static_mh,AIR(control)-AIR(full) static_mh QPSK +3 dB,0.4060583284757518,"+0.41 [+0.37, +0.44]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+3_static_lti_mh,AIR(control)-AIR(full) static_lti_mh QPSK +3 dB,0.4076888291171032,"+0.41 [+0.38, +0.44]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+6_static_mh,AIR(control)-AIR(full) static_mh QPSK +6 dB,0.0127914226662874,"+0.01 [−0.08, +0.11]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_QPSK_+6_static_lti_mh,AIR(control)-AIR(full) static_lti_mh QPSK +6 dB,0.8155487502673854,"+0.82 [+0.75, +0.88]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+0_static_mh,AIR(control)-AIR(full) static_mh 16QAM +0 dB,1.4928365627657412,"+1.49 [+1.39, +1.59]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+0_static_lti_mh,AIR(control)-AIR(full) static_lti_mh 16QAM +0 dB,0.3371630497611311,"+0.34 [+0.29, +0.39]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+3_static_mh,AIR(control)-AIR(full) static_mh 16QAM +3 dB,0.6054756427374346,"+0.61 [+0.44, +0.77]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+3_static_lti_mh,AIR(control)-AIR(full) static_lti_mh 16QAM +3 dB,0.7487931556879001,"+0.75 [+0.64, +0.85]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+6_static_mh,AIR(control)-AIR(full) static_mh 16QAM +6 dB,-0.0245848923274831,"−0.02 [−0.15, +0.10]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_16QAM_+6_static_lti_mh,AIR(control)-AIR(full) static_lti_mh 16QAM +6 dB,0.892530601293662,"+0.89 [+0.82, +0.96]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+0_static_mh,AIR(control)-AIR(full) static_mh OFDM +0 dB,-0.1859071110234399,"−0.19 [−0.26, −0.11]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+0_static_lti_mh,AIR(control)-AIR(full) static_lti_mh OFDM +0 dB,0.0099941947187396,"+0.01 [−0.00, +0.02]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+3_static_mh,AIR(control)-AIR(full) static_mh OFDM +3 dB,-0.8792835265949351,"−0.88 [−0.97, −0.79]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+3_static_lti_mh,AIR(control)-AIR(full) static_lti_mh OFDM +3 dB,0.1079490235206416,"+0.11 [+0.05, +0.17]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+6_static_mh,AIR(control)-AIR(full) static_mh OFDM +6 dB,-1.4203541525297894,"−1.42 [−1.54, −1.30]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_exc_OFDM_+6_static_lti_mh,AIR(control)-AIR(full) static_lti_mh OFDM +6 dB,-0.1056644629818192,"−0.11 [−0.19, −0.02]",results/final_validation/regen_stage05/03_excess_over_controls.csv
+R_thr_CE_5,P5 - P1dB CE,0.9015034444325551,"0.90 [0.51, 1.65]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_CE_10,P10 - P1dB CE,1.1397354337376489,"1.14 [0.70, 2.10]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_QPSK_5,P5 - P1dB QPSK,-0.0459103257403676,"−0.05 [−0.34, 0.08]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_QPSK_10,P10 - P1dB QPSK,0.9649687375751516,"0.96 [0.86, 1.11]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_16QAM_5,P5 - P1dB 16QAM,-2.4733096700403885,"−2.47 [−2.65, −2.26]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_16QAM_10,P10 - P1dB 16QAM,-1.070821891231297,"−1.07 [−1.39, −0.69]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_OFDM_5,P5 - P1dB OFDM,2.5584780318076845,"2.56 [1.67, 3.58]",results/final_validation/regen_stage05/04_thresholds.csv
+R_thr_OFDM_10,P10 - P1dB OFDM,5.044744422070671,"5.04 [4.08, 6.00]",results/final_validation/regen_stage05/04_thresholds.csv
+R_nruns,number of regenerated full-atomic runs,192,192,results/final_validation/regen_stage05/rows.csv
+R_B99,mean 99% bandwidth per format (MHz),"{'16QAM': np.float64(5.364), 'CE': np.float64(5.37), 'OFDM': np.float64(5.356), 'QPSK': np.float64(5.372)}",5.36–5.37 MHz,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv
+R_B99_mis,max relative B99 mismatch across formats (%),0.29754079845359704,0.30%,results/p1db_waveform_stage05/03_waveform_statistics_extended.csv
+D_sorted_identical,sorted samples identical in every realization (dwell + shuffle),True,identical,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_B99_mis,dwell family B99 mismatch range (%),"(np.float64(-1.16607083007485), np.float64(5.826194075816127))",−1.0% to +5.6%,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_inband,dwell in-band (±3 MHz) power fraction mismatch (%),"(np.float64(6.417545810318273), np.float64(9.224830162252632))",+6.4% to +9.2%,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_spikes,spike share of high-field time (mean over realizations),"(np.float64(0.0364), np.float64(0.07205))",3.6–7.2%,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_Tdw,time-weighted T_dwell/tau range,"(np.float64(0.0540752386587771), np.float64(3.774516982248521))",0.05–3.8,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_cyc_B99,cycle block-shuffle B99 mismatch (%),-0.14977870900931567,0.15%,results/stage06_dwell_physics/04_controlled_pair_configs.csv
+D_full_-6_xi_0.1,"dwell dD_BLA full, -6 dB, xi_0.1",-0.0237583979271712,"−0.024 [−0.026, −0.022]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_-6_xi_1,"dwell dD_BLA full, -6 dB, xi_1",-0.0321148082366265,"−0.032 [−0.034, −0.030]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_-6_xi_4,"dwell dD_BLA full, -6 dB, xi_4",-0.0259961407897667,"−0.026 [−0.030, −0.022]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lti_-6_xi4,"dwell dD_BLA LTI_MH at xi=4, -6 dB",-0.0061008169267641,−0.006,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+0_xi_0.1,"dwell dD_BLA full, +0 dB, xi_0.1",-0.0398400999621871,"−0.040 [−0.048, −0.032]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+0_xi_0.1,"dwell full - LTI_MH, +0 dB, xi_0.1",-0.0454377115373944,"−0.045 [−0.054, −0.037]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+0_xi_1,"dwell dD_BLA full, +0 dB, xi_1",0.0736844561867368,"+0.074 [+0.057, +0.090]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+0_xi_1,"dwell full - LTI_MH, +0 dB, xi_1",0.0575594554583252,"+0.058 [+0.041, +0.074]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+0_xi_4,"dwell dD_BLA full, +0 dB, xi_4",0.178193611379488,"+0.178 [+0.151, +0.206]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+0_xi_4,"dwell full - LTI_MH, +0 dB, xi_4",0.1621622888265451,"+0.162 [+0.135, +0.190]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lti_+0_xi4,"dwell dD_BLA LTI_MH at xi=4, +0 dB",0.0160313225529429,+0.016,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_smh_+0_xi4,"dwell dD_BLA all-zone static at xi=4, +0 dB",-0.0850890730788188,−0.09,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_excsmh_+0_xi_4,"dwell full - all-zone static, +0 dB, xi_4",0.2632826844583069,"+0.26 [+0.24, +0.29]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+3_xi_0.1,"dwell dD_BLA full, +3 dB, xi_0.1",-0.0475169523982674,"−0.048 [−0.061, −0.034]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+3_xi_0.1,"dwell full - LTI_MH, +3 dB, xi_0.1",-0.073448869007529,"−0.073 [−0.087, −0.060]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+3_xi_1,"dwell dD_BLA full, +3 dB, xi_1",0.2343635307537912,"+0.234 [+0.199, +0.269]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+3_xi_1,"dwell full - LTI_MH, +3 dB, xi_1",0.1417064804874203,"+0.142 [+0.107, +0.176]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+3_xi_4,"dwell dD_BLA full, +3 dB, xi_4",0.3887906947104196,"+0.389 [+0.368, +0.410]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_exc_+3_xi_4,"dwell full - LTI_MH, +3 dB, xi_4",0.2944406410969048,"+0.294 [+0.274, +0.315]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lti_+3_xi4,"dwell dD_BLA LTI_MH at xi=4, +3 dB",0.0943500536135148,+0.094,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_smh_+3_xi4,"dwell dD_BLA all-zone static at xi=4, +3 dB",-1.4130024362441689,−1.41,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_excsmh_+3_xi_4,"dwell full - all-zone static, +3 dB, xi_4",1.8017931309545887,"+1.80 [+1.76, +1.84]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+6_xi_0.1,"dwell dD_BLA full, +6 dB, xi_0.1",-0.1572316206159904,"−0.157 [−0.171, −0.143]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+6_xi_1,"dwell dD_BLA full, +6 dB, xi_1",0.0557480157967785,"+0.056 [+0.030, +0.081]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_full_+6_xi_4,"dwell dD_BLA full, +6 dB, xi_4",0.2832458804347671,"+0.283 [+0.260, +0.307]",results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lti_+6_xi4,"dwell dD_BLA LTI_MH at xi=4, +6 dB",0.5035594645660535,+0.504,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lin_max,max |dD_BLA| of the linear model (dwell),0.0060990866950085,0.006,results/stage06_dwell_physics/05_controlled_pair_results.csv
+D_lin_AIR,linear-model dAIR range across dwell pairs (bit),"(np.float64(0.2393514117813189), np.float64(0.4528980585799288))",0.24–0.45 bit,results/stage06_dwell_physics/05_controlled_pair_results.csv
+S_full_-6,cycle-shuffle dD full -6 dB,-0.0336884429628897,"−0.034 [−0.079, +0.011]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_exc_-6,cycle-shuffle full - LTI_MH -6 dB,-0.0370577163429707,"−0.037 [−0.085, +0.011]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_static_-6,cycle-shuffle dD all-zone static -6 dB,7.748641616902273e-05,"+0.000 [−0.001, +0.001]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_full_+0,cycle-shuffle dD full +0 dB,-0.0153641870390147,"−0.015 [−0.043, +0.012]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_exc_+0,cycle-shuffle full - LTI_MH +0 dB,-0.033299118682507,"−0.033 [−0.068, +0.002]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_static_+0,cycle-shuffle dD all-zone static +0 dB,0.0067709857987857,"+0.007 [−0.009, +0.022]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_full_+3,cycle-shuffle dD full +3 dB,-0.0754598378582234,"−0.075 [−0.106, −0.044]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_exc_+3,cycle-shuffle full - LTI_MH +3 dB,-0.1023452204546386,"−0.102 [−0.145, −0.060]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_static_+3,cycle-shuffle dD all-zone static +3 dB,0.0035393137292557,"+0.004 [−0.015, +0.022]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_full_+6,cycle-shuffle dD full +6 dB,-0.1244435553906149,"−0.124 [−0.173, −0.076]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_exc_+6,cycle-shuffle full - LTI_MH +6 dB,-0.1485718749991956,"−0.149 [−0.210, −0.087]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_static_+6,cycle-shuffle dD all-zone static +6 dB,0.0328065821472468,"+0.033 [−0.060, +0.125]",results/stage06_dwell_physics/06_temporal_shuffle_results.csv
+S_relchg_+3,"cycle-shuffle relative change of mean full D, +3 dB",-0.10649176311156172,11%,results/stage06_dwell_physics/06b_shuffle_per_waveform_excess.csv
+S_relchg_+6,"cycle-shuffle relative change of mean full D, +6 dB",-0.15023422216042903,15%,results/stage06_dwell_physics/06b_shuffle_per_waveform_excess.csv
+D_gain_atomic_+3,"fitted gain rel. linear, atomic, +3 dB, xi 0.05 and 4","(np.float64(0.4695585352885211), np.float64(0.3597628055460898))",0.47 → 0.36,results/stage06_dwell_physics/rows_main_dwell.csv
+D_gain_static_lti_mh_+3,"fitted gain rel. linear, static_lti_mh, +3 dB, xi 0.05 and 4","(np.float64(0.567872311233828), np.float64(0.5603469588396234))",0.57 → 0.56,results/stage06_dwell_physics/rows_main_dwell.csv
+T_LO_1e,LO step tau_1e,1.939e-06,1.94 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_LO_dom,LO step tail tau,2.774892610279278e-06,2.77 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_lin_1e,linear-point IF step tau_1e,4.7000000000000004e-08,47 ns,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_lin_90,linear-point IF step tau_90,7.4e-08,74 ns,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_lin_slowweight,linear-point IF step slow-component weight,0.0096259562794191,1%,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_atom,"tau_atom (tau_1e, IF step at 0.0877 V/m)",2.5350000000000003e-06,2.535 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_atom_90,tau_90 same step,7.044000000000001e-06,7.04 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_rec_90,post-plateau recovery tau_90 (Step 2),6.328e-06,6.3 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_atom_Nd,tau_atom across Nd 1501/4001/8001 (us),"(2.511, 2.535, 2.5380000000000003)",2.511–2.538 µs,results/stage06_dwell_physics/03_tau_atom_results.csv
+T_slowpole,slow-pole constants at 0.8/1.0/1.2 E1dB,"(2.491218617469925, 2.6986855113347925, 3.109739595072477)",2.49 / 2.70 / 3.11 µs,results/stage06_dwell_physics/03b_tau_atom_sensitivity.csv
+T_1e_sens,tau_1e at 0.8/1.0/1.2 E1dB,"(0.0, 1.127, 2.535)",0.00 / 1.13 / 2.54 µs,results/stage06_dwell_physics/03b_tau_atom_sensitivity.csv
+T_slowweight,slow-component weights at 0.8/1.0/1.2 E1dB,"(0.2448530645323182, 0.3840601610365618, 0.5584518909076874)",0.24 / 0.38 / 0.56,results/stage06_dwell_physics/03b_tau_atom_sensitivity.csv
+P_onset_+0,CW plateau gain first us / final (+0 dB level),"(np.float64(0.8029724295827207), np.float64(0.6961740317005314))",0.80 → 0.70,results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_rec_+0,post-plateau gain first us / 1-5 us / final (+0 dB level),"(np.float64(0.6490880870771825), np.float64(0.8134578041668334), np.float64(0.9617441075305706))","0.65, 0.81, 0.96",results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_QS_+0,CW plateau vs CW-static (+0 dB level),0.0016323970137763,+0.16%,results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_carrier_+0,QPSK plateau vs CW-static (+0 dB level),-0.5991121017016605,−59.9%,results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_onset_+3,CW plateau gain first us / final (+3 dB level),"(np.float64(0.562596722677452), np.float64(0.4321263130709507))",0.56 → 0.43,results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_rec_+3,post-plateau gain first us / 1-5 us / final (+3 dB level),"(np.float64(0.3576927460262937), np.float64(0.5971363409174496), np.float64(0.9256201065442624))","0.36, 0.60, 0.93",results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_QS_+3,CW plateau vs CW-static (+3 dB level),0.0031313650968791,+0.31%,results/stage06_dwell_physics/12_plateau_steady_state.csv
+P_carrier_+3,QPSK plateau vs CW-static (+3 dB level),-0.5540783823984803,−55.4%,results/stage06_dwell_physics/12_plateau_steady_state.csv
+E_dsh_clu_+3,"slow-state vs full, clustering contrast +3 dB","(np.float64(-0.0645552160466527), np.float64(-0.0754598378582234))",−0.065 vs −0.075,results/stage06_dwell_physics/16_followup_single_slow_state.csv
+E_dsh_clu_+6,"slow-state vs full, clustering contrast +6 dB","(np.float64(-0.1217313586947847), np.float64(-0.1244435553906149))",−0.122 vs −0.124,results/stage06_dwell_physics/16_followup_single_slow_state.csv
+E_dsh_dwell,dwell contrasts within 25% (slow-state model),"(1, 12)",1 of 12,results/stage06_dwell_physics/16_followup_single_slow_state.csv
+E_dsh_trace,fraction of realization-0 waveforms where slow-state beats LTI_MH (by set),"{'fu_cwcarrier/dwell': np.float64(1.0), 'fu_long_cw/dwell': np.float64(1.0), 'fu_long_qpsk/dwell': np.float64(0.667), 'main/dwell': np.float64(0.929), 'main/shuffle': np.float64(0.875)}",67–100%,results/stage06_dwell_physics/16b_followup_dsh_trace_nmse.csv
+E_dsh_trace_sets,sets meeting the pre-registered >=75% rule,"(4, 5)",4 of 5,results/stage06_dwell_physics/16b_followup_dsh_trace_nmse.csv
+E_dsh_nmse_cwcarrier,"median trace NMSE slow-state vs LTI_MH, fu_cwcarrier/dwell","(0.10090081916549071, 0.13000802476741347)",0.101 vs 0.130,results/stage06_dwell_physics/16b_followup_dsh_trace_nmse.csv
+E_dsh_nmse_main_dwell,"median trace NMSE slow-state vs LTI_MH, main/dwell","(0.25768330672997997, 0.2563597964763243)",0.258 vs 0.256,results/stage06_dwell_physics/16b_followup_dsh_trace_nmse.csv
+E_dsh_nmse_long_qpsk,"median trace NMSE slow-state vs LTI_MH, fu_long_qpsk/dwell","(0.2616043777961164, 0.2604238441490436)",0.262 vs 0.260,results/stage06_dwell_physics/16b_followup_dsh_trace_nmse.csv
+Q_DBLA_cw,"pre-registered D_BLA full-static gap, CW carrier, xi 4 and 32","(np.float64(-0.3813115464138688), np.float64(-0.1414942090533018))",−0.381 → −0.141,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv
+Q_DBLA_frac,remaining fraction of the xi=4 gap at xi=32 (D_BLA),0.3710724481962749,37%,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv
+Q_DBLA_patho,"static-model D_BLA at xi=0.05, CW carrier",58.358236699079,58,results/stage06_dwell_physics/15_followup_long_dwell_per_waveform.csv
+Q_ref_cw_xi_0.05,"D_ref full vs static, cw, xi_0.05","(np.float64(0.2171856946689818), np.float64(1.3480652255994152))",0.217 vs 1.35,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_ref_cw_xi_4,"D_ref full vs static, cw, xi_4","(np.float64(0.06984828457520495), np.float64(0.04808721889525002))",0.0698 vs 0.0481,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_refgap_cw_xi_4,"relative full-static D_ref gap, cw, xi_4",0.4525332547793577,+45%,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_ref_cw_xi_32,"D_ref full vs static, cw, xi_32","(np.float64(0.0329549627925334), np.float64(0.03140766518382045))",0.0330 vs 0.0314,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_refgap_cw_xi_32,"relative full-static D_ref gap, cw, xi_32",0.0492649676331253,"+4.9% [+2.7%, +7.1%]",results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_ref_lti_cw_xi_32,"D_ref all-zone LTI+static, cw, xi_32",0.004518114664788251,0.0045,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_gain_cw_xi_0.05,"fitted gain rel. linear full vs static, cw, xi_0.05","(np.float64(0.7235781699844162), np.float64(0.1752736539423504))",0.72 vs 0.18,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_gain_cw_xi_32,"fitted gain rel. linear full vs static, cw, xi_32","(np.float64(0.26094221565426456), np.float64(0.2382498612720842))",0.26 vs 0.24,results/stage06_dwell_physics/rows_fu_long_cw_dwell.csv
+Q_ref_qpsk_xi_0.05,"D_ref full vs static, qpsk, xi_0.05","(np.float64(0.08036941043969137), np.float64(0.4826936701134608))",0.080 vs 0.48,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_ref_qpsk_xi_4,"D_ref full vs static, qpsk, xi_4","(np.float64(0.10362101304087902), np.float64(0.06169068679240395))",0.1036 vs 0.0617,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_refgap_qpsk_xi_4,"relative full-static D_ref gap, qpsk, xi_4",0.6796864880038588,+68%,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_ref_qpsk_xi_32,"D_ref full vs static, qpsk, xi_32","(np.float64(0.10431213852321927), np.float64(0.05826204163083102))",0.1043 vs 0.0583,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_refgap_qpsk_xi_32,"relative full-static D_ref gap, qpsk, xi_32",0.790396210008877,+79%,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_gain_qpsk_xi_0.05,"fitted gain rel. linear full vs static, qpsk, xi_0.05","(np.float64(0.4636029462214865), np.float64(0.5743921081291613))",0.46 vs 0.57,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+Q_gain_qpsk_xi_32,"fitted gain rel. linear full vs static, qpsk, xi_32","(np.float64(0.3490063194292725), np.float64(0.5618803881632441))",0.35 vs 0.56,results/stage06_dwell_physics/rows_fu_long_qpsk_dwell.csv
+C_fuc_exc,"FU-C: full - LTI_MH at +3 dB, xi=4, unmodulated carrier (pre-registered test)",0.3497875341026523,"+0.350 [+0.265, +0.434]",results/stage06_dwell_physics/14_followup_carrier_ablation_pairs.csv
+C_fuc_full,"FU-C: full-model dD at +3 dB, xi=4, unmodulated carrier",0.0220684219302869,"+0.022 [−0.068, +0.112]",results/stage06_dwell_physics/14_followup_carrier_ablation_pairs.csv
+C_fuc_lti,"FU-C: LTI_MH dD at +3 dB, xi=4, unmodulated carrier",-0.3277191121723654,−0.328,results/stage06_dwell_physics/14_followup_carrier_ablation_pairs.csv
+F_REF_ntr,REF nonzero transitions / phase excursion / mean |df|,"(np.int64(44), np.float64(94.2477796076938), np.float64(250000.0000000001))","44 transitions, 94.2 rad, 250 kHz",results/stage06_dwell_physics/phase_mechanism/02_phase_mechanism_configs.csv
+F_peak,peak |f_inst - f_IF| JUMP/REF/LONGRAMP (MHz),"(500.00000000000045, 2.6179460290677468, 0.8726628538083634)",500 / 2.62 / 0.87 MHz,results/stage06_dwell_physics/phase_mechanism/02_phase_mechanism_configs.csv
+F_peak_ratio,ratio of peak excursion JUMP / LONGRAMP,572.9589586837168,≈573,results/stage06_dwell_physics/phase_mechanism/02_phase_mechanism_configs.csv
+F_rates,transition rates SLOW/REF/FAST per us,"(0.15, 0.7333333333333333, 1.45)",0.15 / 0.73 / 1.45,results/stage06_dwell_physics/phase_mechanism/02_phase_mechanism_configs.csv
+F_drift,"mean signed frequency offset SLOW / REF / FAST, +pi convention (kHz)","(49.99999999999999, 141.66666666666666, 337.5000000000001)",50 / 142 / 338 kHz,results/stage06_dwell_physics/phase_mechanism/02_phase_mechanism_configs.csv
+F_gCW,full-model CW gain at a_H,0.4324707527117539,0.432,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_gstatic,CW-static prediction at a_H,0.4307773917818004,0.431,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_gREF,full-model QPSK_REF gain,0.2074551700154568,0.207,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_gmodels,pipeline gain of Hammerstein & slow-state models over all cases,"(np.float64(0.4343922744223454), np.float64(0.4360738693802727))",0.434–0.436,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_CW,X CW,0.0,0.000,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_OFF_+0.125,X OFF_+0.125,-0.1729975111249879,−0.173,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_OFF_+1.31,X OFF_+1.31,-0.8250928416492924,−0.825,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_OFF_-1.31,X OFF_-1.31,-0.5012634505905691,−0.501,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_OFF_+2.62,X OFF_+2.62,-2.020718074774285,−2.021,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_OFF_-2.62,X OFF_-2.62,-0.2937755799696731,−0.294,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_REF,X QPSK_REF,0.5203024280494459,0.520,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_REF_s2,X QPSK_REF_s2,0.523115854443315,0.523,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_SLOW,X QPSK_SLOW,0.1586271312212092,0.159,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_FAST,X QPSK_FAST,0.4383238313368849,0.438,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_JUMP,X QPSK_JUMP,0.5233541835065161,0.523,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_QPSK_LONGRAMP,X QPSK_LONGRAMP,0.5025690398319644,0.503,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_X_TOGGLE,X TOGGLE,0.6510141327448262,0.651,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_numerics,max |dX| over Nd/dt checks,0.0030661881149591785,0.0031,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_abs_OFF_+0.125,"large/small-signal output vs CW, OFF_+0.125","(np.float64(1.1564993524511045), np.float64(0.9863336649124259))",1.16× / 0.99×,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_abs_OFF_+1.31,"large/small-signal output vs CW, OFF_+1.31","(np.float64(1.522185617325378), np.float64(0.8340616276905235))",1.52× / 0.83×,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_abs_OFF_-1.31,"large/small-signal output vs CW, OFF_-1.31","(np.float64(1.7349460663629526), np.float64(1.1566807358919065))",1.73× / 1.16×,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_abs_OFF_+2.62,"large/small-signal output vs CW, OFF_+2.62","(np.float64(2.3429282289560893), np.float64(0.7758397402673533))",2.34× / 0.78×,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_abs_OFF_-2.62,"large/small-signal output vs CW, OFF_-2.62","(np.float64(1.2103066649775034), np.float64(0.9065203154878371))",1.21× / 0.91×,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_ryd,"Rydberg population change vs CW, phase cases (%)","(np.float64(0.0015898556609168502), np.float64(0.01283218809584552))",+0.2% to +1.3%,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_probe,"max |probe-baseline shift| vs CW, phase cases (dB)",0.033053489105448364,0.03 dB,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_probe_off,"max |probe-baseline shift| vs CW, offsets (dB)",0.31704151772499856,0.32 dB,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+F_t63,"build-up t63 (REF, s2, JUMP, LONGRAMP, TOGGLE)","(np.float64(1.1799999999999995), np.float64(3.480000000000004))",1.2–3.5 µs,results/stage06_dwell_physics/phase_mechanism/03_phase_mechanism_results.csv
+H_pi2_mag,pi/2 steps: min |z_full| rel. pre (first 0.5 us),"(np.float64(0.3483095219187266), np.float64(0.6762978481744281))",0.35–0.68,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_pi2_lin,pi/2 steps: min |z_lin| rel. pre,"(np.float64(0.8675339766756215), np.float64(0.998087251299701))",0.87–1.00,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_pi2_phase,"pi/2 steps: max phase lag (rad), excluding the case with near-vanishing magnitude","(np.float64(0.9426050786664302), np.float64(1.7191161932381382))",0.9–1.7 rad,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_pi2_time,pi/2 steps: time of max phase lag (us),"(np.float64(0.6400000000000006), np.float64(1.0200000000000102))",0.6–1.0 µs,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_pi_mag,pi steps: max |z_full| rel. pre,"(np.float64(1.511728462026669), np.float64(2.832595488441335))",1.5–2.8×,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_pi_lin,pi steps: min |z_lin| rel. pre,0.7957076304546191,0.80,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_n,number of isolated pi/2 and pi transitions,"(4, 5)",4 and 5,manuscript/posthoc/posthoc_isolated_transitions.csv
+H_jitter,"steady relative-phase circular SD, phase cases (rad)","(np.float64(0.3499266569238984), np.float64(0.5417007034816883))",0.35–0.54 rad,manuscript/posthoc/posthoc_steady_relative_phase.csv
+H_jitter_off,"steady relative-phase circular SD, offsets (max)",0.1528757835819033,0.15 rad,manuscript/posthoc/posthoc_steady_relative_phase.csv
+H_per_power,power-step oscillation period at a_H (us),"(1.598439024390244, 1.6221782178217825)",1.60–1.62 µs,manuscript/posthoc/posthoc_timescales.csv
+H_per_phase,phase-step oscillation period at a_H (us),"(np.float64(1.6302487562189054), np.float64(1.7429787234042553))",1.63–1.74 µs,manuscript/posthoc/posthoc_timescales.csv
+V_E1p,E1dB at LO 0.35 V/m,0.04033132327041532,0.0403 V/m,results/final_validation/replication/02_run_configs.json
+V_ap,operating amplitude a',0.09868258235309402,0.0987 V/m,results/final_validation/replication/02_run_configs.json
+V_aH,operating amplitude a_H (original),0.17915174489377358,0.179 V/m,results/stage06_dwell_physics/phase_mechanism/00_preregistration.json
+V_gCW,full-model CW gain at a' / static prediction,"(np.float64(0.6330741236600758), np.float64(0.6350170797179782))",0.633 / 0.635,results/final_validation/replication/03_replication_results.csv
+V_X_LO1_OFF_+0.125,X LO1_OFF_+0.125,-0.1746204405162643,−0.175,results/final_validation/replication/03_replication_results.csv
+V_X_LO1_QPSK_FAST_zd,X LO1_QPSK_FAST_zd,0.4061499333760305,0.406,results/final_validation/replication/03_replication_results.csv
+V_X_LO1_QPSK_REF_zd,X LO1_QPSK_REF_zd,0.5199509936001943,0.520,results/final_validation/replication/03_replication_results.csv
+V_X_LO1_QPSK_SLOW_zd,X LO1_QPSK_SLOW_zd,0.177622019037138,0.178,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_CW,X LO2_CW,0.0,0.000,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_OFF_+0.125,X LO2_OFF_+0.125,0.0072862887071468,0.007,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_OFF_+1.31,X LO2_OFF_+1.31,-0.5616076623965514,−0.562,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_OFF_-1.31,X LO2_OFF_-1.31,-0.1779590814796781,−0.178,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_POWERSTEP,X LO2_POWERSTEP,-0.0001832438264619,−0.000,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_FAST_zd,X LO2_QPSK_FAST_zd,0.1972323850350475,0.197,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_JUMP_zd,X LO2_QPSK_JUMP_zd,0.194103422743692,0.194,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_LONGRAMP_zd,X LO2_QPSK_LONGRAMP_zd,0.0376513200197308,0.038,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_REF_zd,X LO2_QPSK_REF_zd,0.188078833644377,0.188,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_REF_zd_s2,X LO2_QPSK_REF_zd_s2,0.1294581240333853,0.129,results/final_validation/replication/03_replication_results.csv
+V_X_LO2_QPSK_SLOW_zd,X LO2_QPSK_SLOW_zd,0.0410058441757164,0.041,results/final_validation/replication/03_replication_results.csv
+V_Xref_mean,mean X_REF' over two seeds,0.15876847883888115,0.159,results/final_validation/replication/03_replication_results.csv
+V_drift,zero-drift mean signed offset REF / FAST (kHz),"(np.float64(8.333333333333332), np.float64(37.5))",8 / 38 kHz,results/final_validation/replication/03_replication_results.csv
+V_class,preregistered classification,B_weakens_but_qualitative,B,results/final_validation/replication/04_replication_verdicts.csv
+V_numerics,Nd=8001 closure checks,OFF_+0.125: X -0.1730 (4001) vs -0.1746 (8001); xi=32 long dwell D_ref 0.03266 vs 0.03268 (rel 0.04%); gain_abs rel change 0.56%,−0.1730 → −0.1746; 0.04%,results/final_validation/replication/04_replication_verdicts.csv
+V_c9a,post-hoc wide-band periods at LO' power / phase median (us),"(0.5601367521367522, 0.558228279386712)",0.560 vs 0.558 µs,results/final_validation/replication/05_posthoc_C9a_wideband.json
+V_c9a_range,post-hoc phase-step period range at LO' (us),"(0.5563327674023769, 0.5639931153184166)",0.556–0.564 µs,results/final_validation/replication/05_posthoc_C9a_wideband.json
+V_orig_wide,wide-band estimator at the original point (us),1.6221782178217823,1.62 µs,results/final_validation/replication/05_posthoc_C9a_wideband.json
+RV_p1_verdict,P1 preregistered verdict,DOES_NOT_SURVIVE,does not survive,results/revision/p1/05_p1_summary.json
+RV_p1_repro,P1 zero-fill 2-us D vs archived campaign (max rel.),7.279054632196293e-13,7e-13,results/revision/p1/05_p1_summary.json
+RV_p1_D_C1_range,C1 full-model change in D over FIR spans 2-16 us,"(np.float64(0.3790251269944303), np.float64(0.3892429364318653))",0.379–0.389,results/revision/p1/04_p1_decisive_table.csv
+RV_p1_D_C2_range,C2 full-model change in D over FIR spans 2-16 us,"(np.float64(-0.0747870646118702), np.float64(-0.0639886347466554))",−0.064 to −0.075,results/revision/p1/04_p1_decisive_table.csv
+RV_p1_Dref_C1_full,C1 full-model change in D_ref (2 us),0.0224115896781013,"+0.022 [+0.021, +0.024]",results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C1_lti,C1 LTI+static change in D_ref (2 us),0.0295899476746319,+0.030,results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C1_exc,C1 excess over LTI+static in D_ref (2 us),-0.0071783579965305,"−0.007 [−0.009, −0.005]",results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C1_exc_static,C1 excess over static in D_ref (2 us),0.4410695781080102,+0.44,results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C1_0dB,C1 at 0 dB: full vs LTI+static change in D_ref (2 us),"(np.float64(0.0231263309613442), np.float64(0.0097106268167567))",+0.023 vs +0.010,results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C2_full,C2 full-model change in D_ref (2 us),-0.0056986512180131,"−0.0057 [−0.0098, −0.0016]",results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C2_exc,C2 excess over LTI+static in D_ref (2 us),-0.007791898103604,"−0.0078 [−0.0119, −0.0037]",results/revision/p1/02_p1_contrasts.csv
+RV_p1_Dref_C1_exc_range,"C1 D_ref excess over LTI+static, spans 2-16 us","(np.float64(-0.0074839308469166), np.float64(-0.0071783579965305))",−0.0075 to −0.0072,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C1_full,"Table S7 D C1: full-model change, range over spans","(np.float64(0.3790251269944303), np.float64(0.3892429364318653))",+0.379 to +0.389,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C1_lti,"Table S7 D C1: excess over LTI+static, range over spans","(np.float64(0.2848511983594223), np.float64(0.2948600880940177))",+0.285 to +0.295,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C1_static,"Table S7 D C1: excess over static, range over spans","(np.float64(1.7224659297495046), np.float64(1.801598967971356))",+1.722 to +1.802,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C1_pass,Table S7 D C1: all criteria hold at all spans,True,yes,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C2_full,"Table S7 D C2: full-model change, range over spans","(np.float64(-0.0747870646118702), np.float64(-0.0639886347466554))",−0.075 to −0.064,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C2_lti,"Table S7 D C2: excess over LTI+static, range over spans","(np.float64(-0.1024938272293146), np.float64(-0.1006314038362308))",−0.102 to −0.101,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C2_static,"Table S7 D C2: excess over static, range over spans","(np.float64(-0.0811772525668041), np.float64(-0.0779870683834235))",−0.081 to −0.078,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_C2_pass,Table S7 D C2: all criteria hold at all spans,True,yes,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C1_full,"Table S7 D_ref C1: full-model change, range over spans","(np.float64(0.0223589257464917), np.float64(0.0224115896781013))",+0.0224,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C1_lti,"Table S7 D_ref C1: excess over LTI+static, range over spans","(np.float64(-0.0074839308469166), np.float64(-0.0071783579965305))",−0.0075 to −0.0072,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C1_static,"Table S7 D_ref C1: excess over static, range over spans","(np.float64(0.4334781688826762), np.float64(0.4410695781080102))",+0.4335 to +0.4411,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C1_pass,Table S7 D_ref C1: all criteria hold at all spans,False,no,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C2_full,"Table S7 D_ref C2: full-model change, range over spans","(np.float64(-0.0056986512180131), np.float64(-0.0050546251125693))",−0.0057 to −0.0051,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C2_lti,"Table S7 D_ref C2: excess over LTI+static, range over spans","(np.float64(-0.008274492486543), np.float64(-0.007791898103604))",−0.0083 to −0.0078,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C2_static,"Table S7 D_ref C2: excess over static, range over spans","(np.float64(-0.0060739414999596), np.float64(-0.0054156145917949))",−0.0061 to −0.0054,results/revision/p1/04_p1_decisive_table.csv
+RV_T7_D_ref_C2_pass,Table S7 D_ref C2: all criteria hold at all spans,True,yes,results/revision/p1/04_p1_decisive_table.csv
+RV_g_qpsk_ref_xi4,fitted gain QPSK +3 dB: reference vs xi=4 (full),"(0.4695585352885211, 0.3597628055460898)",0.470 to 0.360,results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_qpsk_d_xi4,"paired gain change xi=4, QPSK +3 dB (full)",-0.1097957297424313,"−0.110 [−0.118, −0.102]",results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_qpsk_d_sur,"max |paired gain change| of the all-zone surrogates, xi=4, QPSK +3 dB",0.0077956729380789,0.008,results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_qpsk_d_xi4_0dB,"paired gain change xi=4, QPSK 0 dB (full)",-0.1268555783482791,"−0.127 [−0.138, −0.116]",results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_qpsk_xi025,fitted gain QPSK +3 dB at xi=0.25 (full),0.3758806973824616,0.376,results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_cw_ref_xi4,"fitted gain unmodulated +3 dB: reference, xi=0.25, xi=4 (full)","(0.7185701501880736, 0.3669243870248034, 0.337329573180531)","0.72, 0.37, 0.34",results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_cw_d_xi4,"paired gain change xi=4, unmodulated +3 dB (full)",-0.3812405770075425,"−0.38 [−0.42, −0.35]",results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_dsh_xi4,single-slow-state vs full paired gain change at xi=4 (+3 dB): QPSK; unmodulated,"(-0.1632403974390096, -0.1097957297424313, -0.4141205957550254, -0.3812405770075425)",−0.163 vs −0.110; −0.414 vs −0.381,results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_g_dsh_xi025,single-slow-state vs full paired gain change at xi=0.25 (+3 dB): QPSK; unmodulated,"(-0.0185498563937179, -0.0936778379060594, -0.0475673150114441, -0.35164576316327)",−0.019 vs −0.094; −0.048 vs −0.352,results/revision/p1/07_p1_posthoc_gain_vs_dwell.csv
+RV_X_OP1_FAST,"X FAST OP1, six zero-drift sequences (mean [95% CI])",0.4246957960934441,"0.425 [0.402, 0.447]",results/revision/11_p2_summary.csv
+RV_Xm_OP1_FAST,"X FAST OP1, six-sequence mean (2 d.p.)",0.4246957960934441,0.42,results/revision/11_p2_summary.csv
+RV_X_OP1_JUMP,"X JUMP OP1, six zero-drift sequences (mean [95% CI])",0.550633068501352,"0.551 [0.510, 0.591]",results/revision/11_p2_summary.csv
+RV_Xm_OP1_JUMP,"X JUMP OP1, six-sequence mean (2 d.p.)",0.550633068501352,0.55,results/revision/11_p2_summary.csv
+RV_X_OP1_LONGRAMP,"X LONGRAMP OP1, six zero-drift sequences (mean [95% CI])",0.4558948096665705,"0.456 [0.385, 0.526]",results/revision/11_p2_summary.csv
+RV_Xm_OP1_LONGRAMP,"X LONGRAMP OP1, six-sequence mean (2 d.p.)",0.4558948096665705,0.46,results/revision/11_p2_summary.csv
+RV_X_OP1_REF,"X REF OP1, six zero-drift sequences (mean [95% CI])",0.494276469071895,"0.494 [0.431, 0.557]",results/revision/11_p2_summary.csv
+RV_Xm_OP1_REF,"X REF OP1, six-sequence mean (2 d.p.)",0.494276469071895,0.49,results/revision/11_p2_summary.csv
+RV_X_OP1_SLOW,"X SLOW OP1, six zero-drift sequences (mean [95% CI])",0.2446719932774846,"0.245 [0.164, 0.325]",results/revision/11_p2_summary.csv
+RV_Xm_OP1_SLOW,"X SLOW OP1, six-sequence mean (2 d.p.)",0.2446719932774846,0.24,results/revision/11_p2_summary.csv
+RV_X_OP2_FAST,"X FAST OP2, six zero-drift sequences (mean [95% CI])",0.2161462205740016,"0.216 [0.186, 0.247]",results/revision/11_p2_summary.csv
+RV_Xm_OP2_FAST,"X FAST OP2, six-sequence mean (2 d.p.)",0.2161462205740016,0.22,results/revision/11_p2_summary.csv
+RV_X_OP2_JUMP,"X JUMP OP2, six zero-drift sequences (mean [95% CI])",0.1964856859631606,"0.196 [0.172, 0.221]",results/revision/11_p2_summary.csv
+RV_Xm_OP2_JUMP,"X JUMP OP2, six-sequence mean (2 d.p.)",0.1964856859631606,0.20,results/revision/11_p2_summary.csv
+RV_X_OP2_LONGRAMP,"X LONGRAMP OP2, six zero-drift sequences (mean [95% CI])",0.0300461088880081,"0.030 [0.020, 0.040]",results/revision/11_p2_summary.csv
+RV_Xm_OP2_LONGRAMP,"X LONGRAMP OP2, six-sequence mean (2 d.p.)",0.0300461088880081,0.03,results/revision/11_p2_summary.csv
+RV_X_OP2_REF,"X REF OP2, six zero-drift sequences (mean [95% CI])",0.1649510003108336,"0.165 [0.134, 0.196]",results/revision/11_p2_summary.csv
+RV_Xm_OP2_REF,"X REF OP2, six-sequence mean (2 d.p.)",0.1649510003108336,0.16,results/revision/11_p2_summary.csv
+RV_X_OP2_SLOW,"X SLOW OP2, six zero-drift sequences (mean [95% CI])",0.0515825641306877,"0.052 [0.027, 0.076]",results/revision/11_p2_summary.csv
+RV_Xm_OP2_SLOW,"X SLOW OP2, six-sequence mean (2 d.p.)",0.0515825641306877,0.05,results/revision/11_p2_summary.csv
+RV_sd_OP1,sequence-to-sequence SD of X_REF at OP1,0.0599619389121866,0.06,results/revision/11_p2_summary.csv
+RV_rng_OP1,range of X_REF over six sequences at OP1,"(np.float64(0.3835448442799389), np.float64(0.5647218922930854))",0.38–0.56,results/revision/11_p2_summary.csv
+RV_sd_OP2,sequence-to-sequence SD of X_REF at OP2,0.0297412057399431,0.03,results/revision/11_p2_summary.csv
+RV_rng_OP2,range of X_REF over six sequences at OP2,"(np.float64(0.1294581240333853), np.float64(0.2087008694729227))",0.13–0.21,results/revision/11_p2_summary.csv
+RV_c_OP1_JUMP,"paired contrast JUMP-REF (OP1), six sequences",0.056356599429457,"+0.06 [+0.01, +0.11]",results/revision/12_p2_contrasts.csv
+RV_c_OP1_LONGRAMP,"paired contrast LONGRAMP-REF (OP1), six sequences",-0.0383816594053244,"−0.04 [−0.12, +0.05]",results/revision/12_p2_contrasts.csv
+RV_c_OP1_SLOW,"paired contrast SLOW-REF (OP1), six sequences",-0.2496044757944103,"−0.25 [−0.36, −0.14]",results/revision/12_p2_contrasts.csv
+RV_c_OP1_FAST,"paired contrast FAST-REF (OP1), six sequences",-0.0695806729784508,"−0.07 [−0.13, −0.01]",results/revision/12_p2_contrasts.csv
+RV_c_OP2_JUMP,"paired contrast JUMP-REF (OP2), six sequences",0.031534685652327,"+0.03 [+0.01, +0.05]",results/revision/12_p2_contrasts.csv
+RV_c_OP2_LONGRAMP,"paired contrast LONGRAMP-REF (OP2), six sequences",-0.1349048914228255,"−0.13 [−0.17, −0.10]",results/revision/12_p2_contrasts.csv
+RV_c_OP2_SLOW,"paired contrast SLOW-REF (OP2), six sequences",-0.1133684361801458,"−0.11 [−0.16, −0.07]",results/revision/12_p2_contrasts.csv
+RV_c_OP2_FAST,"paired contrast FAST-REF (OP2), six sequences",0.0511952202631681,"+0.05 [+0.02, +0.08]",results/revision/12_p2_contrasts.csv
+RV_c_both_OPdiff_REF,"paired contrast OP1-OP2 REF (both), six sequences",0.3293254687610613,"+0.33 [+0.28, +0.38]",results/revision/12_p2_contrasts.csv
+RV_c_both_OPdiff_FAST,"paired contrast OP1-OP2 FAST (both), six sequences",0.2085495755194424,"+0.21 [+0.19, +0.23]",results/revision/12_p2_contrasts.csv
+RV_c_both_OPdiff_SLOW,"paired contrast OP1-OP2 SLOW (both), six sequences",0.1930894291467968,"+0.19 [+0.10, +0.29]",results/revision/12_p2_contrasts.csv
+RV_c_both_OPdiff_JUMP,"paired contrast OP1-OP2 JUMP (both), six sequences",0.3541473825381913,"+0.35 [+0.31, +0.40]",results/revision/12_p2_contrasts.csv
+RV_c_both_OPdiff_LONGRAMP,"paired contrast OP1-OP2 LONGRAMP (both), six sequences",0.4258487007785623,"+0.43 [+0.36, +0.49]",results/revision/12_p2_contrasts.csv
+RV_opdiff_LONGRAMP,"(LONGRAMP-REF) at OP1 minus at OP2, paired by sequence",0.096523232017501,"+0.10 [+0.03, +0.16]",results/revision/10_p2_per_sequence.csv
+RV_opdiff_FAST,"(FAST-REF) at OP1 minus at OP2, paired by sequence",-0.12077589324161897,"−0.12 [−0.17, −0.07]",results/revision/10_p2_per_sequence.csv
+RV_gREF_OP1,"OP1 gain under REF, six-sequence mean (relative to small-signal)",0.21871063608452354,0.22,results/revision/10_p2_per_sequence.csv
+RV_p2_identical,archived zero-drift runs reproduced bit-identically,9,9,results/revision/13_p2_determinism_check.csv
+RV_P3_OP1_-6,"X_REF at -6 dB re P1dB, OP1 (3 sequences)",0.0101700619138136,0.01,results/revision/21_p3_summary.csv
+RV_P3_OP1_-3,"X_REF at -3 dB re P1dB, OP1 (3 sequences)",0.0396040403124301,0.04,results/revision/21_p3_summary.csv
+RV_P3_OP1_+0,"X_REF at +0 dB re P1dB, OP1 (3 sequences)",0.1400655109910144,0.14,results/revision/21_p3_summary.csv
+RV_P3_OP1_+3,"X_REF at +3 dB re P1dB, OP1 (3 sequences)",0.3286209224711313,0.33,results/revision/21_p3_summary.csv
+RV_P3_OP1_+6,"X_REF at +6 dB re P1dB, OP1 (3 sequences)",0.5368532711831824,0.54,results/revision/21_p3_summary.csv
+RV_P3_OP1_+8,"X_REF at +8 dB re P1dB, OP1 (3 sequences)",0.4969812212109867,0.50,results/revision/21_p3_summary.csv
+RV_P3_OP2_-6,"X_REF at -6 dB re P1dB, OP2 (3 sequences)",0.0475242751795586,0.05,results/revision/21_p3_summary.csv
+RV_P3_OP2_-3,"X_REF at -3 dB re P1dB, OP2 (3 sequences)",0.0832292450212887,0.08,results/revision/21_p3_summary.csv
+RV_P3_OP2_+0,"X_REF at +0 dB re P1dB, OP2 (3 sequences)",0.1317744182514343,0.13,results/revision/21_p3_summary.csv
+RV_P3_OP2_+3,"X_REF at +3 dB re P1dB, OP2 (3 sequences)",0.1738020769058917,0.17,results/revision/21_p3_summary.csv
+RV_P3_OP2_+6,"X_REF at +6 dB re P1dB, OP2 (3 sequences)",0.1986917330231698,0.20,results/revision/21_p3_summary.csv
+RV_P3_OP2_+8,"X_REF at +8 dB re P1dB, OP2 (3 sequences)",0.1540155985975048,0.15,results/revision/21_p3_summary.csv
+RV_P3_onset,onset level (dB re P1dB) OP1 / OP2,"(0, -3)",0 dB / −3 dB,results/revision/50_p2_p6_summary.json
+RV_R_OP1_near,OP1 R at -0.25 and +0.125 MHz,"(0.5080945081550715, 1.172997511124988)",0.51 and 1.17,results/revision/30_p4_offset_sweep.csv
+RV_R_OP2_near,OP2 R range for |df| <= 0.75 MHz,"(np.float64(0.9833949620472678), np.float64(1.1018166108077263))",0.98–1.10,results/revision/30_p4_offset_sweep.csv
+RV_R_OP1_max,OP1 R at +3 MHz,3.311160200216656,3.3,results/revision/30_p4_offset_sweep.csv
+RV_R_OP3_near,OP3 R at +0.125 MHz,1.0027821254752016,1.00,results/revision/31_p4_op3_offsets.csv
+RV_LO_OP3,LO field at OP3,0.425,0.425 V/m,results/revision/32_p4_operating_points.csv
+RV_E1_OP3,E1dB at OP3 (A_LO = 0.425 V/m),0.0590858460852223,0.0591 V/m,results/revision/32_p4_operating_points.csv
+RV_S5,selectivity S5 at OP2 / OP3 / OP1,"(np.float64(0.5616076623965514), np.float64(1.215960928705368), np.float64(2.020718074774285))",0.56 / 1.22 / 2.02,results/revision/32_p4_operating_points.csv
+RV_XREF3,X_REF (3 sequences) at OP2 / OP3 / OP1,"(np.float64(0.155809760268938), np.float64(0.2943833687084206), np.float64(0.507042496424534))",0.16 / 0.29 / 0.51,results/revision/32_p4_operating_points.csv
+RV_XREF_OP3_ci,"X_REF at OP3, 3 sequences, 95% CI",0.2943833687084206,"0.29 [0.16, 0.43]",results/revision/32_p4_operating_points.csv
+RV_P4_class,P4 preregistered classification,MONOTONIC_IN_LO,MONOTONIC_IN_LO,results/revision/50_p2_p6_summary.json
+RV_P5_T1,"g(a,f) surrogate X_REF at OP1 / OP2 (preregistered median)","(np.float64(0.0029476119624228), np.float64(-0.0010497718763307))",0.003 / −0.001,results/revision/41_p5_T1.csv
+RV_P5_mean,"g(a,f) surrogate mean-based X range over cases and OPs (post hoc)","(np.float64(-0.1922105405531649), np.float64(-0.002426753304426))",−0.19 to −0.002,results/revision/45_p5_posthoc_mean_based.csv
+RV_P5_T3max,max |X_sur| over the amplitude sweep,0.0044966671098402,0.004,results/revision/43_p5_T3.csv
+RV_P5_verdict,P5 preregistered verdict,FAILS,FAILS,results/revision/50_p2_p6_summary.json
+RV_P6_X,"X_REF FP64 vs FP32 (OP1, seed 20260701)","(0.5199468696755911, 0.5199509936001943, 4.123924603138818e-06)",0.5199 vs 0.5200,results/revision/50_p2_p6_summary.json
+RV_P6_long,long-dwell D_ref full FP64 vs FP32; gap change (pp),"(0.03266236820196092, 0.0326646359771005, 0.007248462464150285)",0.03266 vs 0.03266; 0.007 percentage points,results/revision/50_p2_p6_summary.json
+RV_P6_ext,extended 200-us segment: X per 20-us window min-max; first; last,"(np.float64(0.4485249063927921), np.float64(0.5701268769156131), np.float64(0.5182241833543477), np.float64(0.5480585482687332))",0.45–0.57; 0.52 → 0.55,results/revision/50_p2_p6_summary.json
+RV_P6_time,"wall time: GPU 110-us phase run, 840-us dwell job, 2.4-ms long dwell; CPU FP64 110 us, 2.4 ms (s)","(5.94941047499924, 25.43216701199981, 77.05261950199929, 26.665532113000154, 591.2778999969996)","6 s, 25 s, 77 s; 27 s, 591 s",results/revision/50_p2_p6_summary.json
+R2_C2_Dref_full_6dB,C2 full-model change in D_ref at +6 dB (2 us),-0.0054090972822282,"−0.0054 [−0.0085, −0.0023]",results/revision/p1/02_p1_contrasts.csv
+R2_C2_Dref_exc_6dB,C2 excess over LTI+static in D_ref at +6 dB (2 us),-0.0057376192849253,"−0.0057 [−0.0082, −0.0032]",results/revision/p1/02_p1_contrasts.csv
+R2_C2_Dref_span_range,"C2 full-model change in D_ref at +3 dB over FIR spans 2-16 us (min, max)","(np.float64(-0.0056986512180131), np.float64(-0.0050546251125693))",−0.0057 and −0.0051,results/revision/p1/02_p1_contrasts.csv
+R2_IFs,IFs of the P1 check (MHz),"(5, 10, 15)","5, 10 and 15 MHz",results/revision2/00_decision_rules.json
+R2_E1_IF,E1dB at IF 5/10/15 MHz (V/m),"(0.07321886766113, 0.5808393933687851, 0.2175410147596995)","0.0732, 0.581 and 0.218 V/m",results/revision2/11_p1_if_summary.csv
+R2_E1_ratio10,E1dB(10 MHz)/E1dB(5 MHz),7.932919641109632,7.9,results/revision2/11_p1_if_summary.csv
+R2_aH_IF10,"matched phase level at 10 MHz (2.4468 E1dB, V/m)",1.4211978276947435,1.42 V/m,results/revision2/11_p1_if_summary.csv
+R2_gCW_IF,"CW gain at the matched level rel. small-signal, 5/10/15 MHz","(0.4324707527117539, 0.1540313085010447, 0.8003168681705436)","0.43, 0.15 and 0.80",results/revision2/11_p1_if_summary.csv
+R2_XREF_IF5,"X_REF at 5 MHz (3 sequences, mean [95% CI])",0.507042496424534,"+0.507 [+0.479, +0.535]",results/revision2/11_p1_if_summary.csv
+R2_dg_IF5,paired fitted-gain change xi=4 minus 0.05 at 5 MHz: full [CI]; static,"(np.float64(-0.1132787223764406), np.float64(-0.1238436476963594), np.float64(-0.1027137970565219), np.float64(-0.0063570975100623))","−0.113 [−0.124, −0.103]; static −0.006",results/revision2/11_p1_if_summary.csv
+R2_XREF_IF10,"X_REF at 10 MHz (3 sequences, mean [95% CI])",-0.0957985295279642,"−0.096 [−0.137, −0.055]",results/revision2/11_p1_if_summary.csv
+R2_dg_IF10,paired fitted-gain change xi=4 minus 0.05 at 10 MHz: full [CI]; static,"(np.float64(-0.111367486890251), np.float64(-0.1123573216427541), np.float64(-0.1103776521377479), np.float64(-0.0901634814701914))","−0.111 [−0.112, −0.110]; static −0.090",results/revision2/11_p1_if_summary.csv
+R2_XREF_IF15,"X_REF at 15 MHz (3 sequences, mean [95% CI])",-0.0180107875874139,"−0.018 [−0.032, −0.004]",results/revision2/11_p1_if_summary.csv
+R2_dg_IF15,paired fitted-gain change xi=4 minus 0.05 at 15 MHz: full [CI]; static,"(np.float64(-0.0591722158376211), np.float64(-0.0607996785053375), np.float64(-0.0575447531699046), np.float64(-0.0037831873575518))","−0.059 [−0.061, −0.058]; static −0.004",results/revision2/11_p1_if_summary.csv
+R2_dg_full_IF,paired gain change (full) at 5/10/15 MHz,"(-0.1132787223764406, -0.111367486890251, -0.0591722158376211)","−0.113, −0.111 and −0.059",results/revision2/11_p1_if_summary.csv
+R2_dg_static_IF,paired gain change (static surrogate) at 5/10/15 MHz,"(-0.0063570975100623, -0.0901634814701914, -0.0037831873575518)","−0.006, −0.090 and −0.004",results/revision2/11_p1_if_summary.csv
+R2_S5_IF,frequency selectivity S5 at 5/10/15 MHz,"(2.020718074774285, 0.2331670188072778, 0.1964682618561066)","2.02, 0.23 and 0.20",results/revision2/11_p1_if_summary.csv
+R2_R0125_IF,R(+0.125 MHz) at 5/10/15 MHz,"(1.172997511124988, 0.9856778373377256, 1.0009872273677038)","1.17, 0.99 and 1.00",results/revision2/11_p1_if_summary.csv
+R2_P1_class,P1 prespecified classification,DOES_NOT_SURVIVE,does not survive,results/revision2/15_p1_verdict.json
+R2_P1_ratio,15/5 MHz ratio of the dwell gain change,0.5223594916703223,52%,results/revision2/15_p1_verdict.json
+R2_val5,5 MHz validation: phase runs bit-identical; max rel. diff of dwell gains,"(True, 1.189143309997784e-14)",bit-identical; 1e-14,results/revision2/10_p1_validation_5MHz.csv
+R2_exp_IF10,10 MHz: max CW fundamental gain re weak-tone slope (dB) and its amplitude,"(2.0390796414803, 0.3)",+2.0 dB near 0.3 V/m,results/revision2/tables/OP1_IF10_ext.npz
+R2_cw15_07,15 MHz: CW fundamental gain at 0.7 V/m (dB),-2.8217197117296227,−2.8 dB,results/revision2/tables/OP1_IF15.npz
+R2_fms,full minus static fitted gain (xi 0.05; xi 4) at 5/10/15 MHz,"(np.float64(-0.09588153165120476), np.float64(-0.20280315651758302), np.float64(0.01923134332074425), np.float64(-0.0019726620993152783), np.float64(0.0511318739386154), np.float64(-0.004257154541453839))","−0.10/−0.20, +0.019/−0.002, +0.051/−0.004",results/revision2/12_p1_dwell_per_realization.csv
+R2_leak0,"zone-0 in-band power re zone 1 (dB), static model, xi 0.05 at 5/10/15 MHz","(1.851497359337623, 2.6115460421598966, -10.463661882404484)","+1.9, +2.6, −10.5 dB",results/revision2/13_p1_zone_leakage.csv
+R2_leak0_xi4,"zone-0 in-band power re zone 1 (dB), static model, xi 4 at 5/10/15 MHz","(-15.084373009872785, -3.8817886204492726, -23.20516459716687)","−15.1, −3.9, −23.2 dB",results/revision2/13_p1_zone_leakage.csv
+R2_leak23,"max in-band power of zones 2-3 re zone 1 (dB), any IF/variant",-33.26055411843145,−33 dB,results/revision2/13_p1_zone_leakage.csv
+R2_Xcoh_IF,X_coh of the reference case (3 sequences) at 5/10/15 MHz,"(0.530593893514843, -0.07636429397462337, -0.022355223108610767)","+0.531, −0.076 and −0.022",results/revision2/14_p1_ref_decomposition.csv
+R2_criteria,prespecified criterion constants quoted in the evidence table,,"0.8 X_REF; 0.25; 0.10; 0.20; 0.05; 3x; slow tau >= 1 us, weight >= 0.1; ratio outside [0.5, 2]; dip >= 20%, within 0.3 us, r >= 0.8; 25%; 2%",results/stage06_dwell_physics/phase_mechanism/00_preregistration.json; results/final_validation/replication/00_preregistration.json; results/revision/00_revision_preregistration.json; results/revision2/00_decision_rules.json; results/stage06_dwell_physics/11_followup_preregistration.json
+R2_sd_IF,"circular SD of the response phase (rad), reference case, 5/10/15 MHz","(0.49911849402874015, 0.13871579776939305, 0.039768460744854496)","0.50, 0.14 and 0.04 rad",results/revision2/14_p1_ref_decomposition.csv
+R2_dec_OP1,"OP1 reference: X, X_mag, X_rms, X_coh; magnitude share; phase share; circ. SD; lag (rad)","(np.float64(0.494276469071895), np.float64(0.464693526166479), np.float64(0.4177867307745987), np.float64(0.5252737724322997), np.float64(0.8383947573441017), np.float64(0.1616052426558983), np.float64(0.491005851426342), np.float64(0.3608429823307039))","X 0.494, X_mag 0.465, X_rms 0.418, X_coh 0.525; 84% / 16%; 0.49 rad; 0.36 rad",results/revision2/21_p2_summary.csv
+R2_dec_OP2,"OP2 reference: X, X_mag, X_rms, X_coh; magnitude share; phase share; circ. SD; lag (rad)","(np.float64(0.1649510003108336), np.float64(0.1565700811237418), np.float64(0.1453237829056337), np.float64(0.1712078695279333), np.float64(0.9059100713225716), np.float64(0.0940899286774287), np.float64(0.190110466599703), np.float64(0.1597248948052669))","X 0.165, X_mag 0.157, X_rms 0.145, X_coh 0.171; 91% / 9%; 0.19 rad; 0.16 rad",results/revision2/21_p2_summary.csv
+R2_dec_OP3,"OP3 reference: X, X_mag, X_rms, X_coh; magnitude share; phase share; circ. SD; lag (rad)","(np.float64(0.2943833687084206), np.float64(0.2904763358555594), np.float64(0.2688315467730611), np.float64(0.3201296575597841), np.float64(0.8889427266515334), np.float64(0.111057273348466), np.float64(0.3008291770754077), np.float64(0.2156176210055403))","X 0.294, X_mag 0.290, X_rms 0.269, X_coh 0.320; 89% / 11%; 0.30 rad; 0.22 rad",results/revision2/21_p2_summary.csv
+R2_gcoh_rel_OP1,"OP1 reference: coherent gain relative to CW, 1 - X_coh (six sequences)",0.47472622756770033,0.47,results/revision2/21_p2_summary.csv
+R2_share_mag,"magnitude share of ln(1-X_coh), reference, OP1/OP2/OP3","(0.8383947573441017, 0.9059100713225716, 0.8889427266515334)","84%, 91% and 89%",results/revision2/21_p2_summary.csv
+R2_share_ph,"phase-misalignment share, reference, OP1/OP2/OP3","(0.1616052426558983, 0.0940899286774287, 0.111057273348466)","16%, 9% and 11%",results/revision2/21_p2_summary.csv
+R2_share_ph_fast,"phase-misalignment share, FAST at OP1",0.2983437247055824,30%,results/revision2/21_p2_summary.csv
+R2_XvsXmag,max |X - X_mag| over cases and sequences at OP1/OP2/OP3,"(0.11260083275117339, 0.027832680415195266, 0.022687535887556898)",0.11 at OP1 (0.03 and 0.02 at OP2 and OP3),results/revision2/22_p2_verdict.json
+R2_share_ph_lr,"phase-misalignment share, 900-ns ramps at OP2 (X small)",0.3414531930311686,34%,results/revision2/21_p2_summary.csv
+R2_fast_X_Xmag,OP1 FAST: mean X vs X_mag,"(np.float64(0.4246957960934441), np.float64(0.347724223125706))",0.425 vs 0.348,results/revision2/21_p2_summary.csv
+R2_wp_Op,weak-probe Rabi frequency /2pi (MHz),2.02,2.02 MHz,results/revision2/31_p3_verdict.json
+R2_wp_E1,weak-probe E1dB (V/m) and ratio to standard,"(0.7131047765819615, 9.739358164924608)",0.713 V/m,results/revision2/31_p3_verdict.json
+R2_wp_aH,weak-probe matched phase level (V/m),1.7448247673407433,1.74 V/m,results/revision2/31_p3_verdict.json
+R2_wp_gCW,weak-probe CW gain at the matched level rel. small-signal,0.01591068547068652,0.016,results/revision2/31_p3_verdict.json
+R2_wp_X,weak-probe X_REF (3 sequences),-0.10638187943044215,"−0.106 [−0.116, −0.097]",results/revision2/31_p3_verdict.json
+R2_wp_dg,weak-probe dwell gain change: full [CI]; static,"(-0.0255470406325079, -0.029107329687911958, -0.021986751577103843, -0.16234121309103403)","−0.026 [−0.029, −0.022]; static −0.162",results/revision2/31_p3_verdict.json
+R2_wp_tau,"slow component of the +5% step at 1.0 E1dB: weak (tau us, weight); standard (tau us, weight)","(4.436373544538869e-06, 0.3095503203548405, 2.6986855113347925e-06, -0.3840601610365618)","4.44 µs, weight 0.31; 2.70 µs, weight 0.38",results/revision2/31_p3_verdict.json
+R2_wp_tau1e,1/e time of the +5% step at 1.0 E1dB: weak; standard (us),"(1.033e-06, 1.127e-06)",1.03 µs vs 1.13 µs,results/revision2/31_p3_verdict.json
+R2_wp_verdict,"P3 verdicts: memory, phase loss, dwell gain persist; material change","(True, False, False, True)",memory persists; phase loss and dwell gain excess do not; material change,results/revision2/31_p3_verdict.json
+R2_wp_fms,weak probe: full minus static fitted gain (xi 0.05; xi 4),"(-0.1843044660817305, -0.04751029362320436)",−0.18/−0.05,results/revision2/p3/dwell
+R2_E1_ratios,"E1dB relative to the reference configuration: 15 MHz, 10 MHz, weak probe","(np.float64(2.9711059691132915), np.float64(7.932919641109632), 9.739358164924608)","3.0, 7.9 and 9.7",results/revision2/31_p3_verdict.json
+R2_wp_lin,small-signal kernel linearity check: weak; standard,"(0.0626497693799733, 0.07652518991777806)",0.063 vs 0.077,results/revision2/31_p3_verdict.json
+R2_wp_exp,weak probe: max CW gain re weak-tone slope (dB) and amplitude,"(5.447483773497638, 0.3)",+5.4 dB near 0.3 V/m,results/revision2/tables/OP1_IF5_weakprobe_ext.npz
+R2_p4_window,P4 recorded window and step centre (us),"(49, 55, 50)",from 49 to 55 µs (step centred at 50 µs),results/revision2/00_decision_rules.json
+R2_level,matched level relative to E1dB (a_H/E1dB),2.4468,2.45,python/experiments/revision/rev_phase.py
+R2_p4_chain,"chained vs continuous probe output, max deviation (a_H; small-signal)","(3.790400970654785e-07, 9.670868124741451e-06)",4e-07 and 1e-05,results/revision2/41_p4_verdict.json
+R2_p4_out,"a_H step: output IF magnitude minimum (fraction of pre-step), time after step (us); max phase deviation (rad)","(0.12882735528691214, 0.990000000000002, 1.5642349183134976)",0.13 at 1.0 µs; 1.56 rad,results/revision2/41_p4_verdict.json
+R2_p4_out_ss,"small-signal step: output magnitude minimum (fraction), max phase deviation (rad)","(0.7487811539390705, 0.16021207548042415)",0.75; 0.16 rad,results/revision2/41_p4_verdict.json
+R2_p4_rho43,rho43 +IF: minimum (fraction of pre-step); time vs output minimum (us); r,"(np.float64(0.02146497899486499), np.float64(-0.110000000000004), np.float64(0.3404833707377672))",0.02; −0.11 µs; r = 0.34,results/revision2/40_p4_internal_tracking.csv
+R2_p4_rho41,rho41 -IF: dip; time vs output minimum; r,"(np.float64(0.9724092183376672), np.float64(-0.3500000000000017), np.float64(0.8330883422957855))",97%; −0.35 µs; r = 0.83,results/revision2/40_p4_internal_tracking.csv
+R2_p4_cons,probe observable Im(rho21) IF component vs output: r,0.9981133572926014,0.998,results/revision2/40_p4_internal_tracking.csv
+R2_p4_pops,max |relative change| of thermally averaged populations (slow part),0.0113649312035628,1.1%,results/revision2/40_p4_internal_tracking.csv
+R2_p4_drift,rho43 +IF phase relative to the drive at 54.74 us (rad): a_H; small-signal max |dev|,"(-13.775411079015317, 0.09987292662449843)",13.8 rad within 4.7 µs; 0.10 rad,results/revision2/p4/step_aH_traces.npz
+R2_p4_slow43,|slow rho43| relative to pre-step: a_H range; small-signal max |change|,"(0.7961440115217492, 2.0485298185495795, 0.010079044013384886)",0.80–2.05; 1.0%,results/revision2/p4/step_aH_traces.npz
+R2_p4_ss43,small-signal: rho43 +IF dip,0.0715904418907389,7%,results/revision2/40_p4_internal_tracking.csv
+R2_p4_verdict,any internal IF component meets the prespecified tracking criterion,False,none,results/revision2/41_p4_verdict.json
+TV_plan,campaign plan registered before any campaign run (commit time),2026-09-28T02:37:07+10:00,2026-09-28,results/tqe_viability_final/00_plan.md
+TV_nseq,sequences per matched state (REF seeds 20260701-06),6,six,results/tqe_viability_final/00_plan.md
+TV_ratios,matched signal/LO ratios entering the class,"(0.2, 0.358, 0.4)","0.2, 0.358 and 0.4",results/tqe_viability_final/00_plan.md
+TV_Xsig_C1,"X at matched signal/LO 0.2/0.358/0.4, 5 MHz","(np.float64(0.3231869545117932), np.float64(0.4944965678881015), np.float64(0.4613960778193656))","0.32, 0.49 and 0.46",results/tqe_viability_final/01_matching/matching_results.csv
+TV_Xsig_C2,"X at matched signal/LO 0.2/0.358/0.4, 10 MHz","(np.float64(0.0554197155174123), np.float64(0.0827192076999812), np.float64(0.0857948032735511))","0.06, 0.08 and 0.09",results/tqe_viability_final/01_matching/matching_results.csv
+TV_Xsig_C3,"X at matched signal/LO 0.2/0.358/0.4, 15 MHz","(np.float64(-0.0102171743635843), np.float64(-0.0297496725011757), np.float64(-0.0377127662347322))","−0.01, −0.03 and −0.04",results/tqe_viability_final/01_matching/matching_results.csv
+TV_Xsig_C4,"X at matched signal/LO 0.2/0.358/0.4, weaker probe","(np.float64(0.0086179744305252), np.float64(0.0382043977029144), np.float64(0.0523910630323481))","0.01, 0.04 and 0.05",results/tqe_viability_final/01_matching/matching_results.csv
+TV_dsig_range,"paired X difference 5 MHz minus other configuration, evaluable HA1 pairs of convention B (range)","(np.float64(0.2677672389943808), np.float64(0.5242462403892771))",+0.27 to +0.52,results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_dsig_cilo,smallest lower CI bound of those differences,0.1952396417105964,+0.20,results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_ratio_max,largest X_c / X_ref over convention-B HA1 pairs,0.18594610443814688,a fifth,results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_Xcw_C1,"X at matched CW gain 0.9 / 0.85, 5 MHz","(np.float64(0.1227094822556462), np.float64(0.2321112383815457))",0.12 and 0.23,results/tqe_viability_final/01_matching/matching_results.csv
+TV_Xcw_C3,"X at matched CW gain 0.9 / 0.85, 15 MHz","(np.float64(-0.0383814306352355), np.float64(-0.0126937523278909))",−0.04 and −0.01,results/tqe_viability_final/01_matching/matching_results.csv
+TV_dcw,paired X difference 5 minus 15 MHz at CW gain 0.9 / 0.85 [95% CI],"(0.1610909128908817, 0.2448049907094366)","+0.16 [+0.11, +0.21] and +0.24 [+0.16, +0.33]",results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_amp_cw_C3,15 MHz amplitudes at CW gain 0.9 / 0.85 (V/m) and 5 MHz amplitudes,"(np.float64(0.2020743921399073), np.float64(0.3810095723035919))",0.070 and 0.087 V/m at 5 MHz; 0.202 and 0.381 V/m at 15 MHz,results/tqe_viability_final/01_matching/matching_results.csv
+TV_reach,"CW gain range with signal <= LO: 10 MHz, weaker probe; 15 MHz minimum","(0.9678141512364986, 1.2646023428666904, 0.9990847983873798, 1.872294617020095, 0.8078026061066361)",0.97–1.26; 1.00–1.87; 0.81,results/tqe_viability_final/01_matching/plan.json
+TV_E1_over_LO,E1dB / A_LO at 10 MHz and with the weaker probe,"(1.1616787867375702, 1.426209553163923)",1.16 and 1.43,results/tqe_viability_final/01_matching/plan.json
+TV_need,signal/LO needed for CW-gain targets 0.95-0.4: 10 MHz; weaker probe,"(np.float64(1.1111997995877145), np.float64(1.6346770288374852), np.float64(1.4113865424937986), np.float64(1.61506862848222))",1.11–1.63; 1.41–1.62,results/tqe_viability_final/01_matching/plan.json
+TV_N5_08,"5 MHz, CW gain 0.8: X [CI]; local CW slope","(np.float64(0.3342035683444069), np.float64(0.528899831771089))","0.33 [0.26, 0.41]; +0.53",results/tqe_viability_final/01_matching/matching_results.csv
+TV_N5_06,"5 MHz, CW gain 0.6: X; local CW slope","(np.float64(0.534180040744623), np.float64(-0.2589308610842805))",0.53; −0.26,results/tqe_viability_final/01_matching/matching_results.csv
+TV_slope_ref,local CW slope at the reference level a_H (signal/LO 0.358),-0.930367459487927,−0.93,results/tqe_viability_final/01_matching/matching_results.csv
+TV_ref_Xcoh,"reference state (signal/LO 0.358, 5 MHz): X_coh [CI], six sequences",0.5255402251326048,"0.526 [0.493, 0.558]",results/tqe_viability_final/01_matching/matching_results.csv
+TV_op_OP1,"X at matched CW gain 0.8/0.6/0.4, OP1","(np.float64(0.3342035683444069), np.float64(0.534180040744623), np.float64(0.4820884442226614))",0.33 / 0.53 / 0.48,results/tqe_viability_final/01_matching/matching_results.csv
+TV_op_OP3,"X at matched CW gain 0.8/0.6/0.4, OP3","(np.float64(0.1276070624095979), np.float64(0.2726867878399526), np.float64(0.4616783909502992))",0.13 / 0.27 / 0.46,results/tqe_viability_final/01_matching/matching_results.csv
+TV_op_OP2,"X at matched CW gain 0.8/0.6/0.4, OP2","(np.float64(0.1720878199088084), np.float64(0.1534291677716592), np.float64(0.2375139836399122))",0.17 / 0.15 / 0.24,results/tqe_viability_final/01_matching/matching_results.csv
+TV_opd_OP2,paired X difference OP1 minus OP2 at CW gain 0.8/0.6/0.4 [CI],"(0.1621157484355984, 0.3807508729729639, 0.2445744605827491)","+0.16 [+0.11, +0.22], +0.38 [+0.32, +0.44], +0.24 [+0.17, +0.31]",results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_opd_OP3,paired X difference OP1 minus OP3 at CW gain 0.8/0.6/0.4 [CI],"(0.2065965059348089, 0.2614932529046704, 0.0204100532723623)","+0.21 [+0.14, +0.27], +0.26 [+0.16, +0.36], +0.02 [−0.05, +0.10]",results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_HA1,HA1 pairs holding / evaluable,"(11, 11)",11 of 11,results/tqe_viability_final/01_matching/matching_verdict.json
+TV_HA2,HA2 pairs holding / evaluable,"(11, 12)",11 of 12,results/tqe_viability_final/01_matching/matching_verdict.json
+TV_P1_class,Part I class (X; X_coh robustness),"('PARTIALLY SURVIVES', 'SURVIVES')",partially survives; survives with X_coh,results/tqe_viability_final/01_matching/matching_verdict.json
+TV_patho,pathological matched states (ratio 0.6 at 5 MHz and weaker probe),0.6,0.6,results/tqe_viability_final/01_matching/plan.json
+TV_targets,CW-gain targets of the prespecified list,"(0.95, 0.9, 0.85, 0.8, 0.6, 0.4)",0.95–0.4,results/tqe_viability_final/00_plan.md
+TV_cwtargets,CW-gain targets matchable between 5 and 15 MHz with an informative reference state,"(0.9, 0.85)",0.9 and 0.85,results/tqe_viability_final/01_matching/matching_pairs.csv
+TV_abs,"same absolute amplitude 0.179 V/m: X at OP3, OP2","(np.float64(0.3637640012123359), np.float64(0.1879447321729889))",0.36 and 0.19,results/tqe_viability_final/01_matching/matching_results.csv
+TV_scan,"IF scan: IFs per LO field (min-max), range (MHz)","(31, 35, np.float64(2.0), np.float64(12.5))",2.0 to 12.5 MHz,results/tqe_viability_final/02_resonance/resonance_scan.csv
+TV_rabi,LO Rabi frequencies (MHz) at 0.35/0.425/0.5 V/m,"(6.455676543314215, 7.839035802595833, 9.222395061877451)","6.46, 7.84 and 9.22 MHz",results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_r2_gmin,r2 of the CW-gain minimum and selectivity maximum (range over LO fields),"(1.0205336729487655, 1.0326828833410129)",1.02–1.03,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_r2_xcoh,r2 of the X_coh maximum (range over LO fields; identical to 2 decimals),"(1.1064459464367993, 1.1092757314660495)",1.11,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_spread_f,spread (max/min) of the CW-gain-minimum IF across LO fields,1.4285714285714286,1.43,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_f_xcoh,IF of the X_coh maximum at 0.35/0.425/0.5 V/m (MHz),"(3.5714285714285716, 4.3478260869565215, 5.1020408163265305)","3.57, 4.35 and 5.10 MHz",results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_xcoh_max,X_coh maximum at 0.35/0.425/0.5 V/m,"(0.40662716706539426, 0.4746561304632061, 0.5457446274471236)","0.41, 0.47 and 0.55",results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_collapse,collapse ratios (normalizations with aligned features),"(0.7744268499659842, 1.1165317936677954)",0.77–1.12,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_II_class,Part II class,SUGGESTIVE ONLY,suggestive only,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_xcoh_gmin,"X_coh at the CW-gain minimum (min, max over LO fields; post hoc)","(-0.0323233020647246, -0.0020826012016805)",−0.03 to −0.002,results/tqe_viability_final/02_resonance/resonance_scan.csv
+TV_seqsd,"sequence SD of X_coh at 5 MHz, signal/LO 0.358 (min, max over LO fields)","(0.022990482947243148, 0.07629403586616655)",0.02–0.08,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_N3b,second X_coh maximum just below f = Omega_LO/2pi: r1 range; X_coh at 0.35/0.425/0.5,"[(0.9681402031321996, 0.302764785351255), (0.9812823778353515, 0.392237716055138), (0.9857427522800576, 0.3124720691836341)]","0.97–0.99; 0.30, 0.39 and 0.31",results/tqe_viability_final/02_resonance/resonance_scan.csv
+TV_r2_5MHz,r2 of the 5 MHz IF at OP1/OP3/OP2,"(1.0843170275080634, 1.275667091185957, 1.5490243250115192)","1.08, 1.28 and 1.55",results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_r2_1015,r2 of 10 and 15 MHz at OP1,"(2.1686340550161267, 3.25295108252419)",2.17 and 3.25,results/tqe_viability_final/02_resonance/resonance_verdict.json
+TV_osc,|f_IF - Omega_LO/4pi| (MHz) at OP2 and OP1 vs observed oscillation frequencies,"(np.float64(1.7721617283428923), np.float64(0.3888024690612743))",1.77 MHz against 1.79 MHz at OP2; 0.39 MHz against 0.58–0.63 MHz at OP1,results/tqe_viability_final/02_resonance/oscillation_comparison.csv
+TV_gmp_sel,"selected GMP: order, memory depth (us), taps, complex coefficients","(7, 4.0, 80, 1282)","order 7, 4 µs (80 taps), 1282 complex coefficients",results/tqe_viability_final/03_memory_model/gmp_config.csv
+TV_gmp_grid,GMP grid size,30,30,results/tqe_viability_final/03_memory_model/gmp_config.csv
+TV_gmp_val,validation family-mean NMSE at 0.25 us and 4 us (best over order and ridge),"(np.float64(0.1786753683806538), np.float64(0.1530835406678087))",0.179 to 0.153,results/tqe_viability_final/03_memory_model/gmp_config.csv
+TV_gmp_nmse,"median test NMSE vs full model: GMP / best CW-derived surrogate (dwell, shuffle, phase, fair)","{'dwell': (0.1599606861300517, 0.4970935471173533), 'fair': (0.04944615208626337, 0.05495672510180245), 'phase': (0.20052641688329045, 1.1117997576062701), 'shuffle': (0.2183202050132221, 0.6644156095134865)}","0.16 vs 0.50 (dwell), 0.22 vs 0.66 (declustering), 0.20 vs 1.11 (phase), 0.049 vs 0.055 (fair waveforms)",results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_fac,"NMSE improvement factor (dwell, shuffle, phase)","(3.1075982426907376, 3.0433079222935304, 5.544405444861438)",3.0–5.5,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_air,"mean |AIR error| at +3 dB: GMP for QPSK, 16-QAM, OFDM, CE","(0.017736874749295084, 0.03721400793614954, 0.07617206419619954, 0.8039642092951185)","0.018, 0.037, 0.076 and 0.80 bit",results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_surr_air,mean |AIR error| at +3 dB of the three surrogates for QPSK and 16-QAM (range),"(0.4266514603238827, 0.7692670254529177)",0.43–0.77,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_surr_air_ofdm_ce,OFDM: LTI+static and single-slow-state errors; CE: LTI+static,"(0.07056967667650133, 0.07648825160595202, 0.5441990584937837)",0.071 and 0.076; 0.54,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_dwell,"test dwell gain contrast: full, GMP, static, LTI+static, single-slow-state","(-0.1063127371084081, -0.13862619156057232, -0.007095270871279452, -0.007889681687246797, -0.1652680656253967)",−0.106; −0.139; −0.007; −0.008; −0.165,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_dwell_pct,GMP overestimate of the dwell contrast (%),30.394715940023143,30%,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_decl,"test declustering D_ref contrast: full, GMP","(-0.0026217208614809535, -0.005734093159325602)",−0.0026 and −0.0057,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_phase,"test REF case: X, X_coh, X_mag of full vs GMP","((0.5029230964783045, 0.14188299405455143), (0.5413069512354797, 0.12992913700307204), (0.454368098890692, 0.021493361107339792))",X 0.50 vs 0.14; X_coh 0.54 vs 0.13; X_mag 0.45 vs 0.02,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_surr_phase,largest |X| or |X_coh| of the surrogates in the REF case,0.03540469685716641,0.04,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_lev6,held-out +6 dB level: X full vs GMP,"(0.5282943169833237, 0.12083193569480814)",0.53 vs 0.12,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_III_class,Part III class,PARTIAL SUCCESS,partial success,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_edge,validation family-mean NMSE: order 7 at 2 -> 4 us; 4 us at order 5 -> 7,"(np.float64(0.1564680194897009), np.float64(0.1530835406678087), np.float64(0.1535476867305882))",0.1565 to 0.1531; 0.1535 to 0.1531,results/tqe_viability_final/03_memory_model/gmp_config.csv
+TV_gmp_air_qam,largest GMP |AIR error| at +3 dB for QPSK and 16-QAM (rounded up to 0.01 bit),0.03721400793614954,0.04 bit,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_gmp_quarter,fraction of X and X_coh captured by the GMP (test sequences),"(0.28211667956409336, 0.2400285765895332)",a quarter,results/tqe_viability_final/03_memory_model/gmp_verdict.json
+TV_snr,"effective SNR at +3 dB (dB) at c = 0.25, 1, 4 (range over formats)","{0.25: (44.18310853176085, 45.54566228876692), 1.0: (32.1419087052016, 33.50446246220767), 4.0: (20.10070887864235, 21.46326263564842)}","44–46 dB at 0.25×, 32–34 dB at 1× and 20–21 dB at 4×",results/tqe_viability_final/04_noise/noise_sensitivity.csv
+TV_snr_all,effective SNR range at +3 dB over all noise scales and formats (dB),"(np.float64(20.10070887864235), np.float64(45.54566228876692))",20–46 dB,results/tqe_viability_final/04_noise/noise_sensitivity.csv
+TV_noise_16qam0,"all-zone static, 16-QAM, 0 dB: AIR error at c = 0.25, 1, 4","(np.float64(1.5068489896374189), np.float64(1.4928365627657456), np.float64(1.2604492151181188))","+1.51, +1.49 and +1.26 bit",results/tqe_viability_final/04_noise/noise_sensitivity.csv
+TV_noise_ofdm3,"all-zone static, OFDM, +3 dB: AIR error over c (range)","(np.float64(-0.8795787114612618), np.float64(-0.8487037141347344))",−0.88 to −0.85 bit,results/tqe_viability_final/04_noise/noise_sensitivity.csv
+TV_noise_loss4,"full-model loss at +3 dB, c = 4: CE and OFDM [CI]","(np.float64(0.0733936898889472), np.float64(0.0809337233700739))","+0.07 [−0.18, +0.32] and +0.08 [−0.01, +0.17] bit",results/tqe_viability_final/04_noise/noise_sensitivity.csv
+TV_noise_P5,"P5 (dB re P1dB) of 16-QAM and OFDM at c = 0.25, 1, 4","{'0.25': (-2.581107110095658, 2.659664301782742), '1.0': (-2.4733096700405177, 2.558478031807801), '4.0': (-0.5997622118297228, 3.3421380087282015)}","16-QAM −2.58, −2.47 and −0.60 dB; OFDM +2.66, +2.56 and +3.34 dB",results/tqe_viability_final/04_noise/noise_verdict.json
+TV_IV_class,Part IV class,PARTIALLY ROBUST,partially robust,results/tqe_viability_final/04_noise/noise_verdict.json
+TV_IV_valid,max |AIR difference| at c = 1 vs archived (all models),3.333999742949345e-13,4e-13,results/tqe_viability_final/04_noise/noise_verdict.json
+TV_va,V-A: max per-class |Tr-1|; min eigenvalue; longest duration (us),"(np.float64(2.384073013672605e-05), np.float64(-7.618274438530764e-10), np.float64(840.0))",2.4e-05; -7.6e-10; 840 µs,results/tqe_viability_final/05_numerical/va_trace_positivity.csv
+TV_vb_C1,"V-B: change of the reference E1dB under the slope variants (dB, min..max)","(np.float64(-0.0518025987716077), np.float64(0.2388100876200086))",−0.05 to +0.24 dB,results/tqe_viability_final/05_numerical/vb_e1db_slope_sensitivity.csv
+TV_vb_C56,V-B: largest change at the lower LO fields (dB),0.8366197543983173,0.84 dB,results/tqe_viability_final/05_numerical/vb_e1db_slope_sensitivity.csv
+TV_vb_amp,V-B: largest shift of a matched CW-gain amplitude (%),6.307518242133026,6.3%,results/tqe_viability_final/05_numerical/vb_matched_amplitude_sensitivity.csv
+TV_rwa,V-C: largest peak RF Rabi frequency / carrier,0.0059747739422941,0.006,results/tqe_viability_final/05_numerical/vc_regime_table.csv
+TV_vc_arch,"V-C: signal/LO of the archived E1dB-matched phase checks at 10 MHz, 15 MHz, weaker probe","(2.842395655389487, 1.0645587098280658, 3.489649534681486)","2.84, 1.06 and 3.49",results/tqe_viability_final/05_numerical/vc_regime_table.csv
+TV_vc_dwell,"V-C: dwell high level / LO in the archived configuration checks (10, 15 MHz, weaker probe)","(2.850826513959312, 1.0677163082098458, 3.500000219544578)","2.85, 1.07 and 3.50",results/tqe_viability_final/05_numerical/vc_regime_table.csv
+TV_vc_step,V-C: weaker-probe step level / LO,1.4975200308221193,1.50,results/tqe_viability_final/05_numerical/vc_regime_table.csv
+TV_vc_shuffle,V-C: shuffle family peak / LO at +3 dB; fraction of samples above the LO at +3 and +6 dB,"(np.float64(2.254468646458547), np.float64(0.00495), np.float64(0.01446375))",2.25; 0.50% and 1.45%,results/tqe_viability_final/05_numerical/vc_regime_table.csv
+TV_va_T,V-A durations: phase case and long-dwell case (us),"(220.0, 840.0)",220 µs phase case and an 840 µs long-dwell case,results/tqe_viability_final/05_numerical/va_trace_positivity.csv
+TV_tabS11,Supplementary Table S11 (full rendering; campaign_tables.py),table,"| State | 5 MHz | 10 MHz | 15 MHz | 5 MHz, weaker probe | 5 MHz, A_LO 0.425 | 5 MHz, A_LO 0.35 |
+|---|---:|---:|---:|---:|---:|---:|
+| CW gain 0.95 | 0.034 [0.017, 0.051] | infeasible | −0.018 [−0.022, −0.013] | infeasible | — | — |
+| CW gain 0.9 | 0.123 [0.070, 0.175] | infeasible | −0.038 [−0.043, −0.034] | infeasible | — | — |
+| CW gain 0.85 | 0.232 [0.147, 0.317] | infeasible | −0.013 [−0.017, −0.009] | infeasible | — | — |
+| CW gain 0.8 | 0.334 [0.259, 0.410] | infeasible | infeasible | infeasible | 0.128 [0.106, 0.150] | 0.172 [0.139, 0.205] |
+| CW gain 0.6 | 0.534 [0.452, 0.616] | infeasible | infeasible | infeasible | 0.273 [0.197, 0.349] | 0.153 [0.125, 0.182] |
+| CW gain 0.4 | 0.482 [0.427, 0.537] | infeasible | infeasible | infeasible | 0.462 [0.412, 0.511] | 0.238 [0.202, 0.273] |
+| signal/LO 0.1 | 0.037 [0.019, 0.056] | 0.002 [−0.010, 0.014] | −0.002 [−0.003, −0.001] | 0.001 [−0.000, 0.002] | 0.021 [0.015, 0.027] | 0.116 [0.092, 0.141] |
+| signal/LO 0.2 | 0.323 [0.246, 0.400] | 0.055 [0.042, 0.069] | −0.010 [−0.014, −0.006] | 0.009 [0.003, 0.014] | 0.123 [0.103, 0.143] | 0.177 [0.143, 0.211] |
+| signal/LO 0.358 | 0.494 [0.432, 0.557] | 0.083 [0.066, 0.099] | −0.030 [−0.034, −0.025] | 0.038 [0.026, 0.050] | 0.277 [0.201, 0.352] | 0.153 [0.131, 0.175] |
+| signal/LO 0.4 | 0.461 [0.413, 0.510] | 0.086 [0.079, 0.093] | −0.038 [−0.042, −0.033] | 0.052 [0.043, 0.062] | 0.335 [0.250, 0.419] | 0.161 [0.139, 0.182] |
+| signal/LO 0.6 (excluded) | 0.397 [0.351, 0.443] | 0.091 [0.078, 0.103] | −0.014 [−0.019, −0.010] | 0.032 [0.024, 0.039] | — | — |
+| a = 0.1 V/m | — | — | — | — | 0.181 [0.127, 0.235] | 0.165 [0.134, 0.196] |
+| a = 0.179 V/m | — | — | — | — | 0.364 [0.278, 0.450] | 0.188 [0.157, 0.219] |",results/tqe_viability_final
+TV_tabS12,Supplementary Table S12 (full rendering; campaign_tables.py),table,"| A_LO (V/m) | Ω_LO/2π (MHz) | CW-gain minimum: IF (MHz), r₂ | selectivity maximum: IF, r₂ | X_coh maximum: IF, r₂, value |
+|---|---:|---|---|---|
+| 0.35 | 6.46 | 3.33, 1.033 | 3.33, 1.033 | 3.57, 1.106, 0.41 |
+| 0.425 | 7.84 | 4.00, 1.021 | 4.00, 1.021 | 4.35, 1.109, 0.47 |
+| 0.5 | 9.22 | 4.76, 1.033 | 4.76, 1.033 | 5.10, 1.106, 0.55 |
+
+| Normalization | features aligned (of 3) | collapse ratio, ln CW gain | collapse ratio, X_coh |
+|---|---:|---:|---:|
+| f/(Ω_LO/2π) | 3 | 1.12 | 0.89 |
+| f/(Ω_LO/4π) | 3 | 1.12 | 0.89 |
+| f − Ω_LO/2π | 0 | 1.42 | 1.25 |
+| f − Ω_LO/4π | 3 | 0.99 | 0.77 |
+| f/(Ω₃/4π) | 3 | 1.09 | 0.85 |
+| f − Ω₃/4π | 3 | 0.98 | 0.79 |",results/tqe_viability_final
+TV_tabS13,Supplementary Table S13 (full rendering; campaign_tables.py),table,"| Quantity (test set) | full model | GMP | all-zone static | all-zone LTI+static | single-slow-state |
+|---|---:|---:|---:|---:|---:|
+| median NMSE, dwell | — | 0.160 | 0.609 | 0.497 | 0.664 |
+| median NMSE, shuffle | — | 0.218 | 0.834 | 0.664 | 0.715 |
+| median NMSE, phase | — | 0.201 | 1.112 | 1.130 | 1.130 |
+| median NMSE, fair waveforms | — | 0.049 | 0.294 | 0.056 | 0.055 |
+| dwell gain contrast (+3 dB) | −0.106 | −0.139 | −0.007 | −0.008 | −0.165 |
+| declustering D_ref contrast (+3 dB) | −0.0026 | −0.0057 | 0.0018 | 0.0032 | −0.0071 |
+| X, reference case | 0.50 | 0.14 | 0.00 | 0.00 | 0.00 |
+| X_coh, reference case | 0.54 | 0.13 | 0.04 | 0.00 | 0.00 |
+| X_mag, reference case | 0.45 | 0.02 | 0.03 | 0.00 | 0.00 |
+| X, fast rate | 0.39 | 0.03 | 0.01 | 0.00 | 0.00 |
+| X, slow rate | 0.18 | 0.09 | 0.00 | −0.00 | −0.00 |
+| X, steps | 0.54 | 0.17 | 0.02 | 0.00 | 0.00 |
+| X, 900 ns ramps | 0.51 | 0.12 | −0.00 | −0.00 | −0.00 |
+| mean abs. AIR error at +3 dB, QPSK (bit) | — | 0.018 | 0.432 | 0.427 | 0.428 |
+| mean abs. AIR error at +3 dB, 16-QAM (bit) | — | 0.037 | 0.441 | 0.657 | 0.769 |
+| mean abs. AIR error at +3 dB, OFDM (bit) | — | 0.076 | 0.892 | 0.071 | 0.076 |
+| mean abs. AIR error at +3 dB, CE (bit) | — | 0.804 | 0.850 | 0.544 | 0.544 |",results/tqe_viability_final
+TV_tabS14,Supplementary Table S14 (full rendering; campaign_tables.py),table,"| Noise scale | effective SNR at +3 dB (dB, mean over formats) | loss at +3 dB: CE / QPSK / 16-QAM / OFDM (bit) | P5: 16-QAM / OFDM (dB) | surrogate failure (a) and (b) | broad ordering unchanged |
+|---:|---:|---|---|---|---|
+| 0.25× | 45.1 | 0.41 / 0.40 / 0.85 / 0.11 | −2.58 / 2.66 | yes | yes |
+| 0.5× | 39.0 | 0.40 / 0.40 / 0.84 / 0.11 | −2.56 / 2.64 | yes | yes |
+| 1× | 33.0 | 0.38 / 0.39 / 0.83 / 0.12 | −2.47 / 2.56 | yes | yes |
+| 2× | 27.0 | 0.31 / 0.37 / 0.77 / 0.13 | −2.12 / 2.23 | yes | yes |
+| 4× | 21.0 | 0.07 / 0.28 / 0.60 / 0.08 | −0.60 / 3.34 | yes | no |",results/tqe_viability_final
+TV_tabS15,Supplementary Table S15 (full rendering; campaign_tables.py),table,"| Check | Result |
+|---|---|
+| V-A dwell case, 105–840 µs: largest per-class trace deviation; smallest eigenvalue | 5.3e-06; 1.1e-10 |
+| V-A phase case, 55–220 µs: largest per-class trace deviation; smallest eigenvalue | 2.4e-05; −7.6e-10 |
+| V-B E1dB, reference (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0732 / 0.0740 / 0.0753 / 0.0728 |
+| V-B E1dB, 10 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.5808 / 0.5839 / 0.5863 / 0.5807 |
+| V-B E1dB, 15 MHz (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.2175 / 0.2181 / 0.2191 / 0.2172 |
+| V-B E1dB, weaker probe (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.7131 / 0.7128 / 0.7123 / 0.7133 |
+| V-B E1dB, A_LO 0.425 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0591 / 0.0602 / 0.0619 / 0.0584 |
+| V-B E1dB, A_LO 0.35 (V/m): 2 / 3 / 4 smallest amplitudes / local fit | 0.0403 / 0.0419 / 0.0444 / 0.0394 |
+| V-C above the LO: 10 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 2.84 |
+| V-C above the LO: 15 MHz, reference phase case at 2.45 E1dB (archived) | peak signal/LO 1.06 |
+| V-C above the LO: weaker probe, reference phase case at 2.45 E1dB (archived) | peak signal/LO 3.49 |
+| V-C above the LO: 10 MHz, dwell high level at +3 dB (archived) | peak signal/LO 2.85 |
+| V-C above the LO: 15 MHz, dwell high level at +3 dB (archived) | peak signal/LO 1.07 |
+| V-C above the LO: weaker probe, dwell high level at +3 dB (archived) | peak signal/LO 3.50 |
+| V-C above the LO: weaker probe, step to 1.05 E1dB (archived) | peak signal/LO 1.50 |
+| V-C above the LO: shuffle family (8 realizations, all variants), +0 dB | peak signal/LO 1.60; 0.15% of samples above the LO |
+| V-C above the LO: shuffle family (8 realizations, all variants), +3 dB | peak signal/LO 2.25; 0.50% of samples above the LO |
+| V-C above the LO: shuffle family (8 realizations, all variants), +6 dB | peak signal/LO 3.18; 1.45% of samples above the LO |
+| V-C largest peak RF Rabi frequency / carrier, all tabulated states | 0.0060 |",results/tqe_viability_final
+TV_carrier,"RF carrier of the model's source configuration (Cs 47D5/2 -> 48P3/2), used only for the rotating-wave check",6946000000.0,6.946 GHz,python/experiments/tqe_viability_final/tvf_common.py
+TV_scan_grid,"IF-scan grid: prior-pass IFs, campaign IFs per LO field, IF definition","(29, 31)",29 IFs; 31 IFs (1000/P MHz for integer periods P from 500 to 80 ns),results/tqe_viability_final/02_resonance/resonance_scan.csv
+TV_vc_fair,V-C: largest peak signal/LO of the fair waveforms (+6 dB),0.9249635531432124,0.92,results/tqe_viability_final/05_numerical/vc_regime_table.csv

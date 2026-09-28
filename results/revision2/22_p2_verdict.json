@@ -1,0 +1,25 @@
+{
+ "reference_phase_share_by_op": {
+  "OP1": 0.16160524265589837,
+  "OP2": 0.09408992867742876,
+  "OP3": 0.11105727334846605
+ },
+ "reference_magnitude_share_by_op": {
+  "OP1": 0.8383947573441017,
+  "OP2": 0.9059100713225715,
+  "OP3": 0.8889427266515334
+ },
+ "phase_share_exceeds_0.25_at_any_op": false,
+ "X_coh_called_compression": true,
+ "X_vs_X_mag_max_abs_diff_by_op_all_cases": {
+  "OP1": 0.11260083275117339,
+  "OP2": 0.027832680415195266,
+  "OP3": 0.022687535887556898
+ },
+ "X_vs_X_mag_max_abs_diff_by_op_REF": {
+  "OP1": 0.06586101409187783,
+  "OP2": 0.02186779721944143,
+  "OP3": 0.022687535887556898
+ },
+ "extra_compression_name_kept": false
+}

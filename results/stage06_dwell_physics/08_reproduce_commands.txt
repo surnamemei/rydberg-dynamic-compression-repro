@@ -1,0 +1,21 @@
+# Stage-0.6 dwell-physics reproduction
+# Branch: stage0.6-dwell-physics (Stage-0.5 archived at commit c5d2ea0 on p1db-waveform-fairness)
+# Backend: Linux (WSL2), RTX 5090, python/utils/bin/cu_ryd.so built with CUDA 13.0 nvcc (sm_120):
+#   export CUDA_HOME=$PWD/.cuda-env/nvcc_pkg/nvidia/cu13   # nvidia-cuda-nvcc/nvvm/crt 13.0.88 wheels + cudart from the cu13 runtime wheel
+#   nvcc -O3 -arch=sm_120 python/utils/cu_ryd.cu -Xcompiler -fPIC -shared -L$CUDA_HOME/lib64 -lcudart -Xlinker -rpath=$CUDA_HOME/lib64 -o python/utils/bin/cu_ryd.so
+# All scripts live in python/experiments/stage06_dwell and write to results/stage06_dwell_physics.
+cd python/experiments/stage06_dwell
+python3 repro_stage05.py                       # Step 0: Stage-0.5 +3 dB jobs reproduced on the new backend
+python3 nd_convergence.py 3001,2001,1501,1001,751            # Step 1 (pre-registered reference Nd=3001) -> 02a_*
+python3 nd_convergence.py 8001,6001,4001,3001,2001,1501,1001,751   # Step 1 extended -> 02_nd_convergence.csv
+python3 build_controls06.py 4001               # CW table, E1dB, LTI kernel at converged Nd
+python3 build_controls06.py 8001 --no-kernel   # E1dB check
+python3 build_controls06.py 1501 --no-kernel   # E1dB at the Stage-0.5 quadrature
+python3 build_controls_mh.py 4001              # all-zone CW harmonics + baseline kernel
+python3 validate_controls_cw.py                # 07b: controls vs full on off-grid CW tones
+python3 tau_atom.py                            # Step 2 -> 03_tau_atom_results.csv
+python3 make_config.py                         # fixes tau_atom and the waveform design -> stage06_config.json
+python3 stage05_recheck.py                     # Stage-0.5 headline recheck -> 09_stage05_recheck.csv
+./run_campaign.sh                              # Steps 3-14: dwell family, shuffle test, -6 dB control, dt/Nd checks
+./run_followup.sh                              # tau sensitivity at converged E1dB; CW-carrier ablation
+python3 analyze06.py                           # tables 04-07 and figures fig01-fig14

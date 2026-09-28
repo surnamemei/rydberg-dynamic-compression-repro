@@ -1,0 +1,60 @@
+2026-09-28T03:22:10+10:00 Gram matrix from 99 training waveforms {'dwell': 24, 'shuffle': 8, 'fair': 56, 'phase': 11} in 89 s
+2026-09-28T03:23:56+10:00 selected {"K": 7, "D": 4.0, "M": 80, "lam": 1e-08}: 1282 complex coefficients; validation family-mean NMSE 0.1531
+{
+ "classification": "PARTIAL SUCCESS",
+ "selected": {
+  "K": 7,
+  "D": 4.0,
+  "M": 80,
+  "lam": 1e-08
+ },
+ "key_contrasts_reproduced": {
+  "gmp": {
+   "dwell gain contrast": false,
+   "declustering D_ref contrast": false,
+   "phase REF (X and X_coh)": false,
+   "fair AIR at +3 dB": false
+  },
+  "static_mh": {
+   "dwell gain contrast": false,
+   "declustering D_ref contrast": false,
+   "phase REF (X and X_coh)": false,
+   "fair AIR at +3 dB": false
+  },
+  "static_lti_mh": {
+   "dwell gain contrast": false,
+   "declustering D_ref contrast": false,
+   "phase REF (X and X_coh)": false,
+   "fair AIR at +3 dB": false
+  },
+  "dsh": {
+   "dwell gain contrast": false,
+   "declustering D_ref contrast": false,
+   "phase REF (X and X_coh)": false,
+   "fair AIR at +3 dB": false
+  }
+ },
+ "gmp_nmse_le_half_best": {
+  "dwell": true,
+  "fair": false,
+  "phase": true,
+  "shuffle": true
+ },
+ "gmp_unique_contrasts": [],
+ "heldout_levels_reproduced": {
+  "0": false,
+  "3": false,
+  "6": false
+ },
+ "stop_rule_S3": false,
+ "prior_pass_P3_rule": {
+  "classification": "PARTIAL_SUCCESS",
+  "keys": {
+   "dwell": false,
+   "decluster": false,
+   "X_REF": false,
+   "AIR": false
+  }
+ },
+ "runtime_s": 370.6388062650003
+}

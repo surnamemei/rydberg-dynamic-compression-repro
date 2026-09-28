@@ -1,0 +1,11 @@
+{
+  "written_before_any_run": "2026-09-26T20:35:28+10:00",
+  "purpose": "Mechanical regeneration of the Stage-0.5 fair-waveform communication grid at converged numerics. Not a hypothesis test; archived results/p1db_waveform_stage05 is untouched.",
+  "waveforms": "identical to Stage-0.5 (python/experiments/p1db_waveform/stage05.waveform): CE, QPSK, 16QAM, OFDM; 5.0 Msym/s information rate; same seeds 20262001+100r+{CE:1,QPSK:2,16QAM:3,OFDM:4}",
+  "power_axis": "Pavg/P1dB in {-15,-10,-6,-3,0,+3,+6} dB relative to the CONVERGED E1dB = 0.0732 V/m (controls_Nd4001.npz); seeds r=0..7 at -6..+6 dB, r=0..3 at -15,-10 dB (mirrors Stage-0.5 exactly); 192 full-atomic runs",
+  "numerics": "Nd=4001, dt=1 ns, CUDA backend",
+  "models": ["atomic (full)", "static F1 (fundamental-only, Nd4001 tables)", "static_lti F1", "static_mh (all-zone)", "static_lti_mh (all-zone Hammerstein)", "linear (small-signal)"],
+  "receiver": "unchanged Stage-0.5 receiver chain, noise draw (seed+9991) and split_eval",
+  "CE_timing": "offset selected once per seed from the full-atomic run at the lowest power available for that seed, then reused for all powers and models (Stage-0.5 rule)",
+  "reported": ["paired AIR loss vs the -6 dB point and relative loss", "full-minus-control AIR excess per control", "P5/P10 relative-loss thresholds with paired bootstrap", "comparison with archived Stage-0.5 on its own (biased) axis"]
+}

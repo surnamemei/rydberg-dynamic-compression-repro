@@ -1,0 +1,67 @@
+{
+  "occupied_bandwidth_definition": "central 99% of total waveform power: FFT cumulative power quantiles 0.5% to 99.5%, 8x zero padding, 1 ns sampled signal",
+  "normalization": "each complex envelope rescaled to unit average |E|^2 after 1 GHz resampling; E_rms=E1dB*10^(Pavg_dB/20)",
+  "E1dB_Vpm": 0.08770748836108433,
+  "power_ratio": "(E/E1dB)^2",
+  "native_symbol_rate_Hz": 5000000.0,
+  "ofdm_accounting": {
+    "nfft": 256,
+    "active_subcarriers": 68,
+    "cyclic_prefix_samples": 16,
+    "cyclic_suffix_overlap_samples": 16,
+    "symbol_duration_s": 1.36e-05,
+    "information_QAM_symbols_per_block": 68,
+    "effective_data_symbol_rate_Hz": 5000000.0
+  },
+  "waveforms": [
+    {
+      "modulation": "16QAM",
+      "B_occ_99_Hz_mean": 5365252.494812011,
+      "B_occ_99_Hz_sd": 16217.972116062087,
+      "B_occ_99_Hz_min": 5334377.288818358,
+      "B_occ_99_Hz_max": 5383491.51611328,
+      "information_symbol_rate_Hz_mean": 5000000.0,
+      "PAPR_dB_mean": 6.372315615856557,
+      "PAPR_dB_sd": 0.38015937851958526,
+      "waveform_definition": "single-carrier RRC, rolloff 0.2, span 10 symbols, 5 Msymbol/s",
+      "config_version": "fair_v2"
+    },
+    {
+      "modulation": "CE",
+      "B_occ_99_Hz_mean": 5368888.37814331,
+      "B_occ_99_Hz_sd": 30530.281381908488,
+      "B_occ_99_Hz_min": 5305290.222167968,
+      "B_occ_99_Hz_max": 5403518.676757812,
+      "information_symbol_rate_Hz_mean": 5000000.0,
+      "PAPR_dB_mean": 1.928654933106574e-15,
+      "PAPR_dB_sd": 0.0,
+      "waveform_definition": "Gaussian frequency pulse CPFSK, BT=0.36, h=0.5, 5 Msymbol/s",
+      "config_version": "fair_v2"
+    },
+    {
+      "modulation": "OFDM",
+      "B_occ_99_Hz_mean": 5355536.937713622,
+      "B_occ_99_Hz_sd": 7582.149938460636,
+      "B_occ_99_Hz_min": 5349159.240722655,
+      "B_occ_99_Hz_max": 5366802.215576171,
+      "information_symbol_rate_Hz_mean": 5000000.0,
+      "PAPR_dB_mean": 9.036808986758883,
+      "PAPR_dB_sd": 0.5627250945819864,
+      "waveform_definition": "256 FFT, 68 active QPSK carriers, CP=16, cyclic suffix overlap=16, WOLA, 5 Msymbol/s effective data-symbol rate",
+      "config_version": "fair_v4_randomized_balanced_ofdm_training"
+    },
+    {
+      "modulation": "QPSK",
+      "B_occ_99_Hz_mean": 5371868.610382079,
+      "B_occ_99_Hz_sd": 17492.168047303814,
+      "B_occ_99_Hz_min": 5352497.100830077,
+      "B_occ_99_Hz_max": 5397796.630859374,
+      "information_symbol_rate_Hz_mean": 5000000.0,
+      "PAPR_dB_mean": 5.009426903510246,
+      "PAPR_dB_sd": 0.1538254605074771,
+      "waveform_definition": "single-carrier RRC, rolloff 0.2, span 10 symbols, 5 Msymbol/s",
+      "config_version": "fair_v2"
+    }
+  ],
+  "maximum_relative_B99_mismatch_of_seed_means": 0.0018357796508963187
+}

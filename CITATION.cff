@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use these scripts or data, please cite this archive and the article, and the upstream simulator."
+type: software
+title: "Reproducibility package: Large-Signal Memory and Model Limits in a Simulated Rydberg Atomic Receiver"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Mei
+    given-names: Jinghang
+    orcid: "https://orcid.org/0009-0007-2901-3285"
+    affiliation: "School of Electrical and Computer Engineering, The University of Sydney"
+doi: "<DOI>"
+repository-code: "<REPOSITORY_URL>"
+keywords:
+  - Rydberg atomic receiver
+  - dynamic compression
+  - quantum sensing
+  - reproducibility
+references:
+  - type: software
+    title: "RydbergComms"
+    authors:
+      - family-names: Zhu
+        given-names: Jieao
+    repository-code: "https://github.com/johnzja/RydbergComms"
+    commit: "4095724"
+    license: MIT
+  - type: article
+    title: "General signal model and capacity limit for Rydberg quantum information system"
+    authors:
+      - family-names: Zhu
+        given-names: Jieao
+      - family-names: Dai
+        given-names: Linglong
+    journal: "IEEE Transactions on Wireless Communications"
+    volume: 25
+    start: 8292
+    end: 8307
+    year: 2026
+    doi: "10.1109/TWC.2025.3637029"

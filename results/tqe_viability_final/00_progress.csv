@@ -1,0 +1,283 @@
+timestamp,stage,job_id,config,matching_rule,parameter_value,elapsed_s,avg_job_s,eta_s,status
+2026-09-28T02:52:22+10:00,I,C1_matched_CW_gain_0.95_REF_s20260704,C1,matched_CW_gain,0.95,6.2,6.2,1511,done
+2026-09-28T02:52:28+10:00,I,C1_matched_CW_gain_0.95_REF_s20260705,C1,matched_CW_gain,0.95,6.1,6.1,1493,done
+2026-09-28T02:52:34+10:00,I,C1_matched_CW_gain_0.95_REF_s20260706,C1,matched_CW_gain,0.95,5.9,6.1,1465,done
+2026-09-28T02:52:40+10:00,I,C1_matched_CW_gain_0.9_REF_s20260704,C1,matched_CW_gain,0.9,5.9,6.0,1450,done
+2026-09-28T02:52:45+10:00,I,C1_matched_CW_gain_0.9_REF_s20260705,C1,matched_CW_gain,0.9,5.8,6.0,1435,done
+2026-09-28T02:52:51+10:00,I,C1_matched_CW_gain_0.9_REF_s20260706,C1,matched_CW_gain,0.9,6.1,6.0,1436,done
+2026-09-28T02:52:57+10:00,I,C1_matched_CW_gain_0.85_REF_s20260704,C1,matched_CW_gain,0.85,5.9,6.0,1428,done
+2026-09-28T02:53:03+10:00,I,C1_matched_CW_gain_0.85_REF_s20260705,C1,matched_CW_gain,0.85,5.9,6.0,1419,done
+2026-09-28T02:53:08+10:00,I,C1_matched_CW_gain_0.85_REF_s20260706,C1,matched_CW_gain,0.85,5.9,6.0,1411,done
+2026-09-28T02:53:14+10:00,I,C1_matched_CW_gain_0.8_REF_s20260704,C1,matched_CW_gain,0.8,5.9,6.0,1402,done
+2026-09-28T02:53:19+10:00,I,C1_matched_CW_gain_0.8_REF_s20260705,C1,matched_CW_gain,0.8,5.8,5.9,1387,done
+2026-09-28T02:53:25+10:00,I,C1_matched_CW_gain_0.8_REF_s20260706,C1,matched_CW_gain,0.8,6.0,5.9,1378,done
+2026-09-28T02:53:31+10:00,I,C1_matched_CW_gain_0.6_REF_s20260704,C1,matched_CW_gain,0.6,5.9,5.9,1373,done
+2026-09-28T02:53:37+10:00,I,C1_matched_CW_gain_0.6_REF_s20260705,C1,matched_CW_gain,0.6,5.8,5.9,1365,done
+2026-09-28T02:53:42+10:00,I,C1_matched_CW_gain_0.6_REF_s20260706,C1,matched_CW_gain,0.6,5.9,5.9,1361,done
+2026-09-28T02:53:47+10:00,I,C1_matched_CW_gain_0.4_REF_s20260704,C1,matched_CW_gain,0.4,5.9,5.9,1349,done
+2026-09-28T02:53:53+10:00,I,C1_matched_CW_gain_0.4_REF_s20260705,C1,matched_CW_gain,0.4,6.0,5.9,1345,done
+2026-09-28T02:53:59+10:00,I,C1_matched_CW_gain_0.4_REF_s20260706,C1,matched_CW_gain,0.4,5.9,5.9,1339,done
+2026-09-28T02:54:05+10:00,I,C1_matched_signal_to_LO_0.1_CW,C1,matched_signal_to_LO,0.1,5.9,5.9,1334,done
+2026-09-28T02:54:11+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260701,C1,matched_signal_to_LO,0.1,5.9,5.9,1330,done
+2026-09-28T02:54:17+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260702,C1,matched_signal_to_LO,0.1,5.9,5.9,1325,done
+2026-09-28T02:54:22+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260703,C1,matched_signal_to_LO,0.1,6.0,5.9,1320,done
+2026-09-28T02:54:27+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260704,C1,matched_signal_to_LO,0.1,5.9,5.9,1315,done
+2026-09-28T02:54:33+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260705,C1,matched_signal_to_LO,0.1,5.9,5.9,1311,done
+2026-09-28T02:54:39+10:00,I,C1_matched_signal_to_LO_0.1_REF_s20260706,C1,matched_signal_to_LO,0.1,5.9,5.9,1305,done
+2026-09-28T02:54:45+10:00,I,C1_matched_signal_to_LO_0.2_REF_s20260704,C1,matched_signal_to_LO,0.2,6.0,5.9,1301,done
+2026-09-28T02:54:50+10:00,I,C1_matched_signal_to_LO_0.2_REF_s20260705,C1,matched_signal_to_LO,0.2,5.8,5.9,1291,done
+2026-09-28T02:54:56+10:00,I,C1_matched_signal_to_LO_0.2_REF_s20260706,C1,matched_signal_to_LO,0.2,5.6,5.9,1279,done
+2026-09-28T02:55:01+10:00,I,C1_matched_signal_to_LO_0.358_REF_s20260704,C1,matched_signal_to_LO,0.358,5.8,5.9,1271,done
+2026-09-28T02:55:07+10:00,I,C1_matched_signal_to_LO_0.358_REF_s20260705,C1,matched_signal_to_LO,0.358,5.8,5.9,1262,done
+2026-09-28T02:55:13+10:00,I,C1_matched_signal_to_LO_0.358_REF_s20260706,C1,matched_signal_to_LO,0.358,5.9,5.9,1257,done
+2026-09-28T02:55:19+10:00,I,C1_matched_signal_to_LO_0.4_CW,C1,matched_signal_to_LO,0.4,5.9,5.9,1248,done
+2026-09-28T02:55:24+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260701,C1,matched_signal_to_LO,0.4,5.9,5.9,1243,done
+2026-09-28T02:55:30+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260702,C1,matched_signal_to_LO,0.4,5.9,5.9,1237,done
+2026-09-28T02:55:36+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260703,C1,matched_signal_to_LO,0.4,6.1,5.9,1235,done
+2026-09-28T02:55:42+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260704,C1,matched_signal_to_LO,0.4,6.0,5.9,1230,done
+2026-09-28T02:55:48+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260705,C1,matched_signal_to_LO,0.4,5.9,5.9,1225,done
+2026-09-28T02:55:52+10:00,I,C1_matched_signal_to_LO_0.4_REF_s20260706,C1,matched_signal_to_LO,0.4,5.9,5.9,1224,done
+2026-09-28T02:55:58+10:00,I,C1_matched_signal_to_LO_0.6_REF_s20260704,C1,matched_signal_to_LO,0.6,6.0,5.9,1222,done
+2026-09-28T02:56:04+10:00,I,C1_matched_signal_to_LO_0.6_REF_s20260705,C1,matched_signal_to_LO,0.6,5.8,5.9,1215,done
+2026-09-28T02:56:10+10:00,I,C1_matched_signal_to_LO_0.6_REF_s20260706,C1,matched_signal_to_LO,0.6,6.0,5.9,1210,done
+2026-09-28T02:56:16+10:00,I,C2_matched_signal_to_LO_0.1_CW,C2,matched_signal_to_LO,0.1,5.8,5.9,1204,done
+2026-09-28T02:56:22+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260701,C2,matched_signal_to_LO,0.1,5.9,5.9,1196,done
+2026-09-28T02:56:26+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260702,C2,matched_signal_to_LO,0.1,6.0,5.9,1193,done
+2026-09-28T02:56:32+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260703,C2,matched_signal_to_LO,0.1,5.8,5.9,1181,done
+2026-09-28T02:56:38+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260704,C2,matched_signal_to_LO,0.1,5.8,5.9,1172,done
+2026-09-28T02:56:44+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260705,C2,matched_signal_to_LO,0.1,6.0,5.9,1168,done
+2026-09-28T02:56:50+10:00,I,C2_matched_signal_to_LO_0.1_REF_s20260706,C2,matched_signal_to_LO,0.1,6.0,5.9,1164,done
+2026-09-28T02:56:55+10:00,I,C2_matched_signal_to_LO_0.2_REF_s20260704,C2,matched_signal_to_LO,0.2,5.9,5.9,1156,done
+2026-09-28T02:57:01+10:00,I,C2_matched_signal_to_LO_0.2_REF_s20260705,C2,matched_signal_to_LO,0.2,6.0,5.9,1153,done
+2026-09-28T02:57:07+10:00,I,C2_matched_signal_to_LO_0.2_REF_s20260706,C2,matched_signal_to_LO,0.2,6.1,5.9,1150,done
+2026-09-28T02:57:13+10:00,I,C2_matched_signal_to_LO_0.358_REF_s20260704,C2,matched_signal_to_LO,0.358,6.1,6.0,1149,done
+2026-09-28T02:57:19+10:00,I,C2_matched_signal_to_LO_0.358_REF_s20260705,C2,matched_signal_to_LO,0.358,5.8,6.0,1143,done
+2026-09-28T02:57:25+10:00,I,C2_matched_signal_to_LO_0.358_REF_s20260706,C2,matched_signal_to_LO,0.358,6.0,5.9,1136,done
+2026-09-28T02:57:29+10:00,I,C2_matched_signal_to_LO_0.4_CW,C2,matched_signal_to_LO,0.4,5.9,6.0,1132,done
+2026-09-28T02:57:35+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260701,C2,matched_signal_to_LO,0.4,5.9,6.0,1128,done
+2026-09-28T02:57:41+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260702,C2,matched_signal_to_LO,0.4,5.9,6.0,1120,done
+2026-09-28T02:57:47+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260703,C2,matched_signal_to_LO,0.4,6.0,6.0,1114,done
+2026-09-28T02:57:53+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260704,C2,matched_signal_to_LO,0.4,6.0,6.0,1111,done
+2026-09-28T02:57:58+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260705,C2,matched_signal_to_LO,0.4,6.0,6.0,1106,done
+2026-09-28T02:58:04+10:00,I,C2_matched_signal_to_LO_0.4_REF_s20260706,C2,matched_signal_to_LO,0.4,5.9,6.0,1096,done
+2026-09-28T02:58:10+10:00,I,C2_matched_signal_to_LO_0.6_REF_s20260704,C2,matched_signal_to_LO,0.6,6.0,6.0,1090,done
+2026-09-28T02:58:16+10:00,I,C2_matched_signal_to_LO_0.6_REF_s20260705,C2,matched_signal_to_LO,0.6,5.9,6.0,1085,done
+2026-09-28T02:58:21+10:00,I,C2_matched_signal_to_LO_0.6_REF_s20260706,C2,matched_signal_to_LO,0.6,5.7,5.9,1074,done
+2026-09-28T02:58:26+10:00,I,C3_matched_CW_gain_0.95_REF_s20260704,C3,matched_CW_gain,0.95,6.0,5.9,1069,done
+2026-09-28T02:58:32+10:00,I,C3_matched_CW_gain_0.95_REF_s20260705,C3,matched_CW_gain,0.95,5.9,5.9,1062,done
+2026-09-28T02:58:38+10:00,I,C3_matched_CW_gain_0.95_REF_s20260706,C3,matched_CW_gain,0.95,5.9,5.9,1057,done
+2026-09-28T02:58:44+10:00,I,C3_matched_CW_gain_0.9_REF_s20260704,C3,matched_CW_gain,0.9,6.2,6.0,1054,done
+2026-09-28T02:58:50+10:00,I,C3_matched_CW_gain_0.9_REF_s20260705,C3,matched_CW_gain,0.9,6.1,6.0,1050,done
+2026-09-28T02:58:56+10:00,I,C3_matched_CW_gain_0.9_REF_s20260706,C3,matched_CW_gain,0.9,5.9,6.0,1042,done
+2026-09-28T02:59:01+10:00,I,C3_matched_CW_gain_0.85_REF_s20260704,C3,matched_CW_gain,0.85,6.0,6.0,1037,done
+2026-09-28T02:59:07+10:00,I,C3_matched_CW_gain_0.85_REF_s20260705,C3,matched_CW_gain,0.85,5.9,5.9,1029,done
+2026-09-28T02:59:13+10:00,I,C3_matched_CW_gain_0.85_REF_s20260706,C3,matched_CW_gain,0.85,6.0,6.0,1024,done
+2026-09-28T02:59:19+10:00,I,C3_matched_signal_to_LO_0.1_CW,C3,matched_signal_to_LO,0.1,5.9,6.0,1021,done
+2026-09-28T02:59:25+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260701,C3,matched_signal_to_LO,0.1,5.9,6.0,1013,done
+2026-09-28T02:59:29+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260702,C3,matched_signal_to_LO,0.1,6.0,6.0,1009,done
+2026-09-28T02:59:35+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260703,C3,matched_signal_to_LO,0.1,5.9,6.0,1002,done
+2026-09-28T02:59:41+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260704,C3,matched_signal_to_LO,0.1,6.0,5.9,993,done
+2026-09-28T02:59:47+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260705,C3,matched_signal_to_LO,0.1,5.9,5.9,984,done
+2026-09-28T02:59:53+10:00,I,C3_matched_signal_to_LO_0.1_REF_s20260706,C3,matched_signal_to_LO,0.1,5.9,5.9,979,done
+2026-09-28T02:59:59+10:00,I,C3_matched_signal_to_LO_0.2_REF_s20260704,C3,matched_signal_to_LO,0.2,6.0,5.9,973,done
+2026-09-28T03:00:03+10:00,I,C3_matched_signal_to_LO_0.2_REF_s20260705,C3,matched_signal_to_LO,0.2,5.8,5.9,965,done
+2026-09-28T03:00:09+10:00,I,C3_matched_signal_to_LO_0.2_REF_s20260706,C3,matched_signal_to_LO,0.2,5.9,5.9,958,done
+2026-09-28T03:00:15+10:00,I,C3_matched_signal_to_LO_0.358_REF_s20260704,C3,matched_signal_to_LO,0.358,6.0,5.9,954,done
+2026-09-28T03:00:22+10:00,I,C3_matched_signal_to_LO_0.358_REF_s20260705,C3,matched_signal_to_LO,0.358,6.1,5.9,952,done
+2026-09-28T03:00:28+10:00,I,C3_matched_signal_to_LO_0.358_REF_s20260706,C3,matched_signal_to_LO,0.358,6.0,6.0,947,done
+2026-09-28T03:00:32+10:00,I,C3_matched_signal_to_LO_0.4_CW,C3,matched_signal_to_LO,0.4,5.9,6.0,941,done
+2026-09-28T03:00:38+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260701,C3,matched_signal_to_LO,0.4,6.0,6.0,936,done
+2026-09-28T03:00:44+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260702,C3,matched_signal_to_LO,0.4,6.0,6.0,930,done
+2026-09-28T03:00:50+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260703,C3,matched_signal_to_LO,0.4,5.9,6.0,923,done
+2026-09-28T03:00:56+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260704,C3,matched_signal_to_LO,0.4,6.2,6.0,921,done
+2026-09-28T03:01:01+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260705,C3,matched_signal_to_LO,0.4,5.9,6.0,917,done
+2026-09-28T03:01:07+10:00,I,C3_matched_signal_to_LO_0.4_REF_s20260706,C3,matched_signal_to_LO,0.4,5.8,6.0,909,done
+2026-09-28T03:01:13+10:00,I,C3_matched_signal_to_LO_0.6_REF_s20260704,C3,matched_signal_to_LO,0.6,6.0,6.0,903,done
+2026-09-28T03:01:19+10:00,I,C3_matched_signal_to_LO_0.6_REF_s20260705,C3,matched_signal_to_LO,0.6,5.9,6.0,894,done
+2026-09-28T03:01:24+10:00,I,C3_matched_signal_to_LO_0.6_REF_s20260706,C3,matched_signal_to_LO,0.6,5.8,5.9,885,done
+2026-09-28T03:01:30+10:00,I,C4_matched_signal_to_LO_0.1_CW,C4,matched_signal_to_LO,0.1,6.0,5.9,880,done
+2026-09-28T03:01:35+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260701,C4,matched_signal_to_LO,0.1,6.1,6.0,875,done
+2026-09-28T03:01:41+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260702,C4,matched_signal_to_LO,0.1,6.1,6.0,871,done
+2026-09-28T03:01:47+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260703,C4,matched_signal_to_LO,0.1,5.9,6.0,866,done
+2026-09-28T03:01:53+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260704,C4,matched_signal_to_LO,0.1,5.9,5.9,855,done
+2026-09-28T03:01:59+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260705,C4,matched_signal_to_LO,0.1,5.8,5.9,847,done
+2026-09-28T03:02:03+10:00,I,C4_matched_signal_to_LO_0.1_REF_s20260706,C4,matched_signal_to_LO,0.1,5.7,5.9,840,done
+2026-09-28T03:02:09+10:00,I,C4_matched_signal_to_LO_0.2_REF_s20260704,C4,matched_signal_to_LO,0.2,5.8,5.9,831,done
+2026-09-28T03:02:15+10:00,I,C4_matched_signal_to_LO_0.2_REF_s20260705,C4,matched_signal_to_LO,0.2,5.7,5.9,823,done
+2026-09-28T03:02:21+10:00,I,C4_matched_signal_to_LO_0.2_REF_s20260706,C4,matched_signal_to_LO,0.2,5.9,5.9,818,done
+2026-09-28T03:02:27+10:00,I,C4_matched_signal_to_LO_0.358_REF_s20260704,C4,matched_signal_to_LO,0.358,6.1,5.9,814,done
+2026-09-28T03:02:33+10:00,I,C4_matched_signal_to_LO_0.358_REF_s20260705,C4,matched_signal_to_LO,0.358,5.8,5.9,805,done
+2026-09-28T03:02:37+10:00,I,C4_matched_signal_to_LO_0.358_REF_s20260706,C4,matched_signal_to_LO,0.358,5.9,5.9,796,done
+2026-09-28T03:02:43+10:00,I,C4_matched_signal_to_LO_0.4_CW,C4,matched_signal_to_LO,0.4,5.9,5.9,790,done
+2026-09-28T03:02:49+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260701,C4,matched_signal_to_LO,0.4,6.0,5.9,785,done
+2026-09-28T03:02:55+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260702,C4,matched_signal_to_LO,0.4,5.9,5.9,781,done
+2026-09-28T03:03:01+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260703,C4,matched_signal_to_LO,0.4,5.5,5.9,772,done
+2026-09-28T03:03:05+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260704,C4,matched_signal_to_LO,0.4,5.8,5.9,767,done
+2026-09-28T03:03:11+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260705,C4,matched_signal_to_LO,0.4,5.9,5.9,763,done
+2026-09-28T03:03:17+10:00,I,C4_matched_signal_to_LO_0.4_REF_s20260706,C4,matched_signal_to_LO,0.4,5.9,5.9,756,done
+2026-09-28T03:03:23+10:00,I,C4_matched_signal_to_LO_0.6_REF_s20260704,C4,matched_signal_to_LO,0.6,5.8,5.8,747,done
+2026-09-28T03:03:28+10:00,I,C4_matched_signal_to_LO_0.6_REF_s20260705,C4,matched_signal_to_LO,0.6,5.5,5.8,736,done
+2026-09-28T03:03:34+10:00,I,C4_matched_signal_to_LO_0.6_REF_s20260706,C4,matched_signal_to_LO,0.6,5.8,5.8,729,done
+2026-09-28T03:03:39+10:00,I,C5_matched_CW_gain_0.8_CW,C5,matched_CW_gain,0.8,5.9,5.8,723,done
+2026-09-28T03:03:44+10:00,I,C5_matched_CW_gain_0.8_REF_s20260701,C5,matched_CW_gain,0.8,5.8,5.8,715,done
+2026-09-28T03:03:50+10:00,I,C5_matched_CW_gain_0.8_REF_s20260702,C5,matched_CW_gain,0.8,5.9,5.8,710,done
+2026-09-28T03:03:56+10:00,I,C5_matched_CW_gain_0.8_REF_s20260703,C5,matched_CW_gain,0.8,6.0,5.8,711,done
+2026-09-28T03:04:02+10:00,I,C5_matched_CW_gain_0.8_REF_s20260704,C5,matched_CW_gain,0.8,6.0,5.8,707,done
+2026-09-28T03:04:07+10:00,I,C5_matched_CW_gain_0.8_REF_s20260705,C5,matched_CW_gain,0.8,6.0,5.9,703,done
+2026-09-28T03:04:13+10:00,I,C5_matched_CW_gain_0.8_REF_s20260706,C5,matched_CW_gain,0.8,6.1,5.9,701,done
+2026-09-28T03:04:19+10:00,I,C5_matched_CW_gain_0.6_CW,C5,matched_CW_gain,0.6,5.6,5.9,692,done
+2026-09-28T03:04:25+10:00,I,C5_matched_CW_gain_0.6_REF_s20260701,C5,matched_CW_gain,0.6,5.9,5.9,691,done
+2026-09-28T03:04:31+10:00,I,C5_matched_CW_gain_0.6_REF_s20260702,C5,matched_CW_gain,0.6,6.0,5.9,689,done
+2026-09-28T03:04:37+10:00,I,C5_matched_CW_gain_0.6_REF_s20260703,C5,matched_CW_gain,0.6,6.0,5.9,684,done
+2026-09-28T03:04:41+10:00,I,C5_matched_CW_gain_0.6_REF_s20260704,C5,matched_CW_gain,0.6,5.9,6.0,679,done
+2026-09-28T03:04:47+10:00,I,C5_matched_CW_gain_0.6_REF_s20260705,C5,matched_CW_gain,0.6,5.9,6.0,673,done
+2026-09-28T03:04:53+10:00,I,C5_matched_CW_gain_0.6_REF_s20260706,C5,matched_CW_gain,0.6,5.8,5.9,664,done
+2026-09-28T03:04:59+10:00,I,C5_matched_CW_gain_0.4_CW,C5,matched_CW_gain,0.4,5.8,5.9,656,done
+2026-09-28T03:05:05+10:00,I,C5_matched_CW_gain_0.4_REF_s20260701,C5,matched_CW_gain,0.4,5.8,5.9,648,done
+2026-09-28T03:05:09+10:00,I,C5_matched_CW_gain_0.4_REF_s20260702,C5,matched_CW_gain,0.4,5.9,5.9,639,done
+2026-09-28T03:05:15+10:00,I,C5_matched_CW_gain_0.4_REF_s20260703,C5,matched_CW_gain,0.4,5.9,5.9,636,done
+2026-09-28T03:05:21+10:00,I,C5_matched_CW_gain_0.4_REF_s20260704,C5,matched_CW_gain,0.4,6.0,5.9,631,done
+2026-09-28T03:05:27+10:00,I,C5_matched_CW_gain_0.4_REF_s20260705,C5,matched_CW_gain,0.4,6.1,5.9,626,done
+2026-09-28T03:05:33+10:00,I,C5_matched_CW_gain_0.4_REF_s20260706,C5,matched_CW_gain,0.4,5.9,5.9,619,done
+2026-09-28T03:05:39+10:00,I,C5_matched_signal_to_LO_0.1_CW,C5,matched_signal_to_LO,0.1,6.0,5.9,614,done
+2026-09-28T03:05:44+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260701,C5,matched_signal_to_LO,0.1,6.0,5.9,609,done
+2026-09-28T03:05:50+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260702,C5,matched_signal_to_LO,0.1,5.9,5.9,603,done
+2026-09-28T03:05:56+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260703,C5,matched_signal_to_LO,0.1,6.0,5.9,600,done
+2026-09-28T03:06:02+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260704,C5,matched_signal_to_LO,0.1,6.0,6.0,595,done
+2026-09-28T03:06:08+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260705,C5,matched_signal_to_LO,0.1,6.1,6.0,592,done
+2026-09-28T03:06:13+10:00,I,C5_matched_signal_to_LO_0.1_REF_s20260706,C5,matched_signal_to_LO,0.1,6.0,6.0,587,done
+2026-09-28T03:06:19+10:00,I,C5_matched_signal_to_LO_0.2_CW,C5,matched_signal_to_LO,0.2,6.0,6.0,581,done
+2026-09-28T03:06:25+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260701,C5,matched_signal_to_LO,0.2,5.9,6.0,574,done
+2026-09-28T03:06:31+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260702,C5,matched_signal_to_LO,0.2,6.2,6.0,570,done
+2026-09-28T03:06:37+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260703,C5,matched_signal_to_LO,0.2,5.9,6.0,564,done
+2026-09-28T03:06:41+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260704,C5,matched_signal_to_LO,0.2,5.9,6.0,558,done
+2026-09-28T03:06:47+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260705,C5,matched_signal_to_LO,0.2,6.0,6.0,554,done
+2026-09-28T03:06:54+10:00,I,C5_matched_signal_to_LO_0.2_REF_s20260706,C5,matched_signal_to_LO,0.2,6.1,6.0,548,done
+2026-09-28T03:06:59+10:00,I,C5_matched_signal_to_LO_0.358_CW,C5,matched_signal_to_LO,0.358,5.8,6.0,541,done
+2026-09-28T03:07:05+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260701,C5,matched_signal_to_LO,0.358,5.9,6.0,533,done
+2026-09-28T03:07:11+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260702,C5,matched_signal_to_LO,0.358,5.9,6.0,526,done
+2026-09-28T03:07:16+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260703,C5,matched_signal_to_LO,0.358,6.0,6.0,520,done
+2026-09-28T03:07:22+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260704,C5,matched_signal_to_LO,0.358,5.7,6.0,513,done
+2026-09-28T03:07:28+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260705,C5,matched_signal_to_LO,0.358,6.1,5.9,506,done
+2026-09-28T03:07:34+10:00,I,C5_matched_signal_to_LO_0.358_REF_s20260706,C5,matched_signal_to_LO,0.358,6.0,6.0,500,done
+2026-09-28T03:07:40+10:00,I,C5_matched_signal_to_LO_0.4_CW,C5,matched_signal_to_LO,0.4,6.0,6.0,494,done
+2026-09-28T03:07:44+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260701,C5,matched_signal_to_LO,0.4,6.0,6.0,488,done
+2026-09-28T03:07:50+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260702,C5,matched_signal_to_LO,0.4,5.9,5.9,481,done
+2026-09-28T03:07:56+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260703,C5,matched_signal_to_LO,0.4,6.0,5.9,476,done
+2026-09-28T03:08:02+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260704,C5,matched_signal_to_LO,0.4,5.9,6.0,470,done
+2026-09-28T03:08:08+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260705,C5,matched_signal_to_LO,0.4,6.0,6.0,465,done
+2026-09-28T03:08:14+10:00,I,C5_matched_signal_to_LO_0.4_REF_s20260706,C5,matched_signal_to_LO,0.4,6.1,6.0,460,done
+2026-09-28T03:08:19+10:00,I,C5_same_absolute_level_0.1_CW,C5,same_absolute_level,0.1,6.0,6.0,456,done
+2026-09-28T03:08:25+10:00,I,C5_same_absolute_level_0.1_REF_s20260701,C5,same_absolute_level,0.1,5.9,6.0,448,done
+2026-09-28T03:08:31+10:00,I,C5_same_absolute_level_0.1_REF_s20260702,C5,same_absolute_level,0.1,6.0,6.0,442,done
+2026-09-28T03:08:37+10:00,I,C5_same_absolute_level_0.1_REF_s20260703,C5,same_absolute_level,0.1,6.0,6.0,436,done
+2026-09-28T03:08:43+10:00,I,C5_same_absolute_level_0.1_REF_s20260704,C5,same_absolute_level,0.1,5.8,6.0,429,done
+2026-09-28T03:08:47+10:00,I,C5_same_absolute_level_0.1_REF_s20260705,C5,same_absolute_level,0.1,5.9,6.0,423,done
+2026-09-28T03:08:53+10:00,I,C5_same_absolute_level_0.1_REF_s20260706,C5,same_absolute_level,0.1,5.9,5.9,416,done
+2026-09-28T03:08:59+10:00,I,C5_same_absolute_level_0.179_CW,C5,same_absolute_level,0.179,6.0,6.0,411,done
+2026-09-28T03:09:05+10:00,I,C5_same_absolute_level_0.179_REF_s20260701,C5,same_absolute_level,0.179,5.9,5.9,404,done
+2026-09-28T03:09:11+10:00,I,C5_same_absolute_level_0.179_REF_s20260702,C5,same_absolute_level,0.179,5.8,5.9,397,done
+2026-09-28T03:09:17+10:00,I,C5_same_absolute_level_0.179_REF_s20260703,C5,same_absolute_level,0.179,5.8,5.9,389,done
+2026-09-28T03:09:21+10:00,I,C5_same_absolute_level_0.179_REF_s20260704,C5,same_absolute_level,0.179,5.8,5.9,383,done
+2026-09-28T03:09:27+10:00,I,C5_same_absolute_level_0.179_REF_s20260705,C5,same_absolute_level,0.179,6.0,5.9,377,done
+2026-09-28T03:09:34+10:00,I,C5_same_absolute_level_0.179_REF_s20260706,C5,same_absolute_level,0.179,6.2,5.9,372,done
+2026-09-28T03:09:39+10:00,I,C6_matched_CW_gain_0.8_CW,C6,matched_CW_gain,0.8,5.9,5.9,367,done
+2026-09-28T03:09:45+10:00,I,C6_matched_CW_gain_0.8_REF_s20260701,C6,matched_CW_gain,0.8,5.8,5.9,361,done
+2026-09-28T03:09:50+10:00,I,C6_matched_CW_gain_0.8_REF_s20260702,C6,matched_CW_gain,0.8,6.0,5.9,355,done
+2026-09-28T03:09:56+10:00,I,C6_matched_CW_gain_0.8_REF_s20260703,C6,matched_CW_gain,0.8,5.9,5.9,348,done
+2026-09-28T03:10:02+10:00,I,C6_matched_CW_gain_0.8_REF_s20260704,C6,matched_CW_gain,0.8,5.9,5.9,342,done
+2026-09-28T03:10:08+10:00,I,C6_matched_CW_gain_0.8_REF_s20260705,C6,matched_CW_gain,0.8,5.9,5.9,337,done
+2026-09-28T03:10:13+10:00,I,C6_matched_CW_gain_0.8_REF_s20260706,C6,matched_CW_gain,0.8,5.8,5.9,331,done
+2026-09-28T03:10:19+10:00,I,C6_matched_CW_gain_0.6_CW,C6,matched_CW_gain,0.6,6.0,5.9,326,done
+2026-09-28T03:10:24+10:00,I,C6_matched_CW_gain_0.6_REF_s20260701,C6,matched_CW_gain,0.6,5.8,5.9,319,done
+2026-09-28T03:10:30+10:00,I,C6_matched_CW_gain_0.6_REF_s20260702,C6,matched_CW_gain,0.6,5.8,5.9,312,done
+2026-09-28T03:10:36+10:00,I,C6_matched_CW_gain_0.6_REF_s20260703,C6,matched_CW_gain,0.6,6.0,5.9,306,done
+2026-09-28T03:10:42+10:00,I,C6_matched_CW_gain_0.6_REF_s20260704,C6,matched_CW_gain,0.6,5.9,5.9,301,done
+2026-09-28T03:10:48+10:00,I,C6_matched_CW_gain_0.6_REF_s20260705,C6,matched_CW_gain,0.6,5.9,5.9,294,done
+2026-09-28T03:10:52+10:00,I,C6_matched_CW_gain_0.6_REF_s20260706,C6,matched_CW_gain,0.6,5.8,5.9,288,done
+2026-09-28T03:10:58+10:00,I,C6_matched_CW_gain_0.4_CW,C6,matched_CW_gain,0.4,6.0,5.9,282,done
+2026-09-28T03:11:04+10:00,I,C6_matched_CW_gain_0.4_REF_s20260701,C6,matched_CW_gain,0.4,5.9,5.9,277,done
+2026-09-28T03:11:10+10:00,I,C6_matched_CW_gain_0.4_REF_s20260702,C6,matched_CW_gain,0.4,5.9,5.9,271,done
+2026-09-28T03:11:16+10:00,I,C6_matched_CW_gain_0.4_REF_s20260703,C6,matched_CW_gain,0.4,5.9,5.9,265,done
+2026-09-28T03:11:20+10:00,I,C6_matched_CW_gain_0.4_REF_s20260704,C6,matched_CW_gain,0.4,5.9,5.9,260,done
+2026-09-28T03:11:26+10:00,I,C6_matched_CW_gain_0.4_REF_s20260705,C6,matched_CW_gain,0.4,5.8,5.9,254,done
+2026-09-28T03:11:32+10:00,I,C6_matched_CW_gain_0.4_REF_s20260706,C6,matched_CW_gain,0.4,5.8,5.9,247,done
+2026-09-28T03:11:38+10:00,I,C6_matched_signal_to_LO_0.1_CW,C6,matched_signal_to_LO,0.1,5.9,5.9,241,done
+2026-09-28T03:11:44+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260701,C6,matched_signal_to_LO,0.1,6.1,5.9,236,done
+2026-09-28T03:11:50+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260702,C6,matched_signal_to_LO,0.1,5.7,5.9,230,done
+2026-09-28T03:11:55+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260703,C6,matched_signal_to_LO,0.1,6.1,5.9,224,done
+2026-09-28T03:12:00+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260704,C6,matched_signal_to_LO,0.1,5.9,5.9,219,done
+2026-09-28T03:12:06+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260705,C6,matched_signal_to_LO,0.1,5.9,5.9,213,done
+2026-09-28T03:12:12+10:00,I,C6_matched_signal_to_LO_0.1_REF_s20260706,C6,matched_signal_to_LO,0.1,5.9,5.9,207,done
+2026-09-28T03:12:18+10:00,I,C6_matched_signal_to_LO_0.2_CW,C6,matched_signal_to_LO,0.2,5.9,5.9,201,done
+2026-09-28T03:12:23+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260701,C6,matched_signal_to_LO,0.2,6.1,5.9,196,done
+2026-09-28T03:12:29+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260702,C6,matched_signal_to_LO,0.2,5.9,5.9,190,done
+2026-09-28T03:12:34+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260703,C6,matched_signal_to_LO,0.2,5.6,5.9,183,done
+2026-09-28T03:12:40+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260704,C6,matched_signal_to_LO,0.2,5.9,5.9,177,done
+2026-09-28T03:12:46+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260705,C6,matched_signal_to_LO,0.2,5.9,5.9,171,done
+2026-09-28T03:12:52+10:00,I,C6_matched_signal_to_LO_0.2_REF_s20260706,C6,matched_signal_to_LO,0.2,5.9,5.9,165,done
+2026-09-28T03:12:57+10:00,I,C6_matched_signal_to_LO_0.358_CW,C6,matched_signal_to_LO,0.358,6.0,5.9,159,done
+2026-09-28T03:13:03+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260701,C6,matched_signal_to_LO,0.358,5.9,5.9,153,done
+2026-09-28T03:13:09+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260702,C6,matched_signal_to_LO,0.358,6.0,5.9,148,done
+2026-09-28T03:13:15+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260703,C6,matched_signal_to_LO,0.358,6.0,5.9,142,done
+2026-09-28T03:13:20+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260704,C6,matched_signal_to_LO,0.358,5.7,5.9,135,done
+2026-09-28T03:13:25+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260705,C6,matched_signal_to_LO,0.358,6.1,5.9,130,done
+2026-09-28T03:13:31+10:00,I,C6_matched_signal_to_LO_0.358_REF_s20260706,C6,matched_signal_to_LO,0.358,5.8,5.9,124,done
+2026-09-28T03:13:37+10:00,I,C6_matched_signal_to_LO_0.4_CW,C6,matched_signal_to_LO,0.4,6.0,5.9,118,done
+2026-09-28T03:13:43+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260701,C6,matched_signal_to_LO,0.4,5.9,5.9,112,done
+2026-09-28T03:13:49+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260702,C6,matched_signal_to_LO,0.4,5.8,5.9,106,done
+2026-09-28T03:13:55+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260703,C6,matched_signal_to_LO,0.4,5.9,5.9,100,done
+2026-09-28T03:13:59+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260704,C6,matched_signal_to_LO,0.4,5.9,5.9,94,done
+2026-09-28T03:14:05+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260705,C6,matched_signal_to_LO,0.4,5.8,5.9,88,done
+2026-09-28T03:14:11+10:00,I,C6_matched_signal_to_LO_0.4_REF_s20260706,C6,matched_signal_to_LO,0.4,5.8,5.9,82,done
+2026-09-28T03:14:17+10:00,I,C6_same_absolute_level_0.1_CW,C6,same_absolute_level,0.1,5.7,5.9,76,done
+2026-09-28T03:14:23+10:00,I,C6_same_absolute_level_0.1_REF_s20260701,C6,same_absolute_level,0.1,6.0,5.9,70,done
+2026-09-28T03:14:27+10:00,I,C6_same_absolute_level_0.1_REF_s20260702,C6,same_absolute_level,0.1,6.0,5.9,65,done
+2026-09-28T03:14:33+10:00,I,C6_same_absolute_level_0.1_REF_s20260703,C6,same_absolute_level,0.1,5.8,5.9,59,done
+2026-09-28T03:14:39+10:00,I,C6_same_absolute_level_0.1_REF_s20260704,C6,same_absolute_level,0.1,5.8,5.9,53,done
+2026-09-28T03:14:45+10:00,I,C6_same_absolute_level_0.1_REF_s20260705,C6,same_absolute_level,0.1,5.9,5.9,47,done
+2026-09-28T03:14:51+10:00,I,C6_same_absolute_level_0.1_REF_s20260706,C6,same_absolute_level,0.1,6.0,5.9,41,done
+2026-09-28T03:14:57+10:00,I,C6_same_absolute_level_0.179_CW,C6,same_absolute_level,0.179,5.9,5.9,35,done
+2026-09-28T03:15:01+10:00,I,C6_same_absolute_level_0.179_REF_s20260701,C6,same_absolute_level,0.179,5.8,5.9,29,done
+2026-09-28T03:15:07+10:00,I,C6_same_absolute_level_0.179_REF_s20260702,C6,same_absolute_level,0.179,6.0,5.9,24,done
+2026-09-28T03:15:13+10:00,I,C6_same_absolute_level_0.179_REF_s20260703,C6,same_absolute_level,0.179,5.9,5.9,18,done
+2026-09-28T03:15:19+10:00,I,C6_same_absolute_level_0.179_REF_s20260704,C6,same_absolute_level,0.179,5.8,5.9,12,done
+2026-09-28T03:15:25+10:00,I,C6_same_absolute_level_0.179_REF_s20260705,C6,same_absolute_level,0.179,5.8,5.9,6,done
+2026-09-28T03:15:29+10:00,I,C6_same_absolute_level_0.179_REF_s20260706,C6,same_absolute_level,0.179,5.9,5.9,0,done
+2026-09-28T03:16:29+10:00,II,LO0.35_P500_CW,LO0.35,matched_signal_to_LO_0.358,IF 2.0000 MHz,7.8,7.8,86,done
+2026-09-28T03:16:36+10:00,II,LO0.35_P500_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 2.0000 MHz,8.6,8.2,82,done
+2026-09-28T03:16:46+10:00,II,LO0.35_P450_CW,LO0.35,matched_signal_to_LO_0.358,IF 2.2222 MHz,9.7,8.7,79,done
+2026-09-28T03:16:55+10:00,II,LO0.35_P450_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 2.2222 MHz,9.3,8.9,71,done
+2026-09-28T03:17:02+10:00,II,LO0.425_P500_CW,LO0.425,matched_signal_to_LO_0.358,IF 2.0000 MHz,8.5,8.8,62,done
+2026-09-28T03:17:11+10:00,II,LO0.425_P500_REF_s20260701,LO0.425,matched_signal_to_LO_0.358,IF 2.0000 MHz,9.0,8.8,53,done
+2026-09-28T03:17:19+10:00,II,LO0.425_P450_CW,LO0.425,matched_signal_to_LO_0.358,IF 2.2222 MHz,7.9,8.7,43,done
+2026-09-28T03:17:28+10:00,II,LO0.425_P450_REF_s20260701,LO0.425,matched_signal_to_LO_0.358,IF 2.2222 MHz,8.8,8.7,35,done
+2026-09-28T03:17:34+10:00,II,LO0.5_P500_CW,LO0.5,matched_signal_to_LO_0.358,IF 2.0000 MHz,7.0,8.5,26,done
+2026-09-28T03:17:41+10:00,II,LO0.5_P500_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 2.0000 MHz,6.8,8.3,17,done
+2026-09-28T03:17:47+10:00,II,LO0.5_P450_CW,LO0.5,matched_signal_to_LO_0.358,IF 2.2222 MHz,6.2,8.2,8,done
+2026-09-28T03:17:54+10:00,II,LO0.5_P450_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 2.2222 MHz,7.6,8.1,0,done
+2026-09-28T03:18:55+10:00,II,LO0.35_P297_CW,LO0.35,matched_signal_to_LO_0.358,IF 3.3670 MHz,8.7,8.7,131,done
+2026-09-28T03:19:03+10:00,II,LO0.35_P297_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 3.3670 MHz,7.2,8.0,112,done
+2026-09-28T03:19:07+10:00,II,LO0.35_P288_CW,LO0.35,matched_signal_to_LO_0.358,IF 3.4722 MHz,6.0,7.3,95,done
+2026-09-28T03:19:13+10:00,II,LO0.35_P288_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 3.4722 MHz,6.0,7.0,84,done
+2026-09-28T03:19:19+10:00,II,LO0.35_P272_CW,LO0.35,matched_signal_to_LO_0.358,IF 3.6765 MHz,5.7,6.7,74,done
+2026-09-28T03:19:25+10:00,II,LO0.35_P272_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 3.6765 MHz,5.8,6.6,66,done
+2026-09-28T03:19:31+10:00,II,LO0.35_P265_CW,LO0.35,matched_signal_to_LO_0.358,IF 3.7736 MHz,5.9,6.5,58,done
+2026-09-28T03:19:36+10:00,II,LO0.35_P265_REF_s20260701,LO0.35,matched_signal_to_LO_0.358,IF 3.7736 MHz,5.8,6.4,51,done
+2026-09-28T03:19:41+10:00,II,LO0.5_P208_CW,LO0.5,matched_signal_to_LO_0.358,IF 4.8077 MHz,5.8,6.3,44,done
+2026-09-28T03:19:47+10:00,II,LO0.5_P208_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 4.8077 MHz,5.8,6.3,38,done
+2026-09-28T03:19:53+10:00,II,LO0.5_P204_CW,LO0.5,matched_signal_to_LO_0.358,IF 4.9020 MHz,5.8,6.0,30,done
+2026-09-28T03:19:59+10:00,II,LO0.5_P204_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 4.9020 MHz,5.9,5.9,23,done
+2026-09-28T03:20:05+10:00,II,LO0.5_P196_CW,LO0.5,matched_signal_to_LO_0.358,IF 5.1020 MHz,5.9,5.8,18,done
+2026-09-28T03:20:09+10:00,II,LO0.5_P196_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 5.1020 MHz,6.0,5.9,12,done
+2026-09-28T03:20:15+10:00,II,LO0.5_P192_CW,LO0.5,matched_signal_to_LO_0.358,IF 5.2083 MHz,5.8,5.9,6,done
+2026-09-28T03:20:21+10:00,II,LO0.5_P192_REF_s20260701,LO0.5,matched_signal_to_LO_0.358,IF 5.2083 MHz,5.8,5.9,0,done
+2026-09-28T03:27:16+10:00,V,VA_phase_T55us,C1,a_H,T=55us,4.4,4.4,31,done
+2026-09-28T03:27:22+10:00,V,VA_phase_T110us,C1,a_H,T=110us,6.0,5.2,31,done
+2026-09-28T03:27:29+10:00,V,VA_phase_T165us,C1,a_H,T=165us,7.8,6.0,30,done
+2026-09-28T03:27:37+10:00,V,VA_phase_T220us,C1,a_H,T=220us,8.4,6.6,27,done
+2026-09-28T03:27:43+10:00,V,VA_dwell_T105us,C1,dwell xi=4 r0 +3dB,T=105us,6.0,6.5,19,done
+2026-09-28T03:27:50+10:00,V,VA_dwell_T210us,C1,dwell xi=4 r0 +3dB,T=210us,6.8,6.5,13,done
+2026-09-28T03:28:03+10:00,V,VA_dwell_T420us,C1,dwell xi=4 r0 +3dB,T=420us,14.8,7.7,8,done
+2026-09-28T03:28:28+10:00,V,VA_dwell_T840us,C1,dwell xi=4 r0 +3dB,T=840us,26.0,10.0,0,done
+2026-09-28T04:14:00+10:00,X,campaign_complete,,,,0.0,0.0,0,complete: all GPU jobs done; Parts I-X written; no stop rule fired

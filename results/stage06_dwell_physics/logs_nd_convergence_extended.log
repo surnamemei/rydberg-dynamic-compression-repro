@@ -1,0 +1,562 @@
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 8001, 'Nd_retained_within_3sigma': 6857, 'AIR': 1.9153456650097311, 'AIR_ref_m6dB': 1.9168934932574953, 'AIR_loss_vs_m6dB': 0.0015478282477641159, 'relative_AIR_loss_pct': 0.08074670049267035, 'EVM': 0.4645026605182243, 'SER': 0.02359882005899705, 'output_AC_RMS': 0.00012889839724335392, 'probe_AC_NMSE_vs_top': 0.0, 'baseband_NMSE_vs_top': 0.0, 'runtime_s': 25.596647487000155}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 6001, 'Nd_retained_within_3sigma': 5143, 'AIR': 1.9153790126873522, 'AIR_ref_m6dB': 1.916883803295767, 'AIR_loss_vs_m6dB': 0.0015047906084146856, 'relative_AIR_loss_pct': 0.07850192097337591, 'EVM': 0.464473239090974, 'SER': 0.02359882005899705, 'output_AC_RMS': 0.0001288996882798675, 'probe_AC_NMSE_vs_top': 8.372180412752936e-07, 'baseband_NMSE_vs_top': 4.735479679521658e-07, 'runtime_s': 20.825536466999438}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 4001, 'Nd_retained_within_3sigma': 3427, 'AIR': 1.9148773498570844, 'AIR_ref_m6dB': 1.9166934375117155, 'AIR_loss_vs_m6dB': 0.0018160876546311489, 'relative_AIR_loss_pct': 0.09475107594612653, 'EVM': 0.46462814734302166, 'SER': 0.02064896755162242, 'output_AC_RMS': 0.00012889460662867644, 'probe_AC_NMSE_vs_top': 4.766186266690386e-06, 'baseband_NMSE_vs_top': 9.317456069064647e-06, 'runtime_s': 7.213614407000023}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 3001, 'Nd_retained_within_3sigma': 2571, 'AIR': 1.9155318748438899, 'AIR_ref_m6dB': 1.9167721088877605, 'AIR_loss_vs_m6dB': 0.001240234043870636, 'relative_AIR_loss_pct': 0.06470430355908627, 'EVM': 0.4647927297929064, 'SER': 0.017699115044247787, 'output_AC_RMS': 0.00012892050675374927, 'probe_AC_NMSE_vs_top': 4.8018289545158e-05, 'baseband_NMSE_vs_top': 9.727761840039972e-05, 'runtime_s': 5.850120192999384}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 2001, 'Nd_retained_within_3sigma': 1713, 'AIR': 1.9203066943297173, 'AIR_ref_m6dB': 1.9203019029443924, 'AIR_loss_vs_m6dB': -4.79138532494261e-06, 'relative_AIR_loss_pct': -0.00024951208544843887, 'EVM': 0.46255968642730305, 'SER': 0.02359882005899705, 'output_AC_RMS': 0.00012893995932622255, 'probe_AC_NMSE_vs_top': 0.000604459025724172, 'baseband_NMSE_vs_top': 0.0012253768668626136, 'runtime_s': 4.128098999000031}
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 4.37 seconds
++++> Total CUDA time: 6.69 seconds: (RK: 1.57, Interp: 1.71, Combine: 3.41)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.08 seconds
++++> Total CUDA time: 5.50 seconds: (RK: 2.24, Interp: 0.78, Combine: 2.48)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.21 seconds
++++> Total CUDA time: 7.33 seconds: (RK: 3.38, Interp: 2.01, Combine: 1.94)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.25 seconds
++++> Total CUDA time: 7.46 seconds: (RK: 3.44, Interp: 2.07, Combine: 1.95)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 3.02 seconds: (RK: 2.00, Interp: 0.39, Combine: 0.64)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.46 seconds
++++> Total CUDA time: 2.89 seconds: (RK: 1.89, Interp: 0.39, Combine: 0.62)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.40 seconds
++++> Total CUDA time: 2.56 seconds: (RK: 1.73, Interp: 0.38, Combine: 0.46)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.36 seconds
++++> Total CUDA time: 2.59 seconds: (RK: 1.71, Interp: 0.39, Combine: 0.49)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.24 seconds
++++> Total CUDA time: 2.09 seconds: (RK: 1.44, Interp: 0.35, Combine: 0.30)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.25 seconds
++++> Total CUDA time: 2.00 seconds: (RK: 1.40, Interp: 0.33, Combine: 0.27)
++++> CUDA launched with Nv=1285,{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 1501, 'Nd_retained_within_3sigma': 1285, 'AIR': 1.907982517288681, 'AIR_ref_m6dB': 1.903754807711699, 'AIR_loss_vs_m6dB': -0.004227709576982042, 'relative_AIR_loss_pct': -0.22207216810991123, 'EVM': 0.4711839441006976, 'SER': 0.032448377581120944, 'output_AC_RMS': 0.00012898464976914014, 'probe_AC_NMSE_vs_top': 0.0023215450645308086, 'baseband_NMSE_vs_top': 0.0046844340841914085, 'runtime_s': 3.5193173659999957}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 1001, 'Nd_retained_within_3sigma': 857, 'AIR': 1.8688466554489356, 'AIR_ref_m6dB': 1.8630982745101454, 'AIR_loss_vs_m6dB': -0.005748380938790154, 'relative_AIR_loss_pct': -0.3085387935481581, 'EVM': 0.49370065782089784, 'SER': 0.035398230088495575, 'output_AC_RMS': 0.00012968489021625894, 'probe_AC_NMSE_vs_top': 0.0092947475480007, 'baseband_NMSE_vs_top': 0.01826783140793089, 'runtime_s': 3.0134391870005857}
+{'case': 'A_lowpower_QPSK_m10', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': -10, 'Nd': 751, 'Nd_retained_within_3sigma': 643, 'AIR': 1.8302696364425506, 'AIR_ref_m6dB': 1.8211647364711911, 'AIR_loss_vs_m6dB': -0.009104899971359437, 'relative_AIR_loss_pct': -0.49994927910814324, 'EVM': 0.5177566834733928, 'SER': 0.04424778761061947, 'output_AC_RMS': 0.00013195152158884197, 'probe_AC_NMSE_vs_top': 0.019874503557755423, 'baseband_NMSE_vs_top': 0.0368443918467327, 'runtime_s': 2.707051200999558}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 8001, 'Nd_retained_within_3sigma': 6857, 'AIR': 1.9590175772684455, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.0409824227315545, 'relative_AIR_loss_pct': 2.049121136577725, 'EVM': 0.3353506951639538, 'SER': 0.008823529411764706, 'output_AC_RMS': 0.000253234552727104, 'probe_AC_NMSE_vs_top': 0.0, 'baseband_NMSE_vs_top': 0.0, 'runtime_s': 24.752152672000193}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 6001, 'Nd_retained_within_3sigma': 5143, 'AIR': 1.9589456574149033, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.04105434258509666, 'relative_AIR_loss_pct': 2.052717129254833, 'EVM': 0.3355548445446946, 'SER': 0.008823529411764706, 'output_AC_RMS': 0.0002532125837735248, 'probe_AC_NMSE_vs_top': 2.4247514375317608e-05, 'baseband_NMSE_vs_top': 4.117778877002479e-06, 'runtime_s': 18.184128584000064}
+ Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.19 seconds
++++> Total CUDA time: 2.01 seconds: (RK: 1.43, Interp: 0.36, Combine: 0.22)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.19 seconds
++++> Total CUDA time: 2.06 seconds: (RK: 1.49, Interp: 0.34, Combine: 0.22)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.13 seconds
++++> Total CUDA time: 1.91 seconds: (RK: 1.42, Interp: 0.34, Combine: 0.15)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.12 seconds
++++> Total CUDA time: 1.94 seconds: (RK: 1.46, Interp: 0.34, Combine: 0.15)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.09 seconds
++++> Total CUDA time: 1.92 seconds: (RK: 1.45, Interp: 0.35, Combine: 0.12)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.11 seconds
++++> Total CUDA time: 1.87 seconds: (RK: 1.42, Interp: 0.33, Combine: 0.11)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.22 seconds
++++> Total CUDA time: 8.80 seconds: (RK: 2.99, Interp: 1.88, Combine: 3.93)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.02 seconds
++++> Total CUDA time: 5.68 seconds: (RK: 2.47, Interp: 0.78, Combine: 2.43)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.13 seconds
++++> Total CUDA time: 7.57 seconds: (RK: 3.39, Interp: 2.21, Combine: 1.97)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.71 seconds
++++> Total CUDA time: 7.75 seconds: (RK: 3.62, Interp: 2.18, Combine: 1.95)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memo{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 4001, 'Nd_retained_within_3sigma': 3427, 'AIR': 1.9605341718033094, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.039465828196690644, 'relative_AIR_loss_pct': 1.9732914098345322, 'EVM': 0.33565736838553334, 'SER': 0.008823529411764706, 'output_AC_RMS': 0.00025319726656034913, 'probe_AC_NMSE_vs_top': 1.3378703881735138e-05, 'baseband_NMSE_vs_top': 1.2928730692959334e-05, 'runtime_s': 7.093994396000198}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 3001, 'Nd_retained_within_3sigma': 2571, 'AIR': 1.9551316043240772, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.04486839567592282, 'relative_AIR_loss_pct': 2.243419783796141, 'EVM': 0.3353277789682194, 'SER': 0.008823529411764706, 'output_AC_RMS': 0.00025319261298161936, 'probe_AC_NMSE_vs_top': 0.00010275439130228032, 'baseband_NMSE_vs_top': 0.0001282075602806775, 'runtime_s': 5.71332827400056}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 2001, 'Nd_retained_within_3sigma': 1713, 'AIR': 1.9707604019885006, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.029239598011499446, 'relative_AIR_loss_pct': 1.4619799005749723, 'EVM': 0.33671195361097556, 'SER': 0.0058823529411764705, 'output_AC_RMS': 0.0002534264052205723, 'probe_AC_NMSE_vs_top': 0.0013368828308221834, 'baseband_NMSE_vs_top': 0.001686484122866498, 'runtime_s': 4.1311513459995695}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 1501, 'Nd_retained_within_3sigma': 1285, 'AIR': 1.9397088325430953, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.06029116745690466, 'relative_AIR_loss_pct': 3.014558372845233, 'EVM': 0.3441086358841262, 'SER': 0.0058823529411764705, 'output_AC_RMS': 0.00025467963702024873, 'probe_AC_NMSE_vs_top': 0.005730652207394216, 'baseband_NMSE_vs_top': 0.0068872879272505174, 'runtime_s': 3.6138555150000684}
+{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 1001, 'Nd_retained_within_3sigma': 857, 'AIR': 1.9564143054950076, 'AIR_ref_m6dB': 2.0, 'AIR_loss_vs_m6dB': 0.04358569450499239, 'relative_AIR_loss_pct': 2.1792847252496195, 'EVM': 0.3603201159070194, 'SER': 0.011764705882352941, 'output_AC_RMS': 0.00025637290771878565, 'probe_AC_NMSE_vs_top': 0.02677037433339522, 'baseband_NMSE_vs_top': 0.029520896945512423, 'runtime_s': 3.1018835709992345}
+ry: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.54 seconds
++++> Total CUDA time: 2.94 seconds: (RK: 1.96, Interp: 0.36, Combine: 0.62)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.49 seconds
++++> Total CUDA time: 2.93 seconds: (RK: 1.93, Interp: 0.39, Combine: 0.62)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.37 seconds
++++> Total CUDA time: 2.61 seconds: (RK: 1.74, Interp: 0.39, Combine: 0.48)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.37 seconds
++++> Total CUDA time: 2.62 seconds: (RK: 1.76, Interp: 0.38, Combine: 0.47)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.26 seconds
++++> Total CUDA time: 2.20 seconds: (RK: 1.53, Interp: 0.36, Combine: 0.31)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.25 seconds
++++> Total CUDA time: 2.14 seconds: (RK: 1.48, Interp: 0.35, Combine: 0.31)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.01 seconds
++++> Memory time: 0.18 seconds
++++> Total CUDA time: 2.09 seconds: (RK: 1.49, Interp: 0.36, Combine: 0.23)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.19 seconds
++++> Total CUDA time: 2.05 seconds: (RK: 1.47, Interp: 0.35, Combine: 0.23)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.13 seconds
++++> Total CUDA time: 1.99 seconds: (RK: 1.48, Interp: 0.35, Combine: 0.16)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.13 seconds
++++> Total CUDA time: 1.99 seconds: (RK: 1.49, Interp: 0.35, Combine: 0.15)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.10 seconds
++++> Total CUDA time: 1.95 seconds: (RK: 1.49, Interp: 0.34, Combine: 0.12)
++++> CUDA{'case': 'B_P1dB_OFDM_0', 'modulation': 'OFDM', 'seed': 20262005, 'Pavg_over_P1dB_dB': 0, 'Nd': 751, 'Nd_retained_within_3sigma': 643, 'AIR': 1.919428763881726, 'AIR_ref_m6dB': 1.9999999999658564, 'AIR_loss_vs_m6dB': 0.08057123608413042, 'relative_AIR_loss_pct': 4.028561804275295, 'EVM': 0.3890561284099768, 'SER': 0.01764705882352941, 'output_AC_RMS': 0.0002718320086877492, 'probe_AC_NMSE_vs_top': 0.06510903770616042, 'baseband_NMSE_vs_top': 0.059302415717067576, 'runtime_s': 2.771455070999764}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 8001, 'Nd_retained_within_3sigma': 6857, 'AIR': 1.2454090120702095, 'AIR_ref_m6dB': 2.23505336027576, 'AIR_loss_vs_m6dB': 0.9896443482055506, 'relative_AIR_loss_pct': 44.27833204319778, 'EVM': 0.7302797187322235, 'SER': 0.7581120943952803, 'output_AC_RMS': 0.00046671307381294285, 'probe_AC_NMSE_vs_top': 0.0, 'baseband_NMSE_vs_top': 0.0, 'runtime_s': 24.48104365099971}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 6001, 'Nd_retained_within_3sigma': 5143, 'AIR': 1.2455814103247373, 'AIR_ref_m6dB': 2.234764760336848, 'AIR_loss_vs_m6dB': 0.9891833500121106, 'relative_AIR_loss_pct': 44.263421706319114, 'EVM': 0.7302340868925463, 'SER': 0.7581120943952803, 'output_AC_RMS': 0.0004667152855513676, 'probe_AC_NMSE_vs_top': 2.5138468749832663e-06, 'baseband_NMSE_vs_top': 1.8330257057020432e-06, 'runtime_s': 17.637580689999595}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 4001, 'Nd_retained_within_3sigma': 3427, 'AIR': 1.2462727830228728, 'AIR_ref_m6dB': 2.235555762280936, 'AIR_loss_vs_m6dB': 0.9892829792580631, 'relative_AIR_loss_pct': 44.25221665008697, 'EVM': 0.7302979992285565, 'SER': 0.7581120943952803, 'output_AC_RMS': 0.0004666973303139593, 'probe_AC_NMSE_vs_top': 6.044239375103799e-06, 'baseband_NMSE_vs_top': 1.2900742919820032e-05, 'runtime_s': 6.504911290000564}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 3001, 'Nd_retained_within_3sigma': 2571, 'AIR': 1.242884064889962, 'AIR_ref_m6dB': 2.2330734427463894, 'AIR_loss_vs_m6dB': 0.9901893778564275, 'relative_AIR_loss_pct': 44.34199784484578, 'EVM': 0.7301810063122729, 'SER': 0.7581120943952803, 'output_AC_RMS': 0.00046673577334577524, 'probe_AC_NMSE_vs_top': 4.8364528106394485e-05, 'baseband_NMSE_vs_top': 0.0001322581655536625, 'runtime_s': 5.925547738000205}
+ launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.10 seconds
++++> Total CUDA time: 1.93 seconds: (RK: 1.47, Interp: 0.34, Combine: 0.12)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.39 seconds
++++> Total CUDA time: 8.32 seconds: (RK: 2.83, Interp: 1.91, Combine: 3.58)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.11 seconds
++++> Total CUDA time: 5.73 seconds: (RK: 2.47, Interp: 0.80, Combine: 2.45)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.12 seconds
++++> Total CUDA time: 6.97 seconds: (RK: 2.94, Interp: 2.12, Combine: 1.92)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.50 seconds
++++> Total CUDA time: 8.17 seconds: (RK: 3.85, Interp: 2.37, Combine: 1.94)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.50 seconds
++++> Total CUDA time: 2.59 seconds: (RK: 1.66, Interp: 0.34, Combine: 0.59)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.52 seconds
++++> Total CUDA time: 2.63 seconds: (RK: 1.53, Interp: 0.35, Combine: 0.75)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.36 seconds
++++> Total CUDA time: 2.65 seconds: (RK: 1.82, Interp: 0.32, Combine: 0.51)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.37 seconds
++++> Total CUDA time: 2.56 seconds: (RK: 1.70, Interp: 0.37, Combine: 0.50)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.24 seconds
++++> Total CUDA time: 2.42 seconds: (RK: 1.70, Interp: 0.38, Combine: 0.34)
++++> CUDA launched with Nv=1713, Nrk=204.00{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 2001, 'Nd_retained_within_3sigma': 1713, 'AIR': 1.2354521479303895, 'AIR_ref_m6dB': 2.235280242794771, 'AIR_loss_vs_m6dB': 0.9998280948643814, 'relative_AIR_loss_pct': 44.72942925555931, 'EVM': 0.7343828159552559, 'SER': 0.7463126843657817, 'output_AC_RMS': 0.00046688007131181656, 'probe_AC_NMSE_vs_top': 0.000665355562668319, 'baseband_NMSE_vs_top': 0.001805510095245309, 'runtime_s': 5.2535739119994105}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 1501, 'Nd_retained_within_3sigma': 1285, 'AIR': 1.2444714713206821, 'AIR_ref_m6dB': 2.231334431173606, 'AIR_loss_vs_m6dB': 0.9868629598529239, 'relative_AIR_loss_pct': 44.22747868117051, 'EVM': 0.7382115613466229, 'SER': 0.7669616519174042, 'output_AC_RMS': 0.00046760717262469355, 'probe_AC_NMSE_vs_top': 0.002878853854464625, 'baseband_NMSE_vs_top': 0.007346293774631457, 'runtime_s': 3.915509211999961}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 1001, 'Nd_retained_within_3sigma': 857, 'AIR': 1.1503514419311123, 'AIR_ref_m6dB': 2.109329955230367, 'AIR_loss_vs_m6dB': 0.9589785132992548, 'relative_AIR_loss_pct': 45.463655931180355, 'EVM': 0.77082030251153, 'SER': 0.7463126843657817, 'output_AC_RMS': 0.00047189339019807375, 'probe_AC_NMSE_vs_top': 0.015387484756530899, 'baseband_NMSE_vs_top': 0.034205539804251665, 'runtime_s': 3.3389367159998073}
+{'case': 'C_plus3_16QAM', 'modulation': '16QAM', 'seed': 20262004, 'Pavg_over_P1dB_dB': 3, 'Nd': 751, 'Nd_retained_within_3sigma': 643, 'AIR': 1.1093097253031239, 'AIR_ref_m6dB': 2.0506578285556607, 'AIR_loss_vs_m6dB': 0.9413481032525368, 'relative_AIR_loss_pct': 45.904689224313756, 'EVM': 0.7862428746730015, 'SER': 0.7492625368731564, 'output_AC_RMS': 0.00048561626618452925, 'probe_AC_NMSE_vs_top': 0.0372727326798576, 'baseband_NMSE_vs_top': 0.06994497849508355, 'runtime_s': 2.946945599999708}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 8001, 'Nd_retained_within_3sigma': 6857, 'AIR': 0.8610422356861863, 'AIR_ref_m6dB': 1.9168934932574953, 'AIR_loss_vs_m6dB': 1.0558512575713088, 'relative_AIR_loss_pct': 55.08137313237136, 'EVM': 0.9667446505246985, 'SER': 0.36578171091445427, 'output_AC_RMS': 0.00045730913803684084, 'probe_AC_NMSE_vs_top': 0.0, 'baseband_NMSE_vs_top': 0.0, 'runtime_s': 33.631863865000014}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 6001, 'Nd_retained_within_3sigma': 5143, 'AIR': 0.8615643764301518, 'AIR_ref_m6dB': 1.916883803295767, 'AIR_loss_vs_m6dB': 1.0553194268656152, 'relative_AIR_loss_pct': 55.053907026141424, 'EVM': 0.9665368065058686, 'SER': 0.36578171091445427, 'output_AC_RMS': 0.00045731132264193364, 'probe_AC_NMSE_vs_top': 3.978159224319116e-06, 'baseband_NMSE_vs_top': 2.1556598333839645e-06, 'runtime_s': 27.437208608999754}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 4001, 'Nd_retained_within_3sigma': 3427, 'AIR': 0.8602373760357689, 'AIR_ref_m6dB': 1.9166934375117155, 'AIR_loss_vs_m6dB': 1.0564560614759466, 'relative_AIR_loss_pct': 55.118676821237315, 'EVM': 0.9671546039538353, 'SER': 0.3687315634218289, 'output_AC_RMS': 0.00045730358731418795, 'probe_AC_NMSE_vs_top': 9.36126023561694e-06, 'baseband_NMSE_vs_top': 1.8037875255263276e-05, 'runtime_s': 8.051738924999881}
+ k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.27 seconds
++++> Total CUDA time: 2.30 seconds: (RK: 1.58, Interp: 0.38, Combine: 0.33)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.20 seconds
++++> Total CUDA time: 2.10 seconds: (RK: 1.53, Interp: 0.35, Combine: 0.22)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.21 seconds
++++> Total CUDA time: 2.08 seconds: (RK: 1.47, Interp: 0.38, Combine: 0.23)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.14 seconds
++++> Total CUDA time: 2.05 seconds: (RK: 1.52, Interp: 0.36, Combine: 0.16)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.14 seconds
++++> Total CUDA time: 1.92 seconds: (RK: 1.40, Interp: 0.36, Combine: 0.16)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.10 seconds
++++> Total CUDA time: 2.03 seconds: (RK: 1.53, Interp: 0.38, Combine: 0.12)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.09 seconds
++++> Total CUDA time: 1.94 seconds: (RK: 1.47, Interp: 0.35, Combine: 0.12)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 4.96 seconds
++++> Total CUDA time: 10.04 seconds: (RK: 3.62, Interp: 2.15, Combine: 4.27)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 3.79 seconds
++++> Total CUDA time: 8.25 seconds: (RK: 3.60, Interp: 2.53, Combine: 2.13)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.52 seconds
++++> Total CUDA time: 3.16 seconds: (RK: 2.04, Interp: 0.45, Combine: 0.67)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 1{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 3001, 'Nd_retained_within_3sigma': 2571, 'AIR': 0.8630375390813263, 'AIR_ref_m6dB': 1.9167721088877605, 'AIR_loss_vs_m6dB': 1.0537345698064342, 'relative_AIR_loss_pct': 54.97443148929591, 'EVM': 0.9657703794382643, 'SER': 0.36578171091445427, 'output_AC_RMS': 0.0004573116963513242, 'probe_AC_NMSE_vs_top': 8.70416711463053e-05, 'baseband_NMSE_vs_top': 0.00017688827114939343, 'runtime_s': 5.660353727000256}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 2001, 'Nd_retained_within_3sigma': 1713, 'AIR': 0.8582147384229868, 'AIR_ref_m6dB': 1.9203019029443924, 'AIR_loss_vs_m6dB': 1.0620871645214056, 'relative_AIR_loss_pct': 55.308343073186094, 'EVM': 0.9690376213264577, 'SER': 0.36283185840707965, 'output_AC_RMS': 0.0004574506171048804, 'probe_AC_NMSE_vs_top': 0.0011311859682177354, 'baseband_NMSE_vs_top': 0.002198245038139773, 'runtime_s': 4.701723731999664}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 1501, 'Nd_retained_within_3sigma': 1285, 'AIR': 0.8639265086731095, 'AIR_ref_m6dB': 1.903754807711699, 'AIR_loss_vs_m6dB': 1.0398282990385894, 'relative_AIR_loss_pct': 54.61986463942047, 'EVM': 0.9685938453045144, 'SER': 0.35988200589970504, 'output_AC_RMS': 0.00045872231471271905, 'probe_AC_NMSE_vs_top': 0.004809995263216479, 'baseband_NMSE_vs_top': 0.008482328313437272, 'runtime_s': 4.0444765989996085}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 1001, 'Nd_retained_within_3sigma': 857, 'AIR': 0.791503756693723, 'AIR_ref_m6dB': 1.8630982745101454, 'AIR_loss_vs_m6dB': 1.0715945178164223, 'relative_AIR_loss_pct': 57.516800507915825, 'EVM': 1.031776787514877, 'SER': 0.41002949852507375, 'output_AC_RMS': 0.0004659541198192091, 'probe_AC_NMSE_vs_top': 0.026005744434197918, 'baseband_NMSE_vs_top': 0.040664193036495905, 'runtime_s': 3.1536990479999076}
+{'case': 'D_strongest_QPSK_p6', 'modulation': 'QPSK', 'seed': 20262003, 'Pavg_over_P1dB_dB': 6, 'Nd': 751, 'Nd_retained_within_3sigma': 643, 'AIR': 0.7331995941546957, 'AIR_ref_m6dB': 1.8211647364711911, 'AIR_loss_vs_m6dB': 1.0879651423164955, 'relative_AIR_loss_pct': 59.740072961472364, 'EVM': 1.066471411621358, 'SER': 0.4277286135693215, 'output_AC_RMS': 0.000475974352965758, 'probe_AC_NMSE_vs_top': 0.06907878951588414, 'baseband_NMSE_vs_top': 0.09590615651974048, 'runtime_s': 2.8060641560005024}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 8001, 'contrast_short': 6.94493607750991e-05, 'contrast_long': 0.0011216194402062934, 'pair_contrast_difference': 0.0010521700794311943, 'pair_contrast_difference_diff_vs_top': 0.0, 'baseband_NMSE_vs_top': 0.0}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 6001, 'contrast_short': 6.946335248686514e-05, 'contrast_long': 0.0011211957606519938, 'pair_contrast_difference': 0.0010517324081651287, 'pair_contrast_difference_diff_vs_top': -4.3767126606556947e-07, 'baseband_NMSE_vs_top': 2.795869635563726e-06}
+8057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.38 seconds
++++> Total CUDA time: 2.22 seconds: (RK: 1.32, Interp: 0.41, Combine: 0.49)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.24 seconds
++++> Total CUDA time: 2.46 seconds: (RK: 1.73, Interp: 0.38, Combine: 0.35)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.18 seconds
++++> Total CUDA time: 2.34 seconds: (RK: 1.72, Interp: 0.37, Combine: 0.25)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.12 seconds
++++> Total CUDA time: 2.05 seconds: (RK: 1.55, Interp: 0.36, Combine: 0.15)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.09 seconds
++++> Total CUDA time: 1.98 seconds: (RK: 1.55, Interp: 0.31, Combine: 0.12)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 2.00 seconds
++++> Total CUDA time: 6.22 seconds: (RK: 2.14, Interp: 1.37, Combine: 2.72)
++++> CUDA launched with Nv=6857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 130k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=130.00 k, output buffers 30682.41 MB
++++> Chunk 2/2 uploaded with Nrk=74.00 k, output buffers 17465.37 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 3.44 seconds
++++> Total CUDA time: 12.86 seconds: (RK: 4.54, Interp: 1.87, Combine: 6.45)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 22.86 seconds
++++> Total CUDA time: 15.18 seconds: (RK: 6.78, Interp: 3.98, Combine: 4.42)
++++> CUDA launched with Nv=5143, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 173k RK4 steps per chunk.
++++> Chunk 1/2 uploaded with Nrk=173.00 k, output buffers 30627.14 MB
++++> Chunk 2/2 uploaded with Nrk=31.00 k, output buffers 5488.10 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 1.19 seconds
++++> Total CUDA time: 10.57 seconds: (RK: 4.93, Interp: 3.27, Combine: 2.37)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.54 seconds
++++> Total CUDA time: 3.68 seconds: (RK: 2.13, Interp: 0.82, Combine: 0.73)
++++> CUDA launched with Nv=3427, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 261k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
++++> C++ Computation t{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 4001, 'contrast_short': 6.997213658549331e-05, 'contrast_long': 0.0011232802843581264, 'pair_contrast_difference': 0.001053308147772633, 'pair_contrast_difference_diff_vs_top': 1.1380683414387652e-06, 'baseband_NMSE_vs_top': 1.4056218231482378e-05}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 3001, 'contrast_short': 6.921490969229991e-05, 'contrast_long': 0.0011266842669887657, 'pair_contrast_difference': 0.0010574693572964658, 'pair_contrast_difference_diff_vs_top': 5.2992778652714324e-06, 'baseband_NMSE_vs_top': 0.00016113921405935824}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 2001, 'contrast_short': 6.575980851883477e-05, 'contrast_long': 0.001143471558301762, 'pair_contrast_difference': 0.0010777117497829272, 'pair_contrast_difference_diff_vs_top': 2.554167035173291e-05, 'baseband_NMSE_vs_top': 0.002179058304616398}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 1501, 'contrast_short': 5.5535419150072136e-05, 'contrast_long': 0.0011613643840956856, 'pair_contrast_difference': 0.0011058289649456135, 'pair_contrast_difference_diff_vs_top': 5.365888551441922e-05, 'baseband_NMSE_vs_top': 0.008868390710150002}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 1001, 'contrast_short': 4.0501613981554824e-05, 'contrast_long': 0.0011523518768564987, 'pair_contrast_difference': 0.0011118502628749438, 'pair_contrast_difference_diff_vs_top': 5.9680183443749446e-05, 'baseband_NMSE_vs_top': 0.048372497896073695}
+{'case': 'E_stage05_dwell_pair', 'modulation': 'two-level', 'seed': 20260926, 'Pavg_over_P1dB_dB': -0.9, 'Nd': 751, 'contrast_short': 0.00010601380115746012, 'contrast_long': 0.0011547818316959629, 'pair_contrast_difference': 0.0010487680305385028, 'pair_contrast_difference_diff_vs_top': -3.4020488926915504e-06, 'baseband_NMSE_vs_top': 0.030333906768434494}
+ime: 0.00 seconds
++++> Memory time: 0.62 seconds
++++> Total CUDA time: 3.74 seconds: (RK: 2.05, Interp: 0.88, Combine: 0.82)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.35 seconds
++++> Total CUDA time: 2.76 seconds: (RK: 1.81, Interp: 0.34, Combine: 0.61)
++++> CUDA launched with Nv=2571, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 347k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 18057.05 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.41 seconds
++++> Total CUDA time: 2.58 seconds: (RK: 1.66, Interp: 0.40, Combine: 0.52)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.29 seconds
++++> Total CUDA time: 2.43 seconds: (RK: 1.65, Interp: 0.41, Combine: 0.37)
++++> CUDA launched with Nv=1713, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 12031.40 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.30 seconds
++++> Total CUDA time: 2.46 seconds: (RK: 1.70, Interp: 0.39, Combine: 0.37)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.19 seconds
++++> Total CUDA time: 2.26 seconds: (RK: 1.63, Interp: 0.38, Combine: 0.25)
++++> CUDA launched with Nv=1285, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 9027.95 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.19 seconds
++++> Total CUDA time: 2.28 seconds: (RK: 1.62, Interp: 0.40, Combine: 0.26)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.14 seconds
++++> Total CUDA time: 2.07 seconds: (RK: 1.51, Interp: 0.38, Combine: 0.17)
++++> CUDA launched with Nv=857, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 6024.51 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.12 seconds
++++> Total CUDA time: 2.15 seconds: (RK: 1.61, Interp: 0.37, Combine: 0.16)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.11 seconds
++++> Total CUDA time: 2.15 seconds: (RK: 1.62, Interp: 0.40, Combine: 0.13)
++++> CUDA launched with Nv=643, Nrk=204.00 k	64-bit system.
++++> GPU memory: free = 32.43 GB, total = 34.19 GB
++++> Chunk limit set to 500k RK4 steps per chunk.
++++> Chunk 1/1 uploaded with Nrk=204.00 k, output buffers 4522.79 MB
++++> C++ Computation time: 0.00 seconds
++++> Memory time: 0.10 seconds
++++> Total CUDA time: 2.17 seconds: (RK: 1.64, Interp: 0.38, Combine: 0.15)

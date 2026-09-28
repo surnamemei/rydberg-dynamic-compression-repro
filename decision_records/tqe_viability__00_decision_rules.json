@@ -1,0 +1,96 @@
+{
+  "written_before_any_run": "2026-09-28T01:55:49+10:00",
+  "status": "Decision rules of the TQE-viability pass, fixed in this time-stamped project record before any of its runs or analyses. Internal project record, not an external registration.",
+  "scope": "Four reviewer-level questions (P1-P4) plus an optional free trace check (P5). Upstream simulator unmodified; only configuration parameters (A_LO, IF, probe Rabi frequency, signal level) change. No new waveform families: the fair-waveform set, dwell/shuffle families and constant-amplitude phase cases are reused. Archived results are not altered; outputs go to results/tqe_viability/.",
+  "common": {
+    "Nd": 4001, "dt_s": 1e-9, "sequences": "reference QPSK case (1 us symbols, 300 ns ramps, zero drift), seeds 20260701-20260703 unless stated",
+    "X_metrics": "X (median |z_full|/|z_lin| over [T_end-20.5, T_end-0.5) us, relative to the CW run at the same level), X_mag, X_rms, X_coh as defined in results/revision2/00_decision_rules.json (P2)",
+    "demodulator": "base removal and IF extraction with a boxcar of an integer number of IF periods: n_box = P ceil(200/P) samples, P = IF period in ns (integer on every grid used); identical to the archived 200-sample demodulator at 5, 10 and 15 MHz",
+    "effect_present": "mean X over the sequences >= 0.05 with a two-sided 95% Student-t CI excluding zero",
+    "superheterodyne_regime": "signal amplitude / A_LO <= 1.0; matched points requiring a larger ratio, or an amplitude outside the computed CW grid, are recorded as infeasible and not run"
+  },
+  "P1_fair_matching": {
+    "configurations": ["5 MHz standard probe (reference)", "10 MHz standard probe", "15 MHz standard probe", "5 MHz weaker probe (Omega_p/2pi = 2.02 MHz)"],
+    "operating_point": "OP1, A_LO = 0.5 V/m",
+    "A_matched_CW_gain": {
+      "targets": [0.95, 0.9, 0.85, 0.8, 0.6, 0.4],
+      "definition": "g_CW/g_small = 10^(gain_dB/20) from the existing CW tables (results/revision2/tables); amplitude = first crossing of the target on the table (linear interpolation in dB vs amplitude); run only if the amplitude is in the superheterodyne regime and inside the table grid",
+      "runs_per_feasible_point": "CW at the amplitude and the reference case with 3 sequences"
+    },
+    "B_matched_signal_to_LO": {
+      "ratios": [0.2, 0.358, 0.6],
+      "runs_per_point": "CW and the reference case with 3 sequences, all four configurations (0.358 is the reference a_H/A_LO of OP1)"
+    },
+    "classification": {
+      "informative_state": "a matched state at which the reference configuration shows the effect (effect_present)",
+      "dependence_at_state": "at least one other feasible configuration has X_c < 0.5 X_ref and a paired (same sequences) difference X_ref - X_c >= 0.05 with CI excluding zero",
+      "CONFIGURATION_DEPENDENCE_SURVIVES": "dependence at every informative state of both conventions, and at least one informative state per convention (a convention without informative states is uninformative and the rule applies to the other)",
+      "PARTIALLY_SURVIVES": "dependence at some but not all informative states",
+      "DOES_NOT_SURVIVE": "dependence at no informative state"
+    },
+    "output": "results/tqe_viability/01_matching_comparison.csv"
+  },
+  "P2_resonance": {
+    "LO_fields_Vpm": [0.35, 0.425, 0.5],
+    "IF_grid_MHz": "1000/P for P in (400, 360, 320, 300, 280, 260, 250, 240, 230, 220, 210, 200, 190, 180, 170, 160, 150, 140, 130, 125, 120, 115, 110, 105, 100, 95, 90, 85, 80) ns: 29 points from 2.5 to 12.5 MHz, denser near 4-6 MHz",
+    "matched_state": "signal/LO ratio 0.358 (the OP1 reference state) at every LO field and IF; standard probe; small-signal kernel of each LO field (IF independent)",
+    "runs_per_point": "CW and the reference case with ONE sequence (20260701)",
+    "metrics": {
+      "g_CW": "large-signal CW gain relative to the small-signal model at the matched state",
+      "selectivity": "S_scan(f) = max over |delta| <= 1.31 MHz (inside the grid) of |ln g_CW(f+delta) - ln g_CW(f)|, from the CW scan (a constant offset delta at IF f is a CW tone at f+delta, so R(delta) = g_CW(f+delta)/g_CW(f))",
+      "phase": "X, X_coh, X_mag, X_rms of the reference sequence"
+    },
+    "normalizations": {"r1": "f_IF / (Omega_LO/2pi)", "r2": "f_IF / (Omega_LO/4pi)"},
+    "features": "per LO field: location of the minimum of g_CW, of the maximum of X, and of the maximum of S_scan (grid point; located on the raw curves)",
+    "collapse_metric": "for each quantity (ln g_CW and X), RMS difference between the LO fields' curves interpolated on a common abscissa (absolute f, r1, r2) over the overlapping range",
+    "classification": {
+      "CLEAR_RESONANCE_SCALING": "for at least two of the three features, the spread (max/min over LO fields) of the location in r1 or in r2 (same normalization for these features) is <= 1.08 while the spread in absolute f is >= 1.25, AND the collapse RMS of both ln g_CW and X in that normalization is <= 0.5 of the RMS in absolute f",
+      "SUGGESTIVE_ONLY": "at least one feature meets the location criterion, or the collapse RMS of ln g_CW or X in r1 or r2 is <= 0.75 of that in absolute f",
+      "NO_SIMPLE_SCALING": "otherwise"
+    },
+    "transient_oscillation": "compare the archived common oscillation frequencies (OP1: periods 1.60-1.62 us power steps, 1.63-1.74 us phase steps; OP2: 0.560 and 0.558 us) with Omega_LO/2pi, Omega_LO/4pi, |f_IF - Omega_LO/4pi| and |2 f_IF - Omega_LO/2pi|; descriptive",
+    "wording": "no dressed-state mechanism is claimed unless CLEAR_RESONANCE_SCALING",
+    "outputs": ["results/tqe_viability/02_resonance_scan.csv", "results/tqe_viability/fig_resonance_scaling.png"]
+  },
+  "P3_memory_model": {
+    "model": "Generalized memory polynomial (GMP, Morgan et al. 2006) on the complex baseband envelope, reference configuration: aligned terms x(n-m)|x(n-m)|^k (k = 0..K_a-1, m = 0..M_a-1) and lagging cross terms x(n)|x(n-l)|^k (k = 1..K_b, l = 1..L_b), plus memory-polynomial harmonic-zone terms for the zones that fall in the 5 MHz receive band (zone 0: |x(n-m)|^k e^{-j w t}, k = 1..4; zone 2: x(n-m)^2 |x(n-m)|^k e^{+j w t}, k = 0..2; m = 0..M_a-1) and a constant. Every basis function passes through the receiver's output low-pass (8th-order Butterworth, 3 MHz, 20 MHz sampling) before the least-squares fit. Input: envelope at 1 GHz, 8th-order Butterworth 8 MHz, decimated to 20 MHz, normalized by E1dB.",
+    "hyperparameters": {"K_a": [3, 5], "M_a": [5, 20], "K_b": [2], "L_b": [0, 40, 100], "ridge_lambda_relative": [1e-8, 1e-5]},
+    "data_split": {
+      "train": "fair-waveform realizations r0-r1 (all formats and powers), dwell and shuffle realizations r0-r1 (stored traces), phase cases (REF, FAST, SLOW, JUMP, LONGRAMP) of seeds 20260705-20260706 and the CW run, OP1",
+      "validation": "fair r2-r3, dwell r2-r3, shuffle r2-r3, phase seed 20260704",
+      "test": "fair r4-r7, dwell r4-r7, shuffle r4-r7, phase seeds 20260701-20260703",
+      "weights": "each family weighted equally in the least-squares fit",
+      "selection": "hyperparameters minimize the family-averaged validation NMSE; the final model is trained on the training set only"
+    },
+    "comparators": ["all-zone static", "all-zone LTI+static", "single-slow-state (tau_ref = 2.535 us)"],
+    "test_metrics": {
+      "NMSE": "mean |y_model - y_full|^2 / mean |y_full - mean y_full|^2 of the receiver-chain baseband over the analysis window",
+      "gain": "fitted gain relative to the linear model; dwell contrast (xi = 4 minus 0.05, +3 dB)",
+      "D_ref": "fixed-reference residual distortion; declustering contrast (+3 dB)",
+      "phase": "X of the reference case and of the rate/shape cases computed identically for every model on the receiver-chain baseband (X_bb = 1 - median|y_model|/|y_lin| / same for CW)",
+      "AIR": "fair-waveform AIR with the archived noise draw at the archived noise level; error vs the full model"
+    },
+    "classification": {
+      "key_contrasts": ["dwell gain contrast at +3 dB", "declustering D_ref contrast at +3 dB", "X of the reference phase case", "fair-waveform AIR at +3 dB (all formats)"],
+      "contrast_reproduced": "dwell and declustering: same sign and |model - full| <= 0.25 |full| (mean over test realizations); phase: |X_model - X_full| <= 0.25 X_full; AIR: mean |AIR_model - AIR_full| <= 0.05 bit per format",
+      "GMP_SUCCEEDS": "all four key contrasts reproduced AND median test NMSE <= 0.5 x that of the best comparator in every family",
+      "PARTIAL_SUCCESS": "at least two key contrasts reproduced, OR median test NMSE <= 0.5 x the best comparator's in at least two families",
+      "GMP_FAILS": "otherwise"
+    },
+    "outputs": ["results/tqe_viability/03_memory_model_results.csv", "results/tqe_viability/03_memory_model_summary.md"]
+  },
+  "P4_noise_sensitivity": {
+    "method": "Re-run the 192 archived fair-waveform jobs (regen_stage05, Nd = 4001; unchanged waveforms, seeds, noise draw, receiver and CE timing) to store each model's noiseless receiver baseband. Because the receiver is linear up to the modulation-specific step, noise at scale c enters as c x baseband(noise draw). Validation: at c = 1 the AIR of every model and job must equal the archived AIR_native.",
+    "noise_scales": [0.25, 0.5, 1.0, 2.0],
+    "reported": "AIR loss by format (relative to each realization's -6 dB AIR at the same c), format ranking at +3 dB, surrogate-minus-full AIR (all-zone static and LTI+static) at 0, +3, +6 dB with paired CIs, P5 and P10 where the loss crosses the threshold within the power grid",
+    "conclusion_test": "at scale c the Section III conclusion holds if (a) each surrogate mispredicts at least one format-power cell (0, +3, +6 dB) by >= 0.1 bit with CI excluding zero and (b) errors of both signs occur (cells with CI excluding zero)",
+    "classification": {
+      "ROBUST_TO_NOISE": "(a) and (b) hold at every scale and the full-model format ranking at +3 dB is unchanged",
+      "PARTIALLY_ROBUST": "(a) and (b) hold at c = 0.5, 1 and 2 but the ranking changes or (a)/(b) fails at c = 0.25",
+      "NOISE_DEPENDENT": "(a) or (b) fails at c = 0.5 or c = 2"
+    },
+    "output": "results/tqe_viability/04_noise_sensitivity.csv"
+  },
+  "P5_trace_check": "Only from data that come for free: the final density matrices returned by the P1, P2 and P4 runs (trace deviation, minimum eigenvalue per velocity class and of the thermal average) and the recorded P4 internal traces of the revision2 pass. No additional runs.",
+  "P6_P7": "The manuscript is updated only after P1-P4 are complete, by the case rules given in the request (A strong TQE story; B engineering modeling story; C cautionary modeling paper), followed by one skeptical viability review."
+}

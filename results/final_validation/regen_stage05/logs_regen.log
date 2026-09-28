@@ -1,0 +1,197 @@
+[1/192]   0.5% | CE | r0 | -15 dB | elapsed 7 s | avg 7.3 s/job | ETA 1396 s
+[2/192]   1.0% | CE | r0 | -10 dB | elapsed 14 s | avg 7.0 s/job | ETA 1333 s
+[3/192]   1.6% | CE | r0 | -6 dB | elapsed 21 s | avg 6.9 s/job | ETA 1310 s
+[4/192]   2.1% | CE | r0 | -3 dB | elapsed 28 s | avg 6.9 s/job | ETA 1304 s
+[5/192]   2.6% | CE | r0 | +0 dB | elapsed 35 s | avg 7.0 s/job | ETA 1301 s
+[6/192]   3.1% | CE | r0 | +3 dB | elapsed 42 s | avg 6.9 s/job | ETA 1290 s
+[7/192]   3.6% | CE | r0 | +6 dB | elapsed 48 s | avg 6.9 s/job | ETA 1277 s
+[8/192]   4.2% | CE | r1 | -15 dB | elapsed 55 s | avg 6.9 s/job | ETA 1270 s
+[9/192]   4.7% | CE | r1 | -10 dB | elapsed 62 s | avg 6.9 s/job | ETA 1262 s
+[10/192]   5.2% | CE | r1 | -6 dB | elapsed 69 s | avg 6.9 s/job | ETA 1255 s
++++[11/192]   5.7% | CE | r1 | -3 dB | elapsed 76 s | avg 6.9 s/job | ETA 1247 s
+[12/192]   6.2% | CE | r1 | +0 dB | elapsed 83 s | avg 6.9 s/job | ETA 1238 s
+[13/192]   6.8% | CE | r1 | +3 dB | elapsed 89 s | avg 6.9 s/job | ETA 1232 s
+[14/192]   7.3% | CE | r1 | +6 dB | elapsed 96 s | avg 6.9 s/job | ETA 1226 s
+[15/192]   7.8% | CE | r2 | -15 dB | elapsed 104 s | avg 6.9 s/job | ETA 1223 s
+[16/192]   8.3% | CE | r2 | -10 dB | elapsed 110 s | avg 6.9 s/job | ETA 1215 s
+[17/192]   8.9% | CE | r2 | -6 dB | elapsed 117 s | avg 6.9 s/job | ETA 1205 s
+[18/192]   9.4% | CE | r2 | -3 dB | elapsed 124 s | avg 6.9 s/job | ETA 1197 s
+[19/192]   9.9% | CE | r2 | +0 dB | elapsed 131 s | avg 6.9 s/job | ETA 1190 s
+[20/192]  10.4% | CE | r2 | +3 dB | elapsed 138 s | avg 6.9 s/job | ETA 1185 s
+[21/192]  10.9% | CE | r2 | +6 dB | elapsed 145 s | avg 6.9 s/job | ETA 1178 s
+> Total CUDA time: 2.49 seconds: (RK: 1.50, Interp: 0.36, Combine: 0.63)
++[22/192]  11.5% | CE | r3 | -15 dB | elapsed 152 s | avg 6.9 s/job | ETA 1171 s
+[23/192]  12.0% | CE | r3 | -10 dB | elapsed 159 s | avg 6.9 s/job | ETA 1165 s
+[24/192]  12.5% | CE | r3 | -6 dB | elapsed 165 s | avg 6.9 s/job | ETA 1157 s
+[25/192]  13.0% | CE | r3 | -3 dB | elapsed 172 s | avg 6.9 s/job | ETA 1151 s
+[26/192]  13.5% | CE | r3 | +0 dB | elapsed 179 s | avg 6.9 s/job | ETA 1143 s
+[27/192]  14.1% | CE | r3 | +3 dB | elapsed 186 s | avg 6.9 s/job | ETA 1136 s
+[28/192]  14.6% | CE | r3 | +6 dB | elapsed 193 s | avg 6.9 s/job | ETA 1128 s
+[29/192]  15.1% | CE | r4 | -6 dB | elapsed 199 s | avg 6.9 s/job | ETA 1120 s
+[30/192]  15.6% | CE | r4 | -3 dB | elapsed 206 s | avg 6.9 s/job | ETA 1114 s
+[31/192]  16.1% | CE | r4 | +0 dB | elapsed 213 s | avg 6.9 s/job | ETA 1106 s
+[32/192]  16.7% | CE | r4 | +3 dB | elapsed 220 s | avg 6.9 s/job | ETA 1102 s
+++> C++ Computation time: 0.00 seconds
+[34/192]  17.7% | CE | r5 | -6 dB | elapsed 234 s | avg 6.9 s/job | ETA 1087 s
+[35/192]  18.2% | CE | r5 | -3 dB | elapsed 241 s | avg 6.9 s/job | ETA 1080 s
+[36/192]  18.8% | CE | r5 | +0 dB | elapsed 248 s | avg 6.9 s/job | ETA 1074 s
+[37/192]  19.3% | CE | r5 | +3 dB | elapsed 255 s | avg 6.9 s/job | ETA 1069 s
+[38/192]  19.8% | CE | r5 | +6 dB | elapsed 262 s | avg 6.9 s/job | ETA 1063 s
+[39/192]  20.3% | CE | r6 | -6 dB | elapsed 269 s | avg 6.9 s/job | ETA 1056 s
+[40/192]  20.8% | CE | r6 | -3 dB | elapsed 276 s | avg 6.9 s/job | ETA 1049 s
+[41/192]  21.4% | CE | r6 | +0 dB | elapsed 283 s | avg 6.9 s/job | ETA 1044 s
+[42/192]  21.9% | CE | r6 | +3 dB | elapsed 291 s | avg 6.9 s/job | ETA 1038 s
+[43/192]  22.4% | CE | r6 | +6 dB | elapsed 298 s | avg 6.9 s/job | ETA 1033 s
+.
+[45/192]  23.4% | CE | r7 | -3 dB | elapsed 313 s | avg 6.9 s/job | ETA 1021 s
+[46/192]  24.0% | CE | r7 | +0 dB | elapsed 320 s | avg 7.0 s/job | ETA 1016 s
+[47/192]  24.5% | CE | r7 | +3 dB | elapsed 328 s | avg 7.0 s/job | ETA 1012 s
+[48/192]  25.0% | CE | r7 | +6 dB | elapsed 335 s | avg 7.0 s/job | ETA 1006 s
+[49/192]  25.5% | QPSK | r0 | -15 dB | elapsed 343 s | avg 7.0 s/job | ETA 1000 s
+[50/192]  26.0% | QPSK | r0 | -10 dB | elapsed 351 s | avg 7.0 s/job | ETA 996 s
+[51/192]  26.6% | QPSK | r0 | -6 dB | elapsed 358 s | avg 7.0 s/job | ETA 990 s
+[52/192]  27.1% | QPSK | r0 | -3 dB | elapsed 365 s | avg 7.0 s/job | ETA 983 s
+[53/192]  27.6% | QPSK | r0 | +0 dB | elapsed 372 s | avg 7.0 s/job | ETA 976 s
+[54/192]  28.1% | QPSK | r0 | +3 dB | elapsed 379 s | avg 7.0 s/job | ETA 969 s
+.43 GB, total = 34.19 GB
+[56/192]  29.2% | QPSK | r1 | -15 dB | elapsed 393 s | avg 7.0 s/job | ETA 955 s
+[57/192]  29.7% | QPSK | r1 | -10 dB | elapsed 401 s | avg 7.0 s/job | ETA 950 s
+[58/192]  30.2% | QPSK | r1 | -6 dB | elapsed 408 s | avg 7.0 s/job | ETA 944 s
+[59/192]  30.7% | QPSK | r1 | -3 dB | elapsed 416 s | avg 7.0 s/job | ETA 938 s
+[60/192]  31.2% | QPSK | r1 | +0 dB | elapsed 423 s | avg 7.1 s/job | ETA 931 s
+[61/192]  31.8% | QPSK | r1 | +3 dB | elapsed 431 s | avg 7.1 s/job | ETA 925 s
+[62/192]  32.3% | QPSK | r1 | +6 dB | elapsed 438 s | avg 7.1 s/job | ETA 919 s
+[63/192]  32.8% | QPSK | r2 | -15 dB | elapsed 446 s | avg 7.1 s/job | ETA 913 s
+[64/192]  33.3% | QPSK | r2 | -10 dB | elapsed 453 s | avg 7.1 s/job | ETA 906 s
+ched with Nv=3427, Nrk=204.00 k	64-bit system.
+[66/192]  34.4% | QPSK | r2 | -3 dB | elapsed 467 s | avg 7.1 s/job | ETA 891 s
+[67/192]  34.9% | QPSK | r2 | +0 dB | elapsed 473 s | avg 7.1 s/job | ETA 883 s
+[68/192]  35.4% | QPSK | r2 | +3 dB | elapsed 480 s | avg 7.1 s/job | ETA 876 s
+[69/192]  35.9% | QPSK | r2 | +6 dB | elapsed 487 s | avg 7.1 s/job | ETA 868 s
+[70/192]  36.5% | QPSK | r3 | -15 dB | elapsed 494 s | avg 7.1 s/job | ETA 862 s
+[71/192]  37.0% | QPSK | r3 | -10 dB | elapsed 502 s | avg 7.1 s/job | ETA 855 s
+[72/192]  37.5% | QPSK | r3 | -6 dB | elapsed 509 s | avg 7.1 s/job | ETA 848 s
+[73/192]  38.0% | QPSK | r3 | -3 dB | elapsed 516 s | avg 7.1 s/job | ETA 841 s
+[74/192]  38.5% | QPSK | r3 | +0 dB | elapsed 523 s | avg 7.1 s/job | ETA 834 s
+[75/192]  39.1% | QPSK | r3 | +3 dB | elapsed 530 s | avg 7.1 s/job | ETA 826 s
+ime: 2.48 seconds: (RK: 1.48, Interp: 0.37, Combine: 0.63)
+[77/192]  40.1% | QPSK | r4 | -6 dB | elapsed 544 s | avg 7.1 s/job | ETA 812 s
+[78/192]  40.6% | QPSK | r4 | -3 dB | elapsed 551 s | avg 7.1 s/job | ETA 805 s
+[79/192]  41.1% | QPSK | r4 | +0 dB | elapsed 557 s | avg 7.1 s/job | ETA 797 s
+[80/192]  41.7% | QPSK | r4 | +3 dB | elapsed 564 s | avg 7.1 s/job | ETA 790 s
+[81/192]  42.2% | QPSK | r4 | +6 dB | elapsed 571 s | avg 7.1 s/job | ETA 783 s
+[82/192]  42.7% | QPSK | r5 | -6 dB | elapsed 578 s | avg 7.1 s/job | ETA 776 s
+[83/192]  43.2% | QPSK | r5 | -3 dB | elapsed 585 s | avg 7.1 s/job | ETA 769 s
+[84/192]  43.8% | QPSK | r5 | +0 dB | elapsed 592 s | avg 7.0 s/job | ETA 761 s
+[85/192]  44.3% | QPSK | r5 | +3 dB | elapsed 599 s | avg 7.1 s/job | ETA 755 s
+[86/192]  44.8% | QPSK | r5 | +6 dB | elapsed 606 s | avg 7.0 s/job | ETA 747 s
+ation time: 0.00 seconds
+[88/192]  45.8% | QPSK | r6 | -3 dB | elapsed 621 s | avg 7.1 s/job | ETA 734 s
+[89/192]  46.4% | QPSK | r6 | +0 dB | elapsed 628 s | avg 7.1 s/job | ETA 727 s
+[90/192]  46.9% | QPSK | r6 | +3 dB | elapsed 635 s | avg 7.1 s/job | ETA 720 s
+[91/192]  47.4% | QPSK | r6 | +6 dB | elapsed 642 s | avg 7.1 s/job | ETA 712 s
+[92/192]  47.9% | QPSK | r7 | -6 dB | elapsed 649 s | avg 7.1 s/job | ETA 706 s
+[93/192]  48.4% | QPSK | r7 | -3 dB | elapsed 656 s | avg 7.1 s/job | ETA 699 s
+[94/192]  49.0% | QPSK | r7 | +0 dB | elapsed 664 s | avg 7.1 s/job | ETA 692 s
+[95/192]  49.5% | QPSK | r7 | +3 dB | elapsed 670 s | avg 7.1 s/job | ETA 685 s
+[96/192]  50.0% | QPSK | r7 | +6 dB | elapsed 677 s | avg 7.1 s/job | ETA 677 s
+[97/192]  50.5% | 16QAM | r0 | -15 dB | elapsed 684 s | avg 7.1 s/job | ETA 670 s
+/1 uploaded with Nrk=204.00 k, output buffers 24063.94 MB
+[99/192]  51.6% | 16QAM | r0 | -6 dB | elapsed 698 s | avg 7.1 s/job | ETA 656 s
+[100/192]  52.1% | 16QAM | r0 | -3 dB | elapsed 705 s | avg 7.0 s/job | ETA 648 s
+[101/192]  52.6% | 16QAM | r0 | +0 dB | elapsed 712 s | avg 7.0 s/job | ETA 641 s
+[102/192]  53.1% | 16QAM | r0 | +3 dB | elapsed 719 s | avg 7.0 s/job | ETA 634 s
+[103/192]  53.6% | 16QAM | r0 | +6 dB | elapsed 726 s | avg 7.0 s/job | ETA 627 s
+[104/192]  54.2% | 16QAM | r1 | -15 dB | elapsed 733 s | avg 7.0 s/job | ETA 620 s
+[105/192]  54.7% | 16QAM | r1 | -10 dB | elapsed 740 s | avg 7.0 s/job | ETA 613 s
+[106/192]  55.2% | 16QAM | r1 | -6 dB | elapsed 747 s | avg 7.0 s/job | ETA 606 s
+[107/192]  55.7% | 16QAM | r1 | -3 dB | elapsed 754 s | avg 7.0 s/job | ETA 599 s
+[108/192]  56.2% | 16QAM | r1 | +0 dB | elapsed 761 s | avg 7.0 s/job | ETA 592 s
+= 34.19 GB
+[110/192]  57.3% | 16QAM | r1 | +6 dB | elapsed 776 s | avg 7.1 s/job | ETA 578 s
+[111/192]  57.8% | 16QAM | r2 | -15 dB | elapsed 783 s | avg 7.1 s/job | ETA 572 s
+[112/192]  58.3% | 16QAM | r2 | -10 dB | elapsed 791 s | avg 7.1 s/job | ETA 565 s
+[113/192]  58.9% | 16QAM | r2 | -6 dB | elapsed 798 s | avg 7.1 s/job | ETA 558 s
+[114/192]  59.4% | 16QAM | r2 | -3 dB | elapsed 806 s | avg 7.1 s/job | ETA 551 s
+[115/192]  59.9% | 16QAM | r2 | +0 dB | elapsed 813 s | avg 7.1 s/job | ETA 545 s
+[116/192]  60.4% | 16QAM | r2 | +3 dB | elapsed 821 s | avg 7.1 s/job | ETA 538 s
+[117/192]  60.9% | 16QAM | r2 | +6 dB | elapsed 828 s | avg 7.1 s/job | ETA 531 s
+[118/192]  61.5% | 16QAM | r3 | -15 dB | elapsed 836 s | avg 7.1 s/job | ETA 524 s
+427, Nrk=204.00 k	64-bit system.
+[120/192]  62.5% | 16QAM | r3 | -6 dB | elapsed 851 s | avg 7.1 s/job | ETA 511 s
+[121/192]  63.0% | 16QAM | r3 | -3 dB | elapsed 859 s | avg 7.1 s/job | ETA 504 s
+[122/192]  63.5% | 16QAM | r3 | +0 dB | elapsed 866 s | avg 7.1 s/job | ETA 497 s
+[123/192]  64.1% | 16QAM | r3 | +3 dB | elapsed 874 s | avg 7.1 s/job | ETA 490 s
+[124/192]  64.6% | 16QAM | r3 | +6 dB | elapsed 881 s | avg 7.1 s/job | ETA 483 s
+[125/192]  65.1% | 16QAM | r4 | -6 dB | elapsed 888 s | avg 7.1 s/job | ETA 476 s
+[126/192]  65.6% | 16QAM | r4 | -3 dB | elapsed 896 s | avg 7.1 s/job | ETA 469 s
+[127/192]  66.1% | 16QAM | r4 | +0 dB | elapsed 903 s | avg 7.1 s/job | ETA 462 s
+[128/192]  66.7% | 16QAM | r4 | +3 dB | elapsed 911 s | avg 7.1 s/job | ETA 455 s
+[129/192]  67.2% | 16QAM | r4 | +6 dB | elapsed 919 s | avg 7.1 s/job | ETA 449 s
+nds: (RK: 2.01, Interp: 0.40, Combine: 0.67)
+[131/192]  68.2% | 16QAM | r5 | -3 dB | elapsed 933 s | avg 7.1 s/job | ETA 435 s
+[132/192]  68.8% | 16QAM | r5 | +0 dB | elapsed 940 s | avg 7.1 s/job | ETA 427 s
+[133/192]  69.3% | 16QAM | r5 | +3 dB | elapsed 947 s | avg 7.1 s/job | ETA 420 s
+[134/192]  69.8% | 16QAM | r5 | +6 dB | elapsed 954 s | avg 7.1 s/job | ETA 413 s
+[135/192]  70.3% | 16QAM | r6 | -6 dB | elapsed 960 s | avg 7.1 s/job | ETA 405 s
+[136/192]  70.8% | 16QAM | r6 | -3 dB | elapsed 967 s | avg 7.1 s/job | ETA 398 s
+[137/192]  71.4% | 16QAM | r6 | +0 dB | elapsed 975 s | avg 7.1 s/job | ETA 391 s
+[138/192]  71.9% | 16QAM | r6 | +3 dB | elapsed 982 s | avg 7.1 s/job | ETA 384 s
+[139/192]  72.4% | 16QAM | r6 | +6 dB | elapsed 989 s | avg 7.1 s/job | ETA 377 s
+[140/192]  72.9% | 16QAM | r7 | -6 dB | elapsed 996 s | avg 7.1 s/job | ETA 370 s
+00 seconds
+[142/192]  74.0% | 16QAM | r7 | +0 dB | elapsed 1009 s | avg 7.1 s/job | ETA 355 s
+[143/192]  74.5% | 16QAM | r7 | +3 dB | elapsed 1016 s | avg 7.1 s/job | ETA 348 s
+[144/192]  75.0% | 16QAM | r7 | +6 dB | elapsed 1023 s | avg 7.1 s/job | ETA 341 s
+[145/192]  75.5% | OFDM | r0 | -15 dB | elapsed 1030 s | avg 7.1 s/job | ETA 334 s
+[146/192]  76.0% | OFDM | r0 | -10 dB | elapsed 1037 s | avg 7.1 s/job | ETA 327 s
+[147/192]  76.6% | OFDM | r0 | -6 dB | elapsed 1043 s | avg 7.1 s/job | ETA 319 s
+[148/192]  77.1% | OFDM | r0 | -3 dB | elapsed 1050 s | avg 7.1 s/job | ETA 312 s
+[149/192]  77.6% | OFDM | r0 | +0 dB | elapsed 1058 s | avg 7.1 s/job | ETA 305 s
+[150/192]  78.1% | OFDM | r0 | +3 dB | elapsed 1064 s | avg 7.1 s/job | ETA 298 s
+[151/192]  78.6% | OFDM | r0 | +6 dB | elapsed 1071 s | avg 7.1 s/job | ETA 291 s
+th Nrk=204.00 k, output buffers 24063.94 MB
++++[152/192]  79.2% | OFDM | r1 | -15 dB | elapsed 1077 s | avg 7.1 s/job | ETA 284 s
+[153/192]  79.7% | OFDM | r1 | -10 dB | elapsed 1084 s | avg 7.1 s/job | ETA 276 s
+[154/192]  80.2% | OFDM | r1 | -6 dB | elapsed 1091 s | avg 7.1 s/job | ETA 269 s
+[155/192]  80.7% | OFDM | r1 | -3 dB | elapsed 1098 s | avg 7.1 s/job | ETA 262 s
+[156/192]  81.2% | OFDM | r1 | +0 dB | elapsed 1105 s | avg 7.1 s/job | ETA 255 s
+[157/192]  81.8% | OFDM | r1 | +3 dB | elapsed 1112 s | avg 7.1 s/job | ETA 248 s
+[158/192]  82.3% | OFDM | r1 | +6 dB | elapsed 1118 s | avg 7.1 s/job | ETA 241 s
+[159/192]  82.8% | OFDM | r2 | -15 dB | elapsed 1125 s | avg 7.1 s/job | ETA 234 s
+[160/192]  83.3% | OFDM | r2 | -10 dB | elapsed 1132 s | avg 7.1 s/job | ETA 226 s
+[161/192]  83.9% | OFDM | r2 | -6 dB | elapsed 1139 s | avg 7.1 s/job | ETA 219 s
+[162/192]  84.4% | OFDM | r2 | -3 dB | elapsed 1146 s | avg 7.1 s/job | ETA 212 s
+> Chunk limit set to 261k RK4 steps per chunk.
+[164/192]  85.4% | OFDM | r2 | +3 dB | elapsed 1160 s | avg 7.1 s/job | ETA 198 s
+[165/192]  85.9% | OFDM | r2 | +6 dB | elapsed 1166 s | avg 7.1 s/job | ETA 191 s
+[166/192]  86.5% | OFDM | r3 | -15 dB | elapsed 1173 s | avg 7.1 s/job | ETA 184 s
+[167/192]  87.0% | OFDM | r3 | -10 dB | elapsed 1179 s | avg 7.1 s/job | ETA 177 s
+[168/192]  87.5% | OFDM | r3 | -6 dB | elapsed 1186 s | avg 7.1 s/job | ETA 169 s
+[169/192]  88.0% | OFDM | r3 | -3 dB | elapsed 1194 s | avg 7.1 s/job | ETA 162 s
+[170/192]  88.5% | OFDM | r3 | +0 dB | elapsed 1200 s | avg 7.1 s/job | ETA 155 s
+[171/192]  89.1% | OFDM | r3 | +3 dB | elapsed 1207 s | avg 7.1 s/job | ETA 148 s
+[172/192]  89.6% | OFDM | r3 | +6 dB | elapsed 1213 s | avg 7.1 s/job | ETA 141 s
+0 k	64-bit system.
+[174/192]  90.6% | OFDM | r4 | -3 dB | elapsed 1226 s | avg 7.0 s/job | ETA 127 s
+[175/192]  91.1% | OFDM | r4 | +0 dB | elapsed 1232 s | avg 7.0 s/job | ETA 120 s
+[176/192]  91.7% | OFDM | r4 | +3 dB | elapsed 1238 s | avg 7.0 s/job | ETA 113 s
+[177/192]  92.2% | OFDM | r4 | +6 dB | elapsed 1244 s | avg 7.0 s/job | ETA 105 s
+[178/192]  92.7% | OFDM | r5 | -6 dB | elapsed 1251 s | avg 7.0 s/job | ETA 98 s
+[179/192]  93.2% | OFDM | r5 | -3 dB | elapsed 1257 s | avg 7.0 s/job | ETA 91 s
+[180/192]  93.8% | OFDM | r5 | +0 dB | elapsed 1264 s | avg 7.0 s/job | ETA 84 s
+[181/192]  94.3% | OFDM | r5 | +3 dB | elapsed 1270 s | avg 7.0 s/job | ETA 77 s
+[182/192]  94.8% | OFDM | r5 | +6 dB | elapsed 1276 s | avg 7.0 s/job | ETA 70 s
+[183/192]  95.3% | OFDM | r6 | -6 dB | elapsed 1283 s | avg 7.0 s/job | ETA 63 s
+, Interp: 0.31, Combine: 0.54)
++++[184/192]  95.8% | OFDM | r6 | -3 dB | elapsed 1290 s | avg 7.0 s/job | ETA 56 s
+[185/192]  96.4% | OFDM | r6 | +0 dB | elapsed 1297 s | avg 7.0 s/job | ETA 49 s
+[186/192]  96.9% | OFDM | r6 | +3 dB | elapsed 1304 s | avg 7.0 s/job | ETA 42 s
+[187/192]  97.4% | OFDM | r6 | +6 dB | elapsed 1311 s | avg 7.0 s/job | ETA 35 s
+[188/192]  97.9% | OFDM | r7 | -6 dB | elapsed 1317 s | avg 7.0 s/job | ETA 28 s
+[189/192]  98.4% | OFDM | r7 | -3 dB | elapsed 1324 s | avg 7.0 s/job | ETA 21 s
+[190/192]  99.0% | OFDM | r7 | +0 dB | elapsed 1331 s | avg 7.0 s/job | ETA 14 s
+[191/192]  99.5% | OFDM | r7 | +3 dB | elapsed 1337 s | avg 7.0 s/job | ETA 7 s
+[192/192] 100.0% | OFDM | r7 | +6 dB | elapsed 1344 s | avg 7.0 s/job | ETA 0 s
+> Memory time: 0.53 seconds
+REGEN_DONE

@@ -1,0 +1,8 @@
+# Versions used to produce the archived figures and tables (Python 3.12.3).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+matplotlib==3.11.2
+pillow==12.3.0
+# Needed only to re-run simulations (with the upstream simulator's own requirements):
+joblib==1.6.0

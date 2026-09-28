@@ -1,0 +1,16 @@
+{
+  "written_before_results": "2026-09-26T12:06:36+10:00",
+  "stage": "0.6",
+  "nd_convergence": {
+    "reference": "highest Nd evaluated (3001), same waveform, dt=1 ns, CUDA backend",
+    "decisive_Nd_candidate": 1501,
+    "AIR_abs_tolerance_bit_per_native_symbol": 0.005,
+    "relative_AIR_loss_tolerance_percentage_points": 0.5,
+    "baseband_output_NMSE_tolerance": 1e-3,
+    "output_AC_RMS_relative_tolerance": 0.005,
+    "rule": "Nd=1501 is accepted only if every case meets every tolerance vs the highest Nd AND the Nd=1501-vs-2001 difference is not larger than the 2001-vs-3001 difference by a trend that would carry 1501 outside tolerance. Otherwise STOP (technical blocker).",
+    "additional": "tau_atom must also be stable across Nd (relative change < 5%) or be reported as a quadrature artifact."
+  },
+  "pair_matching_targets": {"RMS_pct": 0.5, "peak_pct": 0.5, "occupancy_abs_pct_points": 1.0, "B99_pct": 5.0},
+  "decisive_effect_rule": "A dwell/ordering effect is only called real if |Delta_full| exceeds (i) 3x the numerical difference (dt 1->0.5 ns, Nd 1501->highest) for the same metric, and (ii) the paired 95% CI excludes 0 across >=4 (preferably 8) independent realizations; 'dynamic' requires |Delta_full - Delta_ctrl| CI excluding 0 for BOTH static and LTI+static controls."
+}

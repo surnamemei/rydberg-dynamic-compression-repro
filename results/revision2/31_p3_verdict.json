@@ -1,0 +1,83 @@
+{
+ "per_probe": {
+  "weak": {
+   "Omega_p_over_2pi_MHz": 2.02,
+   "E1dB_Vpm": 0.7131047765819615,
+   "small_signal_slope": 1.8854948148920765e-05,
+   "cw_settle_rel": 1.4771939235330665e-06,
+   "CW_gain_at_aH_rel_small_signal": 0.01591068547068652,
+   "X_REF_mean": -0.10638187943044215,
+   "X_REF_lo": -0.11555639817598681,
+   "X_REF_hi": -0.09720736068489749,
+   "X_REF_seeds": [
+    -0.1104699905822788,
+    -0.10328637818229924,
+    -0.10538926952674843
+   ],
+   "gain_rel_full_xi0.05": 0.3601549303791041,
+   "d_gain_full": -0.0255470406325079,
+   "d_gain_full_lo": -0.029107329687911958,
+   "d_gain_full_hi": -0.021986751577103843,
+   "d_gain_static": -0.16234121309103403,
+   "step_plus5_tau_1e_s": 1.033e-06,
+   "step_plus5_tau_90_s": 6.254000000000001e-06,
+   "step_plus5_fit2_tau_slow_s": 4.436373544538869e-06,
+   "step_plus5_fit2_a_slow": 0.3095503203548405,
+   "step_plus5_fit2_tau_fast_s": 7.788925489606669e-07,
+   "step_plus5_fit2_a_fast": 0.282504659460651,
+   "step_plus5_fit2_rms_resid": 0.012391785670375985,
+   "step_linear_tau_1e_s": 1.43e-07,
+   "step_linear_tau_90_s": 6.140000000000001e-07,
+   "step_linear_fit2_a_slow": 0.12719321757389088,
+   "step_linear_fit2_tau_slow_s": 1.1533497767823728e-06,
+   "memory_persists": true,
+   "phase_loss_persists": false,
+   "dwell_gain_persists": false
+  },
+  "standard": {
+   "Omega_p_over_2pi_MHz": 8.08,
+   "E1dB_Vpm": 0.07321886766113006,
+   "small_signal_slope": 0.0035039907083647143,
+   "cw_settle_rel": 1.2556870327183237e-05,
+   "CW_gain_at_aH_rel_small_signal": 0.43247075271175395,
+   "X_REF_mean": 0.507042496424534,
+   "X_REF_lo": 0.478705179251086,
+   "X_REF_hi": 0.535379813597982,
+   "X_REF_seeds": [
+    0.5199509936001943,
+    0.5028586307737282,
+    0.49831786489967944
+   ],
+   "gain_rel_full_xi0.05": 0.4721535084243352,
+   "d_gain_full": -0.11327872237644067,
+   "d_gain_full_lo": -0.12384364769635942,
+   "d_gain_full_hi": -0.10271379705652192,
+   "d_gain_static": -0.006357097510062387,
+   "step_plus5_tau_1e_s": 1.127e-06,
+   "step_plus5_tau_90_s": 5.431e-06,
+   "step_plus5_fit2_tau_slow_s": 2.6986855113347925e-06,
+   "step_plus5_fit2_a_slow": -0.3840601610365618,
+   "step_plus5_fit2_tau_fast_s": 2.3566929929836314e-07,
+   "step_plus5_fit2_a_fast": 0.4295624785352137,
+   "step_plus5_fit2_rms_resid": 0.024856425207044248,
+   "step_linear_tau_1e_s": 4.7000000000000004e-08,
+   "step_linear_tau_90_s": 7.4e-08,
+   "step_linear_fit2_a_slow": -0.008571914736845931,
+   "step_linear_fit2_tau_slow_s": 3.3741091558861467e-06,
+   "memory_persists": true,
+   "phase_loss_persists": true,
+   "dwell_gain_persists": true
+  }
+ },
+ "memory_persists": true,
+ "phase_loss_persists": false,
+ "dwell_gain_persists": false,
+ "weak_over_standard": {
+  "X_REF": -0.20980860614367766,
+  "d_gain_full": 0.22552373558391306,
+  "tau_slow": 1.6439016424498465,
+  "tau_1e (descriptive)": 0.9165927240461403
+ },
+ "material_change": true,
+ "kernel_lin_check_weak": 0.0626497693799733
+}

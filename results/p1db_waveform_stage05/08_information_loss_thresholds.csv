@@ -1,0 +1,9 @@
+modulation,relative_loss_limit,P_limit_minus_P1dB_dB,bootstrap95_low,bootstrap95_high,bootstrap_success_fraction,method
+CE,0.05,-1.8826433371548443,-2.2597332582746708,-1.0859982308062128,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+CE,0.1,-1.5420386527813423,-2.037747555122364,-0.5140161572279198,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+QPSK,0.05,-2.091715318189946,-2.191381368394305,-1.9582220283582938,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+QPSK,0.1,-0.46943272631608357,-0.6467689265832393,-0.23118193878501736,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+16QAM,0.05,-3.6355797193913904,-3.914914957335053,-3.303523907965315,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+16QAM,0.1,-2.368819142818845,-2.561425108533606,-2.119863211285798,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+OFDM,0.05,0.7450336465944913,0.4274487255228246,1.153584693143422,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap
+OFDM,0.1,2.1882022806214265,1.7103947786599627,2.950990282328951,1.0,last upward crossing of mean AIR-loss curve; paired seed bootstrap

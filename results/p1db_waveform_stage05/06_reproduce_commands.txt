@@ -1,0 +1,13 @@
+# Stage-0.5 reproduction
+# Branch: p1db-waveform-fairness; source commit: 409572499ef54825b66c532e0aecdcffa89e7be1
+# Primary CUDA, full thermal, continuous state, Nd=1501, dt=1 ns
+# The job checkpoint is keyed by modulation, bandwidth/rate, power, seed, model, and Nd.
+# Run in order; repeated pilot jobs are skipped by the checkpoint.
+python python/experiments/p1db_waveform/stage05.py --grid pilot --replicates 4
+python python/experiments/p1db_waveform/stage05.py --grid full --replicates 4
+python python/experiments/p1db_waveform/stage05.py --grid high --replicates 8
+# OFDM was rerun at all seven powers with eight seeds under its final randomized balanced preamble.
+python python/experiments/p1db_waveform/stage05.py --grid full --replicates 8 --only-mod OFDM
+python python/experiments/p1db_waveform/validate_numeric.py
+python python/experiments/p1db_waveform/controlled_dwell.py
+python python/experiments/p1db_waveform/analyze_stage05.py

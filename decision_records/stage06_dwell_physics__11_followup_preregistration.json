@@ -1,0 +1,27 @@
+{
+  "written_before_results": "2026-09-26T16:46:05+10:00",
+  "purpose": "Stage-0.6 follow-up on the three open items of 01_stage06_summary.md; targeted, not a larger sweep",
+  "FU_A_tau_sensitivity": {
+    "what": "+5% IF-envelope step starting at 0.8, 1.0, 1.2 x converged E1dB (0.0732 V/m), CW carrier, Nd=4001",
+    "rule": "if tau_1e at 1.0xE1dB differs from 2.535 us by >20%, report all xi axes with both tau values; tau_atom itself is NOT redefined"
+  },
+  "FU_B_plateau_steady_state": {
+    "what": "single 60 us plateau a_L -> a_H -> a_L at the dwell-family levels for 0 and +3 dB (a_L = 0.5774*10^(P/20)*E1dB, a_H = 3 a_L), with (i) an unmodulated carrier and (ii) the 1 Msym/s QPSK phase carrier; Nd=4001",
+    "H_QS_cw": "with the CW carrier the plateau gain in the last 10 us is within 2% of the CW-static gain |c1(a_H)|/a_H",
+    "H_carrier": "with the QPSK carrier the plateau gain in the last 10 us is >10% below the CW-static gain (i.e. phase modulation deepens compression)"
+  },
+  "FU_C_cw_carrier_dwell_family": {
+    "what": "main dwell family (N=0.8 ms, all 7 members) with an unmodulated carrier, 0 and +3 dB, realizations 0-3; physics metric D_BLA only",
+    "rule": "amplitude-dwell dynamics alone suffice if (Delta_full - Delta_LTI_STATIC_MH) at xi=4, +3 dB has a paired 95% CI excluding 0 and the same sign as with the QPSK carrier"
+  },
+  "FU_D_long_dwell": {
+    "what": "new exact-multiset dwell family, N=2.4 ms, members xi in {0.05 (ref), 1, 4, 8, 16, 32}, +3 dB, realizations 0-3, both carriers",
+    "quasi_static_rule": "quasi-static convergence is supported for a carrier if the per-waveform excess D_full - D_STATIC_MH at xi=32 is < 25% of its value at xi=4 (or its CI includes 0)"
+  },
+  "FU_E_single_slow_state_control": {
+    "model": "DSH: P_s' = (|E|^2 - P_s)/tau, a_eff = sqrt(P_s); fundamental zone = small-signal field kernel applied to G_eq(a_eff(t)) * E(t) with G_eq the Stage-0.5 CW-matched Hammerstein gain table (Nd=4001); zone 0 and zones k>=2 exactly as M_LTI_STATIC_MH. Initial P_s = mean |E|^2.",
+    "tau": "primary 2.535 us (Step-2 tau_atom); 1.94 and 4.0 us reported as sensitivity, never selected post hoc",
+    "rule": "DSH explains the ordering effect if |Delta_full - Delta_DSH| <= 25% of |Delta_full| at xi in {1,2,4} (0 and +3 dB) and for the shuffle cycles contrast at +3/+6 dB, and if on realization-0 traces NMSE(DSH vs full) < NMSE(LTI_STATIC_MH vs full) for >= 75% of waveforms",
+    "cost": "CPU only, evaluated on existing and follow-up waveforms; no fitting to dwell results"
+  }
+}

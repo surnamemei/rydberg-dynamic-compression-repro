@@ -1,0 +1,60 @@
+{
+  "written_before_any_run": "2026-09-27T23:53:30+10:00",
+  "status": "Decision rules fixed in this time-stamped project record before execution. This is an internal project record, not an external registration; the public release makes it auditable after the fact.",
+  "purpose": "Final receiver-physics validation pass addressing four interpretive objections (P1-P4) before submission. No new modulation formats, no fitted surrogate families, no Liouvillian eigenmode analysis, no sweeps beyond the runs listed here. The upstream simulator is used unmodified; only configuration parameters change (IF, probe Rabi frequency). Archived results are not altered; outputs go to results/revision2/.",
+  "common": {
+    "Nd": 4001,
+    "dt_s": 1e-9,
+    "operating_point": "OP1 (A_LO = 0.5 V/m) unless stated",
+    "X": "X = 1 - g/g_CW with g = median over the last 20 us (final 0.5 us excluded) of |z_full|/|z_linear|; z from phase-referenced demodulation with a 200 ns boxcar (one period at 5 MHz; an integer number of periods at 10 and 15 MHz)",
+    "fitted_gain": "single complex least-squares gain from the filtered input to the receiver output, relative to that of the small-signal (linear) model at the same IF",
+    "ci": "two-sided 95% Student-t interval over sequences or realizations"
+  },
+  "P1_IF_dependence": {
+    "IFs_MHz": [5, 10, 15],
+    "rationale": "The receive band is IF +- 3 MHz. At 10 MHz the band (7-13 MHz) clears the rectified-baseline zone of the test signals' main spectral lobe; at 15 MHz (> 2 x 6 MHz two-sided receive bandwidth) the fundamental zone is further separated from both the baseline and second-harmonic zones.",
+    "recalibration_per_IF": "CW table (harmonic coefficients k = 0-3 over the archived amplitude grid, 80 us tones, last 10 us), E1dB(IF) by the archived rule, matched levels 2.4468 E1dB(IF) (phase cases) and +3 dB re P1dB(IF) (dwell). The small-signal field kernel does not depend on the IF (it is the response to field impulses around the LO steady state) and is reused; the linear model is evaluated at each IF.",
+    "runs_per_IF": ["CW table", "CW at the matched level", "reference QPSK (zero-drift), seeds 20260701-20260703", "constant offsets +0.125, +-1.31, +-2.62 MHz at the matched level", "dwell family realizations 0-3, xi = 0.05 and 4, +3 dB, QPSK phase carrier"],
+    "validation": "At 5 MHz the IF-parametrized code must reproduce the archived E1dB (0.0732 V/m), the archived dwell-job gains and the archived X values bit-identically or to 1e-12 relative.",
+    "leakage": "Harmonic-zone leakage: with the CW-matched memoryless zone model (coefficients k = 0-3 at each IF), the in-band power (receiver chain at that IF) of zones k = 0, 2, 3 relative to zone 1, for the dwell waveforms (xi = 0.05 and 4). Descriptive.",
+    "criteria": {
+      "phase_effect_present": "mean X_REF (3 sequences) >= 0.05 with CI excluding zero",
+      "dwell_gain_effect_present": "full-model paired fitted-gain change (xi = 4 minus xi = 0.05, 4 realizations) negative with CI excluding zero and |change| >= 3 x |change of the CW-matched static surrogate at the same IF|"
+    },
+    "classification": {
+      "SURVIVES_IF_CHANGE": "both effects present at all three IFs, and at 15 MHz each effect is >= 50% of its 5 MHz magnitude",
+      "WEAKENS": "both effects present at all three IFs, but at least one is < 50% of its 5 MHz magnitude at 15 MHz",
+      "DOES_NOT_SURVIVE": "either effect absent at 10 or 15 MHz"
+    },
+    "descriptive": "CW gain at the matched level relative to small-signal; frequency selectivity S5 and R(+0.125 MHz)"
+  },
+  "P2_amplitude_vs_phase_decomposition": {
+    "data": "All saved constant-amplitude phase runs (no new runs): revision P2 (OP1, OP2; five cases x six sequences), revision P4 (OP3, reference x three sequences), and constant offsets where saved.",
+    "metrics_over_the_X_window": {
+      "g_coh": "|mean(z_full * conj(z_lin)/|z_lin|)| / mean|z_lin| (phase-referenced complex average)",
+      "g_mag": "mean|z_full| / mean|z_lin| (mean instantaneous IF-envelope magnitude at 200 ns resolution)",
+      "g_rms": "sqrt(mean|z_full|^2) / sqrt(mean|z_lin|^2)",
+      "compressions": "X_q = 1 - g_q / g_q(CW) for q in coh, mag, rms",
+      "phase_statistics": "circular mean (lag relative to CW) and circular standard deviation of arg(z_full * conj(z_lin))"
+    },
+    "attribution": "g_coh = g_mag x kappa with kappa = |mean(z_full conj(z_lin)/|z_lin|)| / mean|z_full|. Relative to CW, ln(1 - X_coh) = ln(1 - X_mag) + ln(kappa/kappa_CW). Magnitude share = ln(1 - X_mag)/ln(1 - X_coh); phase-misalignment share = ln(kappa/kappa_CW)/ln(1 - X_coh).",
+    "terminology_rule": "If the phase-misalignment share of the reference case exceeds 0.25 at any operating point, X_coh is not called compression; the manuscript reports the magnitude and phase components separately. The published X (median magnitude) keeps the name 'extra compression' only if X_mag and X agree within 0.05 at every operating point."
+  },
+  "P3_weak_probe": {
+    "change": "Probe Rabi frequency 2pi x 2.02 MHz (one quarter of 8.08 MHz; 1/16 of the probe power), so that Omega_p ~ Omega_c (2.05 MHz); everything else as OP1.",
+    "runs": ["CW table and small-signal kernel at the weak probe", "CW + reference QPSK (zero-drift), seeds 20260701-20260703, at 2.4468 E1dB_wp", "dwell family realizations 0-3, xi = 0.05 and 4, +3 dB", "IF-envelope +5% step at 1.0 E1dB and linear-regime step 0.05 -> 0.10 E1dB, for both the weak and the standard probe (identical code)"],
+    "criteria": {
+      "memory_persists": "two-exponential fit of the +5% step at 1.0 E1dB gives a slow component with time constant >= 1 us and weight >= 0.1",
+      "phase_loss_persists": "mean X_REF >= 0.05 with CI excluding zero",
+      "dwell_gain_persists": "as in P1",
+      "material_change": "weak/standard ratio of X_REF, of the dwell gain change, or of the slow time constant outside [0.5, 2]"
+    }
+  },
+  "P4_internal_coherence": {
+    "case": "Isolated +pi/2 phase step (300 ns raised-cosine ramp) at t = 50 us at a_H, OP1, standard probe; control: the same step at 0.05 E1dB (small-signal).",
+    "method": "Unmodified upstream functions: the same steady-state initialization and velocity quadrature as run(), then chained calls of cudaThermalSim over 10 ns segments from 49 to 55 us, each started from the previous segment's final density matrices. Thermal (velocity-weighted) averages of all 16 density-matrix elements, plus the zero-velocity class. Validation: the chained probe coherence must match a continuous run.",
+    "observables": "rho21 (probe), rho43 (RF transition), rho32 (coupling), rho31 and rho41 (multi-photon), populations rho22, rho33, rho44; IF components demodulated with the input phase (200 ns boxcar) and slow components (200 ns mean), aligned with the output IF magnitude and phase and the input phase transition.",
+    "criterion_tracks": "An internal IF component 'tracks the output disruption' if its magnitude dips by >= 20% of its pre-step value with its minimum within 0.3 us of the output minimum, and the normalized traces (50-55 us) correlate with r >= 0.8. Wording: 'associated with', not 'caused by'."
+  },
+  "manuscript_rules": "Section IV is restructured to lead with the fitted-gain dwell contrast and to state explicitly that the D-based dwell robustness test failed. Every use of 'preregistered' is replaced by wording stating that decision rules were fixed in time-stamped project records before execution. Other changes only where these results require them; each change is logged in results/revision2/manuscript_changes.md."
+}
